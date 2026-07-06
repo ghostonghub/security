@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-06 Mon 18:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terrorism</title>
+<meta name="author" content="Staff Member(s), [[https://ourghostorg.github.io/][OurGhostOrg]]" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Terrorism</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgb25b2f1">1. General</a></li>
+<li><a href="#org847c397">2. STEMM</a>
+<ul>
+<li><a href="#org79b8a66">2.1. Systems Sciences, Misc</a>
+<ul>
+<li><a href="#org9e566dc">2.1.1. <b>Complexity Science</b></a></li>
+<li><a href="#orga978f66">2.1.2. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgc4f79b2">2.2. Biological Sciences, Misc</a></li>
+<li><a href="#orgb74557c">2.3. Basic Sciences, Misc</a></li>
+<li><a href="#orgf95588d">2.4. Mathematical, Computational Sciences, Misc</a>
+<ul>
+<li><a href="#org4649106">2.4.1. CSE</a></li>
+</ul>
+</li>
+<li><a href="#org36cbd0f">2.5. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org84b2381">3. Worldly Matters</a>
+<ul>
+<li><a href="#org8908f49">3.1. Religions, Spirituality, Misc</a></li>
+<li><a href="#org20c3eed">3.2. Humanities, Misc</a>
+<ul>
+<li><a href="#org631c6cc">3.2.1. Psychology</a></li>
+<li><a href="#orga22eb0f">3.2.2. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org6eb959a">3.3. SocioPolitical Studies, Law, Misc</a>
+<ul>
+<li><a href="#org6ccc8be">3.3.1. Orgs</a></li>
+<li><a href="#org3b031f7">3.3.2. Special Groups</a></li>
+<li><a href="#org9ae02ed">3.3.3. State Terrorism</a></li>
+<li><a href="#org06a6973">3.3.4. Nation States</a></li>
+</ul>
+</li>
+<li><a href="#orgfbb4736">3.4. Business Studies, Misc</a>
+<ul>
+<li><a href="#org56ea4fa">3.4.1. Corporate Terrorism</a></li>
+</ul>
+</li>
+<li><a href="#org85a26ce">3.5. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgd2ae5a4">4. Core</a>
+<ul>
+<li><a href="#org5fd2427">4.1. Courses</a></li>
+<li><a href="#orgea7be63">4.2. Handbooks, Companions, Readers</a></li>
+<li><a href="#org661fa98">4.3. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orga8b7469">5. Special Topics</a>
+<ul>
+<li><a href="#orga9812f6">5.1. Critical Studies</a></li>
+<li><a href="#orgbe2e3a0">5.2. Suicide Terrorism</a></li>
+<li><a href="#orgc044ea6">5.3. GWOT: Global War On Terror</a></li>
+<li><a href="#org59795a4">5.4. Urban Terrorism Preparedness for Individuals</a>
+<ul>
+<li><a href="#org6c1799d">5.4.1. X's AI</a></li>
+<li><a href="#orgf4a10dd">5.4.2. Misc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org72583ed">6. Misc</a>
+<ul>
+<li><a href="#orgd637799">6.1. Misc</a></li>
+<li><a href="#orgd6ebcaf">6.2. X's AI</a></li>
+<li><a href="#orgbdc1979">6.3. Transnational Institute</a></li>
+<li><a href="#orgd0bd838">6.4. Texts</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<hr />
+<div id="outline-container-orgb25b2f1" class="outline-2">
+<h2 id="orgb25b2f1"><span class="section-number-2">1.</span> General</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>“Terrorism,” Wikipedia. Nov. 30, 2022. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Terrorism&amp;oldid=1124863223">https://en.wikipedia.org/w/index.php?title=Terrorism&amp;oldid=1124863223</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>C. Townshend, Terrorism: A Very Short Introduction, 3rd edition. Oxford, United Kingdom: OUP Oxford, 2018.</li>
+<li>Radicalization to Terrorism: What Everyone Needs to Know. New York, NY, 2020.</li>
+<li>J. M. Berger, Extremism, 1st edition. Cambridge, MA: The MIT Press, 2018.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org847c397" class="outline-2">
+<h2 id="org847c397"><span class="section-number-2">2.</span> STEMM</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org79b8a66" class="outline-3">
+<h3 id="org79b8a66"><span class="section-number-3">2.1.</span> Systems Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org9e566dc" class="outline-4">
+<h4 id="org9e566dc"><span class="section-number-4">2.1.1.</span> <b>Complexity Science</b></h4>
+<div class="outline-text-4" id="text-2-1-1">
+<ul class="org-ul">
+<li><b>“Conflict and Complexity,”</b> New England Complex Systems Institute. <a href="https://necsi.edu/conflict-and-complexity">https://necsi.edu/conflict-and-complexity</a> (accessed Dec. 02, 2022).</li>
+
+<li>P. V. Fellman, Y. Bar-Yam, and A. A. Minai, <b>Conflict and Complexity: Countering Terrorism, Insurgency, Ethnic and Regional Violence.</b> Springer New York, 2016.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga978f66" class="outline-4">
+<h4 id="orga978f66"><span class="section-number-4">2.1.2.</span> Misc</h4>
+</div>
+</div>
+<div id="outline-container-orgc4f79b2" class="outline-3">
+<h3 id="orgc4f79b2"><span class="section-number-3">2.2.</span> Biological Sciences, Misc</h3>
+</div>
+<div id="outline-container-orgb74557c" class="outline-3">
+<h3 id="orgb74557c"><span class="section-number-3">2.3.</span> Basic Sciences, Misc</h3>
+</div>
+<div id="outline-container-orgf95588d" class="outline-3">
+<h3 id="orgf95588d"><span class="section-number-3">2.4.</span> Mathematical, Computational Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-org4649106" class="outline-4">
+<h4 id="org4649106"><span class="section-number-4">2.4.1.</span> CSE</h4>
+<div class="outline-text-4" id="text-2-4-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgbd132d5"></a>Core<br />
+<ol class="org-ol">
+<li><a id="org07ea4af"></a>Computational Approaches<br />
+<div class="outline-text-6" id="text-2-4-1-1-1">
+<ul class="org-ul">
+<li>V. S. Subrahmanian, Handbook of Computational Approaches to Counterterrorism. Springer Science &amp; Business Media, 2012.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>V. S. Subrahmanian, A. Mannes, A. Sliva, J. Shakarian, and J. P. Dickerson, Computational Analysis of Terrorist Groups: Lashkar-e-Taiba. Springer New York, 2012.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>V. S. Subrahmanian, C. Pulice, J. F. Brown, and J. Bonen-Clark, A Machine Learning Based Model of Boko Haram. Springer Nature, 2020.</li>
+</ul>
+</div>
+</li>
+<li><a id="org2db27e4"></a>Cyber<br />
+<div class="outline-text-6" id="text-2-4-1-1-2">
+<ul class="org-ul">
+<li>V. S. Subrahmanian, M. Ovelgonne, T. Dumitras, and A. Prakash, The Global Cyber-Vulnerability Report. Springer International Publishing, 2015.</li>
+<li>L. Scaife, Social Networks as the New Frontier of Terrorism: #Terror, 1st edition. Routledge, 2017.</li>
+</ul>
+</div>
+</li>
+<li><a id="org75c1bb6"></a>IT<br />
+<div class="outline-text-6" id="text-2-4-1-1-3">
+<ul class="org-ul">
+<li>“Global Terrorism Database.” <a href="https://www.start.umd.edu/gtd/">https://www.start.umd.edu/gtd/</a> (accessed Dec. 02, 2022).</li>
+<li>“Global Terrorism Database,” Wikipedia. Aug. 27, 2022. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Global_Terrorism_Database&amp;oldid=1107066667">https://en.wikipedia.org/w/index.php?title=Global_Terrorism_Database&amp;oldid=1107066667</a></li>
+
+<li>“Terrorism | South Asia Terrorism Portal.” Accessed: Dec. 14, 2024. [Online]. Available: <a href="https://satp.org/">https://satp.org/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Global Terrorism Index,” Wikipedia. Dec. 01, 2022. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Global_Terrorism_Index&amp;oldid=1124883858">https://en.wikipedia.org/w/index.php?title=Global_Terrorism_Index&amp;oldid=1124883858</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>B. Herre, V. Samborska, H. Ritchie, J. Hasell, E. Mathieu, and M. Roser, “Terrorism,” Our World in Data, Aug. 2023, Accessed: Aug. 31, 2023. [Online]. Available: <a href="https://ourworldindata.org/terrorism">https://ourworldindata.org/terrorism</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org6f8de0a"></a>AI<br />
+<div class="outline-text-6" id="text-2-4-1-1-4">
+<ul class="org-ul">
+<li>“EPIC Urges PCLOB to Take Deep Dive on Intelligence Community’s Use of AI in Counterterrorism.,” EPIC - Electronic Privacy Information Center. Accessed: Jul. 05, 2024. [Online]. Available: <a href="https://epic.org/epic-urges-pclob-to-take-deep-dive-on-intelligence-communitys-use-of-ai-in-counterterrorism/">https://epic.org/epic-urges-pclob-to-take-deep-dive-on-intelligence-communitys-use-of-ai-in-counterterrorism/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org7b1b2bc"></a>World<br />
+<ol class="org-ol">
+<li><a id="org9b800f0"></a>Nation States<br />
+<ul class="org-ul">
+<li><a id="orgd5926ea"></a>India<br />
+<div class="outline-text-7" id="text-orgd5926ea">
+<ul class="org-ul">
+<li>A. Winner, A. Weldemichael, and P. Schneider, Eds., Maritime Terrorism and Piracy in the Indian Ocean Region, 1st edition. London: Routledge, 2015.</li>
+
+<li>V. S. Subrahmanian, A. Mannes, A. Roul, and R. K. Raghavan, Indian Mujahideen: Computational Analysis and Public Policy. Springer International Publishing, 2013.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a id="org31b648e"></a>Misc<br />
+<div class="outline-text-5" id="text-2-4-1-3">
+<ul class="org-ul">
+<li>“Back in the News: the Engineer as Terrorist,” IEEE Spectrum, Sep. 12, 2010. <a href="https://spectrum.ieee.org/back-in-the-news-the-engineer-as-terrorist">https://spectrum.ieee.org/back-in-the-news-the-engineer-as-terrorist</a> (accessed Dec. 02, 2022).</li>
+
+<li>“Why some engineers become terrorists,” The Times of India, Mar. 30, 2008. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://timesofindia.indiatimes.com/shashi-tharoor/shashi-on-sunday/Why-some-engineers-become-terrorists/articleshow/2910478.cms">https://timesofindia.indiatimes.com/shashi-tharoor/shashi-on-sunday/Why-some-engineers-become-terrorists/articleshow/2910478.cms</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org36cbd0f" class="outline-3">
+<h3 id="org36cbd0f"><span class="section-number-3">2.5.</span> Misc</h3>
+</div>
+</div>
+<div id="outline-container-org84b2381" class="outline-2">
+<h2 id="org84b2381"><span class="section-number-2">3.</span> Worldly Matters</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org8908f49" class="outline-3">
+<h3 id="org8908f49"><span class="section-number-3">3.1.</span> Religions, Spirituality, Misc</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>M. A. Khan and N. Haksar, Framed As a Terrorist: My 14-Year Struggle to Prove My Innocence. Speaking Tiger Books, 2016.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org20c3eed" class="outline-3">
+<h3 id="org20c3eed"><span class="section-number-3">3.2.</span> Humanities, Misc</h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-org631c6cc" class="outline-4">
+<h4 id="org631c6cc"><span class="section-number-4">3.2.1.</span> Psychology</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<ul class="org-ul">
+<li>J. Roach, K. Pease, and M. Taylor, Eds., Evolutionary Psychology and Terrorism, 1st edition. Abingdon, Oxon ; New York, NY: Routledge, 2016.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga22eb0f" class="outline-4">
+<h4 id="orga22eb0f"><span class="section-number-4">3.2.2.</span> Misc</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<ul class="org-ul">
+<li>R. Griffin, Terrorist’s Creed: Fanatical Violence and the Human Need for Meaning. Springer, 2012.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6eb959a" class="outline-3">
+<h3 id="org6eb959a"><span class="section-number-3">3.3.</span> SocioPolitical Studies, Law, Misc</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org6ccc8be" class="outline-4">
+<h4 id="org6ccc8be"><span class="section-number-4">3.3.1.</span> Orgs</h4>
+<div class="outline-text-4" id="text-3-3-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgd6271c3"></a>Terror Orgs<br />
+<div class="outline-text-5" id="text-3-3-1-1">
+<ul class="org-ul">
+<li>“Lashkar-e-Taiba,” Wikipedia. Nov. 27, 2022. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Lashkar-e-Taiba&amp;oldid=1124132445">https://en.wikipedia.org/w/index.php?title=Lashkar-e-Taiba&amp;oldid=1124132445</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Boko Haram,” Wikipedia. Nov. 30, 2022. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Boko_Haram&amp;oldid=1124790293">https://en.wikipedia.org/w/index.php?title=Boko_Haram&amp;oldid=1124790293</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org3f62060"></a>Misc<br />
+<div class="outline-text-5" id="text-3-3-1-2">
+<ul class="org-ul">
+<li>“National Consortium for the Study of Terrorism and Responses to Terrorism,” Wikipedia. Aug. 27, 2022. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=National_Consortium_for_the_Study_of_Terrorism_and_Responses_to_Terrorism&amp;oldid=1107066624">https://en.wikipedia.org/w/index.php?title=National_Consortium_for_the_Study_of_Terrorism_and_Responses_to_Terrorism&amp;oldid=1107066624</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org3b031f7" class="outline-4">
+<h4 id="org3b031f7"><span class="section-number-4">3.3.2.</span> Special Groups</h4>
+<div class="outline-text-4" id="text-3-3-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgc002ad6"></a>Women<br />
+<div class="outline-text-5" id="text-3-3-2-1">
+<ul class="org-ul">
+<li>J. Davis, Women in Modern Terrorism: From Liberation Wars to Global Jihad and the Islamic State. Lanham: Rowman &amp; Littlefield, 2017.</li>
+
+<li>M. Gonzalez-Perez, Women and Terrorism: Female Activity in Domestic and International Terror Groups, 1st edition. London ; New York: Routledge, 2008.</li>
+
+<li>M. Bloom, Bombshell: Women and Terrorism. Philadelphia: University of Pennsylvania Press, 2011.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org9ae02ed" class="outline-4">
+<h4 id="org9ae02ed"><span class="section-number-4">3.3.3.</span> State Terrorism</h4>
+<div class="outline-text-4" id="text-3-3-3">
+<ul class="org-ul">
+<li>D. Byman, Deadly Connections: States that Sponsor Terrorism. Cambridge University Press, 2007.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org06a6973" class="outline-4">
+<h4 id="org06a6973"><span class="section-number-4">3.3.4.</span> Nation States</h4>
+<div class="outline-text-4" id="text-3-3-4">
+</div>
+<ol class="org-ol">
+<li><a id="orgce2599d"></a>India<br />
+<ol class="org-ol">
+<li><a id="org98a0b94"></a>General<br />
+<div class="outline-text-6" id="text-3-3-4-1-1">
+<ul class="org-ul">
+<li>“Terrorism in India,” Wikipedia. Sep. 29, 2022. Accessed: Dec. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Terrorism_in_India&amp;oldid=1112956563">https://en.wikipedia.org/w/index.php?title=Terrorism_in_India&amp;oldid=1112956563</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org8d01dc4"></a>STEMM<br />
+<ul class="org-ul">
+<li><a id="orgad6f034"></a>Computer Science And Engineering<br />
+<div class="outline-text-7" id="text-orgad6f034">
+<ul class="org-ul">
+<li>A. Winner, A. Weldemichael, and P. Schneider, Eds., Maritime Terrorism and Piracy in the Indian Ocean Region, 1st edition. London: Routledge, 2015.</li>
+
+<li>V. S. Subrahmanian, A. Mannes, A. Roul, and R. K. Raghavan, Indian Mujahideen: Computational Analysis and Public Policy. Springer International Publishing, 2013.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgfdcead2"></a>Misc<br />
+<div class="outline-text-7" id="text-orgfdcead2">
+<ul class="org-ul">
+<li>V. S. Subrahmanian, A. Mannes, A. Roul, and R. K. Raghavan, Indian Mujahideen: Computational Analysis and Public Policy. Springer International Publishing, 2013.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgd10fe99"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="org010984d"></a>Politics: Right<br />
+<div class="outline-text-7" id="text-org010984d">
+<ul class="org-ul">
+<li>“A strategy to combat Islamic terrorism in India,” The Hindu, Aug. 16, 2011. Accessed: Apr. 28, 2025. [Online]. Available: <a href="https://www.thehindu.com/opinion/op-ed/a-strategy-to-combat-islamic-terrorism-in-india/article2362840.ece">https://www.thehindu.com/opinion/op-ed/a-strategy-to-combat-islamic-terrorism-in-india/article2362840.ece</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org91ee506"></a>Misc<br />
+<div class="outline-text-7" id="text-org91ee506">
+<ul class="org-ul">
+<li>“Notorious Lawrence Bishnoi Gang Declared ‘Terrorist Entity’ by Canada,” The Wire. Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://thewire.in/world/notorious-lawrence-bishnoi-gang-declared-terrorist-entity-by-canada">https://thewire.in/world/notorious-lawrence-bishnoi-gang-declared-terrorist-entity-by-canada</a></li>
+
+<li>“Can Extradition of Tahawwur Rana Bring Closure to 26/11 Terror Attack?,” NewsClick. Accessed: Apr. 13, 2025. [Online]. Available: <a href="https://www.newsclick.in/can-extradition-tahawwur-rana-bring-closure-2611-terror-attack">https://www.newsclick.in/can-extradition-tahawwur-rana-bring-closure-2611-terror-attack</a></li>
+<li>S. Gatade, “Can Extradition of Tahawwur Rana Bring Closure to 26/11 Terror Attack?,” KAFILA - COLLECTIVE EXPLORATIONS SINCE 2006. Accessed: Apr. 13, 2025. [Online]. Available: <a href="https://kafila.online/2025/04/13/can-extradition-of-tahawwur-rana-bring-closure-to-26-11-terror-attack/">https://kafila.online/2025/04/13/can-extradition-of-tahawwur-rana-bring-closure-to-26-11-terror-attack/</a></li>
+<li>“An accused sentenced to death in the 2006 Mumbai train bombings on being acquitted.” Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://caravanmagazine.in/crime/2006-mumbai-train-bombings-accused-speak-about-acquital">https://caravanmagazine.in/crime/2006-mumbai-train-bombings-accused-speak-about-acquital</a></li>
+
+<li>“Amnesty Accuses Union Govt of ‘Misusing’ Terrorism Financing Recommendations to Target Civil Society,” The Wire. Accessed: Sep. 28, 2023. [Online]. Available: <a href="https://thewire.in/rights/amnesty-accuses-union-govt-of-misusing-terrorism-financing-recommendations-to-target-civil-society">https://thewire.in/rights/amnesty-accuses-union-govt-of-misusing-terrorism-financing-recommendations-to-target-civil-society</a></li>
+<li>“India: Weaponizing Counterterrorism: India’s exploitation of terrorism financing assessments to target the civil society,” Amnesty International. Accessed: Sep. 28, 2023. [Online]. Available: <a href="https://www.amnesty.org/en/documents/asa20/7222/2023/en/">https://www.amnesty.org/en/documents/asa20/7222/2023/en/</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgc9de3f7"></a>Special Topics<br /></li>
+<li><a id="org66941b4"></a>Misc<br />
+<ul class="org-ul">
+<li><a id="org5034f74"></a>Politics: Right<br />
+<div class="outline-text-7" id="text-org5034f74">
+<ul class="org-ul">
+<li>V. Nanjappa, “At Dawood Ibrahim’s 69th birthday party there is a hint of something dark brewing in Bharat,” Organiser. Accessed: Dec. 28, 2024. [Online]. Available: <a href="https://organiser.org/2024/12/27/271065/world/at-dawood-ibrahims-69th-birthday-party-there-is-a-hint-of-something-dark-brewing-in-bharat/">https://organiser.org/2024/12/27/271065/world/at-dawood-ibrahims-69th-birthday-party-there-is-a-hint-of-something-dark-brewing-in-bharat/</a></li>
+<li>S. U. S. Choudhury, “ISI exploits five lakh Stranded Pakistanis for terrorist plots in Bangladesh and India,” Organiser. Accessed: Dec. 20, 2024. [Online]. Available: <a href="https://organiser.org/2024/12/18/269880/world/isi-exploits-five-lakh-stranded-pakistanis-for-terrorist-plots-in-bangladesh-and-india/">https://organiser.org/2024/12/18/269880/world/isi-exploits-five-lakh-stranded-pakistanis-for-terrorist-plots-in-bangladesh-and-india/</a></li>
+<li>W. DESK, “Foreign Funding Case: NIA detains Mufti Khalid Ansari Nadvi in Jhansi after midnight raid,” Organiser. Accessed: Dec. 14, 2024. [Online]. Available: <a href="https://organiser.org/2024/12/13/269208/bharat/foreign-funding-case-nia-detains-mufti-khalid-ansari-nadvi-in-jhansi-after-midnight-raid/">https://organiser.org/2024/12/13/269208/bharat/foreign-funding-case-nia-detains-mufti-khalid-ansari-nadvi-in-jhansi-after-midnight-raid/</a></li>
+<li>W. DESK, “Nationwide Crackdown: NIA raids across five states target JeM’s radical network,” Organiser. Accessed: Dec. 13, 2024. [Online]. Available: <a href="https://organiser.org/2024/12/12/269042/bharat/nationwide-crackdown-nia-raids-across-five-states-target-jems-radical-network/">https://organiser.org/2024/12/12/269042/bharat/nationwide-crackdown-nia-raids-across-five-states-target-jems-radical-network/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb1cf8c6"></a>Misc<br />
+<div class="outline-text-7" id="text-orgb1cf8c6">
+<ul class="org-ul">
+<li>“Defeating Terror: A Complex Rigmarole,” NewsClick. Accessed: Jun. 10, 2025. [Online]. Available: <a href="https://www.newsclick.in/defeating-terror-complex-rigmarole">https://www.newsclick.in/defeating-terror-complex-rigmarole</a></li>
+
+<li>“When Injustice Prevails,” The India Forum. Accessed: Sep. 27, 2025. [Online]. Available: <a href="https://www.theindiaforum.in/law/when-injustice-prevails">https://www.theindiaforum.in/law/when-injustice-prevails</a></li>
+
+<li>“Towards a coherent definition of political terrorism.” Accessed: Nov. 01, 2025. [Online]. Available: <a href="https://caravanmagazine.in/politics/coherent-definition-political-terrorism">https://caravanmagazine.in/politics/coherent-definition-political-terrorism</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgfbb4736" class="outline-3">
+<h3 id="orgfbb4736"><span class="section-number-3">3.4.</span> Business Studies, Misc</h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+<div id="outline-container-org56ea4fa" class="outline-4">
+<h4 id="org56ea4fa"><span class="section-number-4">3.4.1.</span> Corporate Terrorism</h4>
+<div class="outline-text-4" id="text-3-4-1">
+<ul class="org-ul">
+<li>P. W. Singer, Corporate Warriors: The Rise of the Privatized Military Industry. Cornell University Press, 2011.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org85a26ce" class="outline-3">
+<h3 id="org85a26ce"><span class="section-number-3">3.5.</span> Misc</h3>
+</div>
+</div>
+<div id="outline-container-orgd2ae5a4" class="outline-2">
+<h2 id="orgd2ae5a4"><span class="section-number-2">4.</span> Core</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org5fd2427" class="outline-3">
+<h3 id="org5fd2427"><span class="section-number-3">4.1.</span> Courses</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>“Warlords, Terrorists, and Militias: Theorizing on Violent Non-State Actors | Political Science,” MIT OpenCourseWare. <a href="https://ocw.mit.edu/courses/17-586-warlords-terrorists-and-militias-theorizing-on-violent-non-state-actors-spring-2009/">https://ocw.mit.edu/courses/17-586-warlords-terrorists-and-militias-theorizing-on-violent-non-state-actors-spring-2009/</a> (accessed Dec. 03, 2022).</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgea7be63" class="outline-3">
+<h3 id="orgea7be63"><span class="section-number-3">4.2.</span> Handbooks, Companions, Readers</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li>E. Chenoweth, R. English, A. Gofas, and S. N. Kalyvas, The Oxford Handbook of Terrorism. Oxford University Press, 2019.</li>
+<li>A. Silke, Ed., Routledge Handbook of Terrorism and Counterterrorism, 1st edition. London ; New York: Routledge, 2018.</li>
+<li>A. Schmid, Ed., The Routledge Handbook of Terrorism Research, 1st edition. London New York: Routledge, 2013.</li>
+<li>J. G. Horgan and K. Braddock, Eds., Terrorism Studies: A Reader, 1st edition. Milton Park, Abingdon, Oxon ; New York: Routledge, 2011.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org661fa98" class="outline-3">
+<h3 id="org661fa98"><span class="section-number-3">4.3.</span> Misc</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>B. Hoffman, Inside Terrorism. Columbia University Press, 2006.</li>
+<li>R. H. Shultz and A. J. Dew, Insurgents, Terrorists, and Militias: The Warriors of Contemporary Combat. Columbia University Press, 2009.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga8b7469" class="outline-2">
+<h2 id="orga8b7469"><span class="section-number-2">5.</span> Special Topics</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orga9812f6" class="outline-3">
+<h3 id="orga9812f6"><span class="section-number-3">5.1.</span> Critical Studies</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>R. Jackson, Ed., Routledge Handbook of Critical Terrorism Studies, 1st edition. New York: Routledge, 2016.</li>
+<li>N. Chomsky, Culture of Terrorism. Haymarket Books, 2015.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbe2e3a0" class="outline-3">
+<h3 id="orgbe2e3a0"><span class="section-number-3">5.2.</span> Suicide Terrorism</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>R. Pape, Dying to Win: The Strategic Logic of Suicide Terrorism. Random House Publishing Group, 2006.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc044ea6" class="outline-3">
+<h3 id="orgc044ea6"><span class="section-number-3">5.3.</span> GWOT: Global War On Terror</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul class="org-ul">
+<li>R. B. Tufail Ben Hayes,Nisha Kapoor,Arun Kundnani,Narzanin Massoumi,David Miller,Tom Mills,Rizwaan Sabir,Katy Sian,Waqas, “Leaving the War on Terror | Transnational Institute.” Accessed: Oct. 02, 2024. [Online]. Available: <a href="https://www.tni.org/en/publication/leaving-the-war-on-terror">https://www.tni.org/en/publication/leaving-the-war-on-terror</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org59795a4" class="outline-3">
+<h3 id="org59795a4"><span class="section-number-3">5.4.</span> Urban Terrorism Preparedness for Individuals</h3>
+<div class="outline-text-3" id="text-5-4">
+</div>
+<div id="outline-container-org6c1799d" class="outline-4">
+<h4 id="org6c1799d"><span class="section-number-4">5.4.1.</span> X's AI</h4>
+<div class="outline-text-4" id="text-5-4-1">
+<ul class="org-ul">
+<li>“Urban Terrorism Preparedness for Individuals | Shared Grok Conversation.” Accessed: May 08, 2025. [Online]. Available: <a href="https://grok.com/share/c2hhcmQtMg%3D%3D_36765e0a-3d77-47c4-aad6-1056972444dc">https://grok.com/share/c2hhcmQtMg%3D%3D_36765e0a-3d77-47c4-aad6-1056972444dc</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf4a10dd" class="outline-4">
+<h4 id="orgf4a10dd"><span class="section-number-4">5.4.2.</span> Misc</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org72583ed" class="outline-2">
+<h2 id="org72583ed"><span class="section-number-2">6.</span> Misc</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgd637799" class="outline-3">
+<h3 id="orgd637799"><span class="section-number-3">6.1.</span> Misc</h3>
+<div class="outline-text-3" id="text-6-1">
+<ul class="org-ul">
+<li>M. Berlin, I. B. Onder, and J. Fawcett Weiner, “Leadership succession and jihadist beheadings,” J Glob Secur Stud, vol. 11, no. 3, p. ogag019, Sep. 2026, doi: 10.1093/jogss/ogag019.</li>
+
+<li>M. Mamdani, Good Muslim, Bad Muslim: America, the Cold War, and the Roots of Terror, Reprint edition. Erscheinungsort nicht ermittelbar: Harmony, 2005.</li>
+
+<li>“US revokes plea deal with alleged mastermind of 9/11 attacks,” Al Jazeera. Accessed: Aug. 04, 2024. [Online]. Available: <a href="https://www.aljazeera.com/news/2024/8/3/pentagon-head-lloyd-austin-revokes-plea-deals-with-9-11-attack">https://www.aljazeera.com/news/2024/8/3/pentagon-head-lloyd-austin-revokes-plea-deals-with-9-11-attack</a></li>
+
+<li>A. Ghosh, “In this essay, Amitav Ghosh writes about his memories of 9/11 as a resident of Brooklyn, New York,” Scroll.in. Accessed: Jan. 10, 2025. [Online]. Available: <a href="https://scroll.in/article/1077710/in-this-essay-amitav-ghosh-writes-about-his-memories-of-9-11-as-a-resident-of-brooklyn-new-york">https://scroll.in/article/1077710/in-this-essay-amitav-ghosh-writes-about-his-memories-of-9-11-as-a-resident-of-brooklyn-new-york</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd6ebcaf" class="outline-3">
+<h3 id="orgd6ebcaf"><span class="section-number-3">6.2.</span> X's AI</h3>
+<div class="outline-text-3" id="text-6-2">
+<ul class="org-ul">
+<li>“Urban Terrorism Preparedness for Individuals | Shared Grok Conversation.” Accessed: Apr. 27, 2025. [Online]. Available: <a href="https://grok.com/share/c2hhcmQtMg%3D%3D_36765e0a-3d77-47c4-aad6-1056972444dc">https://grok.com/share/c2hhcmQtMg%3D%3D_36765e0a-3d77-47c4-aad6-1056972444dc</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbdc1979" class="outline-3">
+<h3 id="orgbdc1979"><span class="section-number-3">6.3.</span> Transnational Institute</h3>
+<div class="outline-text-3" id="text-6-3">
+<ul class="org-ul">
+<li>“The 9/11 complex: The political economy of counter-terrorism,” Longreads. Accessed: Oct. 02, 2024. [Online]. Available: <a href="https://longreads.tni.org/stateofpower/the-9-11-complex-the-political-economy-of-counter-terrorism">https://longreads.tni.org/stateofpower/the-9-11-complex-the-political-economy-of-counter-terrorism</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd0bd838" class="outline-3">
+<h3 id="orgd0bd838"><span class="section-number-3">6.4.</span> Texts</h3>
+<div class="outline-text-3" id="text-6-4">
+<ul class="org-ul">
+<li>“The Terror Dream,” Macmillan Publishers. Accessed: Oct. 02, 2024. [Online]. Available: <a href="https://us.macmillan.com/books/9780312428006/theterrordream">https://us.macmillan.com/books/9780312428006/theterrordream</a></li>
+<li>A. Hassell and M. R. Haberfeld, Eds., A New Understanding of Terrorism: Case Studies, Trajectories and Lessons Learned, 2009th edition. New York ; London: Springer-Verlag New York Inc., 2009.</li>
+<li>T. D. Parker, Avoiding The Terrorist Trap: Why Respect For Human Rights Is The Key To Defeating Terrorism: 12. New Jersey London Singapore Beijing Shanghai Hong Kong Taipei Chennai Tokyo: World Scientific Europe Ltd, 2019.</li>
+
+<li>R. Griffin, Terrorist’s Creed: Fanatical Violence and the Human Need for Meaning. Springer, 2012.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“France is a State Sponsor of Terror, AES Countries Declare,” NewsClick. Accessed: Oct. 07, 2025. [Online]. Available: <a href="https://www.newsclick.in/france-state-sponsor-terror-aes-countries-declare">https://www.newsclick.in/france-state-sponsor-terror-aes-countries-declare</a></li>
+</ul>
+
+<hr />
+
+<p>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-bigpic.html">Big Picture</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-media.html">Media</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-miscurls.html">Misc</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-today.html">Today</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-aajkal.html">Current Affairs</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/contact-info.html">Contact Info</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/license.html">License</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/disclaimer.html">Disclaimer</a>.
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Staff Member(s), <a href="https://ourghostorg.github.io/">OurGhostOrg</a></p>
+<p class="date">Created: 2026-07-06 Mon 18:46</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

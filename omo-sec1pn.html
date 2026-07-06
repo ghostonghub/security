@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-06 Mon 18:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nuclear Security</title>
+<meta name="author" content="Staff Member(s), [[https://ourghostorg.github.io/][OurGhostOrg]]" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Nuclear Security</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org5cd193f">1. General</a></li>
+<li><a href="#org50bbdd2">2. STEMM</a>
+<ul>
+<li><a href="#orgde42732">2.1. Systems Sciences, Misc</a>
+<ul>
+<li><a href="#org42d477c">2.1.1. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgf620cce">2.2. CSE</a></li>
+<li><a href="#org1b28bde">2.3. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgf949584">3. Worldly Matters</a>
+<ul>
+<li><a href="#orge69a1be">3.1. Space and Time</a></li>
+<li><a href="#org5c654a9">3.2. Space, Earth, Life Sciences, Environment, Health, Misc</a></li>
+<li><a href="#org1671bbf">3.3. Religions, Spirituality, Misc</a></li>
+<li><a href="#orgd940c34">3.4. Humanities, Misc</a></li>
+<li><a href="#org7a25b29">3.5. SocioPolitical Studies, Law, Misc</a>
+<ul>
+<li><a href="#orgaa11feb">3.5.1. Events</a></li>
+<li><a href="#org5382266">3.5.2. Nation States</a></li>
+<li><a href="#org8289566">3.5.3. Law</a></li>
+</ul>
+</li>
+<li><a href="#orgfa02ea4">3.6. Business Studies, Misc</a>
+<ul>
+<li><a href="#orgc116e6f">3.6.1. Economics</a></li>
+</ul>
+</li>
+<li><a href="#org5681711">3.7. Security Studies, Misc</a></li>
+<li><a href="#org83f171c">3.8. Communication, Misc</a></li>
+<li><a href="#org3da1e01">3.9. Misc</a>
+<ul>
+<li><a href="#orgd7b7a92">3.9.1. Misc</a></li>
+<li><a href="#org93bceea">3.9.2. Bulletin of the Atomic Scientists</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org62f628b">4. Core</a>
+<ul>
+<li><a href="#org281f1ba">4.1. Education</a>
+<ul>
+<li><a href="#org4500ac9">4.1.1. Courses</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orga0549f2">5. Arts</a>
+<ul>
+<li><a href="#org0126d4a">5.1. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgc9cf683">6. Special Topics</a></li>
+<li><a href="#org0ca71e3">7. Misc</a>
+<ul>
+<li><a href="#orgc919e21">7.1. Misc</a></li>
+<li><a href="#orgf5de56d">7.2. North Korea</a></li>
+<li><a href="#org4659777">7.3. Texts</a></li>
+<li><a href="#orgf030855">7.4. Misc</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<hr />
+<div id="outline-container-org5cd193f" class="outline-2">
+<h2 id="org5cd193f"><span class="section-number-2">1.</span> General</h2>
+</div>
+<div id="outline-container-org50bbdd2" class="outline-2">
+<h2 id="org50bbdd2"><span class="section-number-2">2.</span> STEMM</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgde42732" class="outline-3">
+<h3 id="orgde42732"><span class="section-number-3">2.1.</span> Systems Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org42d477c" class="outline-4">
+<h4 id="org42d477c"><span class="section-number-4">2.1.1.</span> Misc</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<ul class="org-ul">
+<li>“The looming shadow of nuclear winter,” IIASA - International Institute for Applied Systems Analysis. Accessed: May 17, 2025. [Online]. Available: <a href="http://iiasa.ac.at/blog/may-2025/looming-shadow-of-nuclear-winter">http://iiasa.ac.at/blog/may-2025/looming-shadow-of-nuclear-winter</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf620cce" class="outline-3">
+<h3 id="orgf620cce"><span class="section-number-3">2.2.</span> CSE</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>B. Herre, P. Rosado, M. Roser, and J. Hasell, “Nuclear Weapons,” Our World in Data, Feb. 2024, Accessed: Feb. 24, 2024. [Online]. Available: <a href="https://ourworldindata.org/nuclear-weapons">https://ourworldindata.org/nuclear-weapons</a></li>
+
+<li><i>“Nuclear weapons: Why reducing the risk of nuclear war should be a key concern of our generation,”</i> Our World in Data. <a href="https://ourworldindata.org/nuclear-weapons-risk">https://ourworldindata.org/nuclear-weapons-risk</a> (accessed Mar. 04, 2022).</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1b28bde" class="outline-3">
+<h3 id="org1b28bde"><span class="section-number-3">2.3.</span> Misc</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>“AI in Chinese, Indian and US Nuclear Postures, Norms and Systems,” SIPRI, Feb. 2026. Accessed: Feb. 18, 2026. [Online]. Available: <a href="https://www.sipri.org/publications/2026/other-publications/ai-chinese-indian-and-us-nuclear-postures-norms-and-systems">https://www.sipri.org/publications/2026/other-publications/ai-chinese-indian-and-us-nuclear-postures-norms-and-systems</a></li>
+
+<li>J. L. N. Jr, Atomic Doctors: Conscience and Complicity at the Dawn of the Nuclear Age. Cambridge (Mass.): Belknap Press: An Imprint of Harvard University Press, 2020.</li>
+
+<li>“AI and misinformation are supercharging the risk of nuclear war,” Nature, vol. 643, no. 8073, pp. 879–879, Jul. 2025, doi: 10.1038/d41586-025-02271-w.</li>
+
+<li>A. Witze, “How to avoid nuclear war in an era of AI and misinformation,” Nature, vol. 643, no. 8073, pp. 898–900, Jul. 2025, doi: 10.1038/d41586-025-02260-z.</li>
+
+<li>D. Drollette, “Nobel laureates and nuclear experts gather at University of Chicago on Trinity anniversary, press world leaders for action on nuclear dangers,” Bulletin of the Atomic Scientists. Accessed: Jul. 18, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/nobel-laureates-and-nuclear-experts-gather-at-university-of-chicago-on-trinity-anniversary-press-world-leaders-for-action-on-nuclear-dangers/">https://thebulletin.org/2025/07/nobel-laureates-and-nuclear-experts-gather-at-university-of-chicago-on-trinity-anniversary-press-world-leaders-for-action-on-nuclear-dangers/</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf949584" class="outline-2">
+<h2 id="orgf949584"><span class="section-number-2">3.</span> Worldly Matters</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orge69a1be" class="outline-3">
+<h3 id="orge69a1be"><span class="section-number-3">3.1.</span> Space and Time</h3>
+</div>
+<div id="outline-container-org5c654a9" class="outline-3">
+<h3 id="org5c654a9"><span class="section-number-3">3.2.</span> Space, Earth, Life Sciences, Environment, Health, Misc</h3>
+</div>
+<div id="outline-container-org1671bbf" class="outline-3">
+<h3 id="org1671bbf"><span class="section-number-3">3.3.</span> Religions, Spirituality, Misc</h3>
+</div>
+<div id="outline-container-orgd940c34" class="outline-3">
+<h3 id="orgd940c34"><span class="section-number-3">3.4.</span> Humanities, Misc</h3>
+</div>
+<div id="outline-container-org7a25b29" class="outline-3">
+<h3 id="org7a25b29"><span class="section-number-3">3.5.</span> SocioPolitical Studies, Law, Misc</h3>
+<div class="outline-text-3" id="text-3-5">
+</div>
+<div id="outline-container-orgaa11feb" class="outline-4">
+<h4 id="orgaa11feb"><span class="section-number-4">3.5.1.</span> Events</h4>
+<div class="outline-text-4" id="text-3-5-1">
+</div>
+<ol class="org-ol">
+<li><a id="orged7067d"></a>Cuban Missile Crisis<br />
+<div class="outline-text-5" id="text-3-5-1-1">
+<ul class="org-ul">
+<li>S. Plokhy, <i>Nuclear Folly: A New History of the Cuban Missile Crisis.</i> Penguin UK, 2021.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org5382266" class="outline-4">
+<h4 id="org5382266"><span class="section-number-4">3.5.2.</span> Nation States</h4>
+<div class="outline-text-4" id="text-3-5-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgef93628"></a>USA<br />
+<ol class="org-ol">
+<li><a id="orged2b986"></a>Bulletin of the Atomic Scientists<br />
+<div class="outline-text-6" id="text-3-5-2-1-1">
+<ul class="org-ul">
+<li>“United States nuclear weapons, 2025,” Bulletin of the Atomic Scientists. Accessed: Mar. 11, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-01/united-states-nuclear-weapons-2025/">https://thebulletin.org/premium/2025-01/united-states-nuclear-weapons-2025/</a></li>
+<li>“United States nuclear weapons, 2025,” Bulletin of the Atomic Scientists. Accessed: Jan. 14, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-01/united-states-nuclear-weapons-2025/">https://thebulletin.org/premium/2025-01/united-states-nuclear-weapons-2025/</a></li>
+
+<li>F. Diaz-Maurin, “Why the US must protect the independence of its nuclear regulator,” Bulletin of the Atomic Scientists. Accessed: Jul. 08, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/why-the-us-must-protect-the-independence-of-its-nuclear-regulator/">https://thebulletin.org/2025/07/why-the-us-must-protect-the-independence-of-its-nuclear-regulator/</a></li>
+
+<li>“United States nuclear weapons, 2024,” Bulletin of the Atomic Scientists. Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2024-05/united-states-nuclear-weapons-2024/">https://thebulletin.org/premium/2024-05/united-states-nuclear-weapons-2024/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgd3de9f4"></a>Misc<br />
+<div class="outline-text-6" id="text-3-5-2-1-2">
+<ul class="org-ul">
+<li>“America prepares for a new nuclear-arms race,” The Economist. Accessed: Aug. 21, 2024. [Online]. Available: <a href="https://www.economist.com/united-states/2024/08/12/america-prepares-for-a-new-nuclear-arms-race">https://www.economist.com/united-states/2024/08/12/america-prepares-for-a-new-nuclear-arms-race</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org9b0b8aa"></a>Europe<br /></li>
+<li><a id="orgf4b14f4"></a>UK<br />
+<div class="outline-text-5" id="text-3-5-2-3">
+<ul class="org-ul">
+<li>F. Diaz-Maurin, “UK considers reintroducing air-launched tactical nuclear weapons,” Bulletin of the Atomic Scientists. Accessed: Jun. 17, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/06/uk-considers-reintroducing-air-launched-tactical-nuclear-weapons/">https://thebulletin.org/2025/06/uk-considers-reintroducing-air-launched-tactical-nuclear-weapons/</a></li>
+<li>“United Kingdom nuclear weapons, 2024,” Bulletin of the Atomic Scientists. Accessed: Jan. 10, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2024-11/united-kingdom-nuclear-weapons-2024/">https://thebulletin.org/premium/2024-11/united-kingdom-nuclear-weapons-2024/</a></li>
+
+<li>“United Kingdom nuclear weapons, 2024,” Bulletin of the Atomic Scientists. Accessed: Nov. 13, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2024-11/united-kingdom-nuclear-weapons-2024/">https://thebulletin.org/premium/2024-11/united-kingdom-nuclear-weapons-2024/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org7fa6d49"></a>France<br />
+<div class="outline-text-5" id="text-3-5-2-4">
+<ul class="org-ul">
+<li>“Nuclear Notebook: French nuclear weapons, 2023,” Bulletin of the Atomic Scientists. <a href="https://thebulletin.org/premium/2023-07/nuclear-notebook-french-nuclear-weapons-2023/">https://thebulletin.org/premium/2023-07/nuclear-notebook-french-nuclear-weapons-2023/</a> (accessed Jul. 21, 2023).</li>
+</ul>
+</div>
+</li>
+<li><a id="orgb5cf0e1"></a>Russia<br />
+<div class="outline-text-5" id="text-3-5-2-5">
+<ul class="org-ul">
+<li>E. English, “Video: How many nuclear weapons does Russia have in 2025?,” Bulletin of the Atomic Scientists. Accessed: Jun. 09, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/06/video-how-many-nuclear-weapons-does-russia-have-in-2025/">https://thebulletin.org/2025/06/video-how-many-nuclear-weapons-does-russia-have-in-2025/</a></li>
+
+<li>“Russian nuclear weapons, 2025,” Bulletin of the Atomic Scientists. Accessed: May 14, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-05/russian-nuclear-weapons-2025/">https://thebulletin.org/premium/2025-05/russian-nuclear-weapons-2025/</a></li>
+
+<li>“Russian nuclear weapons, 2024,” Bulletin of the Atomic Scientists. Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2024-03/russian-nuclear-weapons-2024/">https://thebulletin.org/premium/2024-03/russian-nuclear-weapons-2024/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org3ae0deb"></a>Asia<br />
+<ol class="org-ol">
+<li><a id="orgdbe2207"></a>China<br />
+<div class="outline-text-6" id="text-3-5-2-6-1">
+<ul class="org-ul">
+<li>“Chinese nuclear weapons, 2025,” Bulletin of the Atomic Scientists. Accessed: May 03, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-03/chinese-nuclear-weapons-2025/">https://thebulletin.org/premium/2025-03/chinese-nuclear-weapons-2025/</a></li>
+
+<li>“Chinese nuclear weapons, 2024,” Bulletin of the Atomic Scientists. Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2024-01/chinese-nuclear-weapons-2024/">https://thebulletin.org/premium/2024-01/chinese-nuclear-weapons-2024/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>D. Stover, “Why China has not acted on Western warnings to ‘disentangle’ conventional and nuclear missile capabilities,” Bulletin of the Atomic Scientists. Accessed: Aug. 24, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/why-china-has-not-acted-on-western-warnings-to-disentangle-conventional-and-nuclear-missile-capabilities/">https://thebulletin.org/2025/08/why-china-has-not-acted-on-western-warnings-to-disentangle-conventional-and-nuclear-missile-capabilities/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org5e7bb40"></a>India<br />
+<ul class="org-ul">
+<li><a id="orga9ecf66"></a>General<br /></li>
+<li><a id="org8f265a1"></a>STEMM<br /></li>
+<li><a id="org6f551fb"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="org38808e9"></a>Misc<br />
+<div class="outline-text-8" id="text-org38808e9">
+<ul class="org-ul">
+<li>“89 Seconds to Armageddon: Are We Closer Than Ever Before To A Nuclear Holocaust?,” The Wire. Accessed: Sep. 07, 2025. [Online]. Available: <a href="https://thewire.in/news/89-seconds-to-armageddon-are-we-closer-than-ever-before-to-a-nuclear-holocaust">https://thewire.in/news/89-seconds-to-armageddon-are-we-closer-than-ever-before-to-a-nuclear-holocaust</a></li>
+
+<li>M. S. Aiyar, “Modi Doctrine Tested: Terror, Retaliation, and Nuclear Risks,” Frontline. Accessed: Jun. 18, 2025. [Online]. Available: <a href="https://frontline.thehindu.com/columns/india-pakistan-tensions-modi-doctrine-terrorism-nuclear-escalation/article69700926.ece">https://frontline.thehindu.com/columns/india-pakistan-tensions-modi-doctrine-terrorism-nuclear-escalation/article69700926.ece</a></li>
+
+<li>“The logic of nuclear deterrence and its false assurances of safety.” Accessed: Jun. 01, 2025. [Online]. Available: <a href="https://caravanmagazine.in/conflict/nuclear-deterrence-false-safety">https://caravanmagazine.in/conflict/nuclear-deterrence-false-safety</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgabd05e3"></a>Core<br /></li>
+<li><a id="org0d7bcdf"></a>Arts, Misc<br />
+<ul class="org-ul">
+<li><a id="orgaab49a1"></a>Films, Videos<br />
+<div class="outline-text-8" id="text-orgaab49a1">
+<ul class="org-ul">
+<li>30 Years After the Nuclear Tests: Lessons Learnt by India, (Jun. 02, 2023). Accessed: Jul. 27, 2023. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=N76VRLqUiqk">https://www.youtube.com/watch?v=N76VRLqUiqk</a></li>
+<li>NM0368 India Nuclear Weapons State, (Aug. 22, 2021). Accessed: Jul. 24, 2023. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=loyIS9aOHW0">https://www.youtube.com/watch?v=loyIS9aOHW0</a></li>
+
+<li>“How Do Countries Build Nuclear Weapons?: Israel, India, Pakistan, and South Africa - YouTube.” <a href="https://www.youtube.com/watch?v=CXONabvJDYk&amp;list=WL&amp;index=7">https://www.youtube.com/watch?v=CXONabvJDYk&amp;list=WL&amp;index=7</a> (accessed Jul. 24, 2023).</li>
+
+<li><i>“War and Peace (2002 film),”</i> Wikipedia. May 10, 2021. Accessed: Oct. 24, 2021. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=War_and_Peace_(2002_film)&amp;oldid=1022419579">https://en.wikipedia.org/w/index.php?title=War_and_Peace_(2002_film)&amp;oldid=1022419579</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org4188795"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="org1ca76fc"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="orgd3bfda1"></a>Texts<br />
+<div class="outline-text-8" id="text-orgd3bfda1">
+<ul class="org-ul">
+<li>S. Ganguly and S. P. Kapur, India, Pakistan And The Bomb: Debating Nuclear Stability In South Asia. Penguin India, 2010.</li>
+<li>A. Vanaik, After the Bomb: Reflections on India’s Nuclear Journey. Orient BlackSwan, 2015.</li>
+<li>D. Cortright and A. Mattoo, Eds., India and the Bomb: Public Opinion and Nuclear Options. Notre Dame, Ind: University of Notre Dame Press, 1996.</li>
+</ul>
+</div>
+</li>
+<li><a id="org2356d6e"></a>Articles, Essays<br />
+<ul class="org-ul">
+<li><a id="orge4b07e9"></a>Bulletin of the Atomic Scientists<br />
+<div class="outline-text-9" id="text-orge4b07e9">
+<p>
+-“India Archives,” Bulletin of the Atomic Scientists. Accessed: Jun. 30, 2026. [Online]. Available: <a href="https://thebulletin.org/tag/india/">https://thebulletin.org/tag/india/</a>
+</p>
+
+
+<ul class="org-ul">
+<li>H. M. Kristensen, M. Korda, E. Johns, and M. Knight, “Indian nuclear weapons, 2024,” Bulletin of the Atomic Scientists, vol. 80, no. 5, pp. 326–342, Sep. 2024, doi: 10.1080/00963402.2024.2388470.</li>
+<li>“Nuclear Notebook: How many nuclear weapons does India have in 2022?,” Bulletin of the Atomic Scientists. <a href="https://thebulletin.org/premium/2022-07/nuclear-notebook-how-many-nuclear-weapons-does-india-have-in-2022/">https://thebulletin.org/premium/2022-07/nuclear-notebook-how-many-nuclear-weapons-does-india-have-in-2022/</a> (accessed Jul. 12, 2022).</li>
+<li><i>“Nuclear Notebook: Indian nuclear forces, 2020,”</i> Bulletin of the Atomic Scientists. <a href="https://thebulletin.org/premium/2020-07/nuclear-notebook-indian-nuclear-forces-2020/">https://thebulletin.org/premium/2020-07/nuclear-notebook-indian-nuclear-forces-2020/</a> (accessed Nov. 04, 2021).</li>
+
+<li>D. Stover, “Why the Indian Ocean may be home to the next nuclear crisis,” Bulletin of the Atomic Scientists. Accessed: Sep. 10, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/why-the-indian-ocean-may-be-home-to-the-next-nuclear-crisis/">https://thebulletin.org/2025/09/why-the-indian-ocean-may-be-home-to-the-next-nuclear-crisis/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgcb32b88"></a>Friends of the Earth International<br />
+<div class="outline-text-9" id="text-orgcb32b88">
+<ul class="org-ul">
+<li>FOEINDIA, “Remember Hiroshima–Nagasaki, Resist Nuclear Colonialism – SAY NO TO INDIA’S CORPORATE NUCLEAR AGENDA,” Friends of the Earth India. Accessed: Aug. 10, 2025. [Online]. Available: <a href="https://foeindia.net/2025/08/09/remember-hiroshima-nagasaki-resist-nuclear-colonialism-say-no-to-indias-corporate-nuclear-agenda/">https://foeindia.net/2025/08/09/remember-hiroshima-nagasaki-resist-nuclear-colonialism-say-no-to-indias-corporate-nuclear-agenda/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org644c9da"></a>M V Ramana<br />
+<div class="outline-text-9" id="text-org644c9da">
+<ul class="org-ul">
+<li>P. S. Raman, “Nuclear weapons cannot be relied on to keep peace: M V Ramana,” Down To Earth. Accessed: Jun. 16, 2025. [Online]. Available: <a href="https://www.downtoearth.org.in/energy/nuclear-weapons-cannot-be-relied-on-to-keep-peace-m-v-ramana">https://www.downtoearth.org.in/energy/nuclear-weapons-cannot-be-relied-on-to-keep-peace-m-v-ramana</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org54c95ba"></a>Misc<br />
+<div class="outline-text-9" id="text-org54c95ba">
+<ul class="org-ul">
+<li>“89 Seconds to Armageddon: Are We Closer Than Ever Before To A Nuclear Holocaust?,” The Wire. Accessed: Sep. 06, 2025. [Online]. Available: <a href="https://thewire.in/news/89-seconds-to-armageddon-are-we-closer-than-ever-before-to-a-nuclear-holocaust">https://thewire.in/news/89-seconds-to-armageddon-are-we-closer-than-ever-before-to-a-nuclear-holocaust</a></li>
+<li>A. France-Press, “India ‘successfully tests’ nuclear-capable missile able to reach deep into China,” The Guardian, Aug. 20, 2025. Accessed: Aug. 21, 2025. [Online]. Available: <a href="https://www.theguardian.com/world/2025/aug/20/india-successfully-tests-nuclear-capable-missile-able-to-reach-deep-into-china">https://www.theguardian.com/world/2025/aug/20/india-successfully-tests-nuclear-capable-missile-able-to-reach-deep-into-china</a></li>
+<li>“The first South Asian crisis of the third nuclear age.” Accessed: Aug. 12, 2025. [Online]. Available: <a href="https://caravanmagazine.in/conflict/the-first-south-asian-crisis-of-the-third-nuclear-age">https://caravanmagazine.in/conflict/the-first-south-asian-crisis-of-the-third-nuclear-age</a></li>
+<li>“Strategic Thinking and the Nuclear Garden Path,” The India Forum. Accessed: May 16, 2025. [Online]. Available: <a href="https://www.theindiaforum.in/politics/strategic-thinking-and-nuclear-garden-path">https://www.theindiaforum.in/politics/strategic-thinking-and-nuclear-garden-path</a></li>
+<li>E. Sykes, “To solve the nuclear Kashmir crisis, we need to understand three key points,” Canary. Accessed: May 05, 2025. [Online]. Available: <a href="https://www.thecanary.co/global/world-analysis/2025/05/04/kashmir-crisis/">https://www.thecanary.co/global/world-analysis/2025/05/04/kashmir-crisis/</a></li>
+<li>© Stanford University, Stanford, and California 94305, “30 Years After the Nuclear Tests: Lessons Learnt By India | Amitabh Mattoo.” <a href="https://cisac.fsi.stanford.edu/events/30-years-after-nuclear-tests-lessons-learnt-india-amitabh-mattoo">https://cisac.fsi.stanford.edu/events/30-years-after-nuclear-tests-lessons-learnt-india-amitabh-mattoo</a> (accessed Jul. 27, 2023).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org24702ce"></a>Critical Studies<br />
+<ul class="org-ul">
+<li><a id="org1153a5e"></a>Misc<br /></li>
+<li><a id="org5ec1644"></a>Texts<br />
+<div class="outline-text-9" id="text-org5ec1644">
+<ul class="org-ul">
+<li>A. Ghosh, <i>Countdown.</i> Penguin UK, 2010.</li>
+<li>I. Abraham, South Asian Cultures of the Bomb: Atomic Publics and the State in India and Pakistan. Indiana University Press, 2009.</li>
+<li>I. Abraham, The Making of the Indian Atomic Bomb : Science, Secrecy and the Post-Colonial State. Orient BlackSwan, 1999.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgbd04e4c"></a>Articles, Essays<br />
+<div class="outline-text-9" id="text-orgbd04e4c">
+<ul class="org-ul">
+<li>U. Sarkar, <i>“Why India’s Commitment to Nuclear Disarmament is ‘Merely Rhetorical,’”</i> The Caravan. <a href="https://caravanmagazine.in/vantage/india-nuclear-disarmament-merely-rhetorical">https://caravanmagazine.in/vantage/india-nuclear-disarmament-merely-rhetorical</a> (accessed Jan. 20, 2022).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orga2721e7"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="orga1d218d"></a>Pakistan<br />
+<div class="outline-text-6" id="text-3-5-2-6-3">
+<ul class="org-ul">
+<li>“Pakistan nuclear weapons, 2025,” Bulletin of the Atomic Scientists. Accessed: Sep. 05, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-09/pakistan-nuclear-weapons-2025/">https://thebulletin.org/premium/2025-09/pakistan-nuclear-weapons-2025/</a></li>
+
+<li>“Pakistan nuclear weapons, 2023,” Bulletin of the Atomic Scientists. Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2023-09/pakistan-nuclear-weapons-2023/">https://thebulletin.org/premium/2023-09/pakistan-nuclear-weapons-2023/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgf70a814"></a>Korea<br /></li>
+</ol>
+</li>
+<li><a id="org6a0616a"></a>ME<br />
+<ol class="org-ol">
+<li><a id="org44ba19c"></a>Iran<br /></li>
+<li><a id="org2ece0d6"></a>Iraq<br /></li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org8289566" class="outline-4">
+<h4 id="org8289566"><span class="section-number-4">3.5.3.</span> Law</h4>
+<div class="outline-text-4" id="text-3-5-3">
+<ul class="org-ul">
+<li><i>“Nuclear weapons are illegal at last,”</i> Greenpeace International. <a href="https://www.greenpeace.org/international/story/46233/nuclear-weapons-illegal-treaty">https://www.greenpeace.org/international/story/46233/nuclear-weapons-illegal-treaty</a> (accessed Jan. 25, 2022).</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfa02ea4" class="outline-3">
+<h3 id="orgfa02ea4"><span class="section-number-3">3.6.</span> Business Studies, Misc</h3>
+<div class="outline-text-3" id="text-3-6">
+</div>
+<div id="outline-container-orgc116e6f" class="outline-4">
+<h4 id="orgc116e6f"><span class="section-number-4">3.6.1.</span> Economics</h4>
+</div>
+</div>
+<div id="outline-container-org5681711" class="outline-3">
+<h3 id="org5681711"><span class="section-number-3">3.7.</span> Security Studies, Misc</h3>
+</div>
+<div id="outline-container-org83f171c" class="outline-3">
+<h3 id="org83f171c"><span class="section-number-3">3.8.</span> Communication, Misc</h3>
+</div>
+<div id="outline-container-org3da1e01" class="outline-3">
+<h3 id="org3da1e01"><span class="section-number-3">3.9.</span> Misc</h3>
+<div class="outline-text-3" id="text-3-9">
+</div>
+<div id="outline-container-orgd7b7a92" class="outline-4">
+<h4 id="orgd7b7a92"><span class="section-number-4">3.9.1.</span> Misc</h4>
+<div class="outline-text-4" id="text-3-9-1">
+<ul class="org-ul">
+<li>F. Diaz-Maurin, “What the end of New START means for Europe: Two views,” Bulletin of the Atomic Scientists. Accessed: Feb. 17, 2026. [Online]. Available: <a href="https://thebulletin.org/2026/02/what-the-end-of-new-start-means-for-europe-two-views/">https://thebulletin.org/2026/02/what-the-end-of-new-start-means-for-europe-two-views/</a></li>
+
+<li>“Interesting Times: End of All US-Russia Nuclear Treaties,” NewsClick. Accessed: Feb. 14, 2026. [Online]. Available: <a href="https://www.newsclick.in/interesting-times-end-all-us-russia-nuclear-treaties">https://www.newsclick.in/interesting-times-end-all-us-russia-nuclear-treaties</a></li>
+
+<li>F. Diaz-Maurin, “The experts comment: New START expires, bringing both risks and opportunities,” Bulletin of the Atomic Scientists. Accessed: Feb. 06, 2026. [Online]. Available: <a href="https://thebulletin.org/2026/02/the-experts-comment-new-start-expires-bringing-both-risks-and-opportunities/">https://thebulletin.org/2026/02/the-experts-comment-new-start-expires-bringing-both-risks-and-opportunities/</a></li>
+
+<li>“A New Nuclear Arms Race Could ‘Spiral’ as Last U.S.-Russia Treaty Expires: Dr. Ira Helfand,” Democracy Now! Accessed: Feb. 05, 2026. [Online]. Available: <a href="https://www.democracynow.org/2026/2/4/nuclear_prevention">https://www.democracynow.org/2026/2/4/nuclear_prevention</a></li>
+
+<li>“Nobel Laureate Assembly for the Prevention of Nuclear War.” Accessed: Nov. 20, 2025. [Online]. Available: <a href="https://nobelassembly.org/">https://nobelassembly.org/</a></li>
+
+<li>F. Diaz-Maurin, “How the United States achieved its de facto nuclear test ban—and how to preserve it,” Bulletin of the Atomic Scientists. Accessed: Nov. 13, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/11/how-the-united-states-achieved-its-de-facto-nuclear-test-ban-and-how-to-preserve-it/">https://thebulletin.org/2025/11/how-the-united-states-achieved-its-de-facto-nuclear-test-ban-and-how-to-preserve-it/</a></li>
+
+<li>“China Has the Most to Gain from New Nuclear Tests,” The Equation. Accessed: Nov. 01, 2025. [Online]. Available: <a href="https://blog.ucs.org/gregory-kulacki/china-has-the-most-to-gain-from-new-nuclear-tests/">https://blog.ucs.org/gregory-kulacki/china-has-the-most-to-gain-from-new-nuclear-tests/</a></li>
+
+<li>“Trump announces resumption of US nuclear weapons testing,” World Socialist Web Site. Accessed: Oct. 31, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/10/31/szjb-o31.html">https://www.wsws.org/en/articles/2025/10/31/szjb-o31.html</a></li>
+
+<li>“‘Extraordinarily Destabilizing Decision’: Trump Denounced over Call to Immediately Resume Nuclear Tests,” Democracy Now! Accessed: Oct. 31, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/10/30/nuclear_weapons">https://www.democracynow.org/2025/10/30/nuclear_weapons</a></li>
+
+<li>D. Stover, “How North Korea outsmarts US intelligence agencies—and what they should do to adapt,” Bulletin of the Atomic Scientists. Accessed: Oct. 30, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/10/how-north-korea-outsmarts-us-intelligence-agencies-and-what-they-should-do-to-adapt/">https://thebulletin.org/2025/10/how-north-korea-outsmarts-us-intelligence-agencies-and-what-they-should-do-to-adapt/</a></li>
+
+<li>N. Author, “Destroyers of the world: the physicists who built nuclear weapons,” Physics World. Accessed: Oct. 03, 2025. [Online]. Available: <a href="https://physicsworld.com/destroyers-of-the-world-the-physicists-who-built-nuclear-weapons/">https://physicsworld.com/destroyers-of-the-world-the-physicists-who-built-nuclear-weapons/</a></li>
+
+<li>F. Diaz-Maurin, “From Zaporizhzhia to Natanz, nuclear piracy is equally dangerous—and illegal,” Bulletin of the Atomic Scientists. Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/10/from-zaporizhzhia-to-natanz-nuclear-piracy-is-equally-dangerous-and-illegal/">https://thebulletin.org/2025/10/from-zaporizhzhia-to-natanz-nuclear-piracy-is-equally-dangerous-and-illegal/</a></li>
+<li>F. Diaz-Maurin, “The untold story of a 1984 Montana retreat that shaped US nuclear policy for decades,” Bulletin of the Atomic Scientists. Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/the-untold-story-of-a-1984-montana-retreat-that-shaped-us-nuclear-policy-for-decades/">https://thebulletin.org/2025/09/the-untold-story-of-a-1984-montana-retreat-that-shaped-us-nuclear-policy-for-decades/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Voices Home - Nuclear Museum,” <a href="https://ahf.nuclearmuseum.org/">https://ahf.nuclearmuseum.org/</a>. Accessed: Sep. 28, 2025. [Online]. Available: <a href="https://ahf.nuclearmuseum.org/voices/">https://ahf.nuclearmuseum.org/voices/</a></li>
+<li>“Peggy Bowditch’s Interview - Nuclear Museum,” <a href="https://ahf.nuclearmuseum.org/">https://ahf.nuclearmuseum.org/</a>. Accessed: Sep. 28, 2025. [Online]. Available: <a href="https://ahf.nuclearmuseum.org/voices/oral-histories/peggy-bowditchs-interview/">https://ahf.nuclearmuseum.org/voices/oral-histories/peggy-bowditchs-interview/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>F. Diaz-Maurin, “Why the US should stop protecting Israel’s nuclear weapons,” Bulletin of the Atomic Scientists. Accessed: Sep. 27, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/why-the-us-should-stop-protecting-israels-nuclear-weapons/">https://thebulletin.org/2025/09/why-the-us-should-stop-protecting-israels-nuclear-weapons/</a></li>
+<li>F. Diaz-Maurin, “Why President Trump should put off the new nuclear arms race for one more year,” Bulletin of the Atomic Scientists. Accessed: Sep. 27, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/why-president-trump-should-put-off-the-new-nuclear-arms-race-for-one-more-year/">https://thebulletin.org/2025/09/why-president-trump-should-put-off-the-new-nuclear-arms-race-for-one-more-year/</a></li>
+<li>F. Diaz-Maurin, “Putin just gave Trump the opportunity to maintain nuclear restraint. Will he seize it?,” Bulletin of the Atomic Scientists. Accessed: Sep. 27, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/putin-just-gave-trump-the-opportunity-to-maintain-nuclear-restraint-will-he-seize-it/">https://thebulletin.org/2025/09/putin-just-gave-trump-the-opportunity-to-maintain-nuclear-restraint-will-he-seize-it/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Notorious ex–weapons factory will lock up nuclear waste in glass—if the White House lets it.” Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://www.science.org/content/article/notorious-ex-weapons-factory-will-lock-nuclear-waste-glass-if-white-house-lets-it">https://www.science.org/content/article/notorious-ex-weapons-factory-will-lock-nuclear-waste-glass-if-white-house-lets-it</a></li>
+
+<li>“It’s Time to Rethink US Nuclear Weapons Manufacturing,” The Equation. Accessed: Sep. 18, 2025. [Online]. Available: <a href="https://blog.ucs.org/dylan-spaulding/its-time-to-rethink-us-nuclear-weapons-manufacturing/">https://blog.ucs.org/dylan-spaulding/its-time-to-rethink-us-nuclear-weapons-manufacturing/</a></li>
+
+<li>D. Drollette, “The dangerous new Washington consensus for more nuclear weapons,” Bulletin of the Atomic Scientists. Accessed: Sep. 10, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/the-dangerous-new-washington-consensus-for-more-nuclear-weapons/">https://thebulletin.org/2025/09/the-dangerous-new-washington-consensus-for-more-nuclear-weapons/</a></li>
+
+<li>“Monthly Review | The U.S. Quest for Nuclear Primacy: The Counterforce Doctrine and the Ideology of Moral Asymmetry,” Monthly Review. Accessed: Sep. 08, 2025. [Online]. Available: <a href="https://monthlyreview.org/2024/02/01/the-u-s-quest-for-nuclear-primacy/">https://monthlyreview.org/2024/02/01/the-u-s-quest-for-nuclear-primacy/</a></li>
+
+<li>J. Mecklin, “Actually, the NPT doesn’t guarantee a right to make nuclear fuel,” Bulletin of the Atomic Scientists. Accessed: Aug. 17, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/actually-the-npt-doesnt-guarantee-a-right-to-make-nuclear-fuel/">https://thebulletin.org/2025/08/actually-the-npt-doesnt-guarantee-a-right-to-make-nuclear-fuel/</a></li>
+
+<li>F. Diaz-Maurin, “Common misconceptions about the NPT: A practitioner’s guide,” Bulletin of the Atomic Scientists. Accessed: Aug. 15, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/common-misconceptions-about-the-npt-a-practitioners-guide/">https://thebulletin.org/2025/08/common-misconceptions-about-the-npt-a-practitioners-guide/</a></li>
+
+<li>J. Mecklin, “Truman never ordered the use of the atomic bombs—but he did order atomic bombings to be stopped,” Bulletin of the Atomic Scientists. Accessed: Aug. 12, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/truman-never-ordered-the-use-of-the-atomic-bombs-but-he-did-order-atomic-bombings-to-be-stopped/">https://thebulletin.org/2025/08/truman-never-ordered-the-use-of-the-atomic-bombs-but-he-did-order-atomic-bombings-to-be-stopped/</a></li>
+
+<li>“80 years since Hiroshima and Nagasaki — time for a nuclear-free world for a peaceful, sustainable future,” Greenpeace International. Accessed: Aug. 06, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/story/77462/80-years-since-hiroshima-and-nagasaki-time-for-a-nuclear-free-world-for-a-peaceful-sustainable-future/">https://www.greenpeace.org/international/story/77462/80-years-since-hiroshima-and-nagasaki-time-for-a-nuclear-free-world-for-a-peaceful-sustainable-future/</a></li>
+
+<li>F. Diaz-Maurin, “Nuclear terrorists wear suits: How Iran could build a nuclear weapon without state approval,” Bulletin of the Atomic Scientists. Accessed: Aug. 01, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/nuclear-terrorists-wear-suits-how-iran-could-build-a-nuclear-weapon-without-state-approval/">https://thebulletin.org/2025/07/nuclear-terrorists-wear-suits-how-iran-could-build-a-nuclear-weapon-without-state-approval/</a></li>
+
+<li>F. Diaz-Maurin, “Nuclear arms control enters uncharted territory. It needs tools—both old and new,” Bulletin of the Atomic Scientists. Accessed: Jul. 31, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/nuclear-arms-control-enters-uncharted-territory-it-needs-tools-both-old-and-new/">https://thebulletin.org/2025/07/nuclear-arms-control-enters-uncharted-territory-it-needs-tools-both-old-and-new/</a></li>
+
+<li>F. Diaz-Maurin, “China and the United States need a framework for nuclear arms control. It isn’t New START,” Bulletin of the Atomic Scientists. Accessed: Jul. 31, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/china-and-the-united-states-need-a-framework-for-nuclear-arms-control-it-isnt-new-start/">https://thebulletin.org/2025/07/china-and-the-united-states-need-a-framework-for-nuclear-arms-control-it-isnt-new-start/</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>E. Ross, “We’re Still Living With the Decisions Made During the Trinity Tests,” Jul. 23, 2025. Accessed: Jul. 27, 2025. [Online]. Available: <a href="https://www.thenation.com/article/world/trinity-tests-anniversary-los-alamos/">https://www.thenation.com/article/world/trinity-tests-anniversary-los-alamos/</a></li>
+
+<li>N. UK, “The inside story of how America sent nuclear weapons to Britain,” Declassified UK. Accessed: Jul. 23, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/the-inside-story-of-how-america-sent-nuclear-weapons-to-britain/">https://www.declassifieduk.org/the-inside-story-of-how-america-sent-nuclear-weapons-to-britain/</a></li>
+
+<li>“Containment vs. confrontation: Trump and a nuclear Iran,” Bulletin of the Atomic Scientists. Accessed: Jul. 20, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-07/containment-vs-confrontation-trump-and-a-nuclear-iran/">https://thebulletin.org/premium/2025-07/containment-vs-confrontation-trump-and-a-nuclear-iran/</a></li>
+
+<li>“Nobel Laureate Assembly for the Prevention of Nuclear War - YouTube.” Accessed: Jul. 19, 2025. [Online]. Available: <a href="https://www.youtube.com/watch?v=1lN7cXxkvHY">https://www.youtube.com/watch?v=1lN7cXxkvHY</a></li>
+<li>D. Drollette, “Military-trained Americans’ trust in the president’s nuclear launch authority dropped during Iran Crisis. Here’s why it matters.,” Bulletin of the Atomic Scientists. Accessed: Jul. 19, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/military-trained-americans-trust-in-the-presidents-nuclear-launch-authority-dropped-during-iran-crisis-heres-why-it-matters/">https://thebulletin.org/2025/07/military-trained-americans-trust-in-the-presidents-nuclear-launch-authority-dropped-during-iran-crisis-heres-why-it-matters/</a></li>
+
+<li>S. Pifer, P. Sinovets, R. Möser, and M. Budjeryn, “The Disintegration of the USSR and the Fate of the Soviet Nuclear Arsenal: Assessing Ukraine’s Relinquishment of Nuclear Weapons Left on Its Territory,” Journal of Cold War Studies, vol. 27, no. 1, pp. 129–148, Jun. 2025, doi: 10.1162/jcws<sub>c</sub><sub>01275</sub>.</li>
+
+<li>“Containment vs. confrontation: Trump and a nuclear Iran,” Bulletin of the Atomic Scientists. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-07/containment-vs-confrontation-trump-and-a-nuclear-iran/">https://thebulletin.org/premium/2025-07/containment-vs-confrontation-trump-and-a-nuclear-iran/</a></li>
+<li>“The lead-up to war: Will Israel strike Iran’s nuclear facilities with US support?,” Bulletin of the Atomic Scientists. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-07/will-israel-strike-irans-nuclear-facilities-with-us-support/">https://thebulletin.org/premium/2025-07/will-israel-strike-irans-nuclear-facilities-with-us-support/</a></li>
+
+<li>“French nuclear weapons, 2025,” Bulletin of the Atomic Scientists. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-07/french-nuclear-weapons-2025/">https://thebulletin.org/premium/2025-07/french-nuclear-weapons-2025/</a></li>
+
+<li>J. Mecklin, “An appreciation of Bob Alvarez, a fearless advocate for those harmed by the US nuclear weapons complex,” Bulletin of the Atomic Scientists. Accessed: Jul. 12, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/an-appreciation-of-bob-alvarez-a-fearless-advocate-for-those-harmed-by-the-us-nuclear-weapons-complex/">https://thebulletin.org/2025/07/an-appreciation-of-bob-alvarez-a-fearless-advocate-for-those-harmed-by-the-us-nuclear-weapons-complex/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>F. Diaz-Maurin, “Tehran’s no good, very bad options, and why only diplomacy can head off an Iranian bomb,” Bulletin of the Atomic Scientists. Accessed: Jul. 04, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/tehrans-no-good-very-bad-options-and-why-only-diplomacy-can-head-off-an-iranian-bomb/">https://thebulletin.org/2025/07/tehrans-no-good-very-bad-options-and-why-only-diplomacy-can-head-off-an-iranian-bomb/</a></li>
+
+<li>F. Diaz-Maurin, “Iran can still build nuclear weapons without further enrichment. Only diplomacy will stop it,” Bulletin of the Atomic Scientists. Accessed: Jul. 03, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/07/iran-can-still-build-nuclear-weapons-without-further-enrichment-only-diplomacy-will-stop-it/">https://thebulletin.org/2025/07/iran-can-still-build-nuclear-weapons-without-further-enrichment-only-diplomacy-will-stop-it/</a></li>
+
+<li>“‘Why not an Islamic bomb?’: How Israel planned and failed to stop Pakistan going nuclear,” Middle East Eye. Accessed: Jun. 26, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/how-israel-planned-bomb-pakistan-stop-it-building-nuclear-weapons">https://www.middleeasteye.net/news/how-israel-planned-bomb-pakistan-stop-it-building-nuclear-weapons</a></li>
+
+<li>J. Mecklin, “Nuclear Notebook: Israeli nuclear weapons, 2022,” Bulletin of the Atomic Scientists. Accessed: Jun. 17, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2022-01/nuclear-notebook-israeli-nuclear-weapons-2022/">https://thebulletin.org/premium/2022-01/nuclear-notebook-israeli-nuclear-weapons-2022/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>I. Langford, “Why Donald Trump has put Asia on the precipice of a nuclear arms race,” The Conversation. Accessed: May 23, 2025. [Online]. Available: <a href="http://theconversation.com/why-donald-trump-has-put-asia-on-the-precipice-of-a-nuclear-arms-race-256577">http://theconversation.com/why-donald-trump-has-put-asia-on-the-precipice-of-a-nuclear-arms-race-256577</a></li>
+
+<li>“Strategic Thinking and the Nuclear Garden Path,” The India Forum. Accessed: May 17, 2025. [Online]. Available: <a href="https://www.theindiaforum.in/politics/strategic-thinking-and-nuclear-garden-path">https://www.theindiaforum.in/politics/strategic-thinking-and-nuclear-garden-path</a></li>
+
+<li>S. Žižek, “Should Ukraine Have Nuclear Weapons? | by Slavoj Žižek,” Project Syndicate. Accessed: Nov. 28, 2024. [Online]. Available: <a href="https://www.project-syndicate.org/commentary/ukraine-strikes-russia-despite-putin-new-nuclear-doctrine-by-slavoj-zizek-2024-11">https://www.project-syndicate.org/commentary/ukraine-strikes-russia-despite-putin-new-nuclear-doctrine-by-slavoj-zizek-2024-11</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org93bceea" class="outline-4">
+<h4 id="org93bceea"><span class="section-number-4">3.9.2.</span> Bulletin of the Atomic Scientists</h4>
+<div class="outline-text-4" id="text-3-9-2">
+<ul class="org-ul">
+<li>J. Mecklin, “A letter from Kim Jong Un to Donald Trump, penned by two top US experts,” Bulletin of the Atomic Scientists. Accessed: Jan. 25, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/01/a-letter-from-kim-jong-un-to-donald-trump-penned-by-two-top-us-experts/">https://thebulletin.org/2025/01/a-letter-from-kim-jong-un-to-donald-trump-penned-by-two-top-us-experts/</a></li>
+<li>F. Diaz-Maurin, “Why US sanctions against Pakistan’s ballistic missile program might backfire,” Bulletin of the Atomic Scientists. Accessed: Jan. 09, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/01/why-us-sanctions-against-pakistans-ballistic-missile-program-might-backfire/">https://thebulletin.org/2025/01/why-us-sanctions-against-pakistans-ballistic-missile-program-might-backfire/</a></li>
+<li>D. Stover, “The rise and fall of Sweden’s nuclear disarmament advocacy,” Bulletin of the Atomic Scientists. Accessed: Dec. 30, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/12/the-rise-and-fall-of-swedens-nuclear-disarmament-advocacy/">https://thebulletin.org/2024/12/the-rise-and-fall-of-swedens-nuclear-disarmament-advocacy/</a></li>
+<li>“Interview with Eric Schlosser: Why we can’t trust the government’s figures about nuclear close calls,” Bulletin of the Atomic Scientists. Accessed: Aug. 08, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2023-05/interview-with-eric-schlosser-why-we-cant-trust-the-governments-figures-about-nuclear-close-calls/">https://thebulletin.org/premium/2023-05/interview-with-eric-schlosser-why-we-cant-trust-the-governments-figures-about-nuclear-close-calls/</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org62f628b" class="outline-2">
+<h2 id="org62f628b"><span class="section-number-2">4.</span> Core</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org281f1ba" class="outline-3">
+<h3 id="org281f1ba"><span class="section-number-3">4.1.</span> Education</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-org4500ac9" class="outline-4">
+<h4 id="org4500ac9"><span class="section-number-4">4.1.1.</span> Courses</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<ul class="org-ul">
+<li>C. Owen and W. James, <i>“Nuclear Weapons in International Politics: Past, Present and Future,”</i> MIT OpenCourseWare. <a href="https://ocw.mit.edu/courses/political-science/17-951-nuclear-weapons-in-international-politics-past-present-and-future-spring-2009/">https://ocw.mit.edu/courses/political-science/17-951-nuclear-weapons-in-international-politics-past-present-and-future-spring-2009/</a> (accessed Mar. 05, 2022).</li>
+
+<li>“Nuclear Weapons – History and Future Prospects | Physics,” MIT OpenCourseWare. Accessed: Jun. 05, 2026. [Online]. Available: <a href="https://ocw.mit.edu/courses/8-s271-nuclear-weapons-history-and-future-prospects-spring-2022/">https://ocw.mit.edu/courses/8-s271-nuclear-weapons-history-and-future-prospects-spring-2022/</a></li>
+<li>“Nuclear Weapons Education Project | Physics,” MIT OpenCourseWare. Accessed: Jun. 05, 2026. [Online]. Available: <a href="https://ocw.mit.edu/courses/res-8-008-nuclear-weapons-education-project-spring-2022/">https://ocw.mit.edu/courses/res-8-008-nuclear-weapons-education-project-spring-2022/</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orga0549f2" class="outline-2">
+<h2 id="orga0549f2"><span class="section-number-2">5.</span> Arts</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org0126d4a" class="outline-3">
+<h3 id="org0126d4a"><span class="section-number-3">5.1.</span> Misc</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>E. English, “Box office bombs: What I learned watching 20 nuclear films in a month,” Bulletin of the Atomic Scientists. Accessed: Nov. 06, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/11/box-office-bombs-what-i-learned-watching-20-nuclear-films-in-a-month/">https://thebulletin.org/2025/11/box-office-bombs-what-i-learned-watching-20-nuclear-films-in-a-month/</a></li>
+
+<li>A. Restrepo, “A Bulletin resource guide to viewing ‘A House of Dynamite,’” Bulletin of the Atomic Scientists. Accessed: Oct. 30, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/10/a-bulletin-resource-guide-to-viewing-a-house-of-dynamite/">https://thebulletin.org/2025/10/a-bulletin-resource-guide-to-viewing-a-house-of-dynamite/</a></li>
+
+<li>F. Diaz-Maurin, “What we should be talking about after watching Bigelow’s ‘A House of Dynamite’ nuclear thriller,” Bulletin of the Atomic Scientists. Accessed: Oct. 27, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/10/what-we-should-be-talking-about-after-watching-bigelows-a-house-of-dynamite-nuclear-thriller/">https://thebulletin.org/2025/10/what-we-should-be-talking-about-after-watching-bigelows-a-house-of-dynamite-nuclear-thriller/</a></li>
+
+<li>E. English, “A House of Dynamite: Bigelow’s latest thriller shows why nuclear bombs are only part of the danger,” Bulletin of the Atomic Scientists. Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/10/a-house-of-dynamite-bigelows-latest-thriller-shows-why-nuclear-bombs-are-only-part-of-the-danger/">https://thebulletin.org/2025/10/a-house-of-dynamite-bigelows-latest-thriller-shows-why-nuclear-bombs-are-only-part-of-the-danger/</a></li>
+
+<li>J. Mecklin, “Action flicks exploit the Bomb,” Bulletin of the Atomic Scientists. Accessed: Sep. 04, 2025. [Online]. Available: <a href="https://thebulletin.org/2013/09/action-flicks-exploit-the-bomb/">https://thebulletin.org/2013/09/action-flicks-exploit-the-bomb/</a></li>
+<li>J. Mecklin, “The continuing relevance of ‘On the Beach,’” Bulletin of the Atomic Scientists. Accessed: Sep. 04, 2025. [Online]. Available: <a href="https://thebulletin.org/2015/08/the-continuing-relevance-of-on-the-beach/">https://thebulletin.org/2015/08/the-continuing-relevance-of-on-the-beach/</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc9cf683" class="outline-2">
+<h2 id="orgc9cf683"><span class="section-number-2">6.</span> Special Topics</h2>
+</div>
+<div id="outline-container-org0ca71e3" class="outline-2">
+<h2 id="org0ca71e3"><span class="section-number-2">7.</span> Misc</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-orgc919e21" class="outline-3">
+<h3 id="orgc919e21"><span class="section-number-3">7.1.</span> Misc</h3>
+<div class="outline-text-3" id="text-7-1">
+<ul class="org-ul">
+<li>“Finland amends laws to allow deployment of nuclear weapons,” World Socialist Web Site. Accessed: Jun. 29, 2026. [Online]. Available: <a href="https://www.wsws.org/en/articles/2026/06/28/bwxe-j28.html">https://www.wsws.org/en/articles/2026/06/28/bwxe-j28.html</a></li>
+
+<li>“Nuclear Weapons Without Limits? | Union of Concerned Scientists.” Accessed: Feb. 18, 2026. [Online]. Available: <a href="https://www.ucs.org/resources/nuclear-weapons-without-limits">https://www.ucs.org/resources/nuclear-weapons-without-limits</a></li>
+
+<li>L. Elmer, “New open online course examines nuclear weapons and global security - CSER,” CSER - Centre for the Study of Existential Risk. Accessed: Feb. 17, 2026. [Online]. Available: <a href="https://www.cser.ac.uk/work/new-open-online-course-examines-nuclear-weapons-and-global-security/">https://www.cser.ac.uk/work/new-open-online-course-examines-nuclear-weapons-and-global-security/</a></li>
+
+<li>F. Diaz-Maurin, “Nuclear deterrence is dying. And hardly anyone notices,” Bulletin of the Atomic Scientists. Accessed: Jan. 31, 2026. [Online]. Available: <a href="https://thebulletin.org/2026/01/nuclear-deterrence-is-dying-and-hardly-anyone-notices/">https://thebulletin.org/2026/01/nuclear-deterrence-is-dying-and-hardly-anyone-notices/</a></li>
+
+<li>“The Nuclear Testing Moratorium Passes a Milestone,” The Equation. Accessed: Jan. 15, 2026. [Online]. Available: <a href="https://blog.ucs.org/dylan-spaulding/the-nuclear-testing-moratorium-passes-a-milestone/">https://blog.ucs.org/dylan-spaulding/the-nuclear-testing-moratorium-passes-a-milestone/</a></li>
+
+<li>“Ask a Scientist: What Happens When There Are No Limits on US and Russian Nuclear Weapons?,” The Equation. Accessed: Jan. 14, 2026. [Online]. Available: <a href="https://blog.ucs.org/guest-commentary/ask-a-scientist-what-happens-when-there-are-no-limits-on-us-and-russian-nuclear-weapons/">https://blog.ucs.org/guest-commentary/ask-a-scientist-what-happens-when-there-are-no-limits-on-us-and-russian-nuclear-weapons/</a></li>
+
+<li>F. Diaz-Maurin, “No, Germany is not getting the Bomb. Why should it?,” Bulletin of the Atomic Scientists. Accessed: Nov. 27, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/11/no-germany-is-not-getting-the-bomb-why-should-it/">https://thebulletin.org/2025/11/no-germany-is-not-getting-the-bomb-why-should-it/</a></li>
+
+<li>F. Diaz-Maurin, “Declassified cable reinforces proliferation concerns about high-assay low-enriched uranium fuel,” Bulletin of the Atomic Scientists. Accessed: Nov. 16, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/11/declassified-cable-reinforces-proliferation-concerns-about-high-assay-low-enriched-uranium-fuel/">https://thebulletin.org/2025/11/declassified-cable-reinforces-proliferation-concerns-about-high-assay-low-enriched-uranium-fuel/</a></li>
+
+<li>“Studying war in the new nuclear age,” MIT News | Massachusetts Institute of Technology. Accessed: Oct. 30, 2025. [Online]. Available: <a href="https://news.mit.edu/2025/studying-war-new-nuclear-age-caitlin-talmadge-1028">https://news.mit.edu/2025/studying-war-new-nuclear-age-caitlin-talmadge-1028</a></li>
+
+<li>N. Author, “Destroyers of the world: the physicists who built nuclear weapons,” Physics World. Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://physicsworld.com/a/destroyers-of-the-world-the-physicists-who-built-nuclear-weapons/">https://physicsworld.com/a/destroyers-of-the-world-the-physicists-who-built-nuclear-weapons/</a></li>
+
+<li>“Conversations Before Midnight — 2025,” Bulletin of the Atomic Scientists. Accessed: Sep. 29, 2025. [Online]. Available: <a href="https://thebulletin.org/support-the-bulletin/conversations-before-midnight-2025/">https://thebulletin.org/support-the-bulletin/conversations-before-midnight-2025/</a></li>
+
+<li>F. Diaz-Maurin, “Updating the ‘Atoms for Peace’ bargain for the new nuclear age,” Bulletin of the Atomic Scientists. Accessed: Sep. 18, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/updating-the-atoms-for-peace-bargain-for-the-new-nuclear-age/">https://thebulletin.org/2025/09/updating-the-atoms-for-peace-bargain-for-the-new-nuclear-age/</a></li>
+
+<li>“Nuclear weapons: a beginner’s guide to the threats,” Scientists for Global Responsibility. Accessed: Sep. 06, 2025. [Online]. Available: <a href="https://www.sgr.org.uk/resources/nuclear-weapons-beginner-s-guide-threats">https://www.sgr.org.uk/resources/nuclear-weapons-beginner-s-guide-threats</a></li>
+
+<li>“Nuclear Snobbery and Atomic Anniversaries,” Countercurrents. Accessed: Sep. 04, 2025. [Online]. Available: <a href="https://countercurrents.org/2025/09/nuclear-snobbery-and-atomic-anniversaries/">https://countercurrents.org/2025/09/nuclear-snobbery-and-atomic-anniversaries/</a></li>
+
+<li>“SIPRI Chair addresses the nuclear threat at the Nobel Peace Conference | SIPRI.” Accessed: Sep. 02, 2025. [Online]. Available: <a href="https://www.sipri.org/news/2025/sipri-chair-addresses-nuclear-threat-nobel-peace-conference">https://www.sipri.org/news/2025/sipri-chair-addresses-nuclear-threat-nobel-peace-conference</a></li>
+
+<li>A. Panda, “Nuclear-weapons risks are back — and we need to act like it,” Nature, vol. 644, no. 8076, pp. 335–337, Aug. 2025, doi: 10.1038/d41586-025-02506-w.</li>
+
+<li>T. Gaulkin, “The harrowing story of the Nagasaki bombing mission,” Bulletin of the Atomic Scientists. Accessed: Aug. 10, 2025. [Online]. Available: <a href="https://thebulletin.org/2022/08/harrowing-story-of-the-nagasaki-bombing-mission/">https://thebulletin.org/2022/08/harrowing-story-of-the-nagasaki-bombing-mission/</a></li>
+
+<li>“80 years since Hiroshima and Nagasaki — time for a nuclear-free world for a peaceful, sustainable future,” Greenpeace International. Accessed: Aug. 09, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/story/77462/80-years-since-hiroshima-and-nagasaki-time-for-a-nuclear-free-world-for-a-peaceful-sustainable-future/">https://www.greenpeace.org/international/story/77462/80-years-since-hiroshima-and-nagasaki-time-for-a-nuclear-free-world-for-a-peaceful-sustainable-future/</a></li>
+<li>“From Hiroshima to Gaza: defending peace,” Greenpeace International. Accessed: Aug. 09, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/story/77736/from-hiroshima-to-gaza-defending-peace/">https://www.greenpeace.org/international/story/77736/from-hiroshima-to-gaza-defending-peace/</a></li>
+<li>N. J. Wheeler, “Fear built the nuclear bomb — only trust can ensure it is never used again,” Down To Earth. Accessed: Aug. 09, 2025. [Online]. Available: <a href="https://www.downtoearth.org.in/governance/fear-built-the-nuclear-bomb-only-trust-can-ensure-it-is-never-used-again">https://www.downtoearth.org.in/governance/fear-built-the-nuclear-bomb-only-trust-can-ensure-it-is-never-used-again</a></li>
+<li>“Remembering the last city attacked with a nuclear bomb,” ICAN. Accessed: Aug. 09, 2025. [Online]. Available: <a href="https://www.icanw.org/remembering_the_last_city_attacked_with_a_nuclear_bomb">https://www.icanw.org/remembering_the_last_city_attacked_with_a_nuclear_bomb</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>T. Gaulkin, “Counting the dead at Hiroshima and Nagasaki,” Bulletin of the Atomic Scientists. Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://thebulletin.org/2020/08/counting-the-dead-at-hiroshima-and-nagasaki/">https://thebulletin.org/2020/08/counting-the-dead-at-hiroshima-and-nagasaki/</a></li>
+<li>J. Mecklin, “Donald Trump can become a global hero by adopting the ‘two-person rule’ for nuclear weapons use,” Bulletin of the Atomic Scientists. Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/donald-trump-can-become-a-global-hero-by-adopting-the-two-person-rule-for-nuclear-weapons-use/">https://thebulletin.org/2025/08/donald-trump-can-become-a-global-hero-by-adopting-the-two-person-rule-for-nuclear-weapons-use/</a></li>
+
+<li>“Hiroshima Memories,” Bulletin of the Atomic Scientists. Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2023-07/hiroshima-memories/">https://thebulletin.org/premium/2023-07/hiroshima-memories/</a></li>
+<li>“The Bombing of Hiroshima and Nagasaki: Stupidity, techno-fantasies and the idea of the ‘moral’ scientist.” Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://caravanmagazine.in/vantage/bombing-hiroshima-and-nagasaki-stupidity-techno-fantasies-and-idea-moral-scientist">https://caravanmagazine.in/vantage/bombing-hiroshima-and-nagasaki-stupidity-techno-fantasies-and-idea-moral-scientist</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Hiroshima Memories,” Bulletin of the Atomic Scientists. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2023-07/hiroshima-memories/">https://thebulletin.org/premium/2023-07/hiroshima-memories/</a></li>
+
+<li>T. Gaulkin, “Atomic testament: Yoshito Matsushige and the first photos of Hiroshima’s nuclear toll,” Bulletin of the Atomic Scientists. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/atomic-testament-yoshito-matsushige-and-the-first-photos-of-hiroshimas-nuclear-toll/">https://thebulletin.org/2025/08/atomic-testament-yoshito-matsushige-and-the-first-photos-of-hiroshimas-nuclear-toll/</a></li>
+<li>A. Panda, “Nuclear-weapons risks are back — and we need to act like it,” Nature, vol. 644, no. 8076, pp. 335–337, Aug. 2025, doi: 10.1038/d41586-025-02506-w.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“80 years since Hiroshima and Nagasaki — time for a nuclear-free world for a peaceful, sustainable future,” Greenpeace International. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/story/77462/80-years-since-hiroshima-and-nagasaki-time-for-a-nuclear-free-world-for-a-peaceful-sustainable-future/">https://www.greenpeace.org/international/story/77462/80-years-since-hiroshima-and-nagasaki-time-for-a-nuclear-free-world-for-a-peaceful-sustainable-future/</a></li>
+<li>BY, “When US Labor Opposed Nuclear Weapons.” Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://jacobin.com/2025/08/us-labor-nuclear-weapons-1980s">https://jacobin.com/2025/08/us-labor-nuclear-weapons-1980s</a></li>
+<li>“80 Years After Hiroshima &amp; Nagasaki, U.S. Keeps Covering Up Horrors of Atomic Bombing,” Democracy Now! Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/8/6/hiroshima">https://www.democracynow.org/2025/8/6/hiroshima</a></li>
+<li>“80 years since the atomic bombing of Hiroshima and Nagasaki,” World Socialist Web Site. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/08/07/esqy-a07.html">https://www.wsws.org/en/articles/2025/08/07/esqy-a07.html</a></li>
+<li>“80 Years of Hiroshima, Nagasaki: US Still Grapples With N-War Legacy,” NewsClick. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.newsclick.in/80-years-hiroshima-nagasaki-us-still-grapples-n-war-legacy">https://www.newsclick.in/80-years-hiroshima-nagasaki-us-still-grapples-n-war-legacy</a></li>
+<li>J. Mecklin, “Reflections on Hiroshima and Nagasaki 80 years on,” Bulletin of the Atomic Scientists. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/reflections-on-hiroshima-and-nagasaki-80-years-on/">https://thebulletin.org/2025/08/reflections-on-hiroshima-and-nagasaki-80-years-on/</a></li>
+<li>J. Mecklin, “Reflections on Hiroshima and Nagasaki,” Bulletin of the Atomic Scientists. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/reflections-on-hiroshima-and-nagasaki/">https://thebulletin.org/2025/08/reflections-on-hiroshima-and-nagasaki/</a></li>
+<li>“Scientists can help stop a slide to nuclear war — don’t shut them out again,” Nature, vol. 644, no. 8075, pp. 7–7, Aug. 2025, doi: 10.1038/d41586-025-02453-6.</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>A. Finkbeiner, “Physicists unleashed the power of the atom — but to what end?,” Nature, vol. 643, no. 8074, pp. 1180–1182, Jul. 2025, doi: 10.1038/d41586-025-02350-y.</li>
+
+<li>“July 2025,” Bulletin of the Atomic Scientists. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://thebulletin.org/magazine/2025-07/">https://thebulletin.org/magazine/2025-07/</a></li>
+
+<li>“The Russell-Einstein Manifesto: A Call to Avoid Nuclear War Resonates 70 Years Later,” The Equation. Accessed: Jul. 09, 2025. [Online]. Available: <a href="https://blog.ucs.org/dylan-spaulding/the-russell-einstein-manifesto-a-call-to-avoid-nuclear-war-resonates-70-years-later/">https://blog.ucs.org/dylan-spaulding/the-russell-einstein-manifesto-a-call-to-avoid-nuclear-war-resonates-70-years-later/</a></li>
+
+<li>N. Joshi, “Rocks vs bombs: Fordow &amp; Natanz show how subsurface geology shapes survivality of underground targets,” Down To Earth. Accessed: Jun. 25, 2025. [Online]. Available: <a href="https://www.downtoearth.org.in/environment/rocks-vs-bombs-fordow-natanz-show-how-subsurface-geology-shapes-survivality-of-underground-targets">https://www.downtoearth.org.in/environment/rocks-vs-bombs-fordow-natanz-show-how-subsurface-geology-shapes-survivality-of-underground-targets</a></li>
+
+<li>“Nuclear risks grow as new arms race looms—new SIPRI Yearbook out now | SIPRI.” Accessed: Jun. 16, 2025. [Online]. Available: <a href="https://www.sipri.org/media/press-release/2025/nuclear-risks-grow-new-arms-race-looms-new-sipri-yearbook-out-now">https://www.sipri.org/media/press-release/2025/nuclear-risks-grow-new-arms-race-looms-new-sipri-yearbook-out-now</a></li>
+
+<li>“France spent €90,000 to discredit the impact of Pacific nuclear testing &amp;#8211; Greenpeace response,” Greenpeace International. Accessed: Jun. 05, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/75150/france-spent-e90000-to-discredit-the-impact-of-pacific-nuclear-testing-greenpeace-response/">https://www.greenpeace.org/international/press-release/75150/france-spent-e90000-to-discredit-the-impact-of-pacific-nuclear-testing-greenpeace-response/</a></li>
+
+<li>F. Diaz-Maurin, “Only irreversible changes in nuclear disarmament can lead to a world without nuclear weapons,” Bulletin of the Atomic Scientists. Accessed: Jun. 05, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/06/only-irreversible-changes-in-nuclear-disarmament-can-lead-to-a-world-without-nuclear-weapons/">https://thebulletin.org/2025/06/only-irreversible-changes-in-nuclear-disarmament-can-lead-to-a-world-without-nuclear-weapons/</a></li>
+
+<li>“Trump wants denuclearization and a ‘Golden Dome.’ He can’t have both - Bulletin of the Atomic Scientists.” Accessed: May 08, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/04/trump-wants-denuclearization-and-a-golden-dome-he-cant-have-both/#post-heading">https://thebulletin.org/2025/04/trump-wants-denuclearization-and-a-golden-dome-he-cant-have-both/#post-heading</a></li>
+
+<li>“Chinese nuclear weapons, 2025,” Bulletin of the Atomic Scientists. Accessed: Mar. 13, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-03/chinese-nuclear-weapons-2025/">https://thebulletin.org/premium/2025-03/chinese-nuclear-weapons-2025/</a></li>
+
+<li>“More powerful than Hiroshima: how the largest ever nuclear weapons test built a nation of leaders in the Marshall Islands.,” Greenpeace International. Accessed: Feb. 28, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/story/65565/nuclear-victims-remembrance-day-united-states-must-comply-with-marshall-islands-demands-for-recognition-and-nuclear-justice/">https://www.greenpeace.org/international/story/65565/nuclear-victims-remembrance-day-united-states-must-comply-with-marshall-islands-demands-for-recognition-and-nuclear-justice/</a></li>
+
+<li>“Risks of geologic disposal of weapons plutonium,” Bulletin of the Atomic Scientists. Accessed: Feb. 04, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-01/risks-of-geologic-disposal-of-weapons-plutonium/">https://thebulletin.org/premium/2025-01/risks-of-geologic-disposal-of-weapons-plutonium/</a></li>
+
+<li>T. M. P. Reader, “The 1950s Game That Glorified the Dangers of the Atomic Age,” The MIT Press Reader. Accessed: Jan. 31, 2025. [Online]. Available: <a href="https://thereader.mitpress.mit.edu/the-1950s-game-that-glorified-the-dangers-of-the-atomic-age/">https://thereader.mitpress.mit.edu/the-1950s-game-that-glorified-the-dangers-of-the-atomic-age/</a></li>
+
+<li>“2025 Doomsday Clock Statement,” Bulletin of the Atomic Scientists. Accessed: Jan. 29, 2025. [Online]. Available: <a href="https://thebulletin.org/doomsday-clock/2025-statement/">https://thebulletin.org/doomsday-clock/2025-statement/</a></li>
+<li>“2025 Doomsday Clock Statement,” Bulletin of the Atomic Scientists. Accessed: Jan. 29, 2025. [Online]. Available: <a href="https://thebulletin.org/doomsday-clock/2025-statement/">https://thebulletin.org/doomsday-clock/2025-statement/</a></li>
+
+<li>“Doomsday Clock,” Bulletin of the Atomic Scientists. Accessed: Jan. 28, 2025. [Online]. Available: <a href="https://thebulletin.org/doomsday-clock/">https://thebulletin.org/doomsday-clock/</a></li>
+
+<li>F. Diaz-Maurin, “How quickly could Iran build its first nuclear weapon? Look at China,” Bulletin of the Atomic Scientists. Accessed: Jan. 23, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/01/how-quickly-could-iran-build-its-first-nuclear-weapon-look-at-china/">https://thebulletin.org/2025/01/how-quickly-could-iran-build-its-first-nuclear-weapon-look-at-china/</a></li>
+
+<li>“wsj.com.” Accessed: Jan. 15, 2025. [Online]. Available: <a href="https://www.wsj.com/world/nuclear-bomb-weapons-war-explained-01d6e397?st=92DYVN">https://www.wsj.com/world/nuclear-bomb-weapons-war-explained-01d6e397?st=92DYVN</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>F. Diaz-Maurin, “What a second Trump administration may mean for the Saudi nuclear program,” Bulletin of the Atomic Scientists. Accessed: Jan. 07, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/01/what-a-second-trump-administration-may-mean-for-the-saudi-nuclear-program/">https://thebulletin.org/2025/01/what-a-second-trump-administration-may-mean-for-the-saudi-nuclear-program/</a></li>
+
+<li>D. Stover, “Dispatch from a nuclear petting zoo,” Bulletin of the Atomic Scientists. Accessed: Jan. 03, 2025. [Online]. Available: <a href="https://thebulletin.org/2024/11/dispatch-from-a-nuclear-petting-zoo/">https://thebulletin.org/2024/11/dispatch-from-a-nuclear-petting-zoo/</a></li>
+
+<li>M. CURTIS, “UK links use of Storm Shadow missiles to nuclear arms,” Declassified Media Ltd. Accessed: Dec. 12, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/uk-links-use-of-storm-shadow-missiles-to-nuclear-arms/">https://www.declassifieduk.org/uk-links-use-of-storm-shadow-missiles-to-nuclear-arms/</a></li>
+
+<li>“Greenpeace salutes Nobel Peace Prize laureates, Nihon Hidankyo’s role in making nuclear weapons illegal,” Greenpeace International. Accessed: Dec. 11, 2024. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/71798/press-release-greenpeace-salutes-nobel-peace-prize-laureates-nihon-hidankyos-role-in-making-nuclear-weapons-illegal/">https://www.greenpeace.org/international/press-release/71798/press-release-greenpeace-salutes-nobel-peace-prize-laureates-nihon-hidankyos-role-in-making-nuclear-weapons-illegal/</a></li>
+
+<li>J. Mecklin, “Hibakusha group receives Nobel Peace Prize for ‘demonstrating through witness testimony that nuclear weapons must never be used again,’” Bulletin of the Atomic Scientists. Accessed: Dec. 11, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/10/hibakusha-group-receives-nobel-peace-prize-for-demonstrating-through-witness-testimony-that-nuclear-weapons-must-never-be-used-again/">https://thebulletin.org/2024/10/hibakusha-group-receives-nobel-peace-prize-for-demonstrating-through-witness-testimony-that-nuclear-weapons-must-never-be-used-again/</a></li>
+
+<li>“Why the World Needs a New UN Study on the Effects of Nuclear War,” The Equation. Accessed: Oct. 31, 2024. [Online]. Available: <a href="https://blog.ucsusa.org/lgrego/why-the-world-needs-a-new-un-study-on-the-effects-of-nuclear-war/">https://blog.ucsusa.org/lgrego/why-the-world-needs-a-new-un-study-on-the-effects-of-nuclear-war/</a></li>
+
+<li>“Greenpeace comment on the award of the Nobel Peace Prize to Nihon Hidankyo,” Greenpeace International. Accessed: Oct. 11, 2024. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/70163/greenpeace-comment-on-the-award-of-the-nobel-peace-prize-to-nihon-hidankyo/">https://www.greenpeace.org/international/press-release/70163/greenpeace-comment-on-the-award-of-the-nobel-peace-prize-to-nihon-hidankyo/</a></li>
+<li>“SIPRI statement on the 2024 Nobel Peace Prize | SIPRI.” Accessed: Oct. 12, 2024. [Online]. Available: <a href="https://www.sipri.org/media/press-release/2024/sipri-statement-2024-nobel-peace-prize">https://www.sipri.org/media/press-release/2024/sipri-statement-2024-nobel-peace-prize</a></li>
+<li>“Atomic Bomb Survivors Win Nobel Peace Prize,” Democracy Now! Accessed: Oct. 12, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/10/11/nobel_peace_prize_nihon_hidankyo">https://www.democracynow.org/2024/10/11/nobel_peace_prize_nihon_hidankyo</a></li>
+<li>J. Mecklin, “Hibakusha group receives Nobel Peace Prize for ‘demonstrating through witness testimony that nuclear weapons must never be used again,’” Bulletin of the Atomic Scientists. Accessed: Oct. 12, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/10/hibakusha-group-receives-nobel-peace-prize-for-demonstrating-through-witness-testimony-that-nuclear-weapons-must-never-be-used-again/">https://thebulletin.org/2024/10/hibakusha-group-receives-nobel-peace-prize-for-demonstrating-through-witness-testimony-that-nuclear-weapons-must-never-be-used-again/</a></li>
+
+<li>“Nuclear Weapons and Artificial Intelligence: Technological Promises and Practical Realities,” SIPRI, Sep. 2024. Accessed: Sep. 28, 2024. [Online]. Available: <a href="https://www.sipri.org/publications/2024/sipri-background-papers/nuclear-weapons-and-artificial-intelligence-technological-promises-and-practical-realities">https://www.sipri.org/publications/2024/sipri-background-papers/nuclear-weapons-and-artificial-intelligence-technological-promises-and-practical-realities</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Is Russia Helping China Expand Its Nuclear Weapons Program?,” The Equation. Accessed: Sep. 20, 2024. [Online]. Available: <a href="https://blog.ucsusa.org/sulgiye-park/is-russia-helping-china-expand-its-nuclear-weapons-program/">https://blog.ucsusa.org/sulgiye-park/is-russia-helping-china-expand-its-nuclear-weapons-program/</a></li>
+
+<li>S. Goudarzi, “AI and the A-bomb: What the analogy captures and misses,” Bulletin of the Atomic Scientists. Accessed: Sep. 11, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/09/ai-and-the-a-bomb-what-the-analogy-captures-and-misses/">https://thebulletin.org/2024/09/ai-and-the-a-bomb-what-the-analogy-captures-and-misses/</a></li>
+
+<li>J. Mecklin, “What do Americans really think about the bombing of Hiroshima and Nagasaki?,” Bulletin of the Atomic Scientists. Accessed: Aug. 06, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/08/what-do-americans-really-think-about-the-bombing-of-hiroshima-and-nagasaki/">https://thebulletin.org/2024/08/what-do-americans-really-think-about-the-bombing-of-hiroshima-and-nagasaki/</a></li>
+
+<li>“States invest in nuclear arsenals as geopolitical relations deteriorate—New SIPRI Yearbook out now | SIPRI,” Jun. 12, 2023. <a href="https://www.sipri.org/media/press-release/2023/states-invest-nuclear-arsenals-geopolitical-relations-deteriorate-new-sipri-yearbook-out-now">https://www.sipri.org/media/press-release/2023/states-invest-nuclear-arsenals-geopolitical-relations-deteriorate-new-sipri-yearbook-out-now</a> (accessed Jul. 27, 2023).</li>
+
+<li>“Atomic Days,” CounterPunch.org. <a href="https://www.counterpunch.org/product/atomic-days/">https://www.counterpunch.org/product/atomic-days/</a> (accessed Oct. 02, 2022).</li>
+
+<li>J. Mecklin, “A response to Kallenborn: Why realism requires that nuclear weapons be abolished,” Bulletin of the Atomic Scientists. Accessed: Jan. 18, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/01/a-response-to-kallenborn-why-realism-requires-that-nuclear-weapons-be-abolished/">https://thebulletin.org/2024/01/a-response-to-kallenborn-why-realism-requires-that-nuclear-weapons-be-abolished/</a></li>
+<li>J. Mecklin, “Why a nuclear weapons ban would threaten, not save, humanity,” Bulletin of the Atomic Scientists. Accessed: Jan. 13, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/01/why-a-nuclear-weapons-ban-would-threaten-not-save-humanity/">https://thebulletin.org/2024/01/why-a-nuclear-weapons-ban-would-threaten-not-save-humanity/</a></li>
+<li>J. Mecklin, “A hurting stalemate? The risks of nuclear weapon use in the Ukraine crisis,” Bulletin of the Atomic Scientists, Mar. 02, 2022. <a href="https://thebulletin.org/2022/03/a-hurting-stalemate-the-risks-of-nuclear-weapon-use-in-the-ukraine-crisis/">https://thebulletin.org/2022/03/a-hurting-stalemate-the-risks-of-nuclear-weapon-use-in-the-ukraine-crisis/</a> (accessed Dec. 27, 2022).</li>
+<li>“Support Arms Control, Not Nuclear Weapons,” Union of Concerned Scientists. <a href="https://secure.ucsusa.org/a/2023-1-12-ax-arms-control-newsletter">https://secure.ucsusa.org/a/2023-1-12-ax-arms-control-newsletter</a> (accessed Feb. 18, 2023).</li>
+<li>“Despite challenges, US-Russian nuclear arms control has its benefits,” Bulletin of the Atomic Scientists. <a href="https://thebulletin.org/premium/2022-11/despite-challenges-us-russian-nuclear-arms-control-has-its-benefits/">https://thebulletin.org/premium/2022-11/despite-challenges-us-russian-nuclear-arms-control-has-its-benefits/</a> (accessed Feb. 22, 2023).</li>
+<li>S. Goudarzi, “How civil society can help monitor and verify nuclear arms control,” Bulletin of the Atomic Scientists, Feb. 23, 2023. <a href="https://thebulletin.org/2023/02/how-civil-society-can-help-monitor-and-verify-nuclear-arms-control/">https://thebulletin.org/2023/02/how-civil-society-can-help-monitor-and-verify-nuclear-arms-control/</a> (accessed Feb. 25, 2023).</li>
+<li>F. Diaz-Maurin, “Russia is deploying nuclear weapons in Belarus. NATO shouldn’t take the bait,” Bulletin of the Atomic Scientists, Apr. 24, 2023. <a href="https://thebulletin.org/2023/04/russia-is-deploying-nuclear-weapons-in-belarus-nato-shouldnt-take-the-bait/">https://thebulletin.org/2023/04/russia-is-deploying-nuclear-weapons-in-belarus-nato-shouldnt-take-the-bait/</a> (accessed Apr. 26, 2023).</li>
+<li>“Brandon’s ‘Usable Nukes’ Are the Fast-Track to Jopocalypse.” <a href="https://www.organicconsumers.org/news/brandon%E2%80%99s-%E2%80%9Cusable-nukes%E2%80%9D-are-fast-track-jopocalypse">https://www.organicconsumers.org/news/brandon%E2%80%99s-%E2%80%9Cusable-nukes%E2%80%9D-are-fast-track-jopocalypse</a> (accessed Nov. 04, 2022).</li>
+<li>“The Global South is Leading the Way in Being A Nuclear Weapon Free Zone,” The Equation, Jul. 17, 2023. <a href="https://blog.ucsusa.org/chanese-forte/the-global-south-is-leading-the-way-in-being-a-nuclear-weapon-free-zone/">https://blog.ucsusa.org/chanese-forte/the-global-south-is-leading-the-way-in-being-a-nuclear-weapon-free-zone/</a> (accessed Jul. 21, 2023).</li>
+<li>“Nuclear War Research,” Future of Life Institute. <a href="https://futureoflife.org/grant-program/nuclear-war-research/">https://futureoflife.org/grant-program/nuclear-war-research/</a> (accessed Jul. 27, 2023).</li>
+<li>J. Mecklin, “A new nuclear-armed, sea-launched cruise missile: Just say no,” Bulletin of the Atomic Scientists, Jul. 19, 2023. <a href="https://thebulletin.org/2023/07/a-new-nuclear-armed-sea-launched-cruise-missile-just-say-no/">https://thebulletin.org/2023/07/a-new-nuclear-armed-sea-launched-cruise-missile-just-say-no/</a> (accessed Jul. 27, 2023).</li>
+<li>“It Is Possible: A Future Without Nuclear Weapons by Ward Hayes Wilson,” Avenues The World School Press. Accessed: Jan. 18, 2024. [Online]. Available: <a href="https://press.avenues.org/it-is-possible/">https://press.avenues.org/it-is-possible/</a></li>
+
+<li>T. Gaulkin, “Facing nuclear reality, 35 years after The Day After,” Bulletin of the Atomic Scientists, Dec. 13, 2018. <a href="https://thebulletin.org/2018/12/facing-nuclear-reality-35-years-after-the-day-after/">https://thebulletin.org/2018/12/facing-nuclear-reality-35-years-after-the-day-after/</a> (accessed Nov. 21, 2022).</li>
+<li>T. Gaulkin, “Facing nuclear reality, 35 years after The Day After,” Bulletin of the Atomic Scientists, Dec. 13, 2018. <a href="https://thebulletin.org/2018/12/facing-nuclear-reality-35-years-after-the-day-after/">https://thebulletin.org/2018/12/facing-nuclear-reality-35-years-after-the-day-after/</a> (accessed Nov. 21, 2022).</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>T. Gaulkin, “Nowhere to hide: How a nuclear war would kill you—and almost everyone else.,” Bulletin of the Atomic Scientists, Oct. 20, 2022. <a href="https://thebulletin.org/2022/10/nowhere-to-hide-how-a-nuclear-war-would-kill-you-and-almost-everyone-else/">https://thebulletin.org/2022/10/nowhere-to-hide-how-a-nuclear-war-would-kill-you-and-almost-everyone-else/</a> (accessed Oct. 28, 2022).</li>
+<li>F. Diaz-Maurin, “‘Not a bluff:’ Losing ground in Ukraine, Putin raises nuclear threats,” Bulletin of the Atomic Scientists, Sep. 21, 2022. <a href="https://thebulletin.org/2022/09/not-a-bluff-losing-ground-in-ukraine-putin-raises-nuclear-threats/">https://thebulletin.org/2022/09/not-a-bluff-losing-ground-in-ukraine-putin-raises-nuclear-threats/</a> (accessed Sep. 22, 2022).</li>
+<li>T. M. P. Reader, “The Dark Radiance of Atomic Bomb Literature,” The MIT Press Reader, Apr. 06, 2021. <a href="https://thereader.mitpress.mit.edu/the-dark-radiance-of-atomic-bomb-literature/">https://thereader.mitpress.mit.edu/the-dark-radiance-of-atomic-bomb-literature/</a> (accessed Jul. 27, 2023).</li>
+<li>J. Mecklin, “Twenty years after 9/11, terrorists could still go nuclear,” Bulletin of the Atomic Scientists, Sep. 16, 2021. <a href="https://thebulletin.org/2021/09/twenty-years-after-9-11-terrorists-could-still-go-nuclear/">https://thebulletin.org/2021/09/twenty-years-after-9-11-terrorists-could-still-go-nuclear/</a> (accessed Sep. 12, 2022).</li>
+<li>“SIPRI launches landmark report in New York | SIPRI.” Accessed: Feb. 16, 2024. [Online]. Available: <a href="https://www.sipri.org/media/2024/sipri-launches-landmark-report-new-york">https://www.sipri.org/media/2024/sipri-launches-landmark-report-new-york</a></li>
+<li>“There Is No Such Thing as a Small Nuclear War: The Twenty-Sixth Newsletter (2024),” Tricontinental: Institute for Social Research. Accessed: Jun. 28, 2024. [Online]. Available: <a href="https://thetricontinental.org/newsletterissue/nato-ukraine-nuclear-crisis/">https://thetricontinental.org/newsletterissue/nato-ukraine-nuclear-crisis/</a></li>
+
+<li>“United States nuclear weapons, 2024,” Bulletin of the Atomic Scientists. Accessed: May 17, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2024-05/united-states-nuclear-weapons-2024/">https://thebulletin.org/premium/2024-05/united-states-nuclear-weapons-2024/</a></li>
+<li>J. Mecklin, “Trump could win back the nuclear codes. Biden should put guardrails on the nuclear arsenal—now.,” Bulletin of the Atomic Scientists. Accessed: Jul. 31, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/07/trump-could-win-back-the-nuclear-codes-biden-should-put-guardrails-on-the-nuclear-arsenal-now/">https://thebulletin.org/2024/07/trump-could-win-back-the-nuclear-codes-biden-should-put-guardrails-on-the-nuclear-arsenal-now/</a></li>
+<li>F. Diaz-Maurin, “Eastern Europe’s purchase of US nuclear reactors is primarily about military ties, not climate change,” Bulletin of the Atomic Scientists. Accessed: Aug. 03, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/08/eastern-europes-purchase-of-us-nuclear-reactors-is-primarily-about-military-ties-not-climate-change/">https://thebulletin.org/2024/08/eastern-europes-purchase-of-us-nuclear-reactors-is-primarily-about-military-ties-not-climate-change/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf5de56d" class="outline-3">
+<h3 id="orgf5de56d"><span class="section-number-3">7.2.</span> North Korea</h3>
+<div class="outline-text-3" id="text-7-2">
+<ul class="org-ul">
+<li>“Nuclear Notebook: How many nuclear weapons does North Korea have in 2022?,” Bulletin of the Atomic Scientists. <a href="https://thebulletin.org/premium/2022-09/nuclear-notebook-how-many-nuclear-weapons-does-north-korea-have-in-2022/">https://thebulletin.org/premium/2022-09/nuclear-notebook-how-many-nuclear-weapons-does-north-korea-have-in-2022/</a> (accessed Oct. 10, 2022).</li>
+<li>“North Korean nuclear weapons, 2024,” Bulletin of the Atomic Scientists. Accessed: Jul. 16, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2024-07/north-korean-nuclear-weapons-2024/">https://thebulletin.org/premium/2024-07/north-korean-nuclear-weapons-2024/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4659777" class="outline-3">
+<h3 id="org4659777"><span class="section-number-3">7.3.</span> Texts</h3>
+<div class="outline-text-3" id="text-7-3">
+<ul class="org-ul">
+<li>S. I. P. R. Institute, SIPRI Yearbook 2023: Armaments, Disarmament and International Security. OUP Oxford, 2023.
+<ul class="org-ul">
+<li>“SIPRI Yearbook 2023 | SIPRI.” <a href="https://www.sipri.org/yearbook/2023">https://www.sipri.org/yearbook/2023</a> (accessed Jul. 27, 2023).</li>
+</ul></li>
+
+<li>R. Wolfson and F. Dalnoki-Veress, <i>Nuclear Choices for the Twenty-First Century: A Citizen’s Guide.</i> Cambridge, MA, USA: MIT Press, 2021.
+<ul class="org-ul">
+<li>R. Wolfson and F. Dalnoki-Veress, <i>“The Devastating Effects of Nuclear Weapons – The Wire Science.”</i> <a href="https://science.thewire.in/the-sciences/russia-ukraine-invasion-devastating-effects-nuclear-weapons/">https://science.thewire.in/the-sciences/russia-ukraine-invasion-devastating-effects-nuclear-weapons/</a> (accessed Mar. 06, 2022).</li>
+</ul></li>
+<li>R. Rhodes, Dark Sun: The Making Of The Hydrogen Bomb, Reprint edition. New York, N.Y: Simon &amp; Schuster, 1996.</li>
+<li>R. Rhodes, The Making of the Atomic Bomb: 25th Anniversary Edition. Simon and Schuster, 2012.</li>
+<li>D. Ellsberg, <b>The Doomsday Machine: Confessions of a Nuclear War Planner, 1st Printing edition.</b> New York: Bloomsbury USA, 2017.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf030855" class="outline-3">
+<h3 id="orgf030855"><span class="section-number-3">7.4.</span> Misc</h3>
+<div class="outline-text-3" id="text-7-4">
+<ul class="org-ul">
+<li>S. Starkey, “The Bulletin welcomes top nuclear security experts to its leadership,” Bulletin of the Atomic Scientists. Accessed: Jul. 09, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/07/the-bulletin-welcomes-top-nuclear-security-experts-to-its-leadership/">https://thebulletin.org/2024/07/the-bulletin-welcomes-top-nuclear-security-experts-to-its-leadership/</a></li>
+
+<li>T. M. P. Reader, “What Public Opinion Says About the Use of Nuclear Weapons,” The MIT Press Reader. Accessed: Jul. 31, 2024. [Online]. Available: <a href="https://thereader.mitpress.mit.edu/what-public-opinion-says-about-the-use-of-nuclear-weapons/">https://thereader.mitpress.mit.edu/what-public-opinion-says-about-the-use-of-nuclear-weapons/</a></li>
+
+<li>“Turning Point: The Bomb and the Cold War | Rotten Tomatoes.” Accessed: Mar. 25, 2024. [Online]. Available: <a href="https://www.rottentomatoes.com/tv/turning_point_the_bomb_and_the_cold_war">https://www.rottentomatoes.com/tv/turning_point_the_bomb_and_the_cold_war</a></li>
+
+<li><i>“A look at how countries go nuclear — and why some do not,”</i> MIT News | Massachusetts Institute of Technology. <a href="https://news.mit.edu/2022/how-countries-go-nuclear-and-why-some-do-not-0111">https://news.mit.edu/2022/how-countries-go-nuclear-and-why-some-do-not-0111</a> (accessed Mar. 03, 2022).</li>
+</ul>
+
+<hr />
+
+<p>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-bigpic.html">Big Picture</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-media.html">Media</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-miscurls.html">Misc</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-today.html">Today</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-aajkal.html">Current Affairs</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/contact-info.html">Contact Info</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/license.html">License</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/disclaimer.html">Disclaimer</a>.
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Staff Member(s), <a href="https://ourghostorg.github.io/">OurGhostOrg</a></p>
+<p class="date">Created: 2026-07-06 Mon 18:46</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

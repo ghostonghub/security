@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-06 Mon 18:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Conflict - Israel, Palestine</title>
+<meta name="author" content="Staff Member(s), [[https://ourghostorg.github.io/][OurGhostOrg]]" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Conflict - Israel, Palestine</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org7c39fb2">1. General</a></li>
+<li><a href="#org7aecb66">2. STEMM</a>
+<ul>
+<li><a href="#org250d5fe">2.1. Systems Sciences, Misc</a>
+<ul>
+<li><a href="#org7993ed3">2.1.1. Complexity Science</a></li>
+<li><a href="#org635299e">2.1.2. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org0a582f4">2.2. Biological Sciences, Misc</a>
+<ul>
+<li><a href="#org3fc62ee">2.2.1. Environment</a></li>
+<li><a href="#org7001745">2.2.2. Special Topics</a></li>
+</ul>
+</li>
+<li><a href="#org6e46bac">2.3. Basic Sciences, Misc</a></li>
+<li><a href="#org72d67b1">2.4. Mathematical, Computational Sciences, Misc</a>
+<ul>
+<li><a href="#orga6188bc">2.4.1. Computer Science and Engineering</a></li>
+<li><a href="#org55f88d8">2.4.2. Quantum Computing</a></li>
+</ul>
+</li>
+<li><a href="#org60f7d01">2.5. Advanced Sciences, Misc</a></li>
+<li><a href="#org6791234">2.6. Technology, Misc</a></li>
+<li><a href="#org58d3442">2.7. Special Topics</a>
+<ul>
+<li><a href="#org830e2a5">2.7.1. Weizmann Institute of Science</a></li>
+<li><a href="#orga3786cb">2.7.2. Science Magazine</a></li>
+</ul>
+</li>
+<li><a href="#org38ca27d">2.8. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org195b6cb">3. Worldly Matters</a>
+<ul>
+<li><a href="#org9a05f8e">3.1. Space and Time</a>
+<ul>
+<li><a href="#org6957cda">3.1.1. History</a></li>
+<li><a href="#org4f0ad6d">3.1.2. Geography</a></li>
+</ul>
+</li>
+<li><a href="#org5691b7b">3.2. Space, Earth, Life Sciences, Environment, Health, Misc</a></li>
+<li><a href="#orgd0ee187">3.3. Religions, Spirituality, Misc</a>
+<ul>
+<li><a href="#org847b6a8">3.3.1. Islam</a></li>
+<li><a href="#orgaed0499">3.3.2. Christianity</a></li>
+<li><a href="#orgc9200bd">3.3.3. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgc266d64">3.4. Humanities, Misc</a>
+<ul>
+<li><a href="#org6b2a3e6">3.4.1. People</a></li>
+<li><a href="#org70802bf">3.4.2. Psychology</a></li>
+</ul>
+</li>
+<li><a href="#org5803026">3.5. SocioPolitical Studies, Law, Misc</a>
+<ul>
+<li><a href="#orgb59d8cd">3.5.1. Feminism</a></li>
+<li><a href="#orgfb5d264">3.5.2. Nation States</a></li>
+<li><a href="#org25b49a3">3.5.3. Law</a></li>
+<li><a href="#org7ee652d">3.5.4. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orga9b6781">3.6. Business Studies, Misc</a>
+<ul>
+<li><a href="#org7d3aeeb">3.6.1. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgd50521e">3.7. Security Studies, Misc</a></li>
+<li><a href="#orgd7155f4">3.8. Communication, Misc</a>
+<ul>
+<li><a href="#org15d867d">3.8.1. Journalism</a></li>
+</ul>
+</li>
+<li><a href="#org6f4e8d4">3.9. Special Topics</a></li>
+<li><a href="#org28cb263">3.10. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgd21d11e">4. Core</a>
+<ul>
+<li><a href="#org24eef59">4.1. Education</a>
+<ul>
+<li><a href="#orgc915f16">4.1.1. Reading Lists</a></li>
+<li><a href="#orga6920eb">4.1.2. Misc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf9f05ee">5. Arts</a>
+<ul>
+<li><a href="#org1e0cfd4">5.1. Misc</a>
+<ul>
+<li><a href="#org36f1acf">5.1.1. Dances</a></li>
+<li><a href="#orgbd7d193">5.1.2. Music, Misc</a></li>
+<li><a href="#orgfb9cb87">5.1.3. Literature</a></li>
+<li><a href="#org2373f63">5.1.4. Films</a></li>
+<li><a href="#org4ff80b6">5.1.5. Misc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orge02e272">6. Special Topics</a>
+<ul>
+<li><a href="#org9562b8a">6.1. Transnational Institute</a>
+<ul>
+<li><a href="#org5bc599b">6.1.1. Articles, Essays - Series</a></li>
+<li><a href="#org746273c">6.1.2. India</a></li>
+<li><a href="#org61444ef">6.1.3. Misc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgcdcd107">7. Misc</a></li>
+</ul>
+</div>
+</div>
+<hr />
+<div id="outline-container-org7c39fb2" class="outline-2">
+<h2 id="org7c39fb2"><span class="section-number-2">1.</span> General</h2>
+</div>
+<div id="outline-container-org7aecb66" class="outline-2">
+<h2 id="org7aecb66"><span class="section-number-2">2.</span> STEMM</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org250d5fe" class="outline-3">
+<h3 id="org250d5fe"><span class="section-number-3">2.1.</span> Systems Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org7993ed3" class="outline-4">
+<h4 id="org7993ed3"><span class="section-number-4">2.1.1.</span> Complexity Science</h4>
+</div>
+<div id="outline-container-org635299e" class="outline-4">
+<h4 id="org635299e"><span class="section-number-4">2.1.2.</span> Misc</h4>
+</div>
+</div>
+<div id="outline-container-org0a582f4" class="outline-3">
+<h3 id="org0a582f4"><span class="section-number-3">2.2.</span> Biological Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org3fc62ee" class="outline-4">
+<h4 id="org3fc62ee"><span class="section-number-4">2.2.1.</span> Environment</h4>
+<div class="outline-text-4" id="text-2-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="org0b5efa8"></a>Misc<br />
+<div class="outline-text-5" id="text-2-2-1-1">
+<ul class="org-ul">
+<li>M. L. Hamouchene Francisco Claramunt,Hamza, “‘Palestinian liberation is inseparable from the fight against global fossil capitalism’ | Transnational Institute.” Accessed: Oct. 23, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/palestinian-liberation-is-inseparable-from-the-fight-against-global-fossil-capitalism">https://www.tni.org/en/article/palestinian-liberation-is-inseparable-from-the-fight-against-global-fossil-capitalism</a></li>
+
+<li>“Greenpeace calls for peaceful aid mission to continue,” Greenpeace International. Accessed: Oct. 02, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/78976/greenpeace-calls-peaceful-aid-mission-continue/">https://www.greenpeace.org/international/press-release/78976/greenpeace-calls-peaceful-aid-mission-continue/</a></li>
+
+<li>“Greenpeace calls for international support of Global Sumud Flotilla,” Greenpeace International. Accessed: Oct. 02, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/78947/greenpeace-calls-for-international-support-of-global-sumud-flotilla/">https://www.greenpeace.org/international/press-release/78947/greenpeace-calls-for-international-support-of-global-sumud-flotilla/</a></li>
+
+<li>“Greenpeace calls for international support of Global Sumud Flotilla,” Greenpeace International. Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/78947/greenpeace-calls-for-international-support-of-global-sumud-flotilla/">https://www.greenpeace.org/international/press-release/78947/greenpeace-calls-for-international-support-of-global-sumud-flotilla/</a></li>
+
+<li>“‘We do not accept this genocide.’” Accessed: Sep. 29, 2025. [Online]. Available: <a href="https://theecologist.org/2025/sep/28/we-do-not-accept-genocide">https://theecologist.org/2025/sep/28/we-do-not-accept-genocide</a></li>
+
+<li>“Climate justice and Palestinian liberation: Mapping the complicity - Friends of the Earth International.” Accessed: Sep. 19, 2025. [Online]. Available: <a href="https://www.foei.org/publication/climate-justice-and-palestinian-liberation-mapping-the-complicity/">https://www.foei.org/publication/climate-justice-and-palestinian-liberation-mapping-the-complicity/</a></li>
+
+<li>“Ecocide and resistance in Palestine.” Accessed: Sep. 02, 2025. [Online]. Available: <a href="https://theecologist.org/2025/sep/02/ecocide-and-resistance-palestine">https://theecologist.org/2025/sep/02/ecocide-and-resistance-palestine</a></li>
+
+<li>“What hope for Gaza?” Accessed: Aug. 28, 2025. [Online]. Available: <a href="https://theecologist.org/2025/aug/25/what-hope-gaza">https://theecologist.org/2025/aug/25/what-hope-gaza</a></li>
+<li>T. Bhardwaj, “Gaza’s unseen war: Where conflict meets environmental collapse,” Down To Earth. Accessed: Aug. 02, 2025. [Online]. Available: <a href="https://www.downtoearth.org.in/environment/gazas-unseen-war-where-conflict-meets-environmental-collapse">https://www.downtoearth.org.in/environment/gazas-unseen-war-where-conflict-meets-environmental-collapse</a></li>
+<li>“As War Halts, the Environmental Devastation in Gaza Runs Deep,” Yale E360. Accessed: Feb. 09, 2025. [Online]. Available: <a href="https://e360.yale.edu/features/gaza-war-environment">https://e360.yale.edu/features/gaza-war-environment</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org1adaac7"></a>Elements<br />
+<ol class="org-ol">
+<li><a id="org2143be4"></a>Earth<br />
+<ul class="org-ul">
+<li><a id="org1988267"></a>Earthquakes<br /></li>
+<li><a id="orgb360dad"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="orgdf7ac21"></a>Water<br /></li>
+<li><a id="orgf23b2ee"></a>Air<br />
+<ul class="org-ul">
+<li><a id="orgdab4cfc"></a>Air Pollution<br /></li>
+<li><a id="org2950e9b"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="org765d1cc"></a>Fire<br /></li>
+</ol>
+</li>
+<li><a id="orgdba4a4b"></a>Temperature<br /></li>
+<li><a id="org1a16d20"></a>Energy<br /></li>
+<li><a id="org435bb28"></a>Waste<br /></li>
+<li><a id="org354a97c"></a>Climate<br /></li>
+<li><a id="org1c5db11"></a>Biological Sciences, Misc<br />
+<ol class="org-ol">
+<li><a id="org818c283"></a>Genetically Modified Organisms<br /></li>
+<li><a id="orgae317f7"></a>Pandemics<br /></li>
+<li><a id="org150c539"></a>BioDiversity<br /></li>
+<li><a id="orgc384939"></a>Zoology<br /></li>
+<li><a id="orge1d1ca1"></a>Botany<br /></li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org7001745" class="outline-4">
+<h4 id="org7001745"><span class="section-number-4">2.2.2.</span> Special Topics</h4>
+<div class="outline-text-4" id="text-2-2-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgd89ebd6"></a>Friends of the Earth International<br />
+<div class="outline-text-5" id="text-2-2-2-1">
+<ul class="org-ul">
+<li>“Japan Must Stand in Solidarity With Palestine,” Voices from FoE Asia Pacific. Accessed: Sep. 19, 2024. [Online]. Available: <a href="https://foeasiapacific.org/2024/07/21/japan-must-stand-in-solidarity-with-palestine/">https://foeasiapacific.org/2024/07/21/japan-must-stand-in-solidarity-with-palestine/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb007771"></a>World Socialist Web Site<br />
+<div class="outline-text-5" id="text-2-2-2-2">
+<ul class="org-ul">
+<li>“University of California San Francisco medical professor fired for opposing genocide,” World Socialist Web Site. Accessed: Jun. 18, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/06/18/daan-j18.html">https://www.wsws.org/en/articles/2025/06/18/daan-j18.html</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6e46bac" class="outline-3">
+<h3 id="org6e46bac"><span class="section-number-3">2.3.</span> Basic Sciences, Misc</h3>
+</div>
+<div id="outline-container-org72d67b1" class="outline-3">
+<h3 id="org72d67b1"><span class="section-number-3">2.4.</span> Mathematical, Computational Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-orga6188bc" class="outline-4">
+<h4 id="orga6188bc"><span class="section-number-4">2.4.1.</span> Computer Science and Engineering</h4>
+<div class="outline-text-4" id="text-2-4-1">
+</div>
+<ol class="org-ol">
+<li><a id="org398e91f"></a>Fair Tech<br />
+<div class="outline-text-5" id="text-2-4-1-1">
+<ul class="org-ul">
+<li>“Palestine unplugged: how Israel disrupts Gaza’s internet,” Access Now. Accessed: Nov. 13, 2023. [Online]. Available: <a href="https://www.accessnow.org/publication/palestine-unplugged/">https://www.accessnow.org/publication/palestine-unplugged/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org2c89dbc"></a>Privacy And Security<br />
+<div class="outline-text-5" id="text-2-4-1-2">
+<ul class="org-ul">
+<li>R. Anderson, “Hacktivism, in Ukraine and Gaza | Light Blue Touchpaper.” Accessed: Oct. 18, 2023. [Online]. Available: <a href="https://www.lightbluetouchpaper.org/2023/10/16/hacktivism-in-ukraine-and-gaza/">https://www.lightbluetouchpaper.org/2023/10/16/hacktivism-in-ukraine-and-gaza/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb52ce66"></a>AI<br />
+<div class="outline-text-5" id="text-2-4-1-3">
+<ul class="org-ul">
+<li>“AI in Israel’s war on Gaza,” Access Now. Accessed: Oct. 18, 2024. [Online]. Available: <a href="https://www.accessnow.org/publication/artificial-genocidal-intelligence-israel-gaza/">https://www.accessnow.org/publication/artificial-genocidal-intelligence-israel-gaza/</a></li>
+<li>“AI in Israel’s war on Gaza,” Access Now. Accessed: May 19, 2024. [Online]. Available: <a href="https://www.accessnow.org/publication/artificial-genocidal-intelligence-israel-gaza/">https://www.accessnow.org/publication/artificial-genocidal-intelligence-israel-gaza/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Israel’s use of AI in Gaza is a terrifying model coming to a country near you,” Middle East Eye. Accessed: Apr. 06, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/opinion/israel-use-ai-gaza-terrifying-model-coming-country-near-you">https://www.middleeasteye.net/opinion/israel-use-ai-gaza-terrifying-model-coming-country-near-you</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org6021ab6"></a>Special Topics<br />
+<ol class="org-ol">
+<li><a id="org69d7063"></a>Journalism: Democracy Now<br />
+<div class="outline-text-6" id="text-2-4-1-4-1">
+<ul class="org-ul">
+<li>“Microsoft Worker Fired for Israel Protest: ‘Cloud &amp; AI Are the Bombs &amp; Bullets of the 21st Century,’” Democracy Now! Accessed: Apr. 12, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/4/11/no_azure_for_apartheid">https://www.democracynow.org/2025/4/11/no_azure_for_apartheid</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orgbb098c3"></a>Misc<br />
+<div class="outline-text-5" id="text-2-4-1-5">
+<ul class="org-ul">
+<li>R. of World, “Gaza’s tech community reflects on two years of war,” Rest of World. Accessed: Nov. 12, 2025. [Online]. Available: <a href="https://restofworld.org/2025/gaza-tech-community-war-experience/">https://restofworld.org/2025/gaza-tech-community-war-experience/</a></li>
+
+<li>E. F. Foundation, “EFF and Five Human Rights Organizations Urge Action Around Microsoft’s Role in Israel’s War on Gaza,” Electronic Frontier Foundation. Accessed: Oct. 14, 2025. [Online]. Available: <a href="https://www.eff.org/deeplinks/2025/10/eff-and-five-human-rights-organizations-urge-action-around-microsofts-role-israels">https://www.eff.org/deeplinks/2025/10/eff-and-five-human-rights-organizations-urge-action-around-microsofts-role-israels</a></li>
+
+<li>“Big Tech’s Deep Links With Genocide in Gaza,” NewsClick. Accessed: Oct. 06, 2025. [Online]. Available: <a href="https://www.newsclick.in/big-techs-deep-links-genocide-gaza">https://www.newsclick.in/big-techs-deep-links-genocide-gaza</a></li>
+
+<li>“How AI Kill-Lists Drive Israeli Genocide in Gaza,” NewsClick. Accessed: Oct. 06, 2025. [Online]. Available: <a href="https://www.newsclick.in/how-ai-kill-lists-drive-israeli-genocide-gaza">https://www.newsclick.in/how-ai-kill-lists-drive-israeli-genocide-gaza</a></li>
+
+<li>“Closure for Families of the Missing,” DAIR (Distributed AI Research Institute). Accessed: Oct. 04, 2025. [Online]. Available: <a href="https://www.dair-institute.org/blog/eritreans/">https://www.dair-institute.org/blog/eritreans/</a></li>
+
+<li>“After Protests, Microsoft Cuts Off Israel’s Access to Cloud Services Used to Spy on Palestinians,” Democracy Now! Accessed: Sep. 27, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/9/26/after_protests_microsoft_cuts_off_israels">https://www.democracynow.org/2025/9/26/after_protests_microsoft_cuts_off_israels</a></li>
+
+<li>“Musk’s AI chatbot briefly suspended ‘for saying Israel is committing genocide in Gaza,’” Middle East Eye. Accessed: Aug. 13, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/elon-musks-xai-chatbot-grok-suspended-over-calling-out-israeli-genocide-gaza">https://www.middleeasteye.net/trending/elon-musks-xai-chatbot-grok-suspended-over-calling-out-israeli-genocide-gaza</a></li>
+
+<li>“Investigative report exposes Microsoft support for Israeli war crimes in Gaza and the West Bank,” World Socialist Web Site. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/08/07/cvny-a07.html">https://www.wsws.org/en/articles/2025/08/07/cvny-a07.html</a></li>
+
+<li>“Google, Palantir, Microsoft: UNHRC Report Highlights How Corporations Aided Israel’s ‘Ethnic Cleansing’ and Displacement Efforts,” The Wire. Accessed: Jul. 08, 2025. [Online]. Available: <a href="https://thewire.in/world/gaza-palestine-israel-google-palantir-microsoft-volvo-hyundai-unhrc-report">https://thewire.in/world/gaza-palestine-israel-google-palantir-microsoft-volvo-hyundai-unhrc-report</a></li>
+
+<li>J. C. York, “Connectivity is a Lifeline, Not a Luxury: Telecom Blackouts in Gaza Threaten Lives and Digital Rights,” Electronic Frontier Foundation. Accessed: Jun. 17, 2025. [Online]. Available: <a href="https://www.eff.org/deeplinks/2025/06/connectivity-lifeline-not-luxury-telecom-blackouts-gaza-threaten-lives-and-digital">https://www.eff.org/deeplinks/2025/06/connectivity-lifeline-not-luxury-telecom-blackouts-gaza-threaten-lives-and-digital</a></li>
+
+<li>M. Biesecker, G. Burke, and S. Mednick, “Microsoft says it provided AI to Israeli military for war but denies use to harm people in Gaza,” AP News. Accessed: May 20, 2025. [Online]. Available: <a href="https://apnews.com/article/microsoft-israel-military-gaza-hamas-artificial-intelligence-20b2adb438b39ee9cb6eb2f52c1ae44a">https://apnews.com/article/microsoft-israel-military-gaza-hamas-artificial-intelligence-20b2adb438b39ee9cb6eb2f52c1ae44a</a></li>
+
+<li>P. C. and S. Grant, “Digital Apartheid in Gaza: Big Tech Must Reveal Their Roles in Tech Used in Human Rights Abuses,” Electronic Frontier Foundation. Accessed: May 20, 2025. [Online]. Available: <a href="https://www.eff.org/deeplinks/2024/08/digital-apartheid-gaza-big-tech-must-reveal-their-roles-tech-used-human-rights-0">https://www.eff.org/deeplinks/2024/08/digital-apartheid-gaza-big-tech-must-reveal-their-roles-tech-used-human-rights-0</a></li>
+
+<li>“Microsoft Worker Fired for Israel Protest: ‘Cloud &amp; AI Are the Bombs &amp; Bullets of the 21st Century,’” Democracy Now! Accessed: Apr. 12, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/4/11/no_azure_for_apartheid">https://www.democracynow.org/2025/4/11/no_azure_for_apartheid</a></li>
+
+<li>“Inside the campaign to end Microsoft’s collaboration with the Israeli army,” Middle East Eye. Accessed: Apr. 11, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/inside-campaign-end-microsofts-collaboration-israeli-army">https://www.middleeasteye.net/news/inside-campaign-end-microsofts-collaboration-israeli-army</a></li>
+
+<li>“Microsoft employees disrupt 50th anniversary party over Israel contract,” Middle East Eye. Accessed: Apr. 06, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/microsoft-employees-disrupt-50th-anniversary-party-over-israel-contract">https://www.middleeasteye.net/news/microsoft-employees-disrupt-50th-anniversary-party-over-israel-contract</a></li>
+</ul>
+
+
+
+
+
+<ul class="org-ul">
+<li>S. Biddle, “IBM CEO: We Listen to What Israel and Saudi Arabia Consider ‘Correct Behavior,’” The Intercept. Accessed: Sep. 06, 2024. [Online]. Available: <a href="https://theintercept.com/2024/09/04/ibm-ceo-israel-saudi-arabia-ethics/">https://theintercept.com/2024/09/04/ibm-ceo-israel-saudi-arabia-ethics/</a></li>
+<li>P. C. and S. Grant, “Digital Apartheid in Gaza: Big Tech Must Reveal Their Roles in Tech Used in Human Rights Abuses,” Electronic Frontier Foundation. Accessed: Aug. 15, 2024. [Online]. Available: <a href="https://www.eff.org/deeplinks/2024/08/digital-apartheid-gaza-big-tech-must-reveal-their-roles-tech-used-human-rights-0">https://www.eff.org/deeplinks/2024/08/digital-apartheid-gaza-big-tech-must-reveal-their-roles-tech-used-human-rights-0</a></li>
+<li>B. Reiff, “Leaked documents expose deep ties between Israeli army and Microsoft,” +972 Magazine. Accessed: Jan. 25, 2025. [Online]. Available: <a href="https://www.972mag.com/microsoft-azure-openai-israeli-army-cloud/">https://www.972mag.com/microsoft-azure-openai-israeli-army-cloud/</a></li>
+
+<li>D. Gilbert, “The Israel-Hamas War Is Drowning X in Disinformation,” Wired. Accessed: Oct. 11, 2023. [Online]. Available: <a href="https://www.wired.com/story/x-israel-hamas-war-disinformation/">https://www.wired.com/story/x-israel-hamas-war-disinformation/</a></li>
+
+<li>“No Tech For Apartheid.” Accessed: Nov. 13, 2023. [Online]. Available: <a href="https://www.notechforapartheid.com/notechforapartheid.com">https://www.notechforapartheid.com/notechforapartheid.com</a></li>
+
+<li>B. I. Team, “Hamas Attacks, Israel Bombs Gaza and Misinformation Surges Online,” bellingcat. Accessed: Oct. 18, 2023. [Online]. Available: <a href="https://www.bellingcat.com/news/2023/10/11/hamas-attacks-israel-bombs-gaza-and-misinformation-surges-online/">https://www.bellingcat.com/news/2023/10/11/hamas-attacks-israel-bombs-gaza-and-misinformation-surges-online/</a></li>
+
+<li>“WikiLeaks: Israel aimed to keep Gaza economy on brink of collapse - Haaretz Daily Newspaper | Israel News.” Accessed: Oct. 18, 2023. [Online]. Available: <a href="https://web.archive.org/web/20110106194013/https://www.haaretz.com/news/diplomacy-defense/wikileaks-israel-aimed-to-keep-gaza-economy-on-brink-of-collapse-1.335354">https://web.archive.org/web/20110106194013/https://www.haaretz.com/news/diplomacy-defense/wikileaks-israel-aimed-to-keep-gaza-economy-on-brink-of-collapse-1.335354</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org55f88d8" class="outline-4">
+<h4 id="org55f88d8"><span class="section-number-4">2.4.2.</span> Quantum Computing</h4>
+<div class="outline-text-4" id="text-2-4-2">
+<ul class="org-ul">
+<li>“Open Letter to Anti-Zionists on Twitter,” Shtetl-Optimized. Accessed: Mar. 28, 2024. [Online]. Available: <a href="https://scottaaronson.blog/?p=7845">https://scottaaronson.blog/?p=7845</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org60f7d01" class="outline-3">
+<h3 id="org60f7d01"><span class="section-number-3">2.5.</span> Advanced Sciences, Misc</h3>
+</div>
+<div id="outline-container-org6791234" class="outline-3">
+<h3 id="org6791234"><span class="section-number-3">2.6.</span> Technology, Misc</h3>
+</div>
+<div id="outline-container-org58d3442" class="outline-3">
+<h3 id="org58d3442"><span class="section-number-3">2.7.</span> Special Topics</h3>
+<div class="outline-text-3" id="text-2-7">
+</div>
+<div id="outline-container-org830e2a5" class="outline-4">
+<h4 id="org830e2a5"><span class="section-number-4">2.7.1.</span> Weizmann Institute of Science</h4>
+<div class="outline-text-4" id="text-2-7-1">
+<ul class="org-ul">
+<li>“An Appeal to Academic Leadership Worldwide - Weizmann Wonder Wander - News, Features and Discoveries,” Weizmann Wonder Wander - News, Features and Discoveries from the Weizmann Institute of Science. Accessed: Nov. 12, 2023. [Online]. Available: <a href="https://wis-wander.weizmann.ac.il/people-and-events/appeal-academic-leadership-worldwide">https://wis-wander.weizmann.ac.il/people-and-events/appeal-academic-leadership-worldwide</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga3786cb" class="outline-4">
+<h4 id="orga3786cb"><span class="section-number-4">2.7.2.</span> Science Magazine</h4>
+<div class="outline-text-4" id="text-2-7-2">
+<ul class="org-ul">
+<li>“Israel-Hamas war sends shock waves through scientific community.” Accessed: Oct. 20, 2023. [Online]. Available: <a href="https://www.science.org/content/article/israel-hamas-war-sends-shock-waves-through-scientific-community">https://www.science.org/content/article/israel-hamas-war-sends-shock-waves-through-scientific-community</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org38ca27d" class="outline-3">
+<h3 id="org38ca27d"><span class="section-number-3">2.8.</span> Misc</h3>
+<div class="outline-text-3" id="text-2-8">
+<ul class="org-ul">
+<li>M. Catanzaro, “Rebuilding Gaza: don’t sideline Palestinian scientists, say experts,” Nature, Oct. 2025, doi: 10.1038/d41586-025-03324-w.</li>
+
+<li>N. B. Zeev, “Black Flag Action Group Urgent Call to the Heads of Academia in Israel (May 31, 2025; over 1400 signatures),” Jan. 2025, Accessed: Oct. 02, 2025. [Online]. Available: <a href="https://www.academia.edu/129505708/Black_Flag_Action_Group_Urgent_Call_to_the_Heads_of_Academia_in_Israel_May_31_2025_over_1400_signatures">https://www.academia.edu/129505708/Black_Flag_Action_Group_Urgent_Call_to_the_Heads_of_Academia_in_Israel_May_31_2025_over_1400_signatures</a>_</li>
+
+<li>“Full Text | ‘No PTSD in Gaza Because the Stress Is Ongoing’: Dr. Gabor Maté on an Ongoing Genocide,” The Wire. Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://thewire.in/world/full-text-gaza-stories-genocide-trauma-gabor-mate-palestine-holocaust">https://thewire.in/world/full-text-gaza-stories-genocide-trauma-gabor-mate-palestine-holocaust</a></li>
+
+<li>“4,000+ Scientists Ask Israel to End Human-Made Humanitarian Crisis in Gaza,” The Wire. Accessed: Sep. 09, 2025. [Online]. Available: <a href="https://thewire.in/world/4000-scientists-ask-israel-to-end-human-made-humanitarian-crisis-in-gaza">https://thewire.in/world/4000-scientists-ask-israel-to-end-human-made-humanitarian-crisis-in-gaza</a></li>
+
+<li>“&lt;em&gt;Gaza: Doctors on the Frontline&lt;/em&gt;–British surgeons working in the midst of the ‘utter inhumanity’ of Israel’s genocide,” World Socialist Web Site. Accessed: Sep. 05, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/09/05/arxt-s05.html">https://www.wsws.org/en/articles/2025/09/05/arxt-s05.html</a></li>
+
+<li>“Palestinian Advanced Physics School 2025,” Scientists For Palestine. Accessed: Jun. 08, 2025. [Online]. Available: <a href="https://www.scientists4palestine.org/palestinian-advanced-physics-school-2025/">https://www.scientists4palestine.org/palestinian-advanced-physics-school-2025/</a></li>
+
+<li>“Academic Solidarity with Palestine.” Accessed: Jun. 01, 2025. [Online]. Available: <a href="https://academicsolidaritywithpalestine.org/">https://academicsolidaritywithpalestine.org/</a></li>
+<li>“Scientists for Palestine,” Scientists For Palestine. Accessed: Jun. 01, 2025. [Online]. Available: <a href="https://www.scientists4palestine.org/">https://www.scientists4palestine.org/</a></li>
+
+<li>“Despite censorship and intimidation we continue to demand: no more research for genocide at MIT,” Mondoweiss. Accessed: Dec. 24, 2024. [Online]. Available: <a href="https://mondoweiss.net/2024/12/despite-censorship-and-intimidation-we-continue-to-demand-no-more-research-for-genocide-at-mit/">https://mondoweiss.net/2024/12/despite-censorship-and-intimidation-we-continue-to-demand-no-more-research-for-genocide-at-mit/</a></li>
+<li>“MSF report exposes Israel’s campaign of total destruction | MSF.” Accessed: Dec. 21, 2024. [Online]. Available: <a href="https://www.msf.org/msf-report-exposes-israel%E2%80%99s-campaign-total-destruction">https://www.msf.org/msf-report-exposes-israel%E2%80%99s-campaign-total-destruction</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org195b6cb" class="outline-2">
+<h2 id="org195b6cb"><span class="section-number-2">3.</span> Worldly Matters</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org9a05f8e" class="outline-3">
+<h3 id="org9a05f8e"><span class="section-number-3">3.1.</span> Space and Time</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org6957cda" class="outline-4">
+<h4 id="org6957cda"><span class="section-number-4">3.1.1.</span> History</h4>
+</div>
+<div id="outline-container-org4f0ad6d" class="outline-4">
+<h4 id="org4f0ad6d"><span class="section-number-4">3.1.2.</span> Geography</h4>
+</div>
+</div>
+<div id="outline-container-org5691b7b" class="outline-3">
+<h3 id="org5691b7b"><span class="section-number-3">3.2.</span> Space, Earth, Life Sciences, Environment, Health, Misc</h3>
+</div>
+<div id="outline-container-orgd0ee187" class="outline-3">
+<h3 id="orgd0ee187"><span class="section-number-3">3.3.</span> Religions, Spirituality, Misc</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org847b6a8" class="outline-4">
+<h4 id="org847b6a8"><span class="section-number-4">3.3.1.</span> Islam</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<ul class="org-ul">
+<li>“Ummah for Earth calls to Action on the ongoing situation Israel and the Occupied Palestinian Territory,” Ummah for Earth. Accessed: Apr. 09, 2024. [Online]. Available: <a href="https://ummah4earth.org/en/palestine-call/">https://ummah4earth.org/en/palestine-call/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaed0499" class="outline-4">
+<h4 id="orgaed0499"><span class="section-number-4">3.3.2.</span> Christianity</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<ul class="org-ul">
+<li>“Madonna to Pope Leo: ‘Please say you will go to Gaza,’” Middle East Eye. Accessed: Aug. 13, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/madonna-pope-leo-please-say-you-will-go-gaza">https://www.middleeasteye.net/trending/madonna-pope-leo-please-say-you-will-go-gaza</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc9200bd" class="outline-4">
+<h4 id="orgc9200bd"><span class="section-number-4">3.3.3.</span> Misc</h4>
+<div class="outline-text-4" id="text-3-3-3">
+<ul class="org-ul">
+<li>J. Gedeon, “Jewish figures across the globe call on UN and world leaders to sanction Israel,” The Guardian, Oct. 22, 2025. Accessed: Oct. 23, 2025. [Online]. Available: <a href="https://www.theguardian.com/world/2025/oct/22/jewish-notables-open-letter-un-sanction-israel">https://www.theguardian.com/world/2025/oct/22/jewish-notables-open-letter-un-sanction-israel</a></li>
+
+<li>H. Skaik, “Inside Gaza’s Only Catholic Church, One Month After Israel’s Attack,” The Intercept. Accessed: Aug. 19, 2025. [Online]. Available: <a href="https://theintercept.com/2025/08/18/gaza-holy-family-catholic-church-israel-attack/">https://theintercept.com/2025/08/18/gaza-holy-family-catholic-church-israel-attack/</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc266d64" class="outline-3">
+<h3 id="orgc266d64"><span class="section-number-3">3.4.</span> Humanities, Misc</h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+<div id="outline-container-org6b2a3e6" class="outline-4">
+<h4 id="org6b2a3e6"><span class="section-number-4">3.4.1.</span> People</h4>
+<div class="outline-text-4" id="text-3-4-1">
+</div>
+<ol class="org-ol">
+<li><a id="org54e1630"></a><b>N. Chomsky</b><br />
+<ol class="org-ol">
+<li><a id="org004c529"></a>Texts<br />
+<div class="outline-text-6" id="text-3-4-1-1-1">
+<ul class="org-ul">
+<li>N. Chomsky and I. Pappé, On Palestine. Penguin UK, 2015.</li>
+<li>I. Pappé and N. Chomsky, Gaza in Crisis: Reflections on Israel’s War Against the Palestinians. Penguin UK, 2010.
+<ul class="org-ul">
+<li>“Chomsky and Prashad: The reality behind the US ‘withdrawal’ from Afghanistan,” Alternet.org, May 07, 2021. <a href="https://www.alternet.org/2021/05/us-afghan-troop-withdrawal/">https://www.alternet.org/2021/05/us-afghan-troop-withdrawal/</a> (accessed Mar. 11, 2022).</li>
+</ul></li>
+<li>“Fateful Triangle,” Pluto Press. Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.plutobooks.com/9780745335469/fateful-triangle">https://www.plutobooks.com/9780745335469/fateful-triangle</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb30645b"></a>Articles, Essays<br />
+<div class="outline-text-6" id="text-3-4-1-1-2">
+<ul class="org-ul">
+<li>“‘The Fate of an Honest Intellectual’, by Noam Chomsky (Excerpted from Understanding Power).” Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://chomsky.info/power01/">https://chomsky.info/power01/</a>
+<ul class="org-ul">
+<li>J. Peters, <del>From Time Immemorial: The Origins of the Arab-Jewish Conflict Over Palestine.</del> HarperCollins Publishers, 1985.</li>
+</ul></li>
+</ul>
+</div>
+</li>
+<li><a id="org1801155"></a>Videos<br />
+<div class="outline-text-6" id="text-3-4-1-1-3">
+<ul class="org-ul">
+<li>Israel &amp; Palestine: Possible Futures — a Discussion with Noam Chomsky, (May 22, 2023). Accessed: Oct. 14, 2023. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=A8ZLiYIvtQ8">https://www.youtube.com/watch?v=A8ZLiYIvtQ8</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org6f0565e"></a>Y. Porath<br />
+<div class="outline-text-5" id="text-3-4-1-2">
+<ul class="org-ul">
+<li>Y. Porath, The Palestinian Arab National Movement, 1929-1939: From Riots to Rebellion, 1st edition. Routledge, 2016.</li>
+
+<li>Y. Porath, The Emergence of the Palestinian-Arab National Movement, 1918-1929, 1st edition. Routledge, 2016.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgd9ae9b0"></a><b>Norman Finkelstein</b><br />
+<ol class="org-ol">
+<li><a id="org7099e45"></a>General<br />
+<div class="outline-text-6" id="text-3-4-1-3-1">
+<ul class="org-ul">
+<li>“Norman Finkelstein,” Wikipedia. Nov. 09, 2023. Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Norman_Finkelstein&amp;oldid=1184247074">https://en.wikipedia.org/w/index.php?title=Norman_Finkelstein&amp;oldid=1184247074</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org27077bc"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="orgc046929"></a>Democracy Now<br />
+<div class="outline-text-7" id="text-orgc046929">
+<ul class="org-ul">
+<li>“It Is Time to Indict Israel: Norman Finkelstein on Growing Push for ICC to File War Crimes Charges,” Democracy Now! Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2019/3/4/it_is_time_to_indict_israel">https://www.democracynow.org/2019/3/4/it_is_time_to_indict_israel</a></li>
+<li>“Norman Finkelstein: Palestinians Have the Right to Break Free of the ‘Unlivable’ Cage That Is Gaza,” Democracy Now! Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2018/5/16/norman_finkelstein_palestinians_have_the_right">https://www.democracynow.org/2018/5/16/norman_finkelstein_palestinians_have_the_right</a></li>
+<li>“Shows featuring Norman Finkelstein,” Democracy Now! Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/appearances/norman_finkelstein">https://www.democracynow.org/appearances/norman_finkelstein</a></li>
+<li>“Norman Finkelstein: The ‘Big Lie’ About Gaza is That the Palestinians Have Been the Aggressors,” Democracy Now! Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2018/1/19/norman_finkelstein_on_the_big_lie">https://www.democracynow.org/2018/1/19/norman_finkelstein_on_the_big_lie</a></li>
+<li>“Scholar Norman Finkelstein Calls Professor Alan Dershowitz’s New Book On Israel a ‘Hoax,’” Democracy Now! Accessed: Nov. 14, 2023. [Online]. Available: <a href="http://www.democracynow.org/2003/9/24/scholar_norman_finkelstein_calls_professor_alan">http://www.democracynow.org/2003/9/24/scholar_norman_finkelstein_calls_professor_alan</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org01c9a36"></a>Works<br />
+<div class="outline-text-6" id="text-3-4-1-3-3">
+<ul class="org-ul">
+<li>N. G. Finkelstein, What Gandhi Says. Fingerprint! Publishing, 2015.</li>
+<li>N. G. Finkelstein, Beyond Chutzpah: On the Misuse of Anti-Semitism and the Abuse of History, Revised and Expanded ed edition. London: Verso Books, 2008.</li>
+<li>N. G. Finkelstein, Image and Reality of the Israel-Palestine Conflict, New ed of 2 Revised ed edition. London: Verso Books, 2003.</li>
+<li>N. Finkelstein, Gaza: An Inquest into Its Martyrdom. University of California Press, 2021.</li>
+<li>N. G. Finkelstein, This Time We Went Too Far. OR Books, 2011.</li>
+<li>N. Finkelstein, Method and Madness: The Hidden Story of Israel’s Assaults on Gaza. OR Books, 2015.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgdb672cb"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="orgfc88161"></a><b>Noam Chomsky</b><br />
+<div class="outline-text-7" id="text-orgfc88161">
+<ul class="org-ul">
+<li>“‘The Fate of an Honest Intellectual’, by Noam Chomsky (Excerpted from Understanding Power).” Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://chomsky.info/power01/">https://chomsky.info/power01/</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org8cb7585"></a>Misc<br />
+<div class="outline-text-6" id="text-3-4-1-3-5">
+<ul class="org-ul">
+<li>A. Dershowitz, The Case for Israel, Reprint edition. New York Chichester: Wiley, 2004.</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org4a74225"></a>Rachel Corrie<br />
+<ol class="org-ol">
+<li><a id="org4377c2b"></a>General<br />
+<div class="outline-text-6" id="text-3-4-1-4-1">
+<ul class="org-ul">
+<li>“Rachel Corrie,” Wikipedia. Mar. 17, 2026. Accessed: Mar. 18, 2026. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Rachel_Corrie&amp;oldid=1344017945">https://en.wikipedia.org/w/index.php?title=Rachel_Corrie&amp;oldid=1344017945</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org29361ec"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="org23662fb"></a>Journalism: Democracy Now<br />
+<div class="outline-text-7" id="text-org23662fb">
+<ul class="org-ul">
+<li>“Remembering U.S. Activist Crushed to Death by Israeli Bulldozer in Rafah in 2003,” Democracy Now! Accessed: Mar. 19, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/3/18/rachel_corrie">https://www.democracynow.org/2024/3/18/rachel_corrie</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org863780f"></a>Amnesty International<br />
+<div class="outline-text-7" id="text-org863780f">
+<ul class="org-ul">
+<li>“Rachel Corrie verdict highlights impunity for Israeli military | Amnesty International.” Accessed: Mar. 18, 2026. [Online]. Available: <a href="https://web.archive.org/web/20120902041711/http://www.amnesty.org/en/news/rachel-corrie-verdict-highlights-impunity-israeli-military-2012-08-28">https://web.archive.org/web/20120902041711/http://www.amnesty.org/en/news/rachel-corrie-verdict-highlights-impunity-israeli-military-2012-08-28</a></li>
+<li>“Amnesty International Condemns Killing of Rachel Corrie &#x2013; Group Calls for Investigation, Suspension of Weapons Transfers.” Accessed: Mar. 18, 2026. [Online]. Available: <a href="https://web.archive.org/web/20041124045458/http://www.amnestyusa.org/regions/middleeast/document.do?id=DF899DD539B2344385256CEC007008D5">https://web.archive.org/web/20041124045458/http://www.amnestyusa.org/regions/middleeast/document.do?id=DF899DD539B2344385256CEC007008D5</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org025c028"></a>Jacobin<br />
+<div class="outline-text-7" id="text-org025c028">
+<ul class="org-ul">
+<li>“Rachel Corrie Gave Her Life for Palestine.” Accessed: Mar. 18, 2024. [Online]. Available: <a href="https://jacobin.com/2024/03/rachel-corrie-death-anniversary-rafah-gaza-idf">https://jacobin.com/2024/03/rachel-corrie-death-anniversary-rafah-gaza-idf</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org5cc3256"></a>Misc<br />
+<div class="outline-text-7" id="text-org5cc3256">
+<ul class="org-ul">
+<li>R. Halaby, “Please Remember Rachel Corrie: April 10, 1979 – March 16, 2003,” CounterPunch.org. Accessed: Mar. 18, 2026. [Online]. Available: <a href="https://www.counterpunch.org/2022/03/16/please-remember-rachel-corrie-april-10-1979-march-16-2003/">https://www.counterpunch.org/2022/03/16/please-remember-rachel-corrie-april-10-1979-march-16-2003/</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org05f0bd0"></a>Core<br />
+<ul class="org-ul">
+<li><a id="orgf71209a"></a>Works<br />
+<div class="outline-text-7" id="text-orgf71209a">
+<ul class="org-ul">
+<li>“Let Me Stand Alone,” Wikipedia. Jan. 14, 2026. Accessed: Mar. 18, 2026. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Let_Me_Stand_Alone&amp;oldid=1332964970">https://en.wikipedia.org/w/index.php?title=Let_Me_Stand_Alone&amp;oldid=1332964970</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org6a2eece"></a>Misc<br /></li>
+</ol>
+</li>
+<li><a id="org5d3ecc9"></a>Aaron Bushnell<br />
+<div class="outline-text-5" id="text-3-4-1-5">
+<ul class="org-ul">
+<li>“The Life &amp; Death of Aaron Bushnell: Friend Says Self-Immolation Was a Demand for Justice,” Democracy Now! Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/2/28/aaron_bushnell_self_immolation_gaza_protest">https://www.democracynow.org/2024/2/28/aaron_bushnell_self_immolation_gaza_protest</a></li>
+<li>“‘I Will No Longer Be Complicit in Genocide’: U.S. Military Member Dies After Setting Himself on Fire in Protest,” Democracy Now! Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/2/26/headlines/i_will_no_longer_be_complicit_in_genocide_us_military_member_dies_after_setting_himself_on_fire_in_protest">https://www.democracynow.org/2024/2/26/headlines/i_will_no_longer_be_complicit_in_genocide_us_military_member_dies_after_setting_himself_on_fire_in_protest</a></li>
+<li>“The Gaza genocide and the death of Aaron Bushnell: What are the political lessons?,” World Socialist Web Site. Accessed: Mar. 20, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/03/14/zofj-m14.html">https://www.wsws.org/en/articles/2024/03/14/zofj-m14.html</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org70802bf" class="outline-4">
+<h4 id="org70802bf"><span class="section-number-4">3.4.2.</span> Psychology</h4>
+<div class="outline-text-4" id="text-3-4-2">
+<ul class="org-ul">
+<li>“Full Text | ‘No PTSD in Gaza Because the Stress Is Ongoing’: Dr. Gabor Maté on an Ongoing Genocide,” The Wire. Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://thewire.in/world/full-text-gaza-stories-genocide-trauma-gabor-mate-palestine-holocaust">https://thewire.in/world/full-text-gaza-stories-genocide-trauma-gabor-mate-palestine-holocaust</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5803026" class="outline-3">
+<h3 id="org5803026"><span class="section-number-3">3.5.</span> SocioPolitical Studies, Law, Misc</h3>
+<div class="outline-text-3" id="text-3-5">
+</div>
+<div id="outline-container-orgb59d8cd" class="outline-4">
+<h4 id="orgb59d8cd"><span class="section-number-4">3.5.1.</span> Feminism</h4>
+<div class="outline-text-4" id="text-3-5-1">
+<ul class="org-ul">
+<li>“Steadfast and Strong: Chronicles of Palestinian Women’s Resistance | Economic and Political Weekly.” Accessed: Aug. 30, 2025. [Online]. Available: <a href="https://www.epw.in/engage/article/steadfast-and-strong-chronicles-palestinian-womens-0">https://www.epw.in/engage/article/steadfast-and-strong-chronicles-palestinian-womens-0</a></li>
+
+<li>T. Ali, “Gaza’s Starvation Crisis: Disproportionate Impact On Women And Children,” Feminism in India. Accessed: Aug. 10, 2025. [Online]. Available: <a href="https://feminisminindia.com/2025/08/08/gazas-starvation-crisis-disproportionate-impact-on-women-and-children/">https://feminisminindia.com/2025/08/08/gazas-starvation-crisis-disproportionate-impact-on-women-and-children/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>R. Ghoshal, “How The Famine In Gaza Is An Allegory Of Dominant Masculine Governmentality In Statist Coercion,” Feminism in India. Accessed: Aug. 10, 2025. [Online]. Available: <a href="https://feminisminindia.com/2025/08/08/how-the-famine-in-gaza-is-an-allegory-of-dominant-masculine-governmentality-in-statist-coercion/">https://feminisminindia.com/2025/08/08/how-the-famine-in-gaza-is-an-allegory-of-dominant-masculine-governmentality-in-statist-coercion/</a></li>
+
+<li>A. Brison, “Where’s the outrage over sexual violence against Palestinians?,” +972 Magazine. Accessed: Apr. 29, 2025. [Online]. Available: <a href="https://www.972mag.com/systematic-sexual-violence-against-palestinians/">https://www.972mag.com/systematic-sexual-violence-against-palestinians/</a></li>
+
+<li>“‘Forced us to undress’: Palestinian women detail Israeli sexual assaults in Kamal Adwan raid,” Middle East Eye. Accessed: Jan. 14, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/north-gaza-palestinian-women-recall-sexual-assault-israeli-forces">https://www.middleeasteye.net/news/north-gaza-palestinian-women-recall-sexual-assault-israeli-forces</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfb5d264" class="outline-4">
+<h4 id="orgfb5d264"><span class="section-number-4">3.5.2.</span> Nation States</h4>
+<div class="outline-text-4" id="text-3-5-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgf015677"></a>India<br />
+<ol class="org-ol">
+<li><a id="orgf9b346d"></a>General<br /></li>
+<li><a id="org0ccf553"></a>STEMM<br />
+<ul class="org-ul">
+<li><a id="orgb800fd0"></a>Down To Earth<br />
+<div class="outline-text-7" id="text-orgb800fd0">
+<ul class="org-ul">
+<li>“Will Gaza jeopardise India’s energy resilience?” Accessed: Nov. 02, 2023. [Online]. Available: <a href="https://www.downtoearth.org.in/blog/renewable-energy/will-gaza-jeopardise-india-s-energy-resilience--92578">https://www.downtoearth.org.in/blog/renewable-energy/will-gaza-jeopardise-india-s-energy-resilience--92578</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org9bd8002"></a>Misc<br />
+<div class="outline-text-7" id="text-org9bd8002">
+<ul class="org-ul">
+<li>G. I. Menon, “Disengagement, Gaza and Indian Universities,” DIALOGUE: Science, Scientists and Society, pp. 1–13, Sep. 2025, doi: 10.29195/DSSS.08.01.102.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“MIT Student Prahlad Iyengar Suspended Over Palestine Essay, Sparks Outrage,” www.ndtv.com. Accessed: Dec. 12, 2024. [Online]. Available: <a href="https://www.ndtv.com/world-news/mit-student-prahlad-iyengar-suspended-over-palestine-essay-sparks-outrage-7217976">https://www.ndtv.com/world-news/mit-student-prahlad-iyengar-suspended-over-palestine-essay-sparks-outrage-7217976</a></li>
+<li>A. L. &amp; S. Raju, “Indian academia in times of genocide,” The Hindu, Sep. 09, 2025. Accessed: Sep. 10, 2025. [Online]. Available: <a href="https://www.thehindu.com/opinion/op-ed/indian-academia-in-times-of-genocide/article70029296.ece">https://www.thehindu.com/opinion/op-ed/indian-academia-in-times-of-genocide/article70029296.ece</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgf9b57f0"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="orgecdbb09"></a>The Hindu<br />
+<div class="outline-text-7" id="text-orgecdbb09">
+<ul class="org-ul">
+<li>T. FRONTLINE, “Understanding the Israel-Palestine conflict,” Frontline. Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://frontline.thehindu.com/world-affairs/hamas-israel-palestine-gaza-war/article67398628.ece">https://frontline.thehindu.com/world-affairs/hamas-israel-palestine-gaza-war/article67398628.ece</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>F. N. Desk, “Israel declares state of war as Palestinian militants launch rocket attacks,” Frontline. Accessed: Oct. 08, 2023. [Online]. Available: <a href="https://frontline.thehindu.com/news/israel-declares-state-of-war-as-palestinian-militants-launch-rocket-attacks-from-gaza-strip/article67392164.ece">https://frontline.thehindu.com/news/israel-declares-state-of-war-as-palestinian-militants-launch-rocket-attacks-from-gaza-strip/article67392164.ece</a></li>
+<li>T. Ahmad, “How Israel-Hamas war will change West Asia’s political landscape,” Frontline. Accessed: Oct. 11, 2023. [Online]. Available: <a href="https://frontline.thehindu.com/world-affairs/how-israel-hamas-war-will-change-west-asia-political-landscape-palestine-benjamin-netanyahu-gaza-strip/article67403423.ece">https://frontline.thehindu.com/world-affairs/how-israel-hamas-war-will-change-west-asia-political-landscape-palestine-benjamin-netanyahu-gaza-strip/article67403423.ece</a></li>
+<li>S. Johny, “Why did Hamas launch a surprise attack on Israel? | Analysis,” The Hindu, Oct. 07, 2023. Accessed: Oct. 08, 2023. [Online]. Available: <a href="https://www.thehindu.com/news/international/why-did-hamas-launch-a-surprise-attack-on-israel-analysis/article67393000.ece">https://www.thehindu.com/news/international/why-did-hamas-launch-a-surprise-attack-on-israel-analysis/article67393000.ece</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgeb1111e"></a>The Wire<br />
+<div class="outline-text-7" id="text-orgeb1111e">
+<ul class="org-ul">
+<li>“Why Did Hamas Attack, and Why Now? Where Is the Conflict Headed?,” The Wire. Accessed: Oct. 11, 2023. [Online]. Available: <a href="https://thewire.in/security/why-did-hamas-attack-and-why-now-where-is-the-conflict-headed">https://thewire.in/security/why-did-hamas-attack-and-why-now-where-is-the-conflict-headed</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgcb78645"></a>Misc<br />
+<div class="outline-text-7" id="text-orgcb78645">
+<ul class="org-ul">
+<li>B. Standard, “Indian corporate links to Israel under scrutiny amid Gaza war: Report,” Centre for Financial Accountability. Accessed: Mar. 20, 2026. [Online]. Available: <a href="https://www.cenfa.org/indian-corporate-links-to-israel-under-scrutiny-amid-gaza-war-report/">https://www.cenfa.org/indian-corporate-links-to-israel-under-scrutiny-amid-gaza-war-report/</a></li>
+<li>V. Gopinath, “Interview | Are Indian Corporations Complicit in Israel’s Genocide in Gaza?,” Centre for Financial Accountability. Accessed: Mar. 20, 2026. [Online]. Available: <a href="https://www.cenfa.org/interview-are-indian-corporations-complicit-in-israels-genocide-in-gaza/">https://www.cenfa.org/interview-are-indian-corporations-complicit-in-israels-genocide-in-gaza/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“‘Heart of India-Israel alliance’: New York group releases report slamming Tata,” Middle East Eye. Accessed: Oct. 25, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/india-israel-alliance-new-york-group-releases-report-slamming-tata">https://www.middleeasteye.net/news/india-israel-alliance-new-york-group-releases-report-slamming-tata</a></li>
+
+<li>A. Vanaik, “India, Israel, Palestine | Transnational Institute.” Accessed: Aug. 28, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/india-israel-palestine">https://www.tni.org/en/article/india-israel-palestine</a></li>
+
+<li>“Indian activists demand Delhi halt all dealings with Israeli arm companies,” Middle East Eye. Accessed: Aug. 11, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/india-companies-complicit-israel-war-gaza-activists-warn">https://www.middleeasteye.net/news/india-companies-complicit-israel-war-gaza-activists-warn</a></li>
+
+<li>M. S. Aiyar, “India’s Diplomatic Silence on Israel’s War Crimes in Gaza Rings Loud,” Frontline. Accessed: Jul. 30, 2025. [Online]. Available: <a href="https://frontline.thehindu.com/columns/israel-gaza-genocide-palestine-india-foreign-policy-failure/article69868487.ece">https://frontline.thehindu.com/columns/israel-gaza-genocide-palestine-india-foreign-policy-failure/article69868487.ece</a></li>
+
+<li>“What Happened to India’s Moral Compass on Palestine?,” The Wire. Accessed: Jul. 24, 2025. [Online]. Available: <a href="https://thewire.in/rights/what-happened-to-indias-moral-compass-on-palestine">https://thewire.in/rights/what-happened-to-indias-moral-compass-on-palestine</a></li>
+
+<li>M. S. Aiyar, “India’s Shift on Palestine: From Nehru to Modi (2025),” Frontline. Accessed: Jul. 02, 2025. [Online]. Available: <a href="https://frontline.thehindu.com/columns/india-israel-palestine-foreign-policy/article69759263.ece">https://frontline.thehindu.com/columns/india-israel-palestine-foreign-policy/article69759263.ece</a></li>
+
+<li>“Indian Traders Saw a War and Cashed In.” Accessed: Feb. 21, 2025. [Online]. Available: <a href="https://www.reporters-collective.in/special/indian-traders-saw-a-war-and-cashed-in">https://www.reporters-collective.in/special/indian-traders-saw-a-war-and-cashed-in</a></li>
+<li>“WSJ opinion article gets heat for using partition of India to justify Trump’s Gaza ‘takeover,’” Middle East Eye. Accessed: Feb. 20, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/wsj-opinion-article-gets-heat-using-india-partition-justify-trumps-gaza-plan">https://www.middleeasteye.net/trending/wsj-opinion-article-gets-heat-using-india-partition-justify-trumps-gaza-plan</a></li>
+
+<li>“How India Crimininalised Pro-Palestinian Protests &amp; Posts, Including Using The Anti-Terrorism Law Against Protestors.” Accessed: Sep. 17, 2024. [Online]. Available: <a href="https://www.article-14.com/post/how-india-crimininalised-pro-palestinian-protests-posts-including-using-the-anti-terrorism-law-against-protestors--66e7a025d7557">https://www.article-14.com/post/how-india-crimininalised-pro-palestinian-protests-posts-including-using-the-anti-terrorism-law-against-protestors--66e7a025d7557</a></li>
+
+<li>Delhi Protest: Stop Genocide in Palestine! | NewsClick, (Aug. 10, 2024). Accessed: Aug. 12, 2024. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=XeUDPziiApA">https://www.youtube.com/watch?v=XeUDPziiApA</a></li>
+<li>“Delhi Police Detain Jean Dreze, Annie Raja Over Silent Protest for Palestine,” The Wire. Accessed: Aug. 10, 2024. [Online]. Available: <a href="https://thewire.in/rights/delhi-police-detain-jean-dreze-annie-raja-over-silent-protest-for-palestine">https://thewire.in/rights/delhi-police-detain-jean-dreze-annie-raja-over-silent-protest-for-palestine</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org828fe86"></a>Arts<br />
+<ul class="org-ul">
+<li><a id="org99fae69"></a>Misc<br />
+<div class="outline-text-7" id="text-org99fae69">
+<ul class="org-ul">
+<li>“‘Mocking dead Palestinians’: Bollywood director under fire for likening Gaza genocide to Diwali,” Middle East Eye. Accessed: Oct. 22, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/ram-gopal-varma-sparks-outrage-over-gaza-diwali-tweet">https://www.middleeasteye.net/trending/ram-gopal-varma-sparks-outrage-over-gaza-diwali-tweet</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org16d98bc"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="orgf083dc1"></a><b>Transnational Institute</b><br />
+<div class="outline-text-7" id="text-orgf083dc1">
+<ul class="org-ul">
+<li>A. Vanaik, “India, Israel, Palestine | Transnational Institute.” Accessed: Aug. 30, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/india-israel-palestine">https://www.tni.org/en/article/india-israel-palestine</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgc9c1f30"></a>Misc<br />
+<div class="outline-text-6" id="text-3-5-2-1-6">
+<ul class="org-ul">
+<li>B. Standard, “Indian corporate links to Israel under scrutiny amid Gaza war: Report,” Centre for Financial Accountability. Accessed: Mar. 20, 2026. [Online]. Available: <a href="https://www.cenfa.org/indian-corporate-links-to-israel-under-scrutiny-amid-gaza-war-report/">https://www.cenfa.org/indian-corporate-links-to-israel-under-scrutiny-amid-gaza-war-report/</a></li>
+<li>V. Gopinath, “Interview | Are Indian Corporations Complicit in Israel’s Genocide in Gaza?,” Centre for Financial Accountability. Accessed: Mar. 20, 2026. [Online]. Available: <a href="https://www.cenfa.org/interview-are-indian-corporations-complicit-in-israels-genocide-in-gaza/">https://www.cenfa.org/interview-are-indian-corporations-complicit-in-israels-genocide-in-gaza/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Why India enabled Israel’s genocide in Gaza.” Accessed: Feb. 01, 2026. [Online]. Available: <a href="https://caravanmagazine.in/government/india-enabled-israel-genocide-gaza">https://caravanmagazine.in/government/india-enabled-israel-genocide-gaza</a></li>
+
+<li>R. Machold, After 26/11 : India, Palestine/Israel, and the Fabrication of Homeland Security. Navayana, 2024.</li>
+
+<li>“Mocking Gaza has become another way to threaten Indian Muslims,” Middle East Eye. Accessed: Oct. 25, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/opinion/mocking-gaza-has-become-another-way-threaten-indian-muslims">https://www.middleeasteye.net/opinion/mocking-gaza-has-become-another-way-threaten-indian-muslims</a></li>
+
+<li>H. Puthige, “India Should Know That in the Face of Genocide, Silence is Complicity,” Centre for Financial Accountability. Accessed: Oct. 09, 2025. [Online]. Available: <a href="https://www.cenfa.org/india-should-know-that-in-the-face-of-genocide-silence-is-complicity/">https://www.cenfa.org/india-should-know-that-in-the-face-of-genocide-silence-is-complicity/</a></li>
+
+<li>“The Latest Trump Plan for Gaza is an Effort to Ensure the Permanent Subordination of Palestinians,” The Wire. Accessed: Oct. 03, 2025. [Online]. Available: <a href="https://thewire.in/world/the-latest-trump-plan-for-gaza-is-an-effort-to-ensure-the-permanent-subordination-of-palestinians">https://thewire.in/world/the-latest-trump-plan-for-gaza-is-an-effort-to-ensure-the-permanent-subordination-of-palestinians</a></li>
+
+<li>S. D. Prashad Vijay, “Indian companies complicit in Israel’s genocide of the Palestinians,” Peoples Dispatch. Accessed: Oct. 02, 2025. [Online]. Available: <a href="https://peoplesdispatch.org/2025/10/01/indian-companies-complicit-in-israels-genocide-of-the-palestinians/">https://peoplesdispatch.org/2025/10/01/indian-companies-complicit-in-israels-genocide-of-the-palestinians/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org25b49a3" class="outline-4">
+<h4 id="org25b49a3"><span class="section-number-4">3.5.3.</span> Law</h4>
+<div class="outline-text-4" id="text-3-5-3">
+</div>
+<ol class="org-ol">
+<li><a id="org3558818"></a>Amnesty International<br />
+<div class="outline-text-5" id="text-3-5-3-1">
+<ul class="org-ul">
+<li>“Israel’s apartheid against Palestinians,” Amnesty International. Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://www.amnesty.org/en/latest/campaigns/2022/02/israels-system-of-apartheid/">https://www.amnesty.org/en/latest/campaigns/2022/02/israels-system-of-apartheid/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org4a5ef07"></a>Human Rights Watch<br />
+<div class="outline-text-5" id="text-3-5-3-2">
+<ul class="org-ul">
+<li>“Israel: White Phosphorus Used in Gaza, Lebanon | Human Rights Watch.” Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.hrw.org/news/2023/10/12/israel-white-phosphorus-used-gaza-lebanon">https://www.hrw.org/news/2023/10/12/israel-white-phosphorus-used-gaza-lebanon</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org2b5d8b7"></a>Misc<br />
+<div class="outline-text-5" id="text-3-5-3-3">
+<ul class="org-ul">
+<li>“A Moon Will Rise from the Darkness,” Pluto Press. Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.plutobooks.com/product/a-moon-will-rise-from-the-darkness/">https://www.plutobooks.com/product/a-moon-will-rise-from-the-darkness/</a></li>
+
+<li>“Israel/OPT: New testimonies provide compelling evidence that Israel’s starvation of Palestinians in Gaza is a deliberate policy,” Amnesty International. Accessed: Aug. 20, 2025. [Online]. Available: <a href="https://www.amnesty.org/en/latest/news/2025/08/israel-opt-new-testimonies-provide-compelling-evidence-that-israels-starvation-of-palestinians-in-gaza-is-a-deliberate-policy/">https://www.amnesty.org/en/latest/news/2025/08/israel-opt-new-testimonies-provide-compelling-evidence-that-israels-starvation-of-palestinians-in-gaza-is-a-deliberate-policy/</a></li>
+
+<li>“Le Monde publishes new details of campaign against Karim Khan and ICC,” Middle East Eye. Accessed: Aug. 05, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/karim-khan-le-monde-investigates-campaign-against-icc-chief">https://www.middleeasteye.net/news/karim-khan-le-monde-investigates-campaign-against-icc-chief</a></li>
+
+<li>“Exclusive: How Karim Khan’s Israel war crimes probe was derailed by threats, leaks and sex claims,” Middle East Eye. Accessed: Aug. 03, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/big-story/exclusive-karim-khan-israel-war-crimes-probe-derailed-threats-leaks-sex-claims">https://www.middleeasteye.net/big-story/exclusive-karim-khan-israel-war-crimes-probe-derailed-threats-leaks-sex-claims</a></li>
+
+<li>“Gaza: Israeli Killings of Palestinians Seeking Food Are War Crimes | Human Rights Watch.” Accessed: Aug. 02, 2025. [Online]. Available: <a href="https://www.hrw.org/news/2025/08/01/gaza-israeli-killings-of-palestinians-seeking-food-are-war-crimes">https://www.hrw.org/news/2025/08/01/gaza-israeli-killings-of-palestinians-seeking-food-are-war-crimes</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org7ee652d" class="outline-4">
+<h4 id="org7ee652d"><span class="section-number-4">3.5.4.</span> Misc</h4>
+<div class="outline-text-4" id="text-3-5-4">
+<ul class="org-ul">
+<li>“Trump’s Gaza Plan Is Mere ‘Repackaging of Genocide’ for Israel’s Benefit: Diana Buttu,” Democracy Now! Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/9/30/diana_buttu">https://www.democracynow.org/2025/9/30/diana_buttu</a></li>
+
+<li>“The Grammar of Resistance: Rethinking Palestine Beyond Pity and Fear,” Monthly Review. Accessed: Sep. 10, 2025. [Online]. Available: <a href="https://monthlyreview.org/articles/the-grammar-of-resistance-rethinking-palestine-beyond-pity-and-fear/">https://monthlyreview.org/articles/the-grammar-of-resistance-rethinking-palestine-beyond-pity-and-fear/</a></li>
+
+<li>J. Hickel, “Why does the US support Israel’s crimes?,” Jason Hickel. Accessed: Aug. 28, 2025. [Online]. Available: <a href="https://jasonhickel.substack.com/p/why-does-the-us-support-israels-crimes">https://jasonhickel.substack.com/p/why-does-the-us-support-israels-crimes</a></li>
+
+<li>“Amid the Relentless War, Israel’s Left Seems to Be Slowly Awakening - Rosa-Luxemburg-Stiftung.” Accessed: Aug. 20, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53701/amid-the-relentless-war-israels-left-seems-to-be-slowly-awakening">https://www.rosalux.de/en/news/id/53701/amid-the-relentless-war-israels-left-seems-to-be-slowly-awakening</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orga9b6781" class="outline-3">
+<h3 id="orga9b6781"><span class="section-number-3">3.6.</span> Business Studies, Misc</h3>
+<div class="outline-text-3" id="text-3-6">
+</div>
+<div id="outline-container-org7d3aeeb" class="outline-4">
+<h4 id="org7d3aeeb"><span class="section-number-4">3.6.1.</span> Misc</h4>
+<div class="outline-text-4" id="text-3-6-1">
+<ul class="org-ul">
+<li>H. Pfeifer and M. Goldmann, “Political and Legal Assessment of German Arms Deliveries to Israel Since 7 October 2023,” Aug. 13, 2025, Social Science Research Network, Rochester, NY: 5390330. Accessed: Aug. 14, 2025. [Online]. Available: <a href="https://papers.ssrn.com/abstract=5390330">https://papers.ssrn.com/abstract=5390330</a></li>
+
+<li>“Global Economic Benefit From Genocide of Palestinians,” NewsClick. Accessed: Aug. 02, 2025. [Online]. Available: <a href="https://www.newsclick.in/global-economic-benefit-genocide-palestinians">https://www.newsclick.in/global-economic-benefit-genocide-palestinians</a></li>
+
+<li>“Profiting Off a Genocide | Economic and Political Weekly.” Accessed: Jul. 13, 2025. [Online]. Available: <a href="https://www.epw.in/journal/editorials/profiting-genocide.html">https://www.epw.in/journal/editorials/profiting-genocide.html</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd50521e" class="outline-3">
+<h3 id="orgd50521e"><span class="section-number-3">3.7.</span> Security Studies, Misc</h3>
+</div>
+<div id="outline-container-orgd7155f4" class="outline-3">
+<h3 id="orgd7155f4"><span class="section-number-3">3.8.</span> Communication, Misc</h3>
+<div class="outline-text-3" id="text-3-8">
+</div>
+<div id="outline-container-org15d867d" class="outline-4">
+<h4 id="org15d867d"><span class="section-number-4">3.8.1.</span> Journalism</h4>
+<div class="outline-text-4" id="text-3-8-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgf3f5131"></a>Committee to Protect Journalists<br />
+<div class="outline-text-5" id="text-3-8-1-1">
+<ul class="org-ul">
+<li>A. Getz, “Taliban intelligence agents detain 3 Radio Nasim journalists,” Committee to Protect Journalists. Accessed: Oct. 11, 2023. [Online]. Available: <a href="https://cpj.org/2023/10/taliban-intelligence-agents-detain-3-radio-nasim-journalists/">https://cpj.org/2023/10/taliban-intelligence-agents-detain-3-radio-nasim-journalists/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org704a4b3"></a>Democracy Now<br />
+<div class="outline-text-5" id="text-3-8-1-2">
+<ul class="org-ul">
+<li>“Former EU Envoy: Forced Transfer of Palestinians in Gaza Would be a War Crime,” Democracy Now! Accessed: Oct. 15, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/eu_envoy_to_palestine_gaza_israel">https://www.democracynow.org/2023/10/13/eu_envoy_to_palestine_gaza_israel</a>- “A Second Nakba? Israel Orders 1.1 Million Palestinians to Evacuate Northern Gaza,” Democracy Now! Accessed: Oct. 15, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/israel_orders_gaza_evacuation">https://www.democracynow.org/2023/10/13/israel_orders_gaza_evacuation</a></li>
+<li>“U.S. Beefing Up Military Support to Israel; U.N. Expert Blasts ‘Selective Outrage’ over Conflict,” Democracy Now! Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/9/headlines/us_beefing_up_military_support_to_israel_un_expert_blasts_selective_outrage_over_conflict">https://www.democracynow.org/2023/10/9/headlines/us_beefing_up_military_support_to_israel_un_expert_blasts_selective_outrage_over_conflict</a></li>
+<li>“Biden and Western Leaders Pledge ‘Steadfast and United’ Support to Israel,” Democracy Now! Accessed: Oct. 11, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/10/headlines/biden_and_western_leaders_pledge_steadfast_and_united_support_to_israel">https://www.democracynow.org/2023/10/10/headlines/biden_and_western_leaders_pledge_steadfast_and_united_support_to_israel</a></li>
+<li>“‘Apartheid Resistance Is Not Terrorism’: Protesters Stand in Solidarity with Palestinians,” Democracy Now! Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/9/headlines/apartheid_resistance_is_not_terrorism_protesters_stand_in_solidarity_with_palestinians">https://www.democracynow.org/2023/10/9/headlines/apartheid_resistance_is_not_terrorism_protesters_stand_in_solidarity_with_palestinians</a></li>
+<li>“Death Toll in Gaza and Israel Tops 1,300 as Israel Declares War on Hamas Following Surprise Attack,” Democracy Now! Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/9/headlines/death_toll_in_gaza_and_israel_tops_1_300_as_israel_declares_war_on_hamas_following_surprise_attack">https://www.democracynow.org/2023/10/9/headlines/death_toll_in_gaza_and_israel_tops_1_300_as_israel_declares_war_on_hamas_following_surprise_attack</a></li>
+<li>“Students at Brown, MIT, Columbia and Other Colleges Risk Arrest, Retaliation to Protest War on Gaza,” Democracy Now! Accessed: Nov. 11, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/11/10/headlines/students_at_brown_mit_columbia_and_other_colleges_risk_arrest_retaliation_to_protest_war_on_gaza">https://www.democracynow.org/2023/11/10/headlines/students_at_brown_mit_columbia_and_other_colleges_risk_arrest_retaliation_to_protest_war_on_gaza</a></li>
+<li>“Settlers Backed by Israeli Army Kill Palestinians in Occupied West Bank,” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/12/headlines/settlers_backed_by_israeli_army_kill_palestinians_in_occupied_west_bank">https://www.democracynow.org/2023/10/12/headlines/settlers_backed_by_israeli_army_kill_palestinians_in_occupied_west_bank</a></li>
+<li>“Noura Erakat: Western Leaders &amp; Media Are Justifying Israel’s ‘Genocidal Campaign,’” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/noura_erakat_palestine_gaza_israel">https://www.democracynow.org/2023/10/13/noura_erakat_palestine_gaza_israel</a></li>
+<li>“Hamas Says 13 Hostages Captured in Israel Have Died in Gaza Airstrikes,” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/headlines/hamas_says_13_hostages_captured_in_israel_have_died_in_gaza_airstrikes">https://www.democracynow.org/2023/10/13/headlines/hamas_says_13_hostages_captured_in_israel_have_died_in_gaza_airstrikes</a></li>
+<li>“Competing Pro-Israel and Pro-Palestine Demonstrations Raise Tensions on College Campuses,” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/headlines/competing_pro_israel_and_pro_palestine_demonstrations_raise_tensions_on_college_campuses">https://www.democracynow.org/2023/10/13/headlines/competing_pro_israel_and_pro_palestine_demonstrations_raise_tensions_on_college_campuses</a></li>
+<li>“U.N. Warns of ‘Devastating Humanitarian Consequences’ as Israel Orders 1.1 Million to Evacuate Gaza,” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/headlines/un_warns_of_devastating_humanitarian_consequences_as_israel_orders_11_million_to_evacuate_gaza">https://www.democracynow.org/2023/10/13/headlines/un_warns_of_devastating_humanitarian_consequences_as_israel_orders_11_million_to_evacuate_gaza</a></li>
+<li>“Iran’s Foreign Minister Meets Lebanese Leaders, Warns Israel Could Face ‘Other Fronts,’” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/headlines/irans_foreign_minister_meets_lebanese_leaders_warns_israel_could_face_other_fronts">https://www.democracynow.org/2023/10/13/headlines/irans_foreign_minister_meets_lebanese_leaders_warns_israel_could_face_other_fronts</a></li>
+<li>“Pentagon Chief Lloyd Austin Says U.S. Won’t Place Conditions on Weapons to Israel,” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/headlines/pentagon_chief_lloyd_austin_says_us_wont_place_conditions_on_weapons_to_israel">https://www.democracynow.org/2023/10/13/headlines/pentagon_chief_lloyd_austin_says_us_wont_place_conditions_on_weapons_to_israel</a></li>
+<li>“Western Governments Ban Palestinian Solidarity Demonstrations,” Democracy Now! Accessed: Oct. 14, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/10/13/headlines/western_governments_ban_palestinian_solidarity_demonstrations">https://www.democracynow.org/2023/10/13/headlines/western_governments_ban_palestinian_solidarity_demonstrations</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org8d25df7"></a>Misc<br />
+<div class="outline-text-5" id="text-3-8-1-3">
+<ul class="org-ul">
+<li>“RSF appeals to Israeli Supreme Court against media blackout imposed on Gaza | RSF.” Accessed: Oct. 28, 2025. [Online]. Available: <a href="https://rsf.org/en/rsf-appeals-israeli-supreme-court-against-media-blackout-imposed-gaza">https://rsf.org/en/rsf-appeals-israeli-supreme-court-against-media-blackout-imposed-gaza</a></li>
+
+<li>“Ceasefire in Gaza: Israeli authorities must end media blockade | RSF.” Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://rsf.org/en/ceasefire-gaza-israeli-authorities-must-end-media-blockade">https://rsf.org/en/ceasefire-gaza-israeli-authorities-must-end-media-blockade</a></li>
+
+<li>“Gaza Flotilla: RSF condemns the Israeli forces’ illegal arrest of more than 20 journalists | RSF.” Accessed: Oct. 05, 2025. [Online]. Available: <a href="https://rsf.org/en/gaza-flotilla-rsf-condemns-israeli-forces-illegal-arrest-more-20-journalists">https://rsf.org/en/gaza-flotilla-rsf-condemns-israeli-forces-illegal-arrest-more-20-journalists</a></li>
+
+<li>“Australia: Journalists censored for reporting on Gaza / IFJ.” Accessed: Sep. 29, 2025. [Online]. Available: <a href="https://www.ifj.org/media-centre/news/detail/category/press-releases/article/australia-journalists-censored-for-reporting-on-gaza">https://www.ifj.org/media-centre/news/detail/category/press-releases/article/australia-journalists-censored-for-reporting-on-gaza</a></li>
+
+<li>“21 nations call on Israeli government to open Gaza to foreign media and allow evacuation of Palestinian journalists | RSF.” Accessed: Sep. 27, 2025. [Online]. Available: <a href="https://rsf.org/en/21-nations-call-israeli-government-open-gaza-foreign-media-and-allow-evacuation-palestinian">https://rsf.org/en/21-nations-call-israeli-government-open-gaza-foreign-media-and-allow-evacuation-palestinian</a></li>
+
+<li>“Palestine: At least 222 journalists and media workers killed in Gaza / IFJ.” Accessed: Sep. 19, 2025. [Online]. Available: <a href="https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-at-least-222-journalists-and-media-workers-killed-in-gaza">https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-at-least-222-journalists-and-media-workers-killed-in-gaza</a></li>
+
+<li>“‘Gazawood’: The deadly accusations against Gaza’s journalists | RSF.” Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://rsf.org/en/gazawood-deadly-accusations-against-gaza-s-journalists">https://rsf.org/en/gazawood-deadly-accusations-against-gaza-s-journalists</a></li>
+
+<li>“Reporting From the Rubble: The Life of a Journalist in Gaza,” OCCRP. Accessed: Sep. 03, 2025. [Online]. Available: <a href="https://www.occrp.org/en/feature/reporting-from-the-rubble-the-life-of-a-journalist-in-gaza">https://www.occrp.org/en/feature/reporting-from-the-rubble-the-life-of-a-journalist-in-gaza</a></li>
+
+<li>“In a world first, over 250 media black out their front pages and broadcasting programmes to protest the killing of journalists in Gaza | RSF.” Accessed: Sep. 03, 2025. [Online]. Available: <a href="https://rsf.org/en/world-first-over-250-media-black-out-their-front-pages-and-broadcasting-programmes-protest-killing">https://rsf.org/en/world-first-over-250-media-black-out-their-front-pages-and-broadcasting-programmes-protest-killing</a></li>
+
+<li>“Palestine: At least 220 journalists and media workers killed in Gaza / IFJ.” Accessed: Sep. 04, 2025. [Online]. Available: <a href="https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-at-least-220-journalists-and-media-workers-killed-in-gaza">https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-at-least-220-journalists-and-media-workers-killed-in-gaza</a></li>
+
+<li>“New strategies to help journalists in Gaza,” Freedom of the Press. Accessed: Aug. 26, 2025. [Online]. Available: <a href="https://freedom.press/issues/new-strategies-to-help-journalists-in-gaza/">https://freedom.press/issues/new-strategies-to-help-journalists-in-gaza/</a></li>
+
+<li>“Gaza: At least four more journalists killed by Israeli army, RSF repeats call for emergency UN Security Council Meeting | RSF.” Accessed: Aug. 26, 2025. [Online]. Available: <a href="https://rsf.org/en/gaza-least-four-more-journalists-killed-israeli-army-rsf-repeats-call-emergency-un-security-council">https://rsf.org/en/gaza-least-four-more-journalists-killed-israeli-army-rsf-repeats-call-emergency-un-security-council</a></li>
+
+<li>“Palestine: At least 212 journalists and media workers killed in Gaza / IFJ.” Accessed: Aug. 21, 2025. [Online]. Available: <a href="https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-at-least-212-journalists-and-media-workers-killed-in-gaza">https://www.ifj.org/media-centre/news/detail/category/press-releases/article/palestine-at-least-212-journalists-and-media-workers-killed-in-gaza</a></li>
+
+<li>“Gaza: RSF calls for emergency UN Security Council meeting after targeted Israeli strike kills six media professionals | RSF.” Accessed: Aug. 14, 2025. [Online]. Available: <a href="https://rsf.org/en/gaza-rsf-calls-emergency-un-security-council-meeting-after-targeted-israeli-strike-kills-six-media">https://rsf.org/en/gaza-rsf-calls-emergency-un-security-council-meeting-after-targeted-israeli-strike-kills-six-media</a></li>
+
+<li>“RSF supports Palestinian media alongside the Wattan Media Network, its local partner in the West Bank | RSF.” Accessed: Jun. 18, 2025. [Online]. Available: <a href="https://rsf.org/en/rsf-supports-palestinian-media-alongside-wattan-media-network-its-local-partner-west-bank">https://rsf.org/en/rsf-supports-palestinian-media-alongside-wattan-media-network-its-local-partner-west-bank</a></li>
+
+<li>“Gaza: RSF, CPJ and over 130 media outlets call for opening the Strip to foreign journalists and protecting Palestinian reporters | RSF.” Accessed: Jun. 07, 2025. [Online]. Available: <a href="https://rsf.org/en/gaza-rsf-cpj-and-over-130-media-outlets-call-opening-strip-foreign-journalists-and-protecting">https://rsf.org/en/gaza-rsf-cpj-and-over-130-media-outlets-call-opening-strip-foreign-journalists-and-protecting</a></li>
+
+<li>“+972 and Local Call: Investigating Israel at War.” Accessed: May 27, 2025. [Online]. Available: <a href="https://gijn.org/stories/investigating-israel-war-972-local-call/">https://gijn.org/stories/investigating-israel-war-972-local-call/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Mondoweiss,” Mondoweiss. Accessed: Sep. 22, 2025. [Online]. Available: <a href="https://mondoweiss.net/">https://mondoweiss.net/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6f4e8d4" class="outline-3">
+<h3 id="org6f4e8d4"><span class="section-number-3">3.9.</span> Special Topics</h3>
+</div>
+<div id="outline-container-org28cb263" class="outline-3">
+<h3 id="org28cb263"><span class="section-number-3">3.10.</span> Misc</h3>
+<div class="outline-text-3" id="text-3-10">
+<ul class="org-ul">
+<li>“Documenting Gaza: How Journalists Can Collect Evidence Even When Denied Access.” Accessed: Jan. 27, 2026. [Online]. Available: <a href="https://gijn.org/stories/gijc25-investigating-war-crimes-gaza/">https://gijn.org/stories/gijc25-investigating-war-crimes-gaza/</a></li>
+
+<li>“A professor in Gaza on teaching during a genocide.” Accessed: Dec. 05, 2025. [Online]. Available: <a href="https://caravanmagazine.in/conflict/professor-in-gaza-on-teaching-during-genocide">https://caravanmagazine.in/conflict/professor-in-gaza-on-teaching-during-genocide</a></li>
+
+<li>“Peter Oborne’s&lt;em&gt; Complicit: Britain’s role in the destruction of Gaza&lt;/em&gt;,” World Socialist Web Site. Accessed: Dec. 03, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/11/30/dhmk-n30.html">https://www.wsws.org/en/articles/2025/11/30/dhmk-n30.html</a></li>
+
+<li>“Israeli Watchdog Rebukes Trump Over Call to Pardon Netanyahu,” OCCRP. Accessed: Nov. 14, 2025. [Online]. Available: <a href="https://www.occrp.org/en/news/israeli-watchdog-rebukes-trump-over-call-to-pardon-netanyahu">https://www.occrp.org/en/news/israeli-watchdog-rebukes-trump-over-call-to-pardon-netanyahu</a></li>
+
+<li>D. Kenner, “Arab states deepened military ties with Israel while denouncing Gaza war, leak reveals - ICIJ.” Accessed: Oct. 12, 2025. [Online]. Available: <a href="https://www.icij.org/news/2025/10/arab-states-deepened-military-ties-with-israel-while-denouncing-gaza-war-leak-reveals/">https://www.icij.org/news/2025/10/arab-states-deepened-military-ties-with-israel-while-denouncing-gaza-war-leak-reveals/</a></li>
+
+<li>“Palestine and the United States Peace Plan–Continuing the Deception,” The India Forum. Accessed: Oct. 13, 2025. [Online]. Available: <a href="https://www.theindiaforum.in/international-affairs/palestine-and-united-states-peace-plan-continuing-deception">https://www.theindiaforum.in/international-affairs/palestine-and-united-states-peace-plan-continuing-deception</a></li>
+
+<li>“Norman Finkelstein on the Hamas/Israeli Ceasefire,” Countercurrents. Accessed: Oct. 28, 2025. [Online]. Available: <a href="https://countercurrents.org/2025/10/norman-finkelstein-on-the-hamas-israeli-ceasefire/">https://countercurrents.org/2025/10/norman-finkelstein-on-the-hamas-israeli-ceasefire/</a></li>
+
+<li>“Beyond Gaza.” Accessed: Oct. 20, 2025. [Online]. Available: <a href="https://www.telegraphindia.com/opinion/beyond-gaza-two-books-on-the-israel-palestine-conflict-prnt/cid/2128361">https://www.telegraphindia.com/opinion/beyond-gaza-two-books-on-the-israel-palestine-conflict-prnt/cid/2128361</a></li>
+
+<li>R. Guha, “Ramachandra Guha: Two writers whose thoughts on Palestine are worth recalling four decades later,” Scroll.in. Accessed: Oct. 20, 2025. [Online]. Available: <a href="https://scroll.in/article/1087797/ramachandra-guha-two-writers-whose-thoughts-on-palestine-are-worth-recalling-four-decades-later">https://scroll.in/article/1087797/ramachandra-guha-two-writers-whose-thoughts-on-palestine-are-worth-recalling-four-decades-later</a></li>
+
+<li>A. I. With, “Ultraleftism Can’t Free Palestine.” Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://jacobin.com/2025/10/palestine-gaza-solidarity-us-strategy">https://jacobin.com/2025/10/palestine-gaza-solidarity-us-strategy</a></li>
+
+<li>“A Cynical Conceit - Rosa-Luxemburg-Stiftung.” Accessed: Oct. 06, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53871/a-cynical-conceit">https://www.rosalux.de/en/news/id/53871/a-cynical-conceit</a></li>
+
+<li>“Scale of Australian military exports to Israel exposed,” World Socialist Web Site. Accessed: Oct. 05, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/10/04/dflb-o04.html">https://www.wsws.org/en/articles/2025/10/04/dflb-o04.html</a></li>
+
+<li>“Workers Shut Down Italy Again in Solidarity With Palestine,” NewsClick. Accessed: Oct. 05, 2025. [Online]. Available: <a href="https://www.newsclick.in/workers-shut-down-italy-again-solidarity-palestine">https://www.newsclick.in/workers-shut-down-italy-again-solidarity-palestine</a></li>
+
+<li>“The Latest Trump Plan for Gaza is an Effort to Ensure the Permanent Subordination of Palestinians,” The Wire. Accessed: Oct. 03, 2025. [Online]. Available: <a href="https://thewire.in/world/the-latest-trump-plan-for-gaza-is-an-effort-to-ensure-the-permanent-subordination-of-palestinians">https://thewire.in/world/the-latest-trump-plan-for-gaza-is-an-effort-to-ensure-the-permanent-subordination-of-palestinians</a></li>
+
+<li>“Israel Is Committing Genocide in the Gaza Strip: The Fortieth Newsletter (2025),” Tricontinental: Institute for Social Research. Accessed: Oct. 02, 2025. [Online]. Available: <a href="https://thetricontinental.org/newsletterissue/palestine-genocide-second-anniversary/">https://thetricontinental.org/newsletterissue/palestine-genocide-second-anniversary/</a></li>
+
+<li>“Global Sumud Flotilla Intercepted,” NewsClick. Accessed: Oct. 02, 2025. [Online]. Available: <a href="https://www.newsclick.in/global-sumud-flotilla-intercepted">https://www.newsclick.in/global-sumud-flotilla-intercepted</a></li>
+
+<li>“Ongoing Annexation: Life in the West Bank - Rosa-Luxemburg-Stiftung.” Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53766/ongoing-annexation-life-in-the-west-bank">https://www.rosalux.de/en/news/id/53766/ongoing-annexation-life-in-the-west-bank</a></li>
+
+<li>“The full text of Trump’s 20-point plan to end the war in Gaza,” Middle East Eye. Accessed: Sep. 30, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/full-text-trumps-20-point-plan-end-war-gaza-0">https://www.middleeasteye.net/news/full-text-trumps-20-point-plan-end-war-gaza-0</a></li>
+<li>“Netanyahu accepts Trump proposal to end war in Gaza,” Middle East Eye. Accessed: Sep. 30, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/trump-says-netanyahu-has-accepted-proposal-end-war-gaza">https://www.middleeasteye.net/news/trump-says-netanyahu-has-accepted-proposal-end-war-gaza</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Palestinian state recognition: The West is playing a double game,” Middle East Eye. Accessed: Sep. 23, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/opinion/gaza-genocide-earth-had-swallowed-them-whole">https://www.middleeasteye.net/opinion/gaza-genocide-earth-had-swallowed-them-whole</a></li>
+
+<li>G. Levy, The Killing of Gaza: Reports on a Catastrophe. London ; New York: Verso, 2024.</li>
+
+<li>G. Harms and T. M. Ferry, The Palestine-Israel Conflict: A Basic Introduction - Fourth Edition. London: Pluto Press, 2017.</li>
+<li>N. Finkelstein, Method and Madness: The Hidden Story of Israel’s Assaults on Gaza. New York: OR Books, 2014.</li>
+<li>D. Cohn-Sherbok and D. El-Alami, The Palestine-Israeli Conflict: A Beginner’s Guide. New York: Oneworld Publications, 2015.</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>I. Pappe, A Very Short History of the Israel–Palestine Conflict. London: Oneworld Publications, 2024.</li>
+
+<li>“Frustration as US vetoes sixth UN resolution for Gaza ceasefire,” Middle East Eye. Accessed: Sep. 19, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/frustration-us-vetoes-sixth-un-resolution-gaza-ceasefire">https://www.middleeasteye.net/news/frustration-us-vetoes-sixth-un-resolution-gaza-ceasefire</a></li>
+
+<li>“How Europe is managing guilt over Gaza: The politics of moral cleansing,” Global Voices. Accessed: Aug. 24, 2025. [Online]. Available: <a href="https://globalvoices.org/2025/08/22/how-europe-is-managing-guilt-over-gaza-the-politics-of-moral-cleansing/">https://globalvoices.org/2025/08/22/how-europe-is-managing-guilt-over-gaza-the-politics-of-moral-cleansing/</a></li>
+
+<li>“Ignoring the Holocaust in Gaza | Economic and Political Weekly.” Accessed: Aug. 16, 2025. [Online]. Available: <a href="https://www.epw.in/journal/2025/33/letters/ignoring-holocaust-gaza.html">https://www.epw.in/journal/2025/33/letters/ignoring-holocaust-gaza.html</a></li>
+
+<li>“From economy of occupation to economy of genocide - (A/HRC/59/23) Report of the Special Rapporteur on the situation of human rights in the Palestinian territories occupied since 1967 (Advance unedited version),” Question of Palestine. Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://www.un.org/unispal/document/a-hrc-59-23-from-economy-of-occupation-to-economy-of-genocide-report-special-rapporteur-francesca-albanese-palestine-2025/">https://www.un.org/unispal/document/a-hrc-59-23-from-economy-of-occupation-to-economy-of-genocide-report-special-rapporteur-francesca-albanese-palestine-2025/</a></li>
+
+<li>“The EU’s Deadly Partnership with Israel - Rosa-Luxemburg-Stiftung.” Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53698/challenging-the-eus-deadly-partnership-with-israel">https://www.rosalux.de/en/news/id/53698/challenging-the-eus-deadly-partnership-with-israel</a></li>
+
+<li>“Deliberate starvation of Palestinian people by Israel in Gaza must stop,” Greenpeace International. Accessed: Jul. 31, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/77483/deliberate-starvation-of-palestinian-people-by-israel-in-gaza-must-stop/">https://www.greenpeace.org/international/press-release/77483/deliberate-starvation-of-palestinian-people-by-israel-in-gaza-must-stop/</a></li>
+
+<li>“‘Economy of Genocide’: U.S. Sanctions U.N. Expert Who Reports on Corporate Profits from Israel’s Gaza War,” Democracy Now! Accessed: Jul. 11, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/7/10/francesca_albanese_sanctions">https://www.democracynow.org/2025/7/10/francesca_albanese_sanctions</a></li>
+
+<li>“Weaponizing Economics against Palestine - Rosa-Luxemburg-Stiftung.” Accessed: Jul. 01, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53568/weaponizing-economics-against-palestine">https://www.rosalux.de/en/news/id/53568/weaponizing-economics-against-palestine</a></li>
+
+<li>“thewire.in/books/why-normal-finkelsteins-book-still-raises-the-israeli-and-us-states-hackles.” Accessed: Jun. 30, 2025. [Online]. Available: <a href="https://thewire.in/books/why-normal-finkelsteins-book-still-raises-the-israeli-and-us-states-hackles">https://thewire.in/books/why-normal-finkelsteins-book-still-raises-the-israeli-and-us-states-hackles</a></li>
+
+<li>“Trump calls Netanyahu’s corruption trial ‘witch hunt’ as he eyes progress on Gaza ceasefire,” Middle East Eye. Accessed: Jun. 27, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/trump-calls-netanyahus-corruption-trial-witch-hunt-he-promises-progress-gaza-ceasefire">https://www.middleeasteye.net/news/trump-calls-netanyahus-corruption-trial-witch-hunt-he-promises-progress-gaza-ceasefire</a></li>
+
+<li>“The Palestinian Authority’s Dire Financial Straits - Rosa-Luxemburg-Stiftung.” Accessed: Jun. 14, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53510/the-palestinian-authoritys-dire-financial-straits">https://www.rosalux.de/en/news/id/53510/the-palestinian-authoritys-dire-financial-straits</a></li>
+
+<li>“World after Gaza | Economic and Political Weekly.” Accessed: Jun. 12, 2025. [Online]. Available: <a href="https://www.epw.in/journal/2025/23/letters/world-after-gaza.html">https://www.epw.in/journal/2025/23/letters/world-after-gaza.html</a></li>
+
+<li>“Mosquito Protocol: Israel’s Systematic Use of Palestinians as Human Shields,” Democracy Now! Accessed: Jun. 01, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/5/29/israeli_soldiers_using_palestinians_human_shields">https://www.democracynow.org/2025/5/29/israeli_soldiers_using_palestinians_human_shields</a></li>
+
+<li>N. N. Bhriain, “Niamh Ní Bhriain: Europe Is Getting Rich Off Genocide in Gaza | Transnational Institute.” Accessed: May 28, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/niamh-ni-bhriain-europe-is-getting-rich-off-genocide-in-gaza">https://www.tni.org/en/video/niamh-ni-bhriain-europe-is-getting-rich-off-genocide-in-gaza</a></li>
+
+<li>“Israel’s Crimes in the West Bank: The Nineteenth Newsletter (2025),” Tricontinental: Institute for Social Research. Accessed: May 09, 2025. [Online]. Available: <a href="https://thetricontinental.org/newsletterissue/israel-crimes-west-bank/">https://thetricontinental.org/newsletterissue/israel-crimes-west-bank/</a></li>
+
+<li>“Peter Thiel: ‘I defer to Israel’ | Responsible Statecraft.” Accessed: Apr. 29, 2025. [Online]. Available: <a href="https://responsiblestatecraft.org/peter-thiel-israel-palantir/">https://responsiblestatecraft.org/peter-thiel-israel-palantir/</a></li>
+
+<li>“Queen Elizabeth ‘refused to allow Israeli officials inside Buckingham Palace,’” Middle East Eye. Accessed: Apr. 17, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/queen-elizabeth-refused-allow-israeli-officials-buckingham-palace-says-former-president">https://www.middleeasteye.net/news/queen-elizabeth-refused-allow-israeli-officials-buckingham-palace-says-former-president</a></li>
+<li>“Charles III: How the new king became the most pro-Islam monarch in British history,” Middle East Eye. Accessed: Apr. 17, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/opinion/king-charles-most-pro-islam-monarch-british-history">https://www.middleeasteye.net/opinion/king-charles-most-pro-islam-monarch-british-history</a></li>
+<li>“Harry and Meghan’s charity cuts ties with Muslim group over pro-Palestine comments,” Middle East Eye. Accessed: Apr. 17, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/harry-and-meghans-charity-cuts-ties-muslim-group-over-founders-pro-palestine-comments">https://www.middleeasteye.net/news/harry-and-meghans-charity-cuts-ties-muslim-group-over-founders-pro-palestine-comments</a></li>
+
+<li>“Kenize Mourad: The Ottoman princess boycotted in France for supporting Palestine,” Middle East Eye. Accessed: Apr. 13, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/big-story/kenize-mourad-ottoman-princess-writer-boycotted-france-palestine">https://www.middleeasteye.net/big-story/kenize-mourad-ottoman-princess-writer-boycotted-france-palestine</a></li>
+
+<li>“‘More than a human can bear’: Israel’s systematic use of sexual, reproductive and other forms of gender-based violence since October 2023,” OHCHR. Accessed: Mar. 14, 2025. [Online]. Available: <a href="https://www.ohchr.org/en/press-releases/2025/03/more-human-can-bear-israels-systematic-use-sexual-reproductive-and-other">https://www.ohchr.org/en/press-releases/2025/03/more-human-can-bear-israels-systematic-use-sexual-reproductive-and-other</a></li>
+
+<li>“Amnesty International concludes Israel is committing genocide against Palestinians in Gaza,” Amnesty International. Accessed: Dec. 05, 2024. [Online]. Available: <a href="https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/">https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/</a></li>
+
+<li>“The Incompetence of Masters of War.” Accessed: Aug. 15, 2024. [Online]. Available: <a href="https://jacobin.com/2024/08/military-industrial-complex-gaza-yemen">https://jacobin.com/2024/08/military-industrial-complex-gaza-yemen</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd21d11e" class="outline-2">
+<h2 id="orgd21d11e"><span class="section-number-2">4.</span> Core</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org24eef59" class="outline-3">
+<h3 id="org24eef59"><span class="section-number-3">4.1.</span> Education</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-orgc915f16" class="outline-4">
+<h4 id="orgc915f16"><span class="section-number-4">4.1.1.</span> Reading Lists</h4>
+<div class="outline-text-4" id="text-4-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgb8b472d"></a>Politics: Left<br />
+<div class="outline-text-5" id="text-4-1-1-1">
+<ul class="org-ul">
+<li>“Palestine / Israel,” Pluto Press. Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.plutobooks.com/palestine-israel/">https://www.plutobooks.com/palestine-israel/</a></li>
+<li>F. Stencel-Wade, “Palestine Reading List: 100 years after the Balfour Declaration,” Pluto Press. Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.plutobooks.com/blog/palestine-reading-list/">https://www.plutobooks.com/blog/palestine-reading-list/</a></li>
+<li>“Free Palestine - A Reading List,” Pluto Press. Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.plutobooks.com/free-palestine-reading-list/">https://www.plutobooks.com/free-palestine-reading-list/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Solidarity with Palestine: Free Resources and Further Reading,” Verso. Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.versobooks.com/en-gb/blogs/news/solidarity-with-palestine-free-resources-and-further-reading">https://www.versobooks.com/en-gb/blogs/news/solidarity-with-palestine-free-resources-and-further-reading</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org2596c65"></a>Misc<br />
+<div class="outline-text-5" id="text-4-1-1-2">
+<ul class="org-ul">
+<li>“40 Books to Understand Palestine,” Literary Hub. Accessed: Nov. 16, 2023. [Online]. Available: <a href="https://lithub.com/40-books-to-understand-palestine/">https://lithub.com/40-books-to-understand-palestine/</a></li>
+
+<li>“Routledge Library Editions: Israel and Palestine - Book Series - Routledge &amp; CRC Press.” Accessed: Nov. 14, 2023. [Online]. Available: <a href="https://www.routledge.com/Routledge-Library-Editions-Israel-and-Palestine/book-series/RLEIP">https://www.routledge.com/Routledge-Library-Editions-Israel-and-Palestine/book-series/RLEIP</a></li>
+
+<li>C. Halley, “Israel and Gaza: A Syllabus of Background Readings,” JSTOR Daily. Accessed: Oct. 20, 2023. [Online]. Available: <a href="https://daily.jstor.org/israel-and-gaza-a-syllabus-of-background-readings/">https://daily.jstor.org/israel-and-gaza-a-syllabus-of-background-readings/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orga6920eb" class="outline-4">
+<h4 id="orga6920eb"><span class="section-number-4">4.1.2.</span> Misc</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<ul class="org-ul">
+<li>“Oxford University invested in at least 49 firms linked to illegal Israeli activity,” Middle East Eye. Accessed: Oct. 17, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/over-ps19mn-oxford-endowment-invested-49-firms-linked-illegal-israeli-activity">https://www.middleeasteye.net/news/over-ps19mn-oxford-endowment-invested-49-firms-linked-illegal-israeli-activity</a></li>
+
+<li>G. V. Hecken, “Genocide in Palestine: 4 Tricks Universities Use to Avoid Accountability | Transnational Institute.” Accessed: Apr. 02, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/genocide-in-palestine-4-tricks-universities-use-to-avoid-accountability">https://www.tni.org/en/video/genocide-in-palestine-4-tricks-universities-use-to-avoid-accountability</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf9f05ee" class="outline-2">
+<h2 id="orgf9f05ee"><span class="section-number-2">5.</span> Arts</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org1e0cfd4" class="outline-3">
+<h3 id="org1e0cfd4"><span class="section-number-3">5.1.</span> Misc</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org36f1acf" class="outline-4">
+<h4 id="org36f1acf"><span class="section-number-4">5.1.1.</span> Dances</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<ul class="org-ul">
+<li>G. S, “Don’t forget the children | Indian Dancers for Gaza’s Children spearhead charity performances globally,” The Hindu, Sep. 20, 2024. Accessed: Aug. 30, 2025. [Online]. Available: <a href="https://www.thehindu.com/entertainment/dance/indian-dancers-for-gaza-children-aranyani-bhargav-insaniyat-bangalore-israel-palestine-war/article68654390.ece">https://www.thehindu.com/entertainment/dance/indian-dancers-for-gaza-children-aranyani-bhargav-insaniyat-bangalore-israel-palestine-war/article68654390.ece</a></li>
+<li>“A Dance for the Children of Gaza – and all of Humanity,” The Wire. Accessed: Aug. 30, 2025. [Online]. Available: <a href="https://thewire.in/the-arts/a-dance-for-the-children-of-gaza-and-all-of-humanity">https://thewire.in/the-arts/a-dance-for-the-children-of-gaza-and-all-of-humanity</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgbd7d193" class="outline-4">
+<h4 id="orgbd7d193"><span class="section-number-4">5.1.2.</span> Music, Misc</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<ul class="org-ul">
+<li>“‘Word soup’: U2 statement on Gaza dismissed as ‘billionaire pacifism,’” Middle East Eye. Accessed: Aug. 13, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/u2-statement-gaza-dismissed-as-billionaire-pacifism">https://www.middleeasteye.net/trending/u2-statement-gaza-dismissed-as-billionaire-pacifism</a></li>
+<li>“Madonna to Pope Leo: ‘Please say you will go to Gaza,’” Middle East Eye. Accessed: Aug. 13, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/madonna-pope-leo-please-say-you-will-go-gaza">https://www.middleeasteye.net/trending/madonna-pope-leo-please-say-you-will-go-gaza</a></li>
+<li>“T.M. Krishna writes about the human impact of the Israel-Palestine crisis,” The Hindu, Jul. 01, 2017. Accessed: May 25, 2025. [Online]. Available: <a href="https://www.thehindu.com/society/whose-land-is-it-anyway/article19186990.ece">https://www.thehindu.com/society/whose-land-is-it-anyway/article19186990.ece</a></li>
+<li>“Annie Lenox, Vanessa Redgrave, Guy Pierce Join Poetry Project Against Killing of Gaza Children,” The Wire. Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://thewire.in/world/annie-lenox-vanessa-redgrave-guy-pierce-join-poetry-project-against-killing-of-gaza-children">https://thewire.in/world/annie-lenox-vanessa-redgrave-guy-pierce-join-poetry-project-against-killing-of-gaza-children</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfb9cb87" class="outline-4">
+<h4 id="orgfb9cb87"><span class="section-number-4">5.1.3.</span> Literature</h4>
+<div class="outline-text-4" id="text-5-1-3">
+<ul class="org-ul">
+<li>“Sally Rooney vows to keep backing Palestine Action despite UK ban,” Middle East Eye. Accessed: Aug. 19, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/sally-rooney-vows-keep-backing-palestine-action-despite-uk-ban">https://www.middleeasteye.net/trending/sally-rooney-vows-keep-backing-palestine-action-despite-uk-ban</a></li>
+<li>“Stories Cartoons Tell: A Dialogic Analysis of Israel–Palestine Conflict | Economic and Political Weekly.” Accessed: Aug. 16, 2025. [Online]. Available: <a href="https://www.epw.in/engage/article/stories-cartoons-tell-dialogic-analysis-israel">https://www.epw.in/engage/article/stories-cartoons-tell-dialogic-analysis-israel</a></li>
+<li>“Maus author Art Spiegelman to collaborate with Joe Sacco on Gaza comic,” Middle East Eye. Accessed: Jan. 06, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/discover/maus-author-art-spiegelman-announces-collaboration-palstine-writer-joe-succo-new-comic">https://www.middleeasteye.net/discover/maus-author-art-spiegelman-announces-collaboration-palstine-writer-joe-succo-new-comic</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2373f63" class="outline-4">
+<h4 id="org2373f63"><span class="section-number-4">5.1.4.</span> Films</h4>
+<div class="outline-text-4" id="text-5-1-4">
+<ul class="org-ul">
+<li>“Hit TV show Andor spurs viewers to draw parallels to Israel’s war on Gaza,” Middle East Eye. Accessed: Jun. 04, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/hit-tv-show-andor-spurs-viewers-to-draw-parallels-israel-war-on-gaza">https://www.middleeasteye.net/trending/hit-tv-show-andor-spurs-viewers-to-draw-parallels-israel-war-on-gaza</a></li>
+<li>“Why Watch Films that Trouble the Heart? A Kolkata Film Festival for Palestine has the Answer,” The Wire. Accessed: Aug. 20, 2025. [Online]. Available: <a href="https://thewire.in/film/palestine-film-festival-kolkata-peoples-film-collective">https://thewire.in/film/palestine-film-festival-kolkata-peoples-film-collective</a></li>
+<li>“Thousands of directors, actors, writers and others pledge not to work with Israeli film institutions ‘implicated in genocide,’” World Socialist Web Site. Accessed: Sep. 11, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/09/11/uwys-s11.html">https://www.wsws.org/en/articles/2025/09/11/uwys-s11.html</a></li>
+<li>“Emmy award winner Hannah Einbinder denounces ICE and proclaims ‘Free Palestine,’” World Socialist Web Site. Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/09/17/jhnj-s17.html">https://www.wsws.org/en/articles/2025/09/17/jhnj-s17.html</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4ff80b6" class="outline-4">
+<h4 id="org4ff80b6"><span class="section-number-4">5.1.5.</span> Misc</h4>
+<div class="outline-text-4" id="text-5-1-5">
+<ul class="org-ul">
+<li>“Embracing My Home - Rosa-Luxemburg-Stiftung.” Accessed: Sep. 03, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53761/embracing-my-home">https://www.rosalux.de/en/news/id/53761/embracing-my-home</a></li>
+<li>“Düsseldorf Art Academy accused of antisemitism due to performance by Palestinian artist Basma al-Sharif,” World Socialist Web Site. Accessed: Feb. 20, 2026. [Online]. Available: <a href="https://www.wsws.org/en/articles/2026/02/20/a443-f20.html">https://www.wsws.org/en/articles/2026/02/20/a443-f20.html</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>“&lt;em&gt;The Voice of Hind Rajab&lt;/em&gt;: A harrowing account of the killing of a Palestinian child,” World Socialist Web Site. Accessed: Feb. 18, 2026. [Online]. Available: <a href="https://www.wsws.org/en/articles/2026/02/17/vfro-f17.html">https://www.wsws.org/en/articles/2026/02/17/vfro-f17.html</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orge02e272" class="outline-2">
+<h2 id="orge02e272"><span class="section-number-2">6.</span> Special Topics</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org9562b8a" class="outline-3">
+<h3 id="org9562b8a"><span class="section-number-3">6.1.</span> Transnational Institute</h3>
+<div class="outline-text-3" id="text-6-1">
+</div>
+<div id="outline-container-org5bc599b" class="outline-4">
+<h4 id="org5bc599b"><span class="section-number-4">6.1.1.</span> Articles, Essays - Series</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<ul class="org-ul">
+<li>J. Solanki, “Solidarity under Siege | Transnational Institute.” Accessed: Nov. 26, 2025. [Online]. Available: <a href="https://www.tni.org/en/publication/solidarity-under-siege">https://www.tni.org/en/publication/solidarity-under-siege</a></li>
+
+<li>“Palestinians Will Not Let the Genocide Kill Their Hopes: The Forty-Seventh Newsletter (2025),” Tricontinental: Institute for Social Research. Accessed: Nov. 21, 2025. [Online]. Available: <a href="https://thetricontinental.org/newsletterissue/palestine-children-art/">https://thetricontinental.org/newsletterissue/palestine-children-art/</a></li>
+
+<li>H. H. Hecken Adam Hanieh,Kribsoo Diallo,Muzan Alneel,Vijay Kolinjivadi,Asmaa Ashraf, Zhang Sheng,Gert Van, “Palestine Liberation series | Transnational Institute.” Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/palestine-liberation-series">https://www.tni.org/en/article/palestine-liberation-series</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org746273c" class="outline-4">
+<h4 id="org746273c"><span class="section-number-4">6.1.2.</span> India</h4>
+<div class="outline-text-4" id="text-6-1-2">
+<ul class="org-ul">
+<li>A. Vanaik, “India, Israel, Palestine | Transnational Institute.” Accessed: Aug. 28, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/india-israel-palestine">https://www.tni.org/en/article/india-israel-palestine</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org61444ef" class="outline-4">
+<h4 id="org61444ef"><span class="section-number-4">6.1.3.</span> Misc</h4>
+<div class="outline-text-4" id="text-6-1-3">
+<ul class="org-ul">
+<li>H. Hamouchene, “Ecocide, Imperialism and Palestine Liberation | Transnational Institute.” Accessed: Sep. 17, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/ecocide-imperialism-and-palestine-liberation">https://www.tni.org/en/article/ecocide-imperialism-and-palestine-liberation</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>F. A. Senna Mark Taylor,Juliana Rodrigues de, “Illegal Occupation, Genocide, and Business: Reflections on the Case of Palestine (Part II) | Transnational Institute.” Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/illegal-occupation-genocide-and-business-reflections-on-the-case-of-palestine-part-ii">https://www.tni.org/en/video/illegal-occupation-genocide-and-business-reflections-on-the-case-of-palestine-part-ii</a></li>
+<li>“Illegal Occupation, Genocide, and Business | Transnational Institute.” Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/illegal-occupation-genocide-and-business">https://www.tni.org/en/video/illegal-occupation-genocide-and-business</a></li>
+
+<li>H. Hamouchene, “This will FOREVER change your views on Palestine and Climate Activism | Transnational Institute.” Accessed: Apr. 02, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/this-will-forever-change-your-views-on-palestine-and-climate-activism">https://www.tni.org/en/video/this-will-forever-change-your-views-on-palestine-and-climate-activism</a></li>
+
+<li>Z. Sheng, “Zhang Sheng: Why Chinese Netizens Call Palestinian Fighters ‘Dandelions’ | Transnational Institute.” Accessed: Mar. 15, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/zhang-sheng-why-chinese-netizens-call-palestinian-fighters-dandelions">https://www.tni.org/en/video/zhang-sheng-why-chinese-netizens-call-palestinian-fighters-dandelions</a></li>
+<li>Z. Sheng, “From Global Anti-Imperialism to the Dandelion Fighters | Transnational Institute.” Accessed: Mar. 15, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/from-global-anti-imperialism-to-the-dandelion-fighters">https://www.tni.org/en/article/from-global-anti-imperialism-to-the-dandelion-fighters</a></li>
+
+<li>F. Albanese, “Francesca Albanese: How Palestine Is Changing the Conversation | Transnational Institute.” Accessed: Mar. 15, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/francesca-albanese-how-palestine-is-changing-the-conversation">https://www.tni.org/en/video/francesca-albanese-how-palestine-is-changing-the-conversation</a></li>
+
+<li>N. N. B. Akkerman Mark, “Partners in Crime | Transnational Institute.” Accessed: Oct. 15, 2024. [Online]. Available: <a href="https://www.tni.org/en/publication/partners-in-crime-EU-complicity-Israel-genocide-Gaza">https://www.tni.org/en/publication/partners-in-crime-EU-complicity-Israel-genocide-Gaza</a></li>
+
+<li>“Israel: the model coercive state,” Longreads. Accessed: Oct. 02, 2024. [Online]. Available: <a href="https://longreads.tni.org/stateofpower/israel-the-model-coercive-state">https://longreads.tni.org/stateofpower/israel-the-model-coercive-state</a></li>
+
+<li>P. Bennis, “Phyllis Bennis: Trump, Netanyahu, and the Real Estate Logic of Genocide | Transnational Institute.” Accessed: Apr. 12, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/phyllis-bennis-trump-netanyahu-and-the-real-estate-logic-of-genocide">https://www.tni.org/en/video/phyllis-bennis-trump-netanyahu-and-the-real-estate-logic-of-genocide</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcdcd107" class="outline-2">
+<h2 id="orgcdcd107"><span class="section-number-2">7.</span> Misc</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li>“Killing the Future: The UN’s Findings on Israel and Palestinian Children,” The India Forum. Accessed: Jun. 30, 2026. [Online]. Available: <a href="https://www.theindiaforum.in/international-affairs/killing-future-uns-findings-israel-and-palestinian-children">https://www.theindiaforum.in/international-affairs/killing-future-uns-findings-israel-and-palestinian-children</a></li>
+
+<li>“When Children Become the Target,” NewsClick. Accessed: Jun. 30, 2026. [Online]. Available: <a href="https://www.newsclick.in/when-children-become-target">https://www.newsclick.in/when-children-become-target</a></li>
+
+<li>“When the Children Become the Target,” Countercurrents. Accessed: Jun. 30, 2026. [Online]. Available: <a href="https://countercurrents.org/2026/06/when-the-children-become-the-target/">https://countercurrents.org/2026/06/when-the-children-become-the-target/</a></li>
+
+<li>“Seven Years Before Beirut Explosion, Lebanese Military Failed to Flag Deadly Cargo,” OCCRP. Accessed: Feb. 20, 2026. [Online]. Available: <a href="https://www.occrp.org/en/scoop/seven-years-before-beirut-explosion-lebanese-military-failed-to-flag-deadly-cargo">https://www.occrp.org/en/scoop/seven-years-before-beirut-explosion-lebanese-military-failed-to-flag-deadly-cargo</a></li>
+
+<li>“European states must retract outrageous attacks on Francesca Albanese,” Amnesty International. Accessed: Feb. 14, 2026. [Online]. Available: <a href="https://www.amnesty.org/en/latest/news/2026/02/european-states-must-retract-attacks-francesca-albanese/">https://www.amnesty.org/en/latest/news/2026/02/european-states-must-retract-attacks-francesca-albanese/</a></li>
+
+<li>“The Palestinian Question as a Framework for a Century of Tunisian Mobilization,” Monthly Review. Accessed: Feb. 14, 2026. [Online]. Available: <a href="https://monthlyreview.org/articles/the-palestinian-question-as-a-framework-for-a-century-of-tunisian-mobilization/">https://monthlyreview.org/articles/the-palestinian-question-as-a-framework-for-a-century-of-tunisian-mobilization/</a></li>
+
+<li>“Princeton University cancels discussion by Norman Finkelstein on the ongoing Gaza genocide,” World Socialist Web Site. Accessed: Feb. 13, 2026. [Online]. Available: <a href="https://www.wsws.org/en/articles/2026/02/13/ksfa-f13.html">https://www.wsws.org/en/articles/2026/02/13/ksfa-f13.html</a></li>
+
+<li>“What it’s like to be a journalist in Gaza: extreme fatigue and relentless danger while waiting for borders to truly open | RSF.” Accessed: Feb. 05, 2026. [Online]. Available: <a href="https://rsf.org/en/what-it-s-be-journalist-gaza-extreme-fatigue-and-relentless-danger-while-waiting-borders-truly-open">https://rsf.org/en/what-it-s-be-journalist-gaza-extreme-fatigue-and-relentless-danger-while-waiting-borders-truly-open</a></li>
+
+<li>“Framing Palestine | Transnational Institute.” Accessed: Jan. 28, 2026. [Online]. Available: <a href="https://www.tni.org/en/event/framing-palestine">https://www.tni.org/en/event/framing-palestine</a></li>
+
+<li>R. Vaz, “Despite Everything: Cultural Resistance for a Free Palestine,” Tricontinental: Institute for Social Research. Accessed: Nov. 14, 2025. [Online]. Available: <a href="https://thetricontinental.org/dossier-cultural-resistance-palestine/">https://thetricontinental.org/dossier-cultural-resistance-palestine/</a></li>
+
+<li>“&lt;em&gt;Breaking Ranks: Inside Israel’s War &lt;/em&gt;,” World Socialist Web Site. Accessed: Nov. 13, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/11/12/pehs-n12.html">https://www.wsws.org/en/articles/2025/11/12/pehs-n12.html</a></li>
+
+<li>“The Genocide Will Not End,” NewsClick. Accessed: Oct. 20, 2025. [Online]. Available: <a href="https://www.newsclick.in/genocide-will-not-end">https://www.newsclick.in/genocide-will-not-end</a></li>
+<li>“‘Israeli Sadism in a Nutshell’: Amira Hass on Israeli Prisons, Settler Violence &amp; Gaza Ceasefire,” Democracy Now! Accessed: Oct. 20, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/10/17/amira_hass">https://www.democracynow.org/2025/10/17/amira_hass</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>O. Bartov, “A state of denial.” Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.prospectmagazine.co.uk/world/israel/71213/a-state-of-denial-israel-gaza">https://www.prospectmagazine.co.uk/world/israel/71213/a-state-of-denial-israel-gaza</a></li>
+
+<li>“Ceasefire must mark the beginning of real peace in Gaza,” Greenpeace International. Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/79152/ceasefire-must-mark-the-beginning-of-real-peace-in-gaza/">https://www.greenpeace.org/international/press-release/79152/ceasefire-must-mark-the-beginning-of-real-peace-in-gaza/</a></li>
+
+<li>“5 Days in Israel’s Desert Prison: Jewish Flotilla Activist David Adler on Harrowing Detention Ordeal,” Democracy Now! Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/10/9/gaza_flotilla">https://www.democracynow.org/2025/10/9/gaza_flotilla</a></li>
+<li>“A Ceasefire Deal, But Not a Peace Agreement: What Will Happen in Gaza After Hostages Are Released?,” Democracy Now! Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/10/9/gaza_deal_roundtable">https://www.democracynow.org/2025/10/9/gaza_deal_roundtable</a></li>
+<li>“‘Celebration and Sadness’: Reaction from Gaza as Israel &amp; Hamas Agree to First Phase of Ceasefire Deal,” Democracy Now! Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/10/9/gaza_deal">https://www.democracynow.org/2025/10/9/gaza_deal</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Global protests continue over Israel’s seizure of Sumud flotilla,” World Socialist Web Site. Accessed: Oct. 06, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/10/05/pzyw-o05.html">https://www.wsws.org/en/articles/2025/10/05/pzyw-o05.html</a></li>
+
+<li>Israel’s Attack on Flotilla Sparks Global Outrage! | NewsClick, (Oct. 04, 2025). Accessed: Oct. 04, 2025. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=1b5olYtcw3E">https://www.youtube.com/watch?v=1b5olYtcw3E</a></li>
+
+<li>“Henry Ford Genesys Hospital nurses remain determined as strike enters second month,” World Socialist Web Site. Accessed: Oct. 03, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/10/03/saja-o03.html">https://www.wsws.org/en/articles/2025/10/03/saja-o03.html</a></li>
+
+<li>BY, “The Sumud Flotilla Has Succeeded in Making Israel a Pariah.” Accessed: Oct. 03, 2025. [Online]. Available: <a href="https://jacobin.com/2025/10/sumud-flotilla-israel-aid-gaza">https://jacobin.com/2025/10/sumud-flotilla-israel-aid-gaza</a></li>
+
+<li>“Live: Italy launches nationwide strike over detention of Gaza flotilla activists,” Middle East Eye. Accessed: Oct. 03, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/live/israel-rejects-hamas-truce-offer-thousands-forced-flee-gaza-city">https://www.middleeasteye.net/live/israel-rejects-hamas-truce-offer-thousands-forced-flee-gaza-city</a></li>
+<li>“Worldwide protests erupt as Israel unlawfully intercepts the Global Sumud Flotilla,” Middle East Eye. Accessed: Oct. 03, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/trending/worldwide-protests-erupt-israel-unlawfully-intercepts-global-sumud-flotilla">https://www.middleeasteye.net/trending/worldwide-protests-erupt-israel-unlawfully-intercepts-global-sumud-flotilla</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Spain and Italy dispatch warships to Gaza flotilla as Israel considers violent assault,” World Socialist Web Site. Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/09/30/axdd-s30.html">https://www.wsws.org/en/articles/2025/09/30/axdd-s30.html</a></li>
+
+<li>“‘Break the Blockade and End the Siege’: Nelson Mandela’s Grandson Speaks from Gaza Aid Flotilla,” Democracy Now! Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/9/30/sumud_flotilla">https://www.democracynow.org/2025/9/30/sumud_flotilla</a></li>
+
+<li>“Gaza flotilla: The tide of defiance against Israel is now an unbreakable wave,” Middle East Eye. Accessed: Sep. 27, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/opinion/gaza-sumud-flotilla-tide-defiance-against-israel-unbreakable-wave">https://www.middleeasteye.net/opinion/gaza-sumud-flotilla-tide-defiance-against-israel-unbreakable-wave</a></li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>T. Sorek, “In Israel, ‘animals in human form’ may be killed,” Mondoweiss. Accessed: Sep. 22, 2025. [Online]. Available: <a href="https://mondoweiss.net/2025/08/in-israel-animals-in-human-form-may-be-killed/">https://mondoweiss.net/2025/08/in-israel-animals-in-human-form-may-be-killed/</a></li>
+
+<li>“Jason Hickel on X: ‘Every word of this is agony to read. What Israel is doing to Palestinians is pure barbarism&#x2026; <b>by far the greatest single crime of the 21st century</b>. Every sane person must oppose this evil. <a href="https://t.co/I45YWboVdT">https://t.co/I45YWboVdT</a>’ / X,” X (formerly Twitter). Accessed: Sep. 19, 2025. [Online]. Available: <a href="https://x.com/jasonhickel/status/1952102495678841256">https://x.com/jasonhickel/status/1952102495678841256</a></li>
+
+<li>“Judith Butler: Jewish Prof. Among 160 Named in UC Berkeley ‘Antisemitism’ Files Handed to Trump Admin,” Democracy Now! Accessed: Sep. 16, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/9/15/judith_butler">https://www.democracynow.org/2025/9/15/judith_butler</a></li>
+<li>“Judith Butler on Gaza Genocide, the Right’s Assault on Trans People, Campus Censorship &amp; More,” Democracy Now! Accessed: Sep. 16, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/9/15/judith_butler_on_gaza_genocide_the">https://www.democracynow.org/2025/9/15/judith_butler_on_gaza_genocide_the</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“International Scholars’ Association Declares Israel Is Committing Genocide in Gaza,” Democracy Now! Accessed: Sep. 05, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/9/2/headlines/international_scholars_association_declares_israel_is_committing_genocide_in_gaza">https://www.democracynow.org/2025/9/2/headlines/international_scholars_association_declares_israel_is_committing_genocide_in_gaza</a></li>
+
+<li>“GAZA STRIP: Famine confirmed in Gaza Governorate, projected to expand.” Accessed: Aug. 23, 2025. [Online]. Available: <a href="https://www.ipcinfo.org/">https://www.ipcinfo.org/</a></li>
+
+<li>“Nobel laureates, top economists urge Netanyahu to halt Gaza occupation, starvation,” Middle East Eye. Accessed: Aug. 16, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/nobel-laureates-top-economists-urge-netanyahu-halt-gaza-occupation-starvation">https://www.middleeasteye.net/news/nobel-laureates-top-economists-urge-netanyahu-halt-gaza-occupation-starvation</a></li>
+</ul>
+
+
+
+
+
+
+
+
+<ul class="org-ul">
+<li>“The Accursed Fate of Palestinians in Israeli Prisons,” NewsClick. Accessed: Aug. 16, 2025. [Online]. Available: <a href="https://www.newsclick.in/accursed-fate-palestinians-israeli-prisons">https://www.newsclick.in/accursed-fate-palestinians-israeli-prisons</a></li>
+
+<li>A. Nigam, “Genocide in Gaza – All the Perfumes of Arabia Will Not Sweeten These Hands…,” KAFILA - COLLECTIVE EXPLORATIONS SINCE 2006. Accessed: Aug. 04, 2025. [Online]. Available: <a href="https://kafila.online/2025/08/03/genocide-in-gaza-all-the-perfumes-of-arabia-will-not-sweeten-these-hands/">https://kafila.online/2025/08/03/genocide-in-gaza-all-the-perfumes-of-arabia-will-not-sweeten-these-hands/</a></li>
+
+<li>“Australia: IFJ supports Sydney march for Palestine / IFJ.” Accessed: Aug. 04, 2025. [Online]. Available: <a href="https://www.ifj.org/media-centre/news/detail/category/press-freedom/article/australia-ifj-supports-sydney-march-for-palestine">https://www.ifj.org/media-centre/news/detail/category/press-freedom/article/australia-ifj-supports-sydney-march-for-palestine</a></li>
+
+<li>BY, “Francesca Albanese: Cut All Ties With Israel.” Accessed: Jul. 18, 2025. [Online]. Available: <a href="https://jacobin.com/2025/07/albanese-palestine-israel-cut-ties">https://jacobin.com/2025/07/albanese-palestine-israel-cut-ties</a></li>
+
+<li>“Illegal Occupation, Genocide, and Business | Transnational Institute.” Accessed: Jul. 10, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/illegal-occupation-genocide-and-business">https://www.tni.org/en/video/illegal-occupation-genocide-and-business</a></li>
+
+<li>“Israel’s ‘Dirty Work’ and Germany’s Staatsräson - Rosa-Luxemburg-Stiftung.” Accessed: Jul. 05, 2025. [Online]. Available: <a href="https://www.rosalux.de/en/news/id/53553/israels-dirty-work-and-germanys-staatsraeson">https://www.rosalux.de/en/news/id/53553/israels-dirty-work-and-germanys-staatsraeson</a></li>
+
+<li>A. Nigam, “Conversations on Palestine: Teredide Mane O Baa Athithi,” KAFILA - COLLECTIVE EXPLORATIONS SINCE 2006. Accessed: Jun. 27, 2025. [Online]. Available: <a href="https://kafila.online/2025/06/27/conversations-on-palestine-teredide-mano-o-baa-athithi/">https://kafila.online/2025/06/27/conversations-on-palestine-teredide-mano-o-baa-athithi/</a></li>
+
+<li>“UNGA Adopts Gaza Ceasefire Resolution; Internet Blackout Adds to Misery in Gaza,” Democracy Now! Accessed: Jun. 14, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/6/13/headlines/unga_adopts_gaza_ceasefire_resolution_internet_blackout_adds_to_misery_in_gaza">https://www.democracynow.org/2025/6/13/headlines/unga_adopts_gaza_ceasefire_resolution_internet_blackout_adds_to_misery_in_gaza</a></li>
+
+<li>“Israel Deports 4 Freedom Flotilla Activists; Another 8 Refused Voluntary Deportation,” Democracy Now! Accessed: Jun. 11, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/6/10/headlines/israel_deports_4_freedom_flotilla_activists_another_8_refused_voluntary_deportation">https://www.democracynow.org/2025/6/10/headlines/israel_deports_4_freedom_flotilla_activists_another_8_refused_voluntary_deportation</a></li>
+
+<li>“Greenpeace calls for international action to release the Madleen aid vessel,” Greenpeace International. Accessed: Jun. 10, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/75331/greenpeace-calls-for-international-action-to-release-the-madleen-aid-vessel/">https://www.greenpeace.org/international/press-release/75331/greenpeace-calls-for-international-action-to-release-the-madleen-aid-vessel/</a></li>
+
+<li>“Toolkit: Disrupting Energy Corporations for the Liberation of Palestine | Transnational Institute.” Accessed: Jun. 06, 2025. [Online]. Available: <a href="https://www.tni.org/en/publication/toolkit-disrupting-energy-corporations-for-the-liberation-of-palestine">https://www.tni.org/en/publication/toolkit-disrupting-energy-corporations-for-the-liberation-of-palestine</a></li>
+
+<li>“Greta Thunberg Speaks from Aid Ship Heading to Gaza Despite Israeli Threats: ‘My Moral Obligation,’” Democracy Now! Accessed: Jun. 05, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/6/4/greta_thunberg_gaza_aid_flotilla">https://www.democracynow.org/2025/6/4/greta_thunberg_gaza_aid_flotilla</a></li>
+
+<li>J. Feffer, “The Freedom Flotilla: Bravely Breaking the Siege Against Gaza - FPIF,” Foreign Policy In Focus. Accessed: Jun. 05, 2025. [Online]. Available: <a href="https://fpif.org/the-freedom-flotilla-bravely-breaking-the-siege-against-gaza/">https://fpif.org/the-freedom-flotilla-bravely-breaking-the-siege-against-gaza/</a></li>
+
+<li>Rosa-Luxemburg-Stiftung, How Does China View the War in Gaza?, (Nov. 04, 2024). Accessed: Jun. 05, 2025. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=ghJUhJ0Ynr0">https://www.youtube.com/watch?v=ghJUhJ0Ynr0</a></li>
+
+<li>“Home,” Freedom Flotilla. Accessed: Jun. 05, 2025. [Online]. Available: <a href="https://freedomflotilla.org/">https://freedomflotilla.org/</a></li>
+
+<li>“Greta Thunberg aboard Gaza flotilla: Doing nothing ‘is not an option,’” Middle East Eye. Accessed: Jun. 04, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/greta-thunberg-aboard-gaza-flotilla-doing-nothing-not-option">https://www.middleeasteye.net/news/greta-thunberg-aboard-gaza-flotilla-doing-nothing-not-option</a></li>
+
+<li>J. McEVOY, “Foreign Office met pro-Israel lobbyist to discuss arms exports,” Declassified UK. Accessed: Jun. 04, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/foreign-office-met-pro-israel-lobbyist-to-discuss-arms-exports/">https://www.declassifieduk.org/foreign-office-met-pro-israel-lobbyist-to-discuss-arms-exports/</a></li>
+
+<li>“MIT class president banned from graduation over pro-Palestinian remarks,” World Socialist Web Site. Accessed: Jun. 03, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/06/03/moal-j03.html">https://www.wsws.org/en/articles/2025/06/03/moal-j03.html</a></li>
+
+<li>BY, “The Right Wants to Cancel Ms Rachel.” Accessed: May 31, 2025. [Online]. Available: <a href="https://jacobin.com/2025/05/ms-rachel-gaza-cancel-culture">https://jacobin.com/2025/05/ms-rachel-gaza-cancel-culture</a></li>
+
+<li>N. Rehman, “The Nexus Between Big Tech, Colonialism And Israel: Perpetuating Genocide Against Palestinians,” Feminism in India. Accessed: May 28, 2025. [Online]. Available: <a href="https://feminisminindia.com/2025/05/27/the-nexus-between-big-tech-colonialism-and-israel-perpetuating-genocide-against-palestinians/">https://feminisminindia.com/2025/05/27/the-nexus-between-big-tech-colonialism-and-israel-perpetuating-genocide-against-palestinians/</a></li>
+
+<li>“Greenpeace demands international accountability in the face of ethnic cleansing and famine in Gaza,” Greenpeace International. Accessed: May 27, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/press-release/74782/greenpeace-demands-international-accountability-in-the-face-of-ethnic-cleansing-and-famine-in-gaza/">https://www.greenpeace.org/international/press-release/74782/greenpeace-demands-international-accountability-in-the-face-of-ethnic-cleansing-and-famine-in-gaza/</a></li>
+
+<li>J. McEVOY, “The blood of Gaza will never wash from Keir Starmer’s hands,” Declassified UK. Accessed: May 22, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/the-blood-will-never-wash-from-keir-starmers-hands/">https://www.declassifieduk.org/the-blood-will-never-wash-from-keir-starmers-hands/</a></li>
+
+<li>“Imperialism launches its ‘final solution’ to the Palestinian question,” World Socialist Web Site. Accessed: May 20, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/05/20/xdlk-m20.htlm">https://www.wsws.org/en/articles/2025/05/20/xdlk-m20.htlm</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Israel’s ‘Crime of Apartheid’: New Report by U.S. Professors as Palestinians Mark Nakba Day,” Democracy Now! Accessed: May 19, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/5/15/nakba_day_palestinians_mark_77">https://www.democracynow.org/2025/5/15/nakba_day_palestinians_mark_77</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>P. Bennis, “Phyllis Bennis: Trump, Netanyahu, and the Real Estate Logic of Genocide | Transnational Institute.” Accessed: Apr. 12, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/phyllis-bennis-trump-netanyahu-and-the-real-estate-logic-of-genocide">https://www.tni.org/en/video/phyllis-bennis-trump-netanyahu-and-the-real-estate-logic-of-genocide</a></li>
+
+<li>J. McEVOY, “Maersk: The shipping company transporting arms to Israel,” Declassified UK. Accessed: Apr. 05, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/maersk-the-shipping-company-transporting-arms-to-israel/">https://www.declassifieduk.org/maersk-the-shipping-company-transporting-arms-to-israel/</a></li>
+
+<li>G. V. Hecken, “The circus of academic complicity | Transnational Institute.” Accessed: Mar. 29, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/the-circus-of-academic-complicity">https://www.tni.org/en/article/the-circus-of-academic-complicity</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>I. OVERTON, “Britain sent over 500 spy flights to Gaza,” Declassified Media Ltd. Accessed: Mar. 28, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/britain-sent-over-500-spy-flights-to-gaza/">https://www.declassifieduk.org/britain-sent-over-500-spy-flights-to-gaza/</a></li>
+
+<li>M. CURTIS, “Britain is aiding Israel’s nuclear force,” Declassified Media Ltd. Accessed: Mar. 27, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/britain-is-aiding-israels-nuclear-force/">https://www.declassifieduk.org/britain-is-aiding-israels-nuclear-force/</a></li>
+
+<li>“Cultivating farmland after the bombs.” Accessed: Mar. 22, 2025. [Online]. Available: <a href="https://theecologist.org/2025/mar/21/cultivating-farmland-after-bombs">https://theecologist.org/2025/mar/21/cultivating-farmland-after-bombs</a></li>
+
+<li>M. C. MILLER PHIL, “Is the UK spying on Hamas for Israel?,” Declassified Media Ltd. Accessed: Mar. 19, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/is-the-uk-spying-on-hamas-for-israel/">https://www.declassifieduk.org/is-the-uk-spying-on-hamas-for-israel/</a></li>
+
+<li>“Another expert report finds Israel is committing genocide. The West yawns,” Middle East Eye. Accessed: Mar. 19, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/opinion/gaza-israel-another-expert-report-committing-genocide-west-yawns">https://www.middleeasteye.net/opinion/gaza-israel-another-expert-report-committing-genocide-west-yawns</a></li>
+
+<li>“Palestine’s stolen land: stop ethnic cleansing!” Accessed: Feb. 12, 2025. [Online]. Available: <a href="https://grain.org/e/7235">https://grain.org/e/7235</a></li>
+
+<li>R. Ziadah, “Geopolitics of genocide | Transnational Institute.” Accessed: Feb. 07, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/geopolitics-of-genocide">https://www.tni.org/en/article/geopolitics-of-genocide</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>A. BUSTOS, “How Britain supported Zionism and prevented Palestinian freedom,” Declassified Media Ltd. Accessed: Feb. 06, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/how-britain-supported-zionism-and-prevented-palestinian-freedom/">https://www.declassifieduk.org/how-britain-supported-zionism-and-prevented-palestinian-freedom/</a></li>
+
+<li>“Why does the world have such an intense stake in Israel/Palestine? | Aeon Essays,” Aeon. Accessed: Feb. 04, 2025. [Online]. Available: <a href="https://aeon.co/essays/why-does-the-world-have-such-an-intense-stake-in-israel-palestine">https://aeon.co/essays/why-does-the-world-have-such-an-intense-stake-in-israel-palestine</a></li>
+
+<li>“The ceasefire is not the end — it is the beginning.” Accessed: Jan. 31, 2025. [Online]. Available: <a href="https://www.foei.org/the-ceasefire-is-the-beginning/">https://www.foei.org/the-ceasefire-is-the-beginning/</a></li>
+
+<li>J. McEVOY, “Why is Britain still sending spy flights towards Gaza?,” Declassified Media Ltd. Accessed: Jan. 29, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/why-is-britain-still-sending-spy-flights-towards-gaza/">https://www.declassifieduk.org/why-is-britain-still-sending-spy-flights-towards-gaza/</a></li>
+<li>J. COOK, “Israel’s ‘genocide general’ welcomed in London – and the media yawns,” Declassified Media Ltd. Accessed: Jan. 29, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/israels-genocide-general-welcomed-in-london-and-the-media-yawns/">https://www.declassifieduk.org/israels-genocide-general-welcomed-in-london-and-the-media-yawns/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Trump says ‘clean out that whole thing’ as part of his plan for Gaza,” Middle East Eye. Accessed: Jan. 27, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/trump-says-clean-out-whole-thing-part-his-plan-gaza">https://www.middleeasteye.net/news/trump-says-clean-out-whole-thing-part-his-plan-gaza</a></li>
+<li>“Trump adopts ethnic cleansing as US policy in Gaza,” World Socialist Web Site. Accessed: Jan. 27, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/01/27/bsjq-j27.html">https://www.wsws.org/en/articles/2025/01/27/bsjq-j27.html</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“‘We need everything’: Gazans Ponder Mammoth Task of Rebuilding,” The India Forum. Accessed: Jan. 27, 2025. [Online]. Available: <a href="https://www.theindiaforum.in/forum/we-need-everything-gazans-ponder-mammoth-task-rebuilding">https://www.theindiaforum.in/forum/we-need-everything-gazans-ponder-mammoth-task-rebuilding</a></li>
+
+<li>J. McEVOY, “‘Vindicated’: How Palestine Action hit weapons factories exporting to Israel,” Declassified Media Ltd. Accessed: Jan. 22, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/vindicated-how-palestine-action-hit-weapons-factories-exporting-to-israel/">https://www.declassifieduk.org/vindicated-how-palestine-action-hit-weapons-factories-exporting-to-israel/</a></li>
+
+<li>P. Mishra, “In his new book, Pankaj Mishra addresses the violation of Gaza and how the West participates in it,” Scroll.in. Accessed: Jan. 21, 2025. [Online]. Available: <a href="https://scroll.in/article/1078022/in-his-new-book-pankaj-mishra-addresses-the-violation-of-gaza-and-how-the-west-participates-in-it">https://scroll.in/article/1078022/in-his-new-book-pankaj-mishra-addresses-the-violation-of-gaza-and-how-the-west-participates-in-it</a></li>
+
+<li>P. MILLER, “Gama Aviation: The company that helped Britain spy for Israel,” Declassified Media Ltd. Accessed: Jan. 18, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/gama-aviation-the-company-helping-britain-spy-for-israel/">https://www.declassifieduk.org/gama-aviation-the-company-helping-britain-spy-for-israel/</a></li>
+
+<li>M. CURTIS, “‘National scandal’: The BBC’s Gaza cover-up,” Declassified Media Ltd. Accessed: Jan. 18, 2025. [Online]. Available: <a href="https://www.declassifieduk.org/national-scandal-the-bbcs-gaza-cover-up/">https://www.declassifieduk.org/national-scandal-the-bbcs-gaza-cover-up/</a></li>
+
+<li>“The Verso Palestine Pamphlets,” Verso. Accessed: Jan. 15, 2025. [Online]. Available: <a href="https://www.versobooks.com/en-gb/blogs/news/the-verso-palestine-pamphlets">https://www.versobooks.com/en-gb/blogs/news/the-verso-palestine-pamphlets</a></li>
+
+<li>“Israel’s Crime of Extermination, Acts of Genocide in Gaza | Human Rights Watch.” Accessed: Dec. 21, 2024. [Online]. Available: <a href="https://www.hrw.org/news/2024/12/19/israels-crime-extermination-acts-genocide-gaza">https://www.hrw.org/news/2024/12/19/israels-crime-extermination-acts-genocide-gaza</a></li>
+
+<li>D. TESTER, “‘They’re political prisoners’: Parents of Palestine activists slam pre-trial detention,” Declassified Media Ltd. Accessed: Dec. 21, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/theyre-political-prisoners-parents-of-palestine-activists-slam-pre-trial-detention/">https://www.declassifieduk.org/theyre-political-prisoners-parents-of-palestine-activists-slam-pre-trial-detention/</a></li>
+
+<li>MIT Coalition for Palestine, MIT Science For Genocide. 2024. Accessed: Dec. 17, 2024. [Online]. Available: <a href="http://archive.org/details/mit-science-for-genocide">http://archive.org/details/mit-science-for-genocide</a></li>
+
+<li>J. McEVOY, “Israeli army chief given special immunity to visit Britain,” Declassified Media Ltd. Accessed: Dec. 13, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/israeli-army-chief-given-special-immunity-to-visit-britain/">https://www.declassifieduk.org/israeli-army-chief-given-special-immunity-to-visit-britain/</a></li>
+
+<li>“MIT student effectively expelled for opposing Gaza genocide,” World Socialist Web Site. Accessed: Dec. 12, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/12/11/qxvd-d11.html">https://www.wsws.org/en/articles/2024/12/11/qxvd-d11.html</a></li>
+
+<li>J. McEVOY, “Revealed: Hundreds of F-35 components sent from Britain to U.S.,” Declassified Media Ltd. Accessed: Dec. 05, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/revealed-hundreds-of-f-35-components-sent-from-britain-to-u-s/">https://www.declassifieduk.org/revealed-hundreds-of-f-35-components-sent-from-britain-to-u-s/</a></li>
+
+<li>J. McEVOY, “F-35 components sent to Israel from UK airbase 14 times,” Declassified Media Ltd. Accessed: Dec. 03, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/f-35-components-sent-to-israel-from-uk-airbase-14-times/">https://www.declassifieduk.org/f-35-components-sent-to-israel-from-uk-airbase-14-times/</a></li>
+<li>“Israeli bombings destroy lives - and nature.” Accessed: Dec. 04, 2024. [Online]. Available: <a href="https://theecologist.org/2024/dec/03/israeli-bombings-destroy-lives-and-nature">https://theecologist.org/2024/dec/03/israeli-bombings-destroy-lives-and-nature</a></li>
+
+<li>J. Borger, “‘The whole foundation is rocking’: inside the explosive film about the investigation of Benjamin Netanyahu,” The Guardian, Dec. 02, 2024. Accessed: Dec. 03, 2024. [Online]. Available: <a href="https://www.theguardian.com/film/2024/dec/02/benjamin-netanyahu-bibi-files-israeli-corruption">https://www.theguardian.com/film/2024/dec/02/benjamin-netanyahu-bibi-files-israeli-corruption</a></li>
+
+<li>H. Hamouchene, “Vietnam, Algeria, Palestine | Transnational Institute.” Accessed: Dec. 03, 2024. [Online]. Available: <a href="https://www.tni.org/en/article/vietnam-algeria-palestine">https://www.tni.org/en/article/vietnam-algeria-palestine</a></li>
+<li>H. H. Ashraf Adam Hanieh,Kribsoo Diallo,Muzan Alneel,Vijay Kolinjivadi,Asmaa, “Palestine Liberation series | Transnational Institute.” Accessed: Dec. 03, 2024. [Online]. Available: <a href="https://www.tni.org/en/article/palestine-liberation-series">https://www.tni.org/en/article/palestine-liberation-series</a></li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>E. Creamer and L. Knight, “Sally Rooney, Rachel Kushner and Arundhati Roy call for boycott of Israeli cultural institutions,” The Guardian, Oct. 28, 2024. Accessed: Nov. 15, 2024. [Online]. Available: <a href="https://www.theguardian.com/books/2024/oct/28/sally-rooney-percival-everett-arundhati-roy-boycott-israel-palestine-gaza">https://www.theguardian.com/books/2024/oct/28/sally-rooney-percival-everett-arundhati-roy-boycott-israel-palestine-gaza</a></li>
+
+<li>P. MILLER, “Keir Starmer’s Gaza spy plane caught on camera,” Declassified Media Ltd. Accessed: Nov. 15, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/keir-starmers-gaza-spy-plane-caught-on-camera/">https://www.declassifieduk.org/keir-starmers-gaza-spy-plane-caught-on-camera/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Genocide in Gaza: Revenge, Retribution, or a Means to an End?,” The India Forum. Accessed: Nov. 30, 2024. [Online]. Available: <a href="https://www.theindiaforum.in/politics/genocide-gaza-revenge-retribution-or-means-end">https://www.theindiaforum.in/politics/genocide-gaza-revenge-retribution-or-means-end</a></li>
+
+<li>“This Black Friday: Not A Dime For Genocide.” Accessed: Nov. 28, 2024. [Online]. Available: <a href="https://act.progressive.international/notadimeforgenocide/">https://act.progressive.international/notadimeforgenocide/</a></li>
+
+<li>“US: MIT Targeting Pro-Palestine Students and Faculty,” NewsClick. Accessed: Nov. 26, 2024. [Online]. Available: <a href="https://www.newsclick.in/us-mit-targeting-pro-palestine-students-and-faculty">https://www.newsclick.in/us-mit-targeting-pro-palestine-students-and-faculty</a></li>
+
+<li>“The Watermelon Index.” Accessed: Nov. 23, 2024. [Online]. Available: <a href="https://act.progressive.international/watermelon/">https://act.progressive.international/watermelon/</a></li>
+
+<li>M. CURTIS, “UK sees privatisation ‘opportunities’ in Ukraine war,” Declassified Media Ltd. Accessed: Nov. 23, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/uk-sees-privatisation-opportunities-in-ukraine-war/">https://www.declassifieduk.org/uk-sees-privatisation-opportunities-in-ukraine-war/</a></li>
+<li>P. MILLER, “Starmer and Lammy are ‘monstrous war criminals’ - Palestinian lawyer,” Declassified Media Ltd. Accessed: Nov. 23, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/starmer-and-lammy-are-monstrous-war-criminals-palestinian-lawyer/">https://www.declassifieduk.org/starmer-and-lammy-are-monstrous-war-criminals-palestinian-lawyer/</a></li>
+
+<li>M. CURTIS, “UK sees privatisation ‘opportunities’ in Ukraine war,” Declassified Media Ltd. Accessed: Nov. 21, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/uk-sees-privatisation-opportunities-in-ukraine-war/">https://www.declassifieduk.org/uk-sees-privatisation-opportunities-in-ukraine-war/</a></li>
+<li>H. YUSUF, “When Boris Johnson let Israeli warplanes visit England,” Declassified Media Ltd. Accessed: Dec. 06, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/when-boris-johnson-let-israeli-warplanes-visit-england/">https://www.declassifieduk.org/when-boris-johnson-let-israeli-warplanes-visit-england/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>J. McEVOY, “UK exported parts for Israeli air force after suspending arms sales,” Declassified Media Ltd. Accessed: Nov. 14, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/britain-exported-parts-for-israeli-air-force-after-suspending-arms-sales/">https://www.declassifieduk.org/britain-exported-parts-for-israeli-air-force-after-suspending-arms-sales/</a></li>
+
+<li>“MIT suspends student and bans magazine for article opposing Gaza genocide,” World Socialist Web Site. Accessed: Nov. 09, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/11/09/ouvu-n09.html">https://www.wsws.org/en/articles/2024/11/09/ouvu-n09.html</a></li>
+
+<li>J. McEVOY, “British army college toured region illegally occupied by Israel,” Declassified Media Ltd. Accessed: Nov. 08, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/british-army-college-toured-region-illegally-occupied-by-israel/">https://www.declassifieduk.org/british-army-college-toured-region-illegally-occupied-by-israel/</a></li>
+
+<li>“Bill Clinton defends mass murder of civilians in Gaza genocide,” World Socialist Web Site. Accessed: Nov. 01, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/11/01/rmum-n01.html">https://www.wsws.org/en/articles/2024/11/01/rmum-n01.html</a></li>
+
+<li>“An interview with Zaya and Maurizio Benazzo, co-directors of &lt;em&gt;Where Olive Trees Weep&lt;/em&gt;, filmed on the occupied West Bank: ‘You cannot imagine the extent of the injustice,’” World Socialist Web Site. Accessed: Oct. 28, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/10/28/pevd-o28.html">https://www.wsws.org/en/articles/2024/10/28/pevd-o28.html</a></li>
+
+<li>N. Mazurov, “Netflix Wiped Most of Its ‘Palestinian Stories’ Collection — and Erased the Whole Thing in Israel,” The Intercept. Accessed: Oct. 26, 2024. [Online]. Available: <a href="https://theintercept.com/2024/10/25/netflix-palestinian-stories-israel-movies/">https://theintercept.com/2024/10/25/netflix-palestinian-stories-israel-movies/</a></li>
+
+<li>M. CURTIS, “Gaza: Britain’s seventh genocide,” Declassified Media Ltd. Accessed: Oct. 25, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/gaza-britains-seventh-genocide/">https://www.declassifieduk.org/gaza-britains-seventh-genocide/</a></li>
+
+<li>“Naomi Klein: Israel Has Weaponized October 7 Trauma,” Democracy Now! Accessed: Oct. 23, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/10/22/naomi_klein_october_7_weaponized_trauma">https://www.democracynow.org/2024/10/22/naomi_klein_october_7_weaponized_trauma</a></li>
+
+<li>P. Mishra, “Pankaj Mishra: Palestine and the ruins of Western journalism,” Scroll.in. Accessed: Oct. 21, 2024. [Online]. Available: <a href="https://scroll.in/article/1074403/pankaj-mishra-palestine-and-the-ruins-of-western-journalism">https://scroll.in/article/1074403/pankaj-mishra-palestine-and-the-ruins-of-western-journalism</a></li>
+
+<li>H. AMMORI, “Israel’s war machine can be stopped. Here’s how,” Declassified Media Ltd. Accessed: Oct. 20, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/israels-war-machine-can-be-stopped-heres-how/">https://www.declassifieduk.org/israels-war-machine-can-be-stopped-heres-how/</a></li>
+
+<li>“Praising murder of Yahya Sinwar, imperialist powers endorse Netanyahu’s mass extermination plan in Gaza,” World Socialist Web Site. Accessed: Oct. 19, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/10/19/ywfa-o19.html">https://www.wsws.org/en/articles/2024/10/19/ywfa-o19.html</a></li>
+
+<li>Why a Liberated Palestine Threatens Global Capitalism | Jason Hickel. Accessed: Oct. 18, 2024. [Online Video]. Available: <a href="https://www.filmsforaction.org/watch/jason-hickel-why-a-liberated-palestine-threatens-global-capitalism/">https://www.filmsforaction.org/watch/jason-hickel-why-a-liberated-palestine-threatens-global-capitalism/</a></li>
+
+<li>I. Gilani, “EXPLAINED | Cyber Attack on Hezbollah: Pagers Explode, Killing 9 in Lebanon,” Frontline. Accessed: Sep. 18, 2024. [Online]. Available: <a href="https://frontline.thehindu.com/news/lebanon-hezbollah-cyber-attack-pager-explosions-warfare-israel-gaza/article68654302.ece">https://frontline.thehindu.com/news/lebanon-hezbollah-cyber-attack-pager-explosions-warfare-israel-gaza/article68654302.ece</a></li>
+
+<li>“Authorizing NATO weapons strikes in Russia, US prepares major escalation of global war,” World Socialist Web Site. Accessed: Sep. 13, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/09/13/ietp-s13.html">https://www.wsws.org/en/articles/2024/09/13/ietp-s13.html</a></li>
+
+<li>“Venice Film Festival—Filmmakers powerfully denounce Israel’s genocide in Gaza,” World Socialist Web Site. Accessed: Sep. 11, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/09/11/bccw-s11.html">https://www.wsws.org/en/articles/2024/09/11/bccw-s11.html</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Northwestern Suspends Journalism Professor After Gaza Solidarity Protest,” Democracy Now! Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/9/5/steven_thrasher">https://www.democracynow.org/2024/9/5/steven_thrasher</a></li>
+<li>T. H. Bureau, “Retired diplomats, intellectuals move Supreme Court to halt Indian firms’ ‘supply’ of arms to Israel during Gaza conflict,” The Hindu, Sep. 04, 2024. Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://www.thehindu.com/news/national/pil-in-supreme-court-seeks-direction-to-centre-to-halt-export-of-arms-military-equipments-to-israel/article68604698.ece">https://www.thehindu.com/news/national/pil-in-supreme-court-seeks-direction-to-centre-to-halt-export-of-arms-military-equipments-to-israel/article68604698.ece</a></li>
+<li>D. Sridhar, “Scientists are closing in on the true, horrifying scale of death and disease in Gaza,” The Guardian, Sep. 05, 2024. Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://www.theguardian.com/commentisfree/article/2024/sep/05/scientists-death-disease-gaza-polio-vaccinations-israel">https://www.theguardian.com/commentisfree/article/2024/sep/05/scientists-death-disease-gaza-polio-vaccinations-israel</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>N. Jayaraj, “Mathematician Efim Zelmanov Bridges Science and Politics in Ukraine War,” Frontline. Accessed: Sep. 07, 2024. [Online]. Available: <a href="https://frontline.thehindu.com/science-and-technology/efim-zelmanov-mathematician-stem-in-war-ukraine-india-science-politics/article68613422.ece">https://frontline.thehindu.com/science-and-technology/efim-zelmanov-mathematician-stem-in-war-ukraine-india-science-politics/article68613422.ece</a></li>
+
+<li>“U.S. Colleges ‘Dreaming Up Ways to Squash Gaza Protests,’” Democracy Now! Accessed: Sep. 06, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/9/5/university_gaza_protests">https://www.democracynow.org/2024/9/5/university_gaza_protests</a></li>
+
+<li>J. Valdez, “Harris Will Continue to Ignore U.S. Law and Arm Israel, If Elected,” The Intercept. Accessed: Aug. 31, 2024. [Online]. Available: <a href="https://theintercept.com/2024/08/30/kamala-harris-cnn-interview-israel-gaza/">https://theintercept.com/2024/08/30/kamala-harris-cnn-interview-israel-gaza/</a></li>
+
+<li>“Israel’s war on Gaza | Transnational Institute.” Accessed: Aug. 29, 2024. [Online]. Available: <a href="https://www.tni.org/en/article/israels-war-on-gaza">https://www.tni.org/en/article/israels-war-on-gaza</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Palestinian Healthcare Workers Chained, Starved, Sexually Abused: New Report,” Democracy Now! Accessed: Aug. 28, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/8/27/hrw_report">https://www.democracynow.org/2024/8/27/hrw_report</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Imperialist powers silent as Israeli ministers, politicians normalise torture, abuse and rape of Palestinian prisoners,” World Socialist Web Site. Accessed: Aug. 19, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/08/18/jfeb-a18.html">https://www.wsws.org/en/articles/2024/08/18/jfeb-a18.html</a></li>
+
+<li>“Mainstream Media Is Ignoring Israel’s Sexual Torture.” Accessed: Aug. 18, 2024. [Online]. Available: <a href="https://jacobin.com/2024/08/media-bias-sde-teiman-torture">https://jacobin.com/2024/08/media-bias-sde-teiman-torture</a></li>
+
+<li>“Melbourne orchestra leaders voted out for removing pianist over Gaza tribute,” Middle East Eye. Accessed: Aug. 18, 2024. [Online]. Available: <a href="https://www.middleeasteye.net/news/melbourne-orchestra-leaders-voted-out-removing-pianist-over-gaza-tribute">https://www.middleeasteye.net/news/melbourne-orchestra-leaders-voted-out-removing-pianist-over-gaza-tribute</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“‘The Right Side of History,’” Shtetl-Optimized. Accessed: Aug. 17, 2024. [Online]. Available: <a href="https://scottaaronson.blog/?p=8234">https://scottaaronson.blog/?p=8234</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>E. Graham-Harrison, “Israeli forces in Gaza ‘use civilians as human shields’ against possible booby-traps,” The Guardian, Aug. 14, 2024. Accessed: Aug. 17, 2024. [Online]. Available: <a href="https://www.theguardian.com/world/article/2024/aug/14/israeli-forces-in-gaza-use-civilians-as-human-shields-against-possible-booby-traps">https://www.theguardian.com/world/article/2024/aug/14/israeli-forces-in-gaza-use-civilians-as-human-shields-against-possible-booby-traps</a></li>
+<li>“As a former IDF soldier and historian of genocide, I was deeply disturbed by my recent visit to Israel,” The Guardian, Aug. 13, 2024. Accessed: Aug. 17, 2024. [Online]. Available: <a href="https://www.theguardian.com/world/article/2024/aug/13/israel-gaza-historian-omer-bartov">https://www.theguardian.com/world/article/2024/aug/13/israel-gaza-historian-omer-bartov</a></li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>M. Aldossari, “Why Western feminists ignore proven Israeli rape of Palestinians,” <a href="https://www.newarab.com/">https://www.newarab.com/</a>. Accessed: Aug. 16, 2024. [Online]. Available: <a href="https://www.newarab.com/opinion/why-western-feminists-ignore-proven-israeli-rape-palestinians">https://www.newarab.com/opinion/why-western-feminists-ignore-proven-israeli-rape-palestinians</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Over 100 journalists to Blinken: Stop arming Israel | Courage Foundation.” Accessed: Aug. 16, 2024. [Online]. Available: <a href="https://couragefound.org/2024/08/over-100-journalists-to-blinken-stop-arming-israel/">https://couragefound.org/2024/08/over-100-journalists-to-blinken-stop-arming-israel/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>J. Valdez, “Video of Sexual Abuse at Israeli Prison Is Just Latest Evidence Sde Teiman Is a Torture Site,” The Intercept. Accessed: Aug. 12, 2024. [Online]. Available: <a href="https://theintercept.com/2024/08/09/israel-prison-sde-teiman-palestinian-abuse-torture/">https://theintercept.com/2024/08/09/israel-prison-sde-teiman-palestinian-abuse-torture/</a></li>
+
+<li>“‘Raped by female soldiers’: Palestinian in leaked Sde Teiman photo speaks out,” Middle East Eye. Accessed: Aug. 10, 2024. [Online]. Available: <a href="https://www.middleeasteye.net/news/raped-female-soldiers-palestinian-leaked-sde-teiman-photo-speaks-out">https://www.middleeasteye.net/news/raped-female-soldiers-palestinian-leaked-sde-teiman-photo-speaks-out</a></li>
+
+<li>“Israel Accused of Running ‘Torture Camps’ as Video Emerges of Soldiers Raping Palestinian Prisoner,” Democracy Now! Accessed: Aug. 09, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/8/8/welcome_to_hell_btselem_israel_torture">https://www.democracynow.org/2024/8/8/welcome_to_hell_btselem_israel_torture</a></li>
+
+<li>“‘Raped by female soldiers’: Palestinian in leaked Sde Teiman photo speaks out,” Middle East Eye. Accessed: Aug. 09, 2024. [Online]. Available: <a href="https://www.middleeasteye.net/news/raped-female-soldiers-palestinian-leaked-sde-teiman-photo-speaks-out">https://www.middleeasteye.net/news/raped-female-soldiers-palestinian-leaked-sde-teiman-photo-speaks-out</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Israel-Iran conflict on hair trigger as military and diplomatic preparations for war proceed,” World Socialist Web Site. Accessed: Aug. 06, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/08/06/qkzw-a06.html">https://www.wsws.org/en/articles/2024/08/06/qkzw-a06.html</a></li>
+
+<li>“Israel Maneuvered to Prevent Disclosure of State Secrets amid WhatsApp vs NSO Lawsuit,” Forbidden Stories. Accessed: Aug. 04, 2024. [Online]. Available: <a href="https://forbiddenstories.org/actualites_posts/israel-maneuvered-to-prevent-disclosure-of-state-secrets-amid-whatsapp-vs-nso-lawsuit/">https://forbiddenstories.org/actualites_posts/israel-maneuvered-to-prevent-disclosure-of-state-secrets-amid-whatsapp-vs-nso-lawsuit/</a></li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>Lea, “Supporting at-risk and displaced Palestinian scientists: offers of assistance, news and resources,” International Science Council. Accessed: Jul. 30, 2024. [Online]. Available: <a href="https://council.science/news/supporting-at-risk-and-displaced-palestinian-scientists/">https://council.science/news/supporting-at-risk-and-displaced-palestinian-scientists/</a></li>
+<li>Lea, “Science in ruins: Gaza’s scientists call for global support,” International Science Council. Accessed: Jul. 30, 2024. [Online]. Available: <a href="https://council.science/blog/science-in-ruins-gazas-scientists-call-for-global-support/">https://council.science/blog/science-in-ruins-gazas-scientists-call-for-global-support/</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>“The changing contours of India’s relationship with Israel.” Accessed: Jul. 01, 2024. [Online]. Available: <a href="https://caravanmagazine.in/conflict/changing-contours-india-israel">https://caravanmagazine.in/conflict/changing-contours-india-israel</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>P. MILLER, “No outcry over Rishi Sunak’s family investments in Israel,” Declassified Media Ltd. Accessed: Jun. 30, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/no-outcry-over-rishi-sunaks-family-investments-in-israel/">https://www.declassifieduk.org/no-outcry-over-rishi-sunaks-family-investments-in-israel/</a></li>
+<li>“What’s Behind Rishi Sunak’s Hypocrisy on Israel-Palestine?,” The Wire. Accessed: Jun. 30, 2024. [Online]. Available: <a href="https://thewire.in/world/whats-behind-rishi-sunaks-hypocrisy-on-israel-palestine">https://thewire.in/world/whats-behind-rishi-sunaks-hypocrisy-on-israel-palestine</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>“‘Never A Better Time to Visit’: Our Post-October-7 Trip to Israel,” Shtetl-Optimized. Accessed: Jun. 28, 2024. [Online]. Available: <a href="https://scottaaronson.blog/?p=8074">https://scottaaronson.blog/?p=8074</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>F. Marsi, “India exports rockets, explosives to Israel amid Gaza war, documents reveal,” Al Jazeera. Accessed: Jun. 26, 2024. [Online]. Available: <a href="https://www.aljazeera.com/features/2024/6/26/india-exports-rockets-explosives-to-israel-amid-gaza-war-documents-reveal">https://www.aljazeera.com/features/2024/6/26/india-exports-rockets-explosives-to-israel-amid-gaza-war-documents-reveal</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Roger Waters, Yusuf/Cat Stevens and Lowkey perform in London: ‘Tonight is for Palestine,’” World Socialist Web Site. Accessed: Jun. 24, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/06/23/mcjv-j23.html">https://www.wsws.org/en/articles/2024/06/23/mcjv-j23.html</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>O. Farrar, “Harvard’s Lisa Randall on Israeli and Palestinian Scientists Working Together | Harvard Magazine.” Accessed: Jun. 10, 2024. [Online]. Available: <a href="https://www.harvardmagazine.com/node/86656">https://www.harvardmagazine.com/node/86656</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“‘Where Olive Trees Weep’: Dr. Gabor Maté &amp; Ashira Darwish on New Film Exploring Trauma in Palestine,” Democracy Now! Accessed: Jun. 07, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/6/6/where_olive_trees_weep">https://www.democracynow.org/2024/6/6/where_olive_trees_weep</a></li>
+
+<li>“Cooperation with Israeli partners - update 31 May 2024,” Universiteit Gent. Accessed: Jun. 03, 2024. [Online]. Available: <a href="https://www.ugent.be/en/news-events/cooperation-with-israeli-partners-update-31-may-2024">https://www.ugent.be/en/news-events/cooperation-with-israeli-partners-update-31-may-2024</a></li>
+
+<li>“Resolution for Justice in Palestine | American Sociological Association.” Accessed: May 24, 2024. [Online]. Available: <a href="https://www.asanet.org/about/governance-and-leadership/election/resolution-for-justice-in-palestine/">https://www.asanet.org/about/governance-and-leadership/election/resolution-for-justice-in-palestine/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Amira Hass,” Wikipedia. May 18, 2024. Accessed: May 19, 2024. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Amira_Hass&amp;oldid=1224530102">https://en.wikipedia.org/w/index.php?title=Amira_Hass&amp;oldid=1224530102</a></li>
+<li>“Israeli Reporter Amira Hass on Palestine &amp; the Role of Journalism to Fight ‘Normalization of Evil,’” Democracy Now! Accessed: May 19, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/5/17/amira_hass_israel_palestine_gaza">https://www.democracynow.org/2024/5/17/amira_hass_israel_palestine_gaza</a></li>
+<li>“Israeli Reporter Amira Hass on Palestine &amp; the Role of Journalism to Fight ‘Normalization of Evil,’” Democracy Now! Accessed: May 19, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/5/17/amira_hass_israel_palestine_gaza">https://www.democracynow.org/2024/5/17/amira_hass_israel_palestine_gaza</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>“The University and Social Justice,” Pluto Press. Accessed: May 06, 2024. [Online]. Available: <a href="https://www.plutobooks.com/9780745340685/the-university-and-social-justice">https://www.plutobooks.com/9780745340685/the-university-and-social-justice</a></li>
+<li>“The Palestine-Israel Conflict,” Pluto Press. Accessed: May 06, 2024. [Online]. Available: <a href="https://www.plutobooks.com/9780745399263/the-palestine-israel-conflict">https://www.plutobooks.com/9780745399263/the-palestine-israel-conflict</a></li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li>“Journalist casualties in the Israel-Gaza war,” Committee to Protect Journalists. Accessed: May 03, 2024. [Online]. Available: <a href="https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/">https://cpj.org/2024/05/journalist-casualties-in-the-israel-gaza-conflict/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“29 Writers Withdraw from PEN Prizes to Protest ‘Complicity in Normalizing Genocide,’” Democracy Now! Accessed: Apr. 19, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/4/18/headlines/29_writers_withdraw_from_pen_prizes_to_protest_complicity_in_normalizing_genocide">https://www.democracynow.org/2024/4/18/headlines/29_writers_withdraw_from_pen_prizes_to_protest_complicity_in_normalizing_genocide</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>R. A. Vargas and A. Clayton, “Backlash as USC cancels valedictorian’s speech over support for Palestine,” The Guardian, Apr. 17, 2024. Accessed: Apr. 19, 2024. [Online]. Available: <a href="https://www.theguardian.com/us-news/2024/apr/16/usc-valedictorian-speech-palestine">https://www.theguardian.com/us-news/2024/apr/16/usc-valedictorian-speech-palestine</a></li>
+
+<li>B. Montgomery and E. Salam, “Google fires 28 staff after protest against firm’s contract with Israeli government,” The Guardian, Apr. 18, 2024. Accessed: Apr. 19, 2024. [Online]. Available: <a href="https://www.theguardian.com/technology/2024/apr/18/google-fires-staff-protest-israel-contract">https://www.theguardian.com/technology/2024/apr/18/google-fires-staff-protest-israel-contract</a></li>
+
+<li>“India’s Refusal to Back UN Arms Embargo on Israel May Be Linked to Adani Drone Exports,” The Wire. Accessed: Apr. 19, 2024. [Online]. Available: <a href="https://thewire.in/government/indias-refusal-to-back-un-arms-embargo-on-israel-may-be-linked-to-adani-drone-exports">https://thewire.in/government/indias-refusal-to-back-un-arms-embargo-on-israel-may-be-linked-to-adani-drone-exports</a></li>
+
+<li>“Israeli minister Ben Gvir calls for execution of Palestinian prisoners to ease overcrowding,” Middle East Eye. Accessed: Apr. 19, 2024. [Online]. Available: <a href="https://www.middleeasteye.net/news/israel-itamar-ben-gvir-calls-execution-palestinans-ease-overcrowding-prisons">https://www.middleeasteye.net/news/israel-itamar-ben-gvir-calls-execution-palestinans-ease-overcrowding-prisons</a></li>
+
+<li>K. K. Boguslaw Daniel, “Leaked Cables Show White House Opposes Palestinian Statehood,” The Intercept. Accessed: Apr. 19, 2024. [Online]. Available: <a href="https://theintercept.com/2024/04/17/united-nations-biden-palestine-statehood/">https://theintercept.com/2024/04/17/united-nations-biden-palestine-statehood/</a></li>
+</ul>
+
+
+
+
+
+
+
+
+<ul class="org-ul">
+<li>“‘We Are Repulsed by Your Actions’: New Irish Prime Minister Sends Message to Netanyahu,” Democracy Now! Accessed: Apr. 10, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/4/9/headlines/we_are_repulsed_by_your_actions_new_irish_prime_minister_sends_message_to_netanyahu">https://www.democracynow.org/2024/4/9/headlines/we_are_repulsed_by_your_actions_new_irish_prime_minister_sends_message_to_netanyahu</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“The Destruction of Palestine Is the Destruction of the Earth,” Verso. Accessed: Apr. 10, 2024. [Online]. Available: <a href="https://www.versobooks.com/en-gb/blogs/news/the-destruction-of-palestine-is-the-destruction-of-the-earth">https://www.versobooks.com/en-gb/blogs/news/the-destruction-of-palestine-is-the-destruction-of-the-earth</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Active-Duty U.S. Airman, Inspired by Aaron Bushnell, on Hunger Strike Outside White House over Gaza,” Democracy Now! Accessed: Apr. 03, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/4/2/hunger_strike">https://www.democracynow.org/2024/4/2/hunger_strike</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“In bipartisan vote, US House passes authoritarian resolution calling on Harvard, MIT presidents to resign,” World Socialist Web Site. Accessed: Dec. 16, 2023. [Online]. Available: <a href="https://www.wsws.org/en/articles/2023/12/15/thfv-d15.html">https://www.wsws.org/en/articles/2023/12/15/thfv-d15.html</a></li>
+
+<li>“Against the Targeting of IIT Bombay Professor,” The India Forum. Accessed: Nov. 16, 2023. [Online]. Available: <a href="https://www.theindiaforum.in/forum/protest-against-targeting-iit-bombay-professor">https://www.theindiaforum.in/forum/protest-against-targeting-iit-bombay-professor</a></li>
+
+<li>V. Sanzgiri, “How companies have been impacted in the Israel-Palestine war,” MediaNama. Accessed: Nov. 16, 2023. [Online]. Available: <a href="https://www.medianama.com/2023/11/223-companies-israel-palestine-war/">https://www.medianama.com/2023/11/223-companies-israel-palestine-war/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>N. Desk, “Don’t pray for Palestine, Delhi Police issue warning to Imams,” The Siasat Daily. Accessed: Nov. 16, 2023. [Online]. Available: <a href="https://www.siasat.com/dont-pray-for-palestine-delhi-police-issue-warning-to-imams-2879711/">https://www.siasat.com/dont-pray-for-palestine-delhi-police-issue-warning-to-imams-2879711/</a></li>
+
+<li>S. Biddle, “Google Activists Circulated Internal Petition on Israel Ties. Only the Muslim Got a Call from HR.,” The Intercept. Accessed: Nov. 16, 2023. [Online]. Available: <a href="https://theintercept.com/2023/11/15/google-israel-gaza-nimbus-protest/">https://theintercept.com/2023/11/15/google-israel-gaza-nimbus-protest/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>H. Sherwood, “Israel using flechette shells in Gaza,” The Guardian, Jul. 20, 2014. Accessed: Nov. 12, 2023. [Online]. Available: <a href="https://www.theguardian.com/world/2014/jul/20/israel-using-flechette-shells-in-gaza">https://www.theguardian.com/world/2014/jul/20/israel-using-flechette-shells-in-gaza</a></li>
+
+<li>K. Klippenstein, “U.S. Weapons Transfers to Israel Shrouded in Secrecy — but Not Ukraine,” The Intercept. Accessed: Nov. 11, 2023. [Online]. Available: <a href="https://theintercept.com/2023/11/07/israel-us-weapons-secret/">https://theintercept.com/2023/11/07/israel-us-weapons-secret/</a></li>
+
+<li>F. Bathool, “Mapping Women’s Movements In Palestine: A Restatement Of Feminism By Muslim Women,” Feminism in India. Accessed: Nov. 11, 2023. [Online]. Available: <a href="https://feminisminindia.com/2023/11/10/womens-movements-in-palestine/">https://feminisminindia.com/2023/11/10/womens-movements-in-palestine/</a></li>
+
+<li>“India is the epicentre of hate and misinformation against Palestinians,” Middle East Monitor. Accessed: Nov. 11, 2023. [Online]. Available: <a href="https://www.middleeastmonitor.com/20231110-india-is-the-epicentre-of-hate-and-misinformation-against-palestinians/">https://www.middleeastmonitor.com/20231110-india-is-the-epicentre-of-hate-and-misinformation-against-palestinians/</a></li>
+
+<li>“Mass protests erupt in US against Israel war crimes,” World Socialist Web Site. Accessed: Oct. 20, 2023. [Online]. Available: <a href="https://www.wsws.org/en/articles/2023/10/19/vjas-o19.html">https://www.wsws.org/en/articles/2023/10/19/vjas-o19.html</a></li>
+
+<li>P. C. and J. C. York, “Social Media Platforms Must Do Better When Handling Misinformation, Especially During Moments of Conflict,” Electronic Frontier Foundation. Accessed: Oct. 18, 2023. [Online]. Available: <a href="https://www.eff.org/deeplinks/2023/10/social-media-platforms-must-do-better-when-handling-misinformation-especially">https://www.eff.org/deeplinks/2023/10/social-media-platforms-must-do-better-when-handling-misinformation-especially</a></li>
+
+<li>A. Speri, “‘Beheaded Babies’ Report Spread Wide and Fast — but Israel Military Won’t Confirm It,” The Intercept. Accessed: Oct. 16, 2023. [Online]. Available: <a href="https://theintercept.com/2023/10/11/israel-hamas-disinformation/">https://theintercept.com/2023/10/11/israel-hamas-disinformation/</a></li>
+
+<li>“UN expert warns of new instance of mass ethnic cleansing of Palestinians, calls for immediate ceasefire,” OHCHR. Accessed: Oct. 16, 2023. [Online]. Available: <a href="https://www.ohchr.org/en/press-releases/2023/10/un-expert-warns-new-instance-mass-ethnic-cleansing-palestinians-calls">https://www.ohchr.org/en/press-releases/2023/10/un-expert-warns-new-instance-mass-ethnic-cleansing-palestinians-calls</a></li>
+
+<li>N. L. Team, “TV Newsance 230: Israel Palestine conflict, Indian media at ground zero,” Newslaundry. Accessed: Oct. 16, 2023. [Online]. Available: <a href="https://www.newslaundry.com/2023/10/14/tv-newsance-230-israel-palestine-conflict-indian-media-reports-from-ground-zero">https://www.newslaundry.com/2023/10/14/tv-newsance-230-israel-palestine-conflict-indian-media-reports-from-ground-zero</a></li>
+
+<li>“Philistines &amp; Pharisees.” Accessed: Oct. 15, 2023. [Online]. Available: <a href="https://www.telegraphindia.com/opinion/philistines-pharisees-israels-legitimacy-grows-out-of-the-tragedy-of-the-holocaust/cid/1973461">https://www.telegraphindia.com/opinion/philistines-pharisees-israels-legitimacy-grows-out-of-the-tragedy-of-the-holocaust/cid/1973461</a></li>
+
+<li>“The Israel-Palestine conflict,” The Hindu, Oct. 09, 2023. Accessed: Oct. 11, 2023. [Online]. Available: <a href="https://www.thehindu.com/news/international/israel-palestine-conflict-package/article67399012.ece">https://www.thehindu.com/news/international/israel-palestine-conflict-package/article67399012.ece</a></li>
+
+<li>A. Deb, “How the BJP is using the Israel-Palestine conflict for domestic gain,” Scroll.in. Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://scroll.in/article/1057325/how-the-bjp-is-using-the-israel-palestine-conflict-for-domestic-gain">https://scroll.in/article/1057325/how-the-bjp-is-using-the-israel-palestine-conflict-for-domestic-gain</a></li>
+
+<li>O. Holmes and R. Michaelson, “Israel declares siege of Gaza as Hamas threatens to start killing hostages,” The Guardian, Oct. 09, 2023. Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://www.theguardian.com/world/2023/oct/09/israel-declares-siege-on-gaza-as-hamas-claims-israeli-strikes-killed-captives">https://www.theguardian.com/world/2023/oct/09/israel-declares-siege-on-gaza-as-hamas-claims-israeli-strikes-killed-captives</a></li>
+
+<li>S. S. Kalin Benoit Faucon and Stephen, “WSJ News Exclusive | Iran Helped Plot Attack on Israel Over Several Weeks,” WSJ. Accessed: Oct. 10, 2023. [Online]. Available: <a href="https://www.wsj.com/world/middle-east/iran-israel-hamas-strike-planning-bbe07b25">https://www.wsj.com/world/middle-east/iran-israel-hamas-strike-planning-bbe07b25</a></li>
+
+<li>“The Violence in Palestine and Israel Is the Tragic Fruit of Brutal Oppression.” Accessed: Oct. 09, 2023. [Online]. Available: <a href="https://jacobin.com/2023/10/israel-palestine-violence-hamas-airstrikes-gaza-oppression">https://jacobin.com/2023/10/israel-palestine-violence-hamas-airstrikes-gaza-oppression</a></li>
+
+<li>R. Hensman, “Anti-Semitism vs Zionism,” Frontline. Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://frontline.thehindu.com/world-affairs/israel-palestine-conflict-anti-semitism-vs-zionism-racism-against-jews-palestinians-arabs-muslims-erodes-humanity-blocks-compassion/article67512714.ece">https://frontline.thehindu.com/world-affairs/israel-palestine-conflict-anti-semitism-vs-zionism-racism-against-jews-palestinians-arabs-muslims-erodes-humanity-blocks-compassion/article67512714.ece</a></li>
+
+<li>M. Herson-Hord, “A Second Nakba: Paving the Way to Genocide,” Institute for Social Ecology. Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://social-ecology.org/wp/2023/11/a-second-nakba-paving-the-way-to-genocide/">https://social-ecology.org/wp/2023/11/a-second-nakba-paving-the-way-to-genocide/</a></li>
+
+<li>N. Lanard, “The dangerous history behind Netanyahu’s Amalek rhetoric,” Mother Jones. Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://www.motherjones.com/politics/2023/11/benjamin-netanyahu-amalek-israel-palestine-gaza-saul-samuel-old-testament/">https://www.motherjones.com/politics/2023/11/benjamin-netanyahu-amalek-israel-palestine-gaza-saul-samuel-old-testament/</a></li>
+
+<li>H. Khoudary, “I Joined Gaza’s Trail of Tears and Displacement,” The Intercept. Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://theintercept.com/2023/11/12/gaza-evacuation-hind-khoudary/">https://theintercept.com/2023/11/12/gaza-evacuation-hind-khoudary/</a></li>
+
+<li>“Biggest hospital in Gaza ‘out of fuel’, normal room floor is OT: Palestine envoy,” The Indian Express. Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://indianexpress.com/article/india/biggest-hospital-in-gaza-out-of-fuel-normal-room-floor-is-ot-palestine-envoy-9025527/">https://indianexpress.com/article/india/biggest-hospital-in-gaza-out-of-fuel-normal-room-floor-is-ot-palestine-envoy-9025527/</a></li>
+
+<li>“Antony Loewenstein: Israel Is Testing New Weapons on Gaza as Arms Dealers Profit from Gaza War,” Democracy Now! Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/11/14/israel_weapons">https://www.democracynow.org/2023/11/14/israel_weapons</a></li>
+
+<li>“Palestinians and Rights Groups Sue Biden for Failing to Prevent Genocide in Gaza,” Democracy Now! Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://www.democracynow.org/2023/11/14/headlines/palestinians_and_rights_groups_sue_biden_for_failing_to_prevent_genocide_in_gaza">https://www.democracynow.org/2023/11/14/headlines/palestinians_and_rights_groups_sue_biden_for_failing_to_prevent_genocide_in_gaza</a></li>
+
+<li>“Lebanon: Israeli Strike an Apparent War Crime | Human Rights Watch.” Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://www.hrw.org/news/2023/11/14/lebanon-israeli-strike-apparent-war-crime">https://www.hrw.org/news/2023/11/14/lebanon-israeli-strike-apparent-war-crime</a></li>
+
+<li>“Statement on Gaza.” Accessed: Nov. 15, 2023. [Online]. Available: <a href="https://iaffe.memberclicks.net/statements">https://iaffe.memberclicks.net/statements</a></li>
+</ul>
+
+<hr />
+
+<p>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-bigpic.html">Big Picture</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-media.html">Media</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-miscurls.html">Misc</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-today.html">Today</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-aajkal.html">Current Affairs</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/contact-info.html">Contact Info</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/license.html">License</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/disclaimer.html">Disclaimer</a>.
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Staff Member(s), <a href="https://ourghostorg.github.io/">OurGhostOrg</a></p>
+<p class="date">Created: 2026-07-06 Mon 18:46</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

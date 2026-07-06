@@ -1,0 +1,2454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-06 Mon 18:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Violence</title>
+<meta name="author" content="Staff Member(s), [[https://ourghostorg.github.io/][OurGhostOrg]]" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Violence</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org52f7038">1. General</a></li>
+<li><a href="#org0907956">2. STEMM</a>
+<ul>
+<li><a href="#org363cbd3">2.1. Systems Sciences, Misc</a>
+<ul>
+<li><a href="#org9a2d739">2.1.1. Complexity Science, Misc</a></li>
+<li><a href="#org29559a7">2.1.2. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org94a13f4">2.2. Biological Sciences, Misc</a>
+<ul>
+<li><a href="#org191bb74">2.2.1. Ecology, Misc</a></li>
+</ul>
+</li>
+<li><a href="#org01244b5">2.3. Basic Sciences, Misc</a>
+<ul>
+<li><a href="#orge1907b2">2.3.1. Chemistry</a></li>
+</ul>
+</li>
+<li><a href="#org8c7d68d">2.4. Mathematical, Computational Sciences, Misc</a>
+<ul>
+<li><a href="#orgd882fb3">2.4.1. Computer Science And Engineering</a></li>
+<li><a href="#orge47416a">2.4.2. Applied Mathematics</a></li>
+</ul>
+</li>
+<li><a href="#org3750025">2.5. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgf2bac11">3. Worldly Matters</a>
+<ul>
+<li><a href="#org1456b7a">3.1. Space and Time</a></li>
+<li><a href="#org53f71cc">3.2. Space, Earth, Life Sciences, Environment, Health, Misc</a></li>
+<li><a href="#org8eb8bcc">3.3. Humanities, Misc</a>
+<ul>
+<li><a href="#orgbebeab4">3.3.1. Psychology</a></li>
+</ul>
+</li>
+<li><a href="#orgc01a09a">3.4. Religions, Spirituality, Misc</a>
+<ul>
+<li><a href="#orgcdd2993">3.4.1. Stereotypically Related Religions</a></li>
+<li><a href="#orgbd006d5">3.4.2. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orga1351c9">3.5. Humanities, Misc</a></li>
+<li><a href="#org732715c">3.6. SocioPolitical Studies, Law, Misc</a>
+<ul>
+<li><a href="#org8fe728d">3.6.1. Special Groups</a></li>
+<li><a href="#orgf0fc31d">3.6.2. Nation States</a></li>
+</ul>
+</li>
+<li><a href="#org2af3565">3.7. Business Studies, Misc</a></li>
+<li><a href="#orga2028b8">3.8. Security Studies, Misc</a></li>
+<li><a href="#org438b4cd">3.9. Communication, Misc</a></li>
+<li><a href="#orgb0d2447">3.10. Misc</a></li>
+</ul>
+</li>
+<li><a href="#orgb6592d4">4. Core</a>
+<ul>
+<li><a href="#org5ffb676">4.1. Education</a>
+<ul>
+<li><a href="#orgd83f71a">4.1.1. Courses</a></li>
+</ul>
+</li>
+<li><a href="#org0710f11">4.2. Variants</a>
+<ul>
+<li><a href="#org3632afa">4.2.1. Ethnic Violence</a></li>
+<li><a href="#orge3a0ccf">4.2.2. Religious Violence</a></li>
+<li><a href="#orgc20708c">4.2.3. Political Violence</a></li>
+<li><a href="#orga5fdbfb">4.2.4. Domestic Violence</a></li>
+<li><a href="#org023133a">4.2.5. Sexual Violence</a></li>
+<li><a href="#org4fdb96b">4.2.6. Torture</a></li>
+</ul>
+</li>
+<li><a href="#orgb181bfb">4.3. Wars</a>
+<ul>
+<li><a href="#orgd511406">4.3.1. General</a></li>
+<li><a href="#orgc6fc6a1">4.3.2. STEMM</a></li>
+<li><a href="#org912a375">4.3.3. Worldly Matters</a></li>
+<li><a href="#orgb3a62bb">4.3.4. Core</a></li>
+<li><a href="#org22009e7">4.3.5. Arts</a></li>
+<li><a href="#org7976d0b">4.3.6. Special Topics</a></li>
+<li><a href="#org25020de">4.3.7. Misc</a></li>
+</ul>
+</li>
+<li><a href="#org59e3e88">4.4. Murders</a>
+<ul>
+<li><a href="#org0d33c05">4.4.1. General</a></li>
+<li><a href="#orgf4cb775">4.4.2. STEMM</a></li>
+<li><a href="#org09366ed">4.4.3. Worldly Matters</a></li>
+<li><a href="#org5c7a713">4.4.4. Arts</a></li>
+<li><a href="#orgc8d8088">4.4.5. Special Topics</a></li>
+<li><a href="#org4322b79">4.4.6. Misc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7c4e314">5. Special Topics</a>
+<ul>
+<li><a href="#org10fa453">5.1. Classics</a></li>
+<li><a href="#orgc26951b">5.2. Peace</a>
+<ul>
+<li><a href="#org3db10cf">5.2.1. General</a></li>
+<li><a href="#orgc6e4974">5.2.2. Philosophy</a></li>
+<li><a href="#org670c540">5.2.3. STEMM</a></li>
+<li><a href="#org89ecf08">5.2.4. Worldly Matters</a></li>
+<li><a href="#org6a80427">5.2.5. Arts</a></li>
+<li><a href="#org5e73362">5.2.6. Special Topics</a></li>
+<li><a href="#org8855e67">5.2.7. Misc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org9634103">6. Misc</a></li>
+</ul>
+</div>
+</div>
+<hr />
+<div id="outline-container-org52f7038" class="outline-2">
+<h2 id="org52f7038"><span class="section-number-2">1.</span> General</h2>
+</div>
+<div id="outline-container-org0907956" class="outline-2">
+<h2 id="org0907956"><span class="section-number-2">2.</span> STEMM</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org363cbd3" class="outline-3">
+<h3 id="org363cbd3"><span class="section-number-3">2.1.</span> Systems Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org9a2d739" class="outline-4">
+<h4 id="org9a2d739"><span class="section-number-4">2.1.1.</span> Complexity Science, Misc</h4>
+<div class="outline-text-4" id="text-2-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org90f6ab3"></a>Santa Fe Institute<br />
+<div class="outline-text-5" id="text-2-1-1-1">
+<ul class="org-ul">
+<li>“Study: How do violent policies spread among governments? | Santa Fe Institute.” Accessed: Aug. 29, 2024. [Online]. Available: <a href="https://www.santafe.edu/news-center/news/study-how-do-violent-policies-spread-among-governments">https://www.santafe.edu/news-center/news/study-how-do-violent-policies-spread-among-governments</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgc118327"></a>Misc<br /></li>
+</ol>
+</div>
+<div id="outline-container-org29559a7" class="outline-4">
+<h4 id="org29559a7"><span class="section-number-4">2.1.2.</span> Misc</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<ul class="org-ul">
+<li>P. Turchin, <b>Ultrasociety: How 10,000 Years of War Made Humans the Greatest Cooperators on Earth.</b> Beresta Books, 2016.</li>
+<li>P. Turchin, <b>War and Peace and War.</b> Penguin Group US, 2007.
+<ul class="org-ul">
+<li>“War and Peace and War: Two Decades Later,” Peter Turchin, Apr. 13, 2022. <a href="https://peterturchin.com/cliodynamica/war-and-peace-and-war-two-decades-later/">https://peterturchin.com/cliodynamica/war-and-peace-and-war-two-decades-later/</a> (accessed Apr. 28, 2022).</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org94a13f4" class="outline-3">
+<h3 id="org94a13f4"><span class="section-number-3">2.2.</span> Biological Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org191bb74" class="outline-4">
+<h4 id="org191bb74"><span class="section-number-4">2.2.1.</span> Ecology, Misc</h4>
+</div>
+</div>
+<div id="outline-container-org01244b5" class="outline-3">
+<h3 id="org01244b5"><span class="section-number-3">2.3.</span> Basic Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-orge1907b2" class="outline-4">
+<h4 id="orge1907b2"><span class="section-number-4">2.3.1.</span> Chemistry</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<ul class="org-ul">
+<li>J. Emsley, Molecules of Murder: Criminal Molecules and Classic Cases. Cambridge, UK: Royal Society of Chemistry, 2016.</li>
+<li>J. Emsley, More Molecules of Murder. La Vergne: Royal Society of Chemistry, 2017.</li>
+<li>M. Séquin, Chemistry of Plants: Perfumes, Pigments and Poisons. London, UK: Royal Society of Chemistry, 2021.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org8c7d68d" class="outline-3">
+<h3 id="org8c7d68d"><span class="section-number-3">2.4.</span> Mathematical, Computational Sciences, Misc</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-orgd882fb3" class="outline-4">
+<h4 id="orgd882fb3"><span class="section-number-4">2.4.1.</span> Computer Science And Engineering</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<ul class="org-ul">
+<li>“The Algorithmic Management of Polarization and Violence on Social Media.” <a href="http://knightcolumbia.org/content/the-algorithmic-management-of-polarization-and-violence-on-social-media">http://knightcolumbia.org/content/the-algorithmic-management-of-polarization-and-violence-on-social-media</a> (accessed Aug. 25, 2023).</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge47416a" class="outline-4">
+<h4 id="orge47416a"><span class="section-number-4">2.4.2.</span> Applied Mathematics</h4>
+<div class="outline-text-4" id="text-2-4-2">
+</div>
+<ol class="org-ol">
+<li><a id="org3bf5693"></a>Probability and Statistics<br />
+<div class="outline-text-5" id="text-2-4-2-1">
+<ul class="org-ul">
+<li>P. Cirillo and N. N. Taleb, <b>The Decline of Violent Conflicts: What Do the Data Really Say?</b>, Social Science Research Network, Rochester, NY, SSRN Scholarly Paper ID 2876315, Nov. 2016.</li>
+<li>P. Cirillo and N. N. Taleb, <b>“What are the chances of war?,”</b> Significance, vol. 13, no. 2, pp. 44–45, 2016, doi: 10.1111/j.1740-9713.2016.00903.x.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org3750025" class="outline-3">
+<h3 id="org3750025"><span class="section-number-3">2.5.</span> Misc</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul class="org-ul">
+<li>Y. E. Hendrix Justin, “What Online Platforms Can and Must Do to Help Mitigate Escalating Political Violence,” Tech Policy Press. Accessed: Jun. 25, 2026. [Online]. Available: <a href="https://techpolicy.press/what-online-platforms-can-and-must-do-to-help-mitigate-escalating-political-violence">https://techpolicy.press/what-online-platforms-can-and-must-do-to-help-mitigate-escalating-political-violence</a></li>
+
+<li>“Plants Release Seasonal Toxins | Shared Grok Conversation.” Accessed: Jun. 23, 2026. [Online]. Available: <a href="https://grok.com/share/c2hhcmQtMg_16eaa426-2404-47b5-b93b-a4d301318daf">https://grok.com/share/c2hhcmQtMg_16eaa426-2404-47b5-b93b-a4d301318daf</a></li>
+
+<li>B. Wood, K. Kocsis, and P. Briggs, “Exploring Public Attitudes on Technology-Facilitated Intimate Partner Violence,” IEEE Security &amp; Privacy, vol. 23, no. 04, pp. 22–31, Jul. 2025, doi: 10.1109/MSEC.2025.3566723.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf2bac11" class="outline-2">
+<h2 id="orgf2bac11"><span class="section-number-2">3.</span> Worldly Matters</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org1456b7a" class="outline-3">
+<h3 id="org1456b7a"><span class="section-number-3">3.1.</span> Space and Time</h3>
+</div>
+<div id="outline-container-org53f71cc" class="outline-3">
+<h3 id="org53f71cc"><span class="section-number-3">3.2.</span> Space, Earth, Life Sciences, Environment, Health, Misc</h3>
+</div>
+<div id="outline-container-org8eb8bcc" class="outline-3">
+<h3 id="org8eb8bcc"><span class="section-number-3">3.3.</span> Humanities, Misc</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-orgbebeab4" class="outline-4">
+<h4 id="orgbebeab4"><span class="section-number-4">3.3.1.</span> Psychology</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<ul class="org-ul">
+<li>“Liberation From Psychic Violence: Understanding the Psychological Dimension of Domination,” The Wire. Accessed: Jan. 03, 2024. [Online]. Available: <a href="https://thewire.in/rights/liberation-from-psychic-violence-understanding-the-psychological-dimension-of-domination">https://thewire.in/rights/liberation-from-psychic-violence-understanding-the-psychological-dimension-of-domination</a></li>
+
+<li>T. K. Shackelford and R. D. Hansen, Eds., The Evolution of Violence, Softcover reprint of the original 1st ed. 2014 edition. Springer-Verlag New York Inc., 2016.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc01a09a" class="outline-3">
+<h3 id="orgc01a09a"><span class="section-number-3">3.4.</span> Religions, Spirituality, Misc</h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+<div id="outline-container-orgcdd2993" class="outline-4">
+<h4 id="orgcdd2993"><span class="section-number-4">3.4.1.</span> Stereotypically Related Religions</h4>
+<div class="outline-text-4" id="text-3-4-1">
+</div>
+<ol class="org-ol">
+<li><a id="orgae443c0"></a>Islam<br />
+<div class="outline-text-5" id="text-3-4-1-1">
+<ul class="org-ul">
+<li>Misc Tiny URLs - Islam: <a href="https://tinyurl.com/mwn3983j">https://tinyurl.com/mwn3983j</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgde7a4e8"></a>Sikhism<br />
+<div class="outline-text-5" id="text-3-4-1-2">
+<ul class="org-ul">
+<li>Misc Tiny URLs - Sikhism: <a href="https://tinyurl.com/yc3df5ys">https://tinyurl.com/yc3df5ys</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgd48efa3"></a>Misc<br /></li>
+</ol>
+</div>
+<div id="outline-container-orgbd006d5" class="outline-4">
+<h4 id="orgbd006d5"><span class="section-number-4">3.4.2.</span> Misc</h4>
+</div>
+</div>
+<div id="outline-container-orga1351c9" class="outline-3">
+<h3 id="orga1351c9"><span class="section-number-3">3.5.</span> Humanities, Misc</h3>
+</div>
+<div id="outline-container-org732715c" class="outline-3">
+<h3 id="org732715c"><span class="section-number-3">3.6.</span> SocioPolitical Studies, Law, Misc</h3>
+<div class="outline-text-3" id="text-3-6">
+</div>
+<div id="outline-container-org8fe728d" class="outline-4">
+<h4 id="org8fe728d"><span class="section-number-4">3.6.1.</span> Special Groups</h4>
+<div class="outline-text-4" id="text-3-6-1">
+</div>
+<ol class="org-ol">
+<li><a id="org2416f68"></a>Women<br />
+<ol class="org-ol">
+<li><a id="orgd554037"></a>General<br /></li>
+<li><a id="org0c3f621"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="org6b8a20a"></a>Nation States<br />
+<ul class="org-ul">
+<li><a id="org14127fc"></a>India<br />
+<ul class="org-ul">
+<li><a id="orgfe46fd0"></a>Misc<br />
+<div class="outline-text-9" id="text-orgfe46fd0">
+<ul class="org-ul">
+<li>S. Singh, “Disturbing Pattern Of Violence Against Women: A College Girl Set On Fire In Odisha,” Feminism in India. Accessed: Jul. 25, 2025. [Online]. Available: <a href="https://feminisminindia.com/2025/07/25/disturbing-pattern-of-violence-against-women-a-college-girl-set-on-fire-in-odisha/">https://feminisminindia.com/2025/07/25/disturbing-pattern-of-violence-against-women-a-college-girl-set-on-fire-in-odisha/</a></li>
+
+<li>N. Rehman, “Gender Disparities And Violence: The Public Reaction To The Meghalaya Murder Case,” Feminism in India. Accessed: Jun. 24, 2025. [Online]. Available: <a href="https://feminisminindia.com/2025/06/24/gender-disparities-and-violence-the-public-reaction-to-the-meghalaya-murder-case/">https://feminisminindia.com/2025/06/24/gender-disparities-and-violence-the-public-reaction-to-the-meghalaya-murder-case/</a></li>
+
+<li>K. Kannabiran, Ed., The Violence of Normal Times: Essays on Women’s Lived Realities. New Delhi: Women Unlimited, 2006.</li>
+</ul>
+</div>
+</li>
+<li><a id="org30b6110"></a>General<br /></li>
+<li><a id="org9890e62"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="org0d2d8ed"></a>Texts<br />
+<div class="outline-text-10" id="text-org0d2d8ed">
+<ul class="org-ul">
+<li>N. P. Unnithan and M. K. Nalla, Eds., Violence against Women in India, 1st edition. Routledge, 2020.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgfc7ea1d"></a>Articles, Essays<br />
+<ul class="org-ul">
+<li><a id="orgdfd3536"></a>Misc<br />
+<div class="outline-text-11" id="text-orgdfd3536">
+<ul class="org-ul">
+<li>S. Syed, “Gendering Conflict: Women’s Bodies As Sites Of Violence,” Feminism in India. Accessed: Mar. 31, 2025. [Online]. Available: <a href="https://feminisminindia.com/?p=184666">https://feminisminindia.com/?p=184666</a></li>
+<li>“Staying Safe Or Keeping Children Safe: How The State Forces A Hard Choice On Domestic Violence Survivors.” Accessed: Jan. 17, 2025. [Online]. Available: <a href="https://www.article-14.com/post/staying-safe-or-keeping-children-safe-how-the-state-forces-a-hard-choice-on-domestic-violence-survivors-6789c8198fdf0">https://www.article-14.com/post/staying-safe-or-keeping-children-safe-how-the-state-forces-a-hard-choice-on-domestic-violence-survivors-6789c8198fdf0</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb7bfbe8"></a>People's Archive of Rural India<br />
+<div class="outline-text-11" id="text-orgb7bfbe8">
+<ul class="org-ul">
+<li>“Violence against women in India,” People’s Archive of Rural India. Accessed: Oct. 15, 2024. [Online]. Available: <a href="https://ruralindiaonline.org/en/articles/violence-against-women-in-india/">https://ruralindiaonline.org/en/articles/violence-against-women-in-india/</a>
+<ul class="org-ul">
+<li>“भारत मं माईलोगन मन के उपर अतियाचार,” People’s Archive of Rural India. Accessed: Oct. 15, 2024. [Online]. Available: <a href="https://ruralindiaonline.org/en/articles/violence-against-women-in-india-chh/">https://ruralindiaonline.org/en/articles/violence-against-women-in-india-chh/</a></li>
+</ul></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org54309f2"></a>Psychology<br />
+<div class="outline-text-7" id="text-org54309f2">
+<ul class="org-ul">
+<li>A. Motz and E. Welldon, The Psychology of Female Violence: Crimes Against the Body, 2nd edition. London ; New York: Routledge, 2008.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgb366159"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="org2bd2f72"></a>Femicide<br />
+<ul class="org-ul">
+<li><a id="org9f3b633"></a>General<br /></li>
+<li><a id="org57b6f13"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="org4464710"></a>Female Infanticide<br />
+<ul class="org-ul">
+<li><a id="orgc2574e2"></a>General<br />
+<div class="outline-text-10" id="text-orgc2574e2">
+<ul class="org-ul">
+<li>“Female infanticide in India,” Wikipedia. Apr. 30, 2023. Accessed: Jul. 01, 2023. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Female_infanticide_in_India&amp;oldid=1152420227">https://en.wikipedia.org/w/index.php?title=Female_infanticide_in_India&amp;oldid=1152420227</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org440e591"></a>Arts<br />
+<ul class="org-ul">
+<li><a id="orga2697a8"></a>Films<br />
+<div class="outline-text-11" id="text-orga2697a8">
+<ul class="org-ul">
+<li>“Kajarya,” Wikipedia. Apr. 08, 2023. Accessed: Jul. 01, 2023. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Kajarya&amp;oldid=1148876539">https://en.wikipedia.org/w/index.php?title=Kajarya&amp;oldid=1148876539</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org6478cad"></a>Misc<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org140b582"></a>Misc<br />
+<div class="outline-text-8" id="text-org140b582">
+<ul class="org-ul">
+<li>tpampalone, “Investigating Femicide: A GIJN Guide,” Global Investigative Journalism Network, Jun. 07, 2021. <a href="https://gijn.org/2021/06/07/investigating-femicide/">https://gijn.org/2021/06/07/investigating-femicide/</a> (accessed Sep. 06, 2023).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org5db5686"></a>Misc<br />
+<div class="outline-text-6" id="text-3-6-1-1-4">
+<ul class="org-ul">
+<li>“I worked with survivors of gender-based violence. The link between women, power and environmental extraction is undeniable,” Greenpeace International. Accessed: Apr. 08, 2026. [Online]. Available: <a href="https://www.greenpeace.org/international/story/82530/i-worked-with-survivors-of-gender-based-violence-the-link-between-women-power-and-environmental-extraction-is-undeniable/">https://www.greenpeace.org/international/story/82530/i-worked-with-survivors-of-gender-based-violence-the-link-between-women-power-and-environmental-extraction-is-undeniable/</a></li>
+
+<li>“16 Days of Activism against Gender-Based Violence,” UN Women – Headquarters. Accessed: Dec. 09, 2025. [Online]. Available: <a href="https://www.unwomen.org/en/get-involved/16-days-of-activism">https://www.unwomen.org/en/get-involved/16-days-of-activism</a></li>
+<li>“Safe Women and Healthy Communities | Transnational Institute.” Accessed: Dec. 09, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/safe-women-and-healthy-communities">https://www.tni.org/en/article/safe-women-and-healthy-communities</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>B. Wood, K. Kocsis, and P. Briggs, “Exploring Public Attitudes on Technology-Facilitated Intimate Partner Violence,” IEEE Security &amp; Privacy, vol. 23, no. 04, pp. 22–31, Jul. 2025, doi: 10.1109/MSEC.2025.3566723.</li>
+
+<li>M. Alison, Women and Political Violence: Female Combatants in Ethno-National Conflict. Routledge, 2009.</li>
+
+<li>D. Isha, “‘Women can be complicit in systems of violence, especially in families’: Writer Sophie Mackintosh,” Scroll.in. Accessed: Jun. 16, 2025. [Online]. Available: <a href="https://scroll.in/article/1083122/women-can-be-complicit-in-systems-of-violence-especially-in-families-writer-sophie-mackintosh">https://scroll.in/article/1083122/women-can-be-complicit-in-systems-of-violence-especially-in-families-writer-sophie-mackintosh</a></li>
+
+<li>“Justice Delayed, Healing Denied: Acid Attack Survivors Battle A Legal System Indifferent To Their Trauma &amp; Suffering.” Accessed: Apr. 14, 2025. [Online]. Available: <a href="https://www.article-14.com/post/justice-delayed-healing-denied-acid-attack-survivors-battle-a-legal-system-indifferent-to-their-trauma-suffering--67f84e4d2c4d3">https://www.article-14.com/post/justice-delayed-healing-denied-acid-attack-survivors-battle-a-legal-system-indifferent-to-their-trauma-suffering--67f84e4d2c4d3</a></li>
+
+<li>“Using Data to Expose Systemic Gender-Based Violence — in 10 Steps.” Accessed: Feb. 06, 2025. [Online]. Available: <a href="https://gijn.org/stories/10-steps-data-expose-gender-violence-eswatini/">https://gijn.org/stories/10-steps-data-expose-gender-violence-eswatini/</a></li>
+
+<li>A. Motz and E. Welldon, The Psychology of Female Violence: Crimes Against the Body, 2nd edition. London ; New York: Routledge, 2008.</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org28cad7c"></a>Men<br />
+<div class="outline-text-5" id="text-3-6-1-2">
+<ul class="org-ul">
+<li>M. I. Lien and J. Lorentzen, Men’s Experiences of Violence in Intimate Relationships, 1st ed. 2019 edition. Palgrave Macmillan, 2019.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgf0fc31d" class="outline-4">
+<h4 id="orgf0fc31d"><span class="section-number-4">3.6.2.</span> Nation States</h4>
+<div class="outline-text-4" id="text-3-6-2">
+</div>
+<ol class="org-ol">
+<li><a id="org1128f6f"></a>India<br />
+<ol class="org-ol">
+<li><a id="org24edc8c"></a>Misc<br /></li>
+<li><a id="org2c5b764"></a>General<br /></li>
+<li><a id="org4ab1829"></a>Texts<br />
+<div class="outline-text-6" id="text-3-6-2-1-3">
+<ul class="org-ul">
+<li>L. A. Babb, Alchemies of Violence: Myths of Identity and the Life of Trade in Western India. New Delhi Thousand Oaks, Calif: Sage India, 2010.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgc350ac1"></a>Articles, Essays<br />
+<div class="outline-text-6" id="text-3-6-2-1-4">
+<ul class="org-ul">
+<li>A. Ashraf, “The erasure of mass rape in Sacco’s (Muzaffarnagar) riot story,” Frontline. Accessed: Jun. 23, 2026. [Online]. Available: <a href="https://frontline.thehindu.com/columns/joe-sacco-muzaffarnagar-mass-rape/article71121431.ece">https://frontline.thehindu.com/columns/joe-sacco-muzaffarnagar-mass-rape/article71121431.ece</a></li>
+
+<li>“New Pretext for Orchestrating Communal Violence,” NewsClick. Accessed: Oct. 02, 2025. [Online]. Available: <a href="https://www.newsclick.in/new-pretext-orchestrating-communal-violence">https://www.newsclick.in/new-pretext-orchestrating-communal-violence</a></li>
+<li>“Malegaon Blast Judgement: Crime &amp; (No) Punishment,” NewsClick. Accessed: Aug. 06, 2025. [Online]. Available: <a href="https://www.newsclick.in/malegaon-blast-judgement-crime-no-punishment">https://www.newsclick.in/malegaon-blast-judgement-crime-no-punishment</a></li>
+
+<li>“The Sonbhadra massacre and the violence of misclassification.” Accessed: Oct. 01, 2025. [Online]. Available: <a href="https://caravanmagazine.in/communities/sonbhadra-massacre-misclassification">https://caravanmagazine.in/communities/sonbhadra-massacre-misclassification</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org2af3565" class="outline-3">
+<h3 id="org2af3565"><span class="section-number-3">3.7.</span> Business Studies, Misc</h3>
+</div>
+<div id="outline-container-orga2028b8" class="outline-3">
+<h3 id="orga2028b8"><span class="section-number-3">3.8.</span> Security Studies, Misc</h3>
+</div>
+<div id="outline-container-org438b4cd" class="outline-3">
+<h3 id="org438b4cd"><span class="section-number-3">3.9.</span> Communication, Misc</h3>
+</div>
+<div id="outline-container-orgb0d2447" class="outline-3">
+<h3 id="orgb0d2447"><span class="section-number-3">3.10.</span> Misc</h3>
+<div class="outline-text-3" id="text-3-10">
+<ul class="org-ul">
+<li>“Organised violence is a trade, whether legal or illegal | Aeon Essays.” Accessed: Jun. 27, 2026. [Online]. Available: <a href="https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal">https://aeon.co/essays/organised-violence-is-a-trade-whether-legal-or-illegal</a></li>
+
+<li>“Will a New UN Mission Succeed in ‘Neutralizing’ Haiti’s Murderous Gangs?,” OCCRP. Accessed: Oct. 30, 2025. [Online]. Available: <a href="https://www.occrp.org/en/news/will-a-new-un-mission-succeed-in-neutralizing-haitis-murderous-gangs">https://www.occrp.org/en/news/will-a-new-un-mission-succeed-in-neutralizing-haitis-murderous-gangs</a></li>
+
+<li>BY, “Abraham Lincoln Knew Violence Must Be Addressed at the Root.” Accessed: Sep. 20, 2025. [Online]. Available: <a href="https://jacobin.com/2025/09/lincoln-slavery-abolition-polarization-reconciliation">https://jacobin.com/2025/09/lincoln-slavery-abolition-polarization-reconciliation</a></li>
+
+<li>“Survivor’s guilt after a mass shooting that didn’t occur | Psyche Stories of Change.” Accessed: Jul. 11, 2025. [Online]. Available: <a href="https://psyche.co/stories-of-change/survivors-guilt-after-a-mass-shooting-that-didnt-occur">https://psyche.co/stories-of-change/survivors-guilt-after-a-mass-shooting-that-didnt-occur</a></li>
+
+<li>A. Head and G. S. University, “Mathematicians reveal factors driving gun sales in America.” Accessed: Jul. 11, 2025. [Online]. Available: <a href="https://phys.org/news/2025-07-mathematicians-reveal-factors-gun-sales.html">https://phys.org/news/2025-07-mathematicians-reveal-factors-gun-sales.html</a></li>
+
+<li>M. Segrave and S. Vasil, The Borders of Violence: Temporary Migration and Domestic and Family Violence, 1st edition. Routledge, 2024.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>K. Diemer, “Young people who witness domestic violence are more likely to be victims of it. Here’s how we can help them,” The Conversation. Accessed: Jun. 04, 2025. [Online]. Available: <a href="http://theconversation.com/young-people-who-witness-domestic-violence-are-more-likely-to-be-victims-of-it-heres-how-we-can-help-them-257463">http://theconversation.com/young-people-who-witness-domestic-violence-are-more-likely-to-be-victims-of-it-heres-how-we-can-help-them-257463</a></li>
+
+<li>N. Saiya and S. Manchanda, “Monks Behaving Badly: Explaining Buddhist Violence in Asia,” International Security, vol. 49, no. 4, pp. 119–159, May 2025, doi: 10.1162/isec<sub>a</sub><sub>00510</sub>.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb6592d4" class="outline-2">
+<h2 id="orgb6592d4"><span class="section-number-2">4.</span> Core</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org5ffb676" class="outline-3">
+<h3 id="org5ffb676"><span class="section-number-3">4.1.</span> Education</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-orgd83f71a" class="outline-4">
+<h4 id="orgd83f71a"><span class="section-number-4">4.1.1.</span> Courses</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<ul class="org-ul">
+<li>V. E. Stephen, <i>“Syllabus | Causes and Prevention of War | Political Science | MIT OpenCourseWare.”</i> <a href="https://ocw.mit.edu/courses/political-science/17-42-causes-and-prevention-of-war-spring-2018/syllabus/">https://ocw.mit.edu/courses/political-science/17-42-causes-and-prevention-of-war-spring-2018/syllabus/</a> (accessed Mar. 05, 2022).</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org0710f11" class="outline-3">
+<h3 id="org0710f11"><span class="section-number-3">4.2.</span> Variants</h3>
+<div class="outline-text-3" id="text-4-2">
+</div>
+<div id="outline-container-org3632afa" class="outline-4">
+<h4 id="org3632afa"><span class="section-number-4">4.2.1.</span> Ethnic Violence</h4>
+<div class="outline-text-4" id="text-4-2-1">
+</div>
+<ol class="org-ol">
+<li><a id="org01198ca"></a>Complexity Science<br />
+<div class="outline-text-5" id="text-4-2-1-1">
+<ul class="org-ul">
+<li>P. V. Fellman, Y. Bar-Yam, and A. A. Minai, <b>Conflict and Complexity: Countering Terrorism, Insurgency, Ethnic and Regional Violence.</b> Springer New York, 2016.</li>
+
+<li><b>Ethnic Violence</b>, New England Complex Systems Institute. [Online]. Available: <a href="https://necsi.edu/ethnic-violence">https://necsi.edu/ethnic-violence</a>. [Accessed: 21-Mar-2020].</li>
+</ul>
+</div>
+</li>
+<li><a id="orgf9a0608"></a>India<br />
+<ol class="org-ol">
+<li><a id="org678d865"></a>General<br /></li>
+<li><a id="org427e14f"></a>Anti Muslim Violence<br />
+<ul class="org-ul">
+<li><a id="org13d4998"></a>General<br />
+<div class="outline-text-7" id="text-org13d4998">
+<ul class="org-ul">
+<li>“Violence against Muslims in India,” Wikipedia. Nov. 06, 2022. Accessed: Nov. 29, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Violence_against_Muslims_in_India&amp;oldid=1120261319">https://en.wikipedia.org/w/index.php?title=Violence_against_Muslims_in_India&amp;oldid=1120261319</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgd37dce0"></a>Misc<br />
+<div class="outline-text-7" id="text-orgd37dce0">
+<ul class="org-ul">
+<li>“Batla House encounter case,” Wikipedia. Nov. 04, 2022. Accessed: Nov. 29, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Batla_House_encounter_case&amp;oldid=1119922015">https://en.wikipedia.org/w/index.php?title=Batla_House_encounter_case&amp;oldid=1119922015</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Hashimpura massacre,” Wikipedia. May 22, 2022. Accessed: Nov. 29, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Hashimpura_massacre&amp;oldid=1089182562">https://en.wikipedia.org/w/index.php?title=Hashimpura_massacre&amp;oldid=1089182562</a></li>
+<li>V. N. Rai, Hashimpura. Penguin UK, 2016.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“India’s 1983 Nellie communal massacre in historical perspective,” World Socialist Web Site. Accessed: Mar. 14, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/03/13/usec-m13.html">https://www.wsws.org/en/articles/2024/03/13/usec-m13.html</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org2ecb56e"></a>Hindu Muslim Violence<br />
+<div class="outline-text-6" id="text-4-2-1-2-3">
+<ul class="org-ul">
+<li>P. R. Brass, The Production of Hindu-Muslim Violence in Contemporary India. Seattle: University of Washington Press, 2005.</li>
+<li>A. Varshney, Ethnic Conflict &amp; Civic Life – Hindus &amp; Muslims in India 2e: Hindus and Muslims in India, 2nd edition. New Haven: Yale University Press, 2003.</li>
+<li>W. Berenschot, Riot Politics: Hindu - Muslim Violence and the Indian State. RainLight, 2013.</li>
+</ul>
+</div>
+</li>
+<li><a id="org818f6e9"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="org170ccdc"></a>Texts<br />
+<div class="outline-text-7" id="text-org170ccdc">
+<ul class="org-ul">
+<li>S. Deshpande, Sectarian Violence in India: Hindu-Muslim Conflict, 1966-2015. Orient BlackSwan, 2019.</li>
+<li>A. A. Engineer, Communal Riots After Independence: A Comprehensive Account. Shipra, 2004.</li>
+<li>O. Khalidi, Khaki and Ethnic Violence in India: Armed Forces, Police and Paramilitary During Communal Riots, 2nd edition. Three Essays Collective, 2022.</li>
+</ul>
+</div>
+</li>
+<li><a id="org405aa73"></a>Articles, Essays<br />
+<div class="outline-text-7" id="text-org405aa73">
+<ul class="org-ul">
+<li>“How Hate Spread in 2024, a Report of Communal Violence in India,” NewsClick. Accessed: Jan. 09, 2025. [Online]. Available: <a href="https://www.newsclick.in/how-hate-spread-2024-report-communal-violence-india">https://www.newsclick.in/how-hate-spread-2024-report-communal-violence-india</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgd794474"></a>Misc<br /></li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-orge3a0ccf" class="outline-4">
+<h4 id="orge3a0ccf"><span class="section-number-4">4.2.2.</span> Religious Violence</h4>
+<div class="outline-text-4" id="text-4-2-2">
+<ul class="org-ul">
+<li>“How Swami Aseemanand and Other Hindu Extremists Planned and Executed Attacks Such as the Malegaon Blasts.” Accessed: Aug. 01, 2025. [Online]. Available: <a href="https://caravanmagazine.in/vantage/malegaon-blasts-aseemanand-planning-hindu-extremists">https://caravanmagazine.in/vantage/malegaon-blasts-aseemanand-planning-hindu-extremists</a></li>
+
+<li>M. Juergensmeyer, God at War: A Meditation on Religion and Warfare. Oxford University Press, 2020.</li>
+
+<li>M. Juergensmeyer, Terror in the Mind of God, Fourth Edition: The Global Rise of Religious Violence. Univ of California Press, 2017.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc20708c" class="outline-4">
+<h4 id="orgc20708c"><span class="section-number-4">4.2.3.</span> Political Violence</h4>
+<div class="outline-text-4" id="text-4-2-3">
+</div>
+<ol class="org-ol">
+<li><a id="org95a940d"></a>General<br /></li>
+<li><a id="org65be654"></a>World<br />
+<ol class="org-ol">
+<li><a id="org0f3f3bb"></a>Nation States<br />
+<ul class="org-ul">
+<li><a id="org97bf35f"></a>India<br />
+<div class="outline-text-7" id="text-org97bf35f">
+<ul class="org-ul">
+<li>A. Valiani, Militant Publics in India: Physical Culture and Violence in the Making of a Modern Polity. Palgrave Macmillan US, 2011.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a id="org9f6e445"></a>Misc<br />
+<div class="outline-text-5" id="text-4-2-3-3">
+<ul class="org-ul">
+<li>M. Field, “After Charlie Kirk’s killing, an expert in political violence explains how to stop it,” Bulletin of the Atomic Scientists. Accessed: Sep. 18, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/09/after-charlie-kirks-killing-an-expert-in-political-violence-explains-how-to-stop-it/">https://thebulletin.org/2025/09/after-charlie-kirks-killing-an-expert-in-political-violence-explains-how-to-stop-it/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orga5fdbfb" class="outline-4">
+<h4 id="orga5fdbfb"><span class="section-number-4">4.2.4.</span> Domestic Violence</h4>
+<div class="outline-text-4" id="text-4-2-4">
+</div>
+<ol class="org-ol">
+<li><a id="orgf2651a6"></a>General<br /></li>
+<li><a id="org4fca970"></a>STEMM<br />
+<ol class="org-ol">
+<li><a id="org7bb9ccb"></a>Misc<br /></li>
+</ol>
+</li>
+<li><a id="org043f1e2"></a>Worldly Matters<br />
+<ol class="org-ol">
+<li><a id="org51d890c"></a>India<br />
+<ul class="org-ul">
+<li><a id="org68cfae7"></a>Law<br />
+<div class="outline-text-7" id="text-org68cfae7">
+<ul class="org-ul">
+<li>J. M. ANURAGPINKI, CONFLICT IN SHARED HOUSEHOLD C. New Delhi: Oxford University Press, 2019.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgb6b47c6"></a>Misc<br />
+<div class="outline-text-7" id="text-orgb6b47c6">
+<ul class="org-ul">
+<li>R. Bhattacharya, Behind Closed Doors: Domestic Violence in India, First Edition. SAGE India, 2013.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org5c4b5a8"></a>Misc<br />
+<div class="outline-text-6" id="text-4-2-4-3-2">
+<ul class="org-ul">
+<li>K. Fitz-Gibbon, “South Australia’s domestic and sexual violence royal commission recommendations should be embraced across the country,” The Conversation. Accessed: Aug. 20, 2025. [Online]. Available: <a href="http://theconversation.com/south-australias-domestic-and-sexual-violence-royal-commission-recommendations-should-be-embraced-across-the-country-263521">http://theconversation.com/south-australias-domestic-and-sexual-violence-royal-commission-recommendations-should-be-embraced-across-the-country-263521</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orge2c3f73"></a>Arts<br />
+<ol class="org-ol">
+<li><a id="org1779725"></a>Misc<br /></li>
+</ol>
+</li>
+<li><a id="org5bc634b"></a>Special Topics<br />
+<ol class="org-ol">
+<li><a id="org2b933d7"></a>Social Work<br />
+<div class="outline-text-6" id="text-4-2-4-5-1">
+<ul class="org-ul">
+<li>L. Laing, Social Work and Domestic Violence: Developing Critical and Reflective Practice, First Edition. Los Angeles: SAGE Publications Ltd., 2013.</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org0cb2955"></a>Misc<br /></li>
+</ol>
+</div>
+<div id="outline-container-org023133a" class="outline-4">
+<h4 id="org023133a"><span class="section-number-4">4.2.5.</span> Sexual Violence</h4>
+<div class="outline-text-4" id="text-4-2-5">
+<ul class="org-ul">
+<li>Sexual Violence: <a href="https://tinyurl.com/3p38tpff">https://tinyurl.com/3p38tpff</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4fdb96b" class="outline-4">
+<h4 id="org4fdb96b"><span class="section-number-4">4.2.6.</span> Torture</h4>
+<div class="outline-text-4" id="text-4-2-6">
+</div>
+<ol class="org-ol">
+<li><a id="org24224d4"></a>General<br />
+<div class="outline-text-5" id="text-4-2-6-1">
+<ul class="org-ul">
+<li>“Torture,” Wikipedia. Jul. 04, 2022. Accessed: Jul. 10, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Torture&amp;oldid=1096511744">https://en.wikipedia.org/w/index.php?title=Torture&amp;oldid=1096511744</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgc43051b"></a>STEMM<br />
+<ol class="org-ol">
+<li><a id="orgef4f42d"></a>Misc<br /></li>
+</ol>
+</li>
+<li><a id="orgd703ae3"></a>Worldly Matters<br />
+<ol class="org-ol">
+<li><a id="orgeea995c"></a>Space and Time<br />
+<ul class="org-ul">
+<li><a id="org482919f"></a>History<br />
+<div class="outline-text-7" id="text-org482919f">
+<ul class="org-ul">
+<li>“10 Medieval Torture Devices,” HowStuffWorks, Dec. 22, 2008. <a href="https://history.howstuffworks.com/10-medieval-torture-devices.htm">https://history.howstuffworks.com/10-medieval-torture-devices.htm</a> (accessed Jul. 10, 2022).</li>
+<li>“Pear of anguish,” Wikipedia. May 26, 2022. Accessed: Jul. 10, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Pear_of_anguish&amp;oldid=1090001450">https://en.wikipedia.org/w/index.php?title=Pear_of_anguish&amp;oldid=1090001450</a></li>
+<li>“10 Medieval Torture Devices,” HowStuffWorks, Dec. 22, 2008. <a href="https://history.howstuffworks.com/10-medieval-torture-devices.htm">https://history.howstuffworks.com/10-medieval-torture-devices.htm</a> (accessed Jul. 10, 2022).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org1e20693"></a>Space, Earth, Life Sciences, Environment, Health, Misc<br /></li>
+<li><a id="org68a5b04"></a>Religions, Spirituality, Misc<br /></li>
+<li><a id="orga9010de"></a>SocioPolitical Studies, Law, Misc<br />
+<ul class="org-ul">
+<li><a id="org247b114"></a>Events<br />
+<div class="outline-text-7" id="text-org247b114">
+<ul class="org-ul">
+<li>“International Day in Support of Victims of Torture: RSF sounds the alarm about the persistent use of torture against journalists worldwide | RSF.” Accessed: Jun. 28, 2025. [Online]. Available: <a href="https://rsf.org/en/international-day-support-victims-torture-rsf-sounds-alarm-about-persistent-use-torture-against">https://rsf.org/en/international-day-support-victims-torture-rsf-sounds-alarm-about-persistent-use-torture-against</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org908cf3a"></a>Amnesty International<br />
+<div class="outline-text-7" id="text-org908cf3a">
+<ul class="org-ul">
+<li>“Global: Electric shock equipment widely abused by law enforcement agencies due to alarming lack of regulation,” Amnesty International. Accessed: Mar. 06, 2025. [Online]. Available: <a href="https://www.amnesty.org/en/latest/news/2025/03/global-electric-shock-equipment-widely-abused-by-law-enforcement-agencies-due-to-alarming-lack-of-regulation/">https://www.amnesty.org/en/latest/news/2025/03/global-electric-shock-equipment-widely-abused-by-law-enforcement-agencies-due-to-alarming-lack-of-regulation/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org5d679c3"></a>Nation States<br />
+<ul class="org-ul">
+<li><a id="org85f372c"></a>India<br />
+<ul class="org-ul">
+<li><a id="orgc38ef05"></a>General<br /></li>
+<li><a id="orgdc889c8"></a>STEMM<br />
+<ul class="org-ul">
+<li><a id="orgf3265d5"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="orga63016a"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="org9d57b10"></a>Misc<br />
+<div class="outline-text-10" id="text-org9d57b10">
+<ul class="org-ul">
+<li>H. Mander, “Harsh Mander: Living in the shadow of jail, torture – the account of two Muslims acquitted of terror,” Scroll.in. Accessed: Aug. 16, 2025. [Online]. Available: <a href="https://scroll.in/article/1085473/harsh-mander-living-in-the-shadow-of-jail-torture-the-account-of-two-muslims-acquitted-of-terror">https://scroll.in/article/1085473/harsh-mander-living-in-the-shadow-of-jail-torture-the-account-of-two-muslims-acquitted-of-terror</a></li>
+
+<li>“Kashmir police silences questions as bodies emerge from the Veshaw River.” Accessed: Aug. 12, 2025. [Online]. Available: <a href="https://caravanmagazine.in/crime/kulgam-custodial-killing-pahalgam-kashmir-bakkarwal">https://caravanmagazine.in/crime/kulgam-custodial-killing-pahalgam-kashmir-bakkarwal</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org14ab056"></a>Arts<br />
+<ul class="org-ul">
+<li><a id="orge1d531a"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="orgbdccd14"></a>Special Topics<br /></li>
+<li><a id="orgd5ff9c7"></a>Misc<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org18158a8"></a>Business Studies, Misc<br /></li>
+<li><a id="org246400d"></a>Humanities, Misc<br /></li>
+<li><a id="org7c617f5"></a>Security Studies, Misc<br /></li>
+<li><a id="orgc0e9862"></a>Communication, Misc<br /></li>
+<li><a id="org65e490a"></a>Misc<br />
+<div class="outline-text-6" id="text-4-2-6-3-9">
+<ul class="org-ul">
+<li>“EU Sanctions Prison Medic Exposed by OCCRP, RFE/RL, as Torturing Ukrainian POWs,” OCCRP. Accessed: Oct. 25, 2025. [Online]. Available: <a href="https://www.occrp.org/en/news/eu-sanctions-prison-medic-exposed-by-occrp-rferl-as-torturing-ukrainian-pows">https://www.occrp.org/en/news/eu-sanctions-prison-medic-exposed-by-occrp-rferl-as-torturing-ukrainian-pows</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org6e4474c"></a>Arts<br />
+<ol class="org-ol">
+<li><a id="orge6bd702"></a>Misc<br /></li>
+</ol>
+</li>
+<li><a id="org3105aad"></a>Special Topics<br /></li>
+<li><a id="org69f676c"></a>Misc<br />
+<div class="outline-text-5" id="text-4-2-6-6">
+<ul class="org-ul">
+<li>“The conversation about American torture is 400 years old | Aeon Essays,” Aeon. <a href="https://aeon.co/essays/the-conversation-about-american-torture-is-400-years-old">https://aeon.co/essays/the-conversation-about-american-torture-is-400-years-old</a> (accessed Jul. 10, 2022).</li>
+
+<li>“‘The Dark Side’: Dick Cheney’s Legacy from Iraq Invasion to U.S. Torture Program,” Democracy Now! Accessed: Nov. 05, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/11/4/dick_cheney">https://www.democracynow.org/2025/11/4/dick_cheney</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb181bfb" class="outline-3">
+<h3 id="orgb181bfb"><span class="section-number-3">4.3.</span> Wars</h3>
+<div class="outline-text-3" id="text-4-3">
+</div>
+<div id="outline-container-orgd511406" class="outline-4">
+<h4 id="orgd511406"><span class="section-number-4">4.3.1.</span> General</h4>
+</div>
+<div id="outline-container-orgc6fc6a1" class="outline-4">
+<h4 id="orgc6fc6a1"><span class="section-number-4">4.3.2.</span> STEMM</h4>
+<div class="outline-text-4" id="text-4-3-2">
+</div>
+<ol class="org-ol">
+<li><a id="org313c46c"></a>Systems Sciences, Misc<br />
+<ol class="org-ol">
+<li><a id="org74f4fc3"></a>Misc<br /></li>
+</ol>
+</li>
+<li><a id="org4bb6163"></a>Biological Sciences, Misc<br />
+<ol class="org-ol">
+<li><a id="org479ca78"></a>Environment<br />
+<div class="outline-text-6" id="text-4-3-2-2-1">
+<ul class="org-ul">
+<li>“The environment as casualty of war.” Accessed: Sep. 24, 2025. [Online]. Available: <a href="https://theecologist.org/2025/sep/24/environment-casualty-war">https://theecologist.org/2025/sep/24/environment-casualty-war</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>D. T. E. Staff, “Invisible damage: From stratosphere to marine life, impact of ongoing wars pervasive &amp; long-term,” Down To Earth. Accessed: Jun. 26, 2025. [Online]. Available: <a href="https://www.downtoearth.org.in/climate-change/invisible-damage-from-stratosphere-to-marine-life-impact-of-ongoing-wars-pervasive-long-term-2">https://www.downtoearth.org.in/climate-change/invisible-damage-from-stratosphere-to-marine-life-impact-of-ongoing-wars-pervasive-long-term-2</a></li>
+<li>“Water and war,” Bulletin of the Atomic Scientists. Accessed: Aug. 28, 2024. [Online]. Available: <a href="https://thebulletin.org/premium/2024-07/water-and-war/">https://thebulletin.org/premium/2024-07/water-and-war/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orgaef0452"></a>Basic Sciences, Misc<br /></li>
+<li><a id="org0a830b5"></a>Mathematical, Computational Sciences, Misc<br />
+<ol class="org-ol">
+<li><a id="org9493f40"></a>CSE<br />
+<ul class="org-ul">
+<li><a id="org3ff391c"></a>Data Science<br />
+<div class="outline-text-7" id="text-org3ff391c">
+<ul class="org-ul">
+<li>B. Herre, L. Rodés-Guirao, M. Roser, J. Hasell, and B. Macdonald, “War and Peace,” Our World in Data, Mar. 2024, Accessed: Mar. 22, 2024. [Online]. Available: <a href="https://ourworldindata.org/war-and-peace">https://ourworldindata.org/war-and-peace</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org577a9c8"></a>AI<br />
+<div class="outline-text-7" id="text-org577a9c8">
+<ul class="org-ul">
+<li>L. Elmer, “Integrators at war: Mediating in AI-assisted resort-to-force decisions - CSER,” CSER - Centre for the Study of Existential Risk. Accessed: Jan. 30, 2026. [Online]. Available: <a href="https://www.cser.ac.uk/work/mediating-in-ai-assisted-resort-to-force-decisions/">https://www.cser.ac.uk/work/mediating-in-ai-assisted-resort-to-force-decisions/</a></li>
+
+<li>“From Drones to Deepfakes: How AI Is Reshaping War – Communications of the ACM.” Accessed: Jan. 13, 2026. [Online]. Available: <a href="https://cacm.acm.org/news/from-drones-to-deepfakes-how-ai-is-reshaping-war/">https://cacm.acm.org/news/from-drones-to-deepfakes-how-ai-is-reshaping-war/</a></li>
+
+<li>“Six ways AI could cause the next big war, and why it probably won’t,” Bulletin of the Atomic Scientists. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-07/six-ways-ai-could-cause-the-next-big-war-and-why-it-probably-wont/">https://thebulletin.org/premium/2025-07/six-ways-ai-could-cause-the-next-big-war-and-why-it-probably-wont/</a></li>
+
+<li>G. Chugh,Kavita, “Lavender, Where’s Daddy and the ethics of AI-driven war,” Down To Earth. Accessed: Jul. 06, 2025. [Online]. Available: <a href="https://www.downtoearth.org.in/governance/lavender-wheres-daddy-and-the-ethics-of-ai-driven-war">https://www.downtoearth.org.in/governance/lavender-wheres-daddy-and-the-ethics-of-ai-driven-war</a></li>
+
+<li>“How AI Is Helping Independent Journalists Track Wartime Casualties of Russia.” Accessed: Apr. 01, 2025. [Online]. Available: <a href="https://gijn.org/stories/using-ai-track-russia-war-casualties/">https://gijn.org/stories/using-ai-track-russia-war-casualties/</a></li>
+<li>“AI for Digital Warfare,” Routledge &amp; CRC Press. Accessed: May 24, 2024. [Online]. Available: <a href="https://www.routledge.com/AI-for-Digital-Warfare/Hageback-Hedblom/p/book/9781032048703">https://www.routledge.com/AI-for-Digital-Warfare/Hageback-Hedblom/p/book/9781032048703</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb9dc943"></a>Misc<br />
+<div class="outline-text-7" id="text-orgb9dc943">
+<ul class="org-ul">
+<li>“Civil Defense in the Cold War: The Forgotten History - IEEE Spectrum.” Accessed: Aug. 02, 2025. [Online]. Available: <a href="https://spectrum.ieee.org/civil-defense-cold-war">https://spectrum.ieee.org/civil-defense-cold-war</a></li>
+
+<li>T. Tech, “The Killings They Tweeted: Screening and Q&amp;A with Airwars and Tactical Tech.” Accessed: Jun. 29, 2025. [Online]. Available: <a href="https://exposingtheinvisible.org/en/films/the-killings-they-tweeted-airwars-2025/">https://exposingtheinvisible.org/en/films/the-killings-they-tweeted-airwars-2025/</a></li>
+
+<li>J. C. Y. and P. Collings, “Access to Internet Infrastructure is Essential, in Wartime and Peacetime,” Electronic Frontier Foundation. Accessed: Jun. 29, 2025. [Online]. Available: <a href="https://www.eff.org/deeplinks/2024/03/access-internet-infrastructure-essential-wartime-and-peacetime">https://www.eff.org/deeplinks/2024/03/access-internet-infrastructure-essential-wartime-and-peacetime</a></li>
+
+<li>“New Open Source Tools and Tips to Investigate Bombing of Civilians.” Accessed: Oct. 15, 2024. [Online]. Available: <a href="https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/">https://gijn.org/stories/new-open-source-munitions-tool-investigate-bombing-civilians/</a></li>
+
+<li>M. Richardson, Nonhuman Witnessing: War, Data, and Ecology after the End of the World. Duke University Press Books, 2024.</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a id="org1016cfb"></a>Misc<br />
+<div class="outline-text-5" id="text-4-3-2-5">
+<ul class="org-ul">
+<li>“Using Satellite Imagery to Investigate War Crimes.” Accessed: Feb. 07, 2026. [Online]. Available: <a href="https://gijn.org/stories/gijc25-satellite-imagery-investigate-war-crimes/">https://gijn.org/stories/gijc25-satellite-imagery-investigate-war-crimes/</a></li>
+
+<li>M. Field, “Will the next world war begin in orbit? Jonathan McDowell on strategic competition in space,” Bulletin of the Atomic Scientists. Accessed: Aug. 29, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-07/will-the-next-world-war-begin-in-orbit-jonathan-mcdowell-on-strategic-competition-in-space/">https://thebulletin.org/premium/2025-07/will-the-next-world-war-begin-in-orbit-jonathan-mcdowell-on-strategic-competition-in-space/</a></li>
+
+<li>“Counting Heads in a Conflict Zone,” The India Forum. Accessed: Jul. 30, 2025. [Online]. Available: <a href="https://www.theindiaforum.in/book-reviews/counting-heads-conflict-zone">https://www.theindiaforum.in/book-reviews/counting-heads-conflict-zone</a></li>
+
+<li>F. Diaz-Maurin, “Special operations by Israel and Ukraine were immediate tactical successes. Their strategic impact will take more time to assess,” Bulletin of the Atomic Scientists. Accessed: Jul. 01, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/06/special-operations-by-israel-and-ukraine-were-immediate-tactical-successes-their-strategic-impact-will-take-more-time-to-assess/">https://thebulletin.org/2025/06/special-operations-by-israel-and-ukraine-were-immediate-tactical-successes-their-strategic-impact-will-take-more-time-to-assess/</a></li>
+
+<li>cxdig, “Escalation dynamics and the severity of wars,” Complexity Digest. Accessed: Apr. 13, 2025. [Online]. Available: <a href="https://comdig.unam.mx/2025/04/12/escalation-dynamics-and-the-severity-of-wars/">https://comdig.unam.mx/2025/04/12/escalation-dynamics-and-the-severity-of-wars/</a></li>
+
+<li>“Wars Fuel Rise of Resistant Superbugs in Global South,” NewsClick. Accessed: Jan. 09, 2025. [Online]. Available: <a href="https://www.newsclick.in/wars-fuel-rise-resistant-superbugs-global-south">https://www.newsclick.in/wars-fuel-rise-resistant-superbugs-global-south</a></li>
+
+<li>D. Stover, “Note to Syrian rebels: Give up Assad’s chemical weapons and prosecute those who used them,” Bulletin of the Atomic Scientists. Accessed: Dec. 27, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/12/note-to-syrian-rebels-give-up-assads-chemical-weapons-and-prosecute-those-who-used-them/">https://thebulletin.org/2024/12/note-to-syrian-rebels-give-up-assads-chemical-weapons-and-prosecute-those-who-used-them/</a></li>
+
+<li>“If You Want Peace, Prepare for War Ecology,” Green European Journal. Accessed: Dec. 24, 2024. [Online]. Available: <a href="https://www.greeneuropeanjournal.eu/if-you-want-peace-prepare-for-war-ecology/">https://www.greeneuropeanjournal.eu/if-you-want-peace-prepare-for-war-ecology/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Wars under the microscope,” scilog - The FWF Science Magazine. Accessed: Jan. 31, 2024. [Online]. Available: <a href="https://scilog.fwf.ac.at/en/magazine/wars-under-the-microscope">https://scilog.fwf.ac.at/en/magazine/wars-under-the-microscope</a></li>
+<li>“Latest European Demographic Data Sheet highlights lasting impact of war and migration,” IIASA - International Institute for Applied Systems Analysis. Accessed: Jul. 11, 2024. [Online]. Available: <a href="https://iiasa.ac.at/news/jul-2024/latest-european-demographic-data-sheet-highlights-lasting-impact-of-war-and-migration">https://iiasa.ac.at/news/jul-2024/latest-european-demographic-data-sheet-highlights-lasting-impact-of-war-and-migration</a></li>
+<li>J. Mecklin, “How to manage and de-risk an emerging Cold War II with China,” Bulletin of the Atomic Scientists. Accessed: Jun. 30, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/06/how-to-manage-and-de-risk-an-emerging-cold-war-ii-with-china/">https://thebulletin.org/2024/06/how-to-manage-and-de-risk-an-emerging-cold-war-ii-with-china/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>F. Diaz-Maurin, “Iran vs. Israel redux: The enormous difficulties and ramifications if Israel attacks Iran’s nuclear sites,” Bulletin of the Atomic Scientists. Accessed: Oct. 03, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/10/iran-vs-israel-redux-the-enormous-difficulties-and-ramifications-if-israel-attacks-irans-nuclear-sites/">https://thebulletin.org/2024/10/iran-vs-israel-redux-the-enormous-difficulties-and-ramifications-if-israel-attacks-irans-nuclear-sites/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org912a375" class="outline-4">
+<h4 id="org912a375"><span class="section-number-4">4.3.3.</span> Worldly Matters</h4>
+<div class="outline-text-4" id="text-4-3-3">
+</div>
+<ol class="org-ol">
+<li><a id="org3919588"></a>Space and Time<br /></li>
+<li><a id="org7b36dbc"></a>Space, Earth, Life Sciences, Environment, Health, Misc<br /></li>
+<li><a id="orgf145b30"></a>Religions, Spirituality, Misc<br />
+<div class="outline-text-5" id="text-4-3-3-3">
+<ul class="org-ul">
+<li>M. Ozalp, R. J. Whitaker, and S. Rutland, “What do the Bible, the Quran and the Torah say about the justification for war?,” The Conversation. Accessed: Jun. 27, 2025. [Online]. Available: <a href="http://theconversation.com/what-do-the-bible-the-quran-and-the-torah-say-about-the-justification-for-war-259679">http://theconversation.com/what-do-the-bible-the-quran-and-the-torah-say-about-the-justification-for-war-259679</a></li>
+
+<li>S. Aurobindo and A. Sri, The Human Cycle: The Ideal of Human Unity, New edition. Pondicherry: Sri Aurobindo Ashram Publications Department, 1991.</li>
+</ul>
+</div>
+</li>
+<li><a id="org68cbcbb"></a>Humanities, Misc<br /></li>
+<li><a id="org899117a"></a>SocioPolitical Studies, Law, Misc<br />
+<ol class="org-ol">
+<li><a id="org7473d2d"></a>Orgs<br />
+<div class="outline-text-6" id="text-4-3-3-5-1">
+<ul class="org-ul">
+<li>“War Resisters’ International,” War Resisters’ International. Accessed: Oct. 03, 2024. [Online]. Available: <a href="https://wri-irg.orgwww.wri-irg.org">https://wri-irg.orgwww.wri-irg.org</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org2066ae4"></a>Feminism<br />
+<div class="outline-text-6" id="text-4-3-3-5-2">
+<ul class="org-ul">
+<li>S. Syed, “Gendering Conflict: How War Impacts Women And Marginalised Communities,” Feminism in India. Accessed: Mar. 29, 2025. [Online]. Available: <a href="https://feminisminindia.com/?p=184594">https://feminisminindia.com/?p=184594</a></li>
+
+<li>A. Moaveni, “What They Did to Our Women,” London Review of Books, vol. 46, no. 09, May 09, 2024. Accessed: Jun. 11, 2024. [Online]. Available: <a href="https://www.lrb.co.uk/the-paper/v46/n09/azadeh-moaveni/what-they-did-to-our-women">https://www.lrb.co.uk/the-paper/v46/n09/azadeh-moaveni/what-they-did-to-our-women</a></li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>B. Shringarpure and V. Cantelli, Insurgent Feminisms: Women Write War. UpSet Press, Incorporated, 2023.
+<ul class="org-ul">
+<li>K. Kannabiran, “When women write war,” Frontline. Accessed: Jan. 24, 2024. [Online]. Available: <a href="https://frontline.thehindu.com/books/when-women-write-war-book-review-insurgent-feminisms-edited-by-bhakti-shringarpure-and-veruska-cantelli/article67494233.ece">https://frontline.thehindu.com/books/when-women-write-war-book-review-insurgent-feminisms-edited-by-bhakti-shringarpure-and-veruska-cantelli/article67494233.ece</a></li>
+<li>“Insurgent Feminisms: Writing War,” Zubaan. Accessed: Jan. 24, 2024. [Online]. Available: <a href="https://zubaanbooks.com/shop/insurgent-feminisms-writing-war/">https://zubaanbooks.com/shop/insurgent-feminisms-writing-war/</a></li>
+</ul></li>
+</ul>
+</div>
+</li>
+<li><a id="org13e268d"></a>Journalism<br />
+<div class="outline-text-6" id="text-4-3-3-5-3">
+<ul class="org-ul">
+<li>“Reporting Stories of War in the Face of Loss: Interview with the Editor-in-Chief of Ukrainska Pravda.” Accessed: Nov. 13, 2024. [Online]. Available: <a href="https://gijn.org/stories/war-interview-editor-ukrainska-pravda-sevgil-musaieva/">https://gijn.org/stories/war-interview-editor-ukrainska-pravda-sevgil-musaieva/</a></li>
+
+<li>N. Apostolou, “Investigating Russia and the War in Ukraine,” Global Investigative Journalism Network, Mar. 28, 2022. <a href="https://gijn.org/2022/03/28/investigating-russia-and-the-war-in-ukraine/">https://gijn.org/2022/03/28/investigating-russia-and-the-war-in-ukraine/</a> (accessed Sep. 06, 2023).</li>
+
+<li><i>“Physical Safety: War Reporting,”</i> Committee to Protect Journalists, Oct. 11, 2019. <a href="https://cpj.org/2019/10/physical-safety-war-reporting/">https://cpj.org/2019/10/physical-safety-war-reporting/</a> (accessed Mar. 22, 2022).</li>
+
+<li>R. Richardson, “Reporter’s Guide to Investigating War Crimes: Attacks on Civilians,” Global Investigative Journalism Network, May 09, 2023. <a href="https://gijn.org/2023/05/09/reporters-guide-investigating-war-crimes-attacks-civilians/">https://gijn.org/2023/05/09/reporters-guide-investigating-war-crimes-attacks-civilians/</a> (accessed Sep. 06, 2023).</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org34fbb85"></a>Business Studies, Misc<br />
+<ol class="org-ol">
+<li><a id="orgd166905"></a>Economics, Misc<br />
+<div class="outline-text-6" id="text-4-3-3-6-1">
+<ul class="org-ul">
+<li>“The Economics of War &amp; Peace,” Institute for New Economic Thinking. Accessed: Oct. 23, 2025. [Online]. Available: <a href="https://www.ineteconomics.org/perspectives/videos/war">https://www.ineteconomics.org/perspectives/videos/war</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orgd054c79"></a>Security Studies, Misc<br /></li>
+<li><a id="orgf8bd0af"></a>Communication, Misc<br /></li>
+<li><a id="orga184803"></a>Misc<br />
+<div class="outline-text-5" id="text-4-3-3-9">
+<ul class="org-ul">
+<li>“World Socialist Revolution is the answer to imperialist war and fascism,” World Socialist Web Site. Accessed: Feb. 20, 2026. [Online]. Available: <a href="https://www.wsws.org/en/articles/2026/02/20/prxe-f20.html">https://www.wsws.org/en/articles/2026/02/20/prxe-f20.html</a></li>
+
+<li>“It is not democratic to go to war without the people’s consent | Aeon Essays.” Accessed: Nov. 22, 2025. [Online]. Available: <a href="https://aeon.co/essays/it-is-not-democratic-to-go-to-war-without-the-peoples-consent">https://aeon.co/essays/it-is-not-democratic-to-go-to-war-without-the-peoples-consent</a></li>
+
+<li>“The genocide in Gaza and the threat of a third world war,” World Socialist Web Site. Accessed: Nov. 10, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/11/10/schw-n10.html">https://www.wsws.org/en/articles/2025/11/10/schw-n10.html</a></li>
+
+<li>“US-China economic war intensifying, not de-escalating,” World Socialist Web Site. Accessed: Oct. 17, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/10/17/yatm-o17.html">https://www.wsws.org/en/articles/2025/10/17/yatm-o17.html</a></li>
+
+<li>“Asia: Revisiting the Roots of World Anti-Fascist War,” NewsClick. Accessed: Sep. 23, 2025. [Online]. Available: <a href="https://www.newsclick.in/asia-revisiting-roots-world-anti-fascist-war">https://www.newsclick.in/asia-revisiting-roots-world-anti-fascist-war</a></li>
+
+<li>T. Editors, “Grenada: When the Cold War Got Spicy,” JSTOR Daily. Accessed: Sep. 20, 2025. [Online]. Available: <a href="https://daily.jstor.org/grenada-when-the-cold-war-got-spicy/">https://daily.jstor.org/grenada-when-the-cold-war-got-spicy/</a></li>
+
+<li>“China holds huge military parade to mark end of World War II,” World Socialist Web Site. Accessed: Sep. 06, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/09/06/xqkw-s06.html">https://www.wsws.org/en/articles/2025/09/06/xqkw-s06.html</a></li>
+
+<li>R. Vaz, “Of Peace, of War, and Other Demons,” Tricontinental: Institute for Social Research. Accessed: Aug. 28, 2025. [Online]. Available: <a href="https://thetricontinental.org/newsletter-na-war-peace-other-demons/">https://thetricontinental.org/newsletter-na-war-peace-other-demons/</a></li>
+
+<li>“US, South Korea to ‘modernize’ military alliance as war drive against China accelerates,” World Socialist Web Site. Accessed: Aug. 07, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/08/07/ggpw-a07.html">https://www.wsws.org/en/articles/2025/08/07/ggpw-a07.html</a></li>
+
+<li>BY, “Sinjar: Proxy Wars on Sacred Ground.” Accessed: Aug. 04, 2025. [Online]. Available: <a href="https://jacobin.com/2025/08/sinjar-yazidis-iraq-kurdistan-isis">https://jacobin.com/2025/08/sinjar-yazidis-iraq-kurdistan-isis</a></li>
+
+<li>“Trump announces US submarine deployments in nuclear war threat against Russia,” World Socialist Web Site. Accessed: Aug. 04, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/08/04/lmvv-a04.html">https://www.wsws.org/en/articles/2025/08/04/lmvv-a04.html</a></li>
+
+<li>J. H. Sullivan Dylan, “The real reason the West is warmongering against China,” Al Jazeera. Accessed: Aug. 04, 2025. [Online]. Available: <a href="https://www.aljazeera.com/opinions/2025/8/3/the-real-reason-the-west-is-warmongering-against-china">https://www.aljazeera.com/opinions/2025/8/3/the-real-reason-the-west-is-warmongering-against-china</a></li>
+
+<li>R. Reich, “The Dogs of War,” Robert Reich. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://robertreich.substack.com/p/the-dogs-of-war">https://robertreich.substack.com/p/the-dogs-of-war</a></li>
+
+<li>“PI Briefing | No. 22 | ‘They bay for war. We plan for peace.,’” Progressive International. Accessed: Jun. 27, 2025. [Online]. Available: <a href="https://progressive.international/wire/2025-06-23-pi-briefing-no-22-they-bay-for-war-we-plan-for-peace-/en">https://progressive.international/wire/2025-06-23-pi-briefing-no-22-they-bay-for-war-we-plan-for-peace-/en</a></li>
+
+<li>“Dehumanisation in a Time of War Hysteria,” The India Forum. Accessed: May 23, 2025. [Online]. Available: <a href="https://www.theindiaforum.in/society/dehumanisation-time-war-hysteria">https://www.theindiaforum.in/society/dehumanisation-time-war-hysteria</a></li>
+
+<li>“In the Llanos Orientales, seduction is another weapon of war,” Global Voices. Accessed: May 20, 2025. [Online]. Available: <a href="https://globalvoices.org/2025/05/20/in-the-llanos-orientales-seduction-is-another-weapon-of-war/">https://globalvoices.org/2025/05/20/in-the-llanos-orientales-seduction-is-another-weapon-of-war/</a></li>
+
+<li>admin<sub>ips</sub>, “No Warming, No War: A Climate and Militarism Primer,” Institute for Policy Studies. Accessed: Apr. 23, 2025. [Online]. Available: <a href="https://ips-dc.org/climate-militarism-primer/">https://ips-dc.org/climate-militarism-primer/</a></li>
+
+<li>“David North’s &lt;em&gt;Sounding the Alarm&lt;/em&gt; introduced at Leipzig Book Fair: ‘Humanity is confronting the danger of a descent into the abyss,’” World Socialist Web Site. Accessed: Mar. 31, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/03/31/bxok-m31.html">https://www.wsws.org/en/articles/2025/03/31/bxok-m31.html</a></li>
+
+<li>“Does national humiliation explain why wars break out? | Psyche Ideas,” Psyche. Accessed: Mar. 28, 2025. [Online]. Available: <a href="https://psyche.co/ideas/does-national-humiliation-explain-why-wars-break-out">https://psyche.co/ideas/does-national-humiliation-explain-why-wars-break-out</a></li>
+
+<li>M. CURTIS, “Good and bad war criminals,” Declassified Media Ltd. Accessed: Dec. 24, 2024. [Online]. Available: <a href="https://www.declassifieduk.org/good-and-bad-war-criminals/">https://www.declassifieduk.org/good-and-bad-war-criminals/</a></li>
+
+<li>E. Sykes, “A new book details how mainstream media is still manufacturing consent for war in 2024,” Canary. Accessed: Dec. 12, 2024. [Online]. Available: <a href="https://www.thecanary.co/global/world-analysis/2024/12/11/worthy-and-unworthy/">https://www.thecanary.co/global/world-analysis/2024/12/11/worthy-and-unworthy/</a></li>
+
+<li>“The Economics of War &amp; Peace,” Institute for New Economic Thinking. Accessed: Oct. 18, 2024. [Online]. Available: <a href="https://www.ineteconomics.org/perspectives/videos/war">https://www.ineteconomics.org/perspectives/videos/war</a></li>
+
+<li>R. Brooks, HOW EVERYTHING BECAME WAR AND THE MILITARY BECAME EVERYTHING [Hardcover] Rosa Brooks, First Edition. New York London Toronto Sydney New Delhi: Simon &amp; Schuster, 2016.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Shock Monitor – Observing Private War Impact on Human Rights,” Shock Monitor. Accessed: Oct. 02, 2024. [Online]. Available: <a href="http://shockmonitor.org/">http://shockmonitor.org/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“&lt;em&gt;Sounding the Alarm: Socialism Against War&lt;/em&gt;, by David North,” World Socialist Web Site. Accessed: Sep. 25, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/09/25/vmei-s25.html">https://www.wsws.org/en/articles/2024/09/25/vmei-s25.html</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Beginner’s Guide to Identifying Explosive Ordnance in Social Media Imagery.” Accessed: Aug. 15, 2024. [Online]. Available: <a href="https://gijn.org/stories/guide-identifying-explosive-ordnance-social-media/">https://gijn.org/stories/guide-identifying-explosive-ordnance-social-media/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Costs of War,” The Costs of War. Accessed: Aug. 05, 2024. [Online]. Available: <a href="https://watson.brown.edu/costsofwar/home">https://watson.brown.edu/costsofwar/home</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>D. Swanson, “David Swanson: Trump’s Fake War With NATO Fooled Everyone | Transnational Institute.” Accessed: May 23, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/david-swanson-trumps-fake-war-with-nato-fooled-everyone">https://www.tni.org/en/video/david-swanson-trumps-fake-war-with-nato-fooled-everyone</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgb3a62bb" class="outline-4">
+<h4 id="orgb3a62bb"><span class="section-number-4">4.3.4.</span> Core</h4>
+<div class="outline-text-4" id="text-4-3-4">
+</div>
+<ol class="org-ol">
+<li><a id="org69bdc65"></a>Misc Wars<br />
+<ol class="org-ol">
+<li><a id="org0e0f38b"></a>Russia Ukraine War<br />
+<ul class="org-ul">
+<li><a id="org5cbeb6d"></a>General<br />
+<div class="outline-text-7" id="text-org5cbeb6d">
+<ul class="org-ul">
+<li>“2022 Russian invasion of Ukraine,” Wikipedia. Nov. 01, 2022. Accessed: Nov. 02, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=2022_Russian_invasion_of_Ukraine&amp;oldid=1119424990">https://en.wikipedia.org/w/index.php?title=2022_Russian_invasion_of_Ukraine&amp;oldid=1119424990</a></li>
+<li>“Russia–Ukraine relations,” Wikipedia. Mar. 11, 2022. Accessed: Mar. 12, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Russia%E2%80%93Ukraine_relations&amp;oldid=1076489721">https://en.wikipedia.org/w/index.php?title=Russia%E2%80%93Ukraine_relations&amp;oldid=1076489721</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>Anonymous, <b>“The Russian invasion of Ukraine,”</b> Feb. 27, 2022. <a href="https://www.cfg.polis.cam.ac.uk/commentary/russian-invasion-ukraine">https://www.cfg.polis.cam.ac.uk/commentary/russian-invasion-ukraine</a> (accessed Mar. 12, 2022).</li>
+<li>“Some resources for following the invasion of Ukraine,” Nieman Lab. <a href="https://www.niemanlab.org/2022/02/follow-war-ukraine/">https://www.niemanlab.org/2022/02/follow-war-ukraine/</a> (accessed Mar. 22, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="orga08b5e3"></a>STEMM<br />
+<ul class="org-ul">
+<li><a id="org1a0d41b"></a>Complexity Science<br />
+<div class="outline-text-8" id="text-org1a0d41b">
+<ul class="org-ul">
+<li><b><a href="https://www.csh.ac.at/wp-content/uploads/2022/03/CSH-Policy-Brief-2-2022-How-the-war-in-Ukraine-might-affect-global-food-supply.pdf">How the war in Ukraine might affect global food supply</a></b>, CSH Policy Brief, Complexity Science Hub Vienna, March 4, 2022.</li>
+
+<li><b>“Ukraine Supply Shocks.”</b> <a href="https://vis.csh.ac.at/ukraine-supply-shock/">https://vis.csh.ac.at/ukraine-supply-shock/</a> (accessed Mar. 12, 2022).</li>
+
+<li>A. Carleton, “Scientist Who Predicted Arab Spring: Skyrocketing Wheat Prices Are Creating a Global ‘Regime of Risk,’” Vice, Mar. 24, 2022. <a href="https://www.vice.com/en/article/5dgab8/scientist-who-predicted-arab-spring-skyrocketing-wheat-prices-are-creating-a-global-regime-of-risk">https://www.vice.com/en/article/5dgab8/scientist-who-predicted-arab-spring-skyrocketing-wheat-prices-are-creating-a-global-regime-of-risk</a> (accessed Mar. 26, 2022).</li>
+
+<li>H. Farrell and A. L. Newman, “Weak links in finance and supply chains are easily weaponized,” Nature, vol. 605, no. 7909, pp. 219–222, May 2022, doi: 10.1038/d41586-022-01254-5.</li>
+</ul>
+</div>
+</li>
+<li><a id="orge2c1b42"></a>CSE<br />
+<ul class="org-ul">
+<li><a id="org300619e"></a>Misc<br />
+<div class="outline-text-9" id="text-org300619e">
+<ul class="org-ul">
+<li>“Standing with Ukraine,” Ubuntu. <a href="https://ubuntu.com/blog/canonical-standing-with-ukraine">https://ubuntu.com/blog/canonical-standing-with-ukraine</a> (accessed Apr. 06, 2022).</li>
+<li>Wired, “Russia Inches Toward Its Splinternet Dream.” <a href="https://cacm.acm.org/news/259763-russia-inches-toward-its-splinternet-dream/fulltext">https://cacm.acm.org/news/259763-russia-inches-toward-its-splinternet-dream/fulltext</a> (accessed Apr. 05, 2022).</li>
+<li>“Google is forcing everyone to fund Kremlin propaganda right now,” Check My Ads Institute, Mar. 25, 2022. <a href="https://checkmyads.org/branded/google-is-forcing-everyone-to-fund-kremlin-propaganda-right-now/">https://checkmyads.org/branded/google-is-forcing-everyone-to-fund-kremlin-propaganda-right-now/</a> (accessed Mar. 27, 2022).</li>
+<li>“Developer Sabotages Open-Source Software Package - Schneier on Security.” <a href="https://www.schneier.com/blog/archives/2022/03/developer-sabotages-open-source-software-package.html">https://www.schneier.com/blog/archives/2022/03/developer-sabotages-open-source-software-package.html</a> (accessed Mar. 22, 2022).</li>
+<li>C. Quintin, “Anti-War Hacktivism is Leading to Digital Xenophobia and a More Hostile Internet,” Electronic Frontier Foundation, Mar. 21, 2022. <a href="https://www.eff.org/deeplinks/2022/03/anti-war-hacktivism-leading-digital-xenophobia-and-more-hostile-internet">https://www.eff.org/deeplinks/2022/03/anti-war-hacktivism-leading-digital-xenophobia-and-more-hostile-internet</a> (accessed Mar. 22, 2022).</li>
+<li><b>“Leak of Russian Censorship Data - Schneier on Security.”</b> <a href="https://www.schneier.com/blog/archives/2022/03/leak-of-russian-censorship-data.html">https://www.schneier.com/blog/archives/2022/03/leak-of-russian-censorship-data.html</a> (accessed Mar. 15, 2022).</li>
+<li><b>“Updates: Digital rights in the Ukraine-Russia conflict,”</b> Access Now, Mar. 10, 2022. <a href="https://www.accessnow.org/digital-rights-ukraine-russia-conflict/">https://www.accessnow.org/digital-rights-ukraine-russia-conflict/</a> (accessed Mar. 14, 2022).</li>
+<li><i>“How to avoid sharing bad information about Russia’s invasion of Ukraine,”</i> MIT Technology Review. <a href="https://www.technologyreview.com/2022/02/25/1046495/how-to-share-information-russia-ukraine-invasion/">https://www.technologyreview.com/2022/02/25/1046495/how-to-share-information-russia-ukraine-invasion/</a> (accessed Mar. 12, 2022).</li>
+<li><b>“Where’s the Russia-Ukraine Cyberwar? - Schneier on Security.”</b> <a href="https://www.schneier.com/blog/archives/2022/03/wheres-the-russia-ukraine-cyberwar.html">https://www.schneier.com/blog/archives/2022/03/wheres-the-russia-ukraine-cyberwar.html</a> (accessed Mar. 12, 2022).</li>
+<li>C. M. and K. Komaitis, <b>“Wartime Is a Bad Time To Mess With the Internet,”</b> Electronic Frontier Foundation, Mar. 03, 2022. <a href="https://www.eff.org/deeplinks/2022/03/wartime-bad-time-mess-internet">https://www.eff.org/deeplinks/2022/03/wartime-bad-time-mess-internet</a> (accessed Mar. 13, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org896c7dc"></a>Tools<br />
+<div class="outline-text-9" id="text-org896c7dc">
+<ul class="org-ul">
+<li>A. Hancock, “You Should Not Trust Russia’s New ‘Trusted Root CA,’” Electronic Frontier Foundation, Mar. 15, 2022. <a href="https://www.eff.org/deeplinks/2022/03/you-should-not-trust-russias-new-trusted-root-ca">https://www.eff.org/deeplinks/2022/03/you-should-not-trust-russias-new-trusted-root-ca</a> (accessed Mar. 20, 2022).</li>
+<li>T. C. Gavin Brown, <i>“Cryptocurrencies are helping both Russia and Ukraine. But can Putin use them to bypass sanctions?,”</i> Scroll.in. <a href="https://scroll.in/article/1018732/cryptocurrencies-are-helping-both-russia-and-ukraine-but-can-putin-use-them-to-bypass-sanctions">https://scroll.in/article/1018732/cryptocurrencies-are-helping-both-russia-and-ukraine-but-can-putin-use-them-to-bypass-sanctions</a> (accessed Mar. 12, 2022).</li>
+<li>A. S. and A. Romanov, <b>“Anti-Sanctions: New Operating System for Mobile Devices.”</b> <a href="https://cacm.acm.org/blogs/blog-cacm/259236-anti-sanctions-new-operating-system-for-mobile-devices/fulltext">https://cacm.acm.org/blogs/blog-cacm/259236-anti-sanctions-new-operating-system-for-mobile-devices/fulltext</a> (accessed Mar. 11, 2022).</li>
+<li>A. Press, /“Twitter Unveils Version of Site That Can Bypass Russia Block.” <a href="https://cacm.acm.org/news/259304-twitter-unveils-version-of-site-that-can-bypass-russia-block/fulltext">https://cacm.acm.org/news/259304-twitter-unveils-version-of-site-that-can-bypass-russia-block/fulltext</a> (accessed Mar. 16, 2022).</li>
+<li><b>“Secure messaging, anywhere - Briar.”</b> <a href="https://briarproject.org/">https://briarproject.org/</a> (accessed Mar. 13, 2022).</li>
+<li><b>“CoverDrop: Securing Initial Contact for Whistleblowers | Light Blue Touchpaper.”</b> <a href="https://www.lightbluetouchpaper.org/2022/03/11/coverdrop-securing-initial-contact-for-whistleblowers/">https://www.lightbluetouchpaper.org/2022/03/11/coverdrop-securing-initial-contact-for-whistleblowers/</a> (accessed Mar. 14, 2022).</li>
+<li>E. Galperin, <b>“Telegram Harm Reduction for Users in Russia and Ukraine,”</b> Electronic Frontier Foundation, Mar. 04, 2022. <a href="https://www.eff.org/deeplinks/2022/03/telegram-harm-reduction-users-russia-and-ukraine">https://www.eff.org/deeplinks/2022/03/telegram-harm-reduction-users-russia-and-ukraine</a> (accessed Mar. 13, 2022).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orga6769d6"></a>Data Science<br />
+<div class="outline-text-8" id="text-orga6769d6">
+<ul class="org-ul">
+<li>“How could the war in Ukraine impact global food supplies?,” Our World in Data. <a href="https://ourworldindata.org/ukraine-russia-food">https://ourworldindata.org/ukraine-russia-food</a> (accessed Mar. 25, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org095da0a"></a>Math<br />
+<div class="outline-text-8" id="text-org095da0a">
+<ul class="org-ul">
+<li>“Resources for displaced mathematicians,” What’s new, Mar. 02, 2022. <a href="https://terrytao.wordpress.com/2022/03/02/resources-for-displaced-mathematicians/">https://terrytao.wordpress.com/2022/03/02/resources-for-displaced-mathematicians/</a> (accessed Apr. 05, 2022).</li>
+<li>N. N. Taleb, <b>“A Clash of Two Systems,”</b> INCERTO, Apr. 19, 2022. <a href="https://medium.com/incerto/a-clash-of-two-systems-47009e9715e2">https://medium.com/incerto/a-clash-of-two-systems-47009e9715e2</a> (accessed Apr. 20, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="orgbe70b31"></a>Misc<br />
+<div class="outline-text-8" id="text-orgbe70b31">
+<ul class="org-ul">
+<li>B. Schneier, “The Ramifications of Ukraine’s Drone Attack,” Schneier on Security. Accessed: Jun. 05, 2025. [Online]. Available: <a href="https://www.schneier.com/blog/archives/2025/06/the-ramifications-of-ukraines-drone-attack.html">https://www.schneier.com/blog/archives/2025/06/the-ramifications-of-ukraines-drone-attack.html</a></li>
+
+<li>“Cultivating Resilience: The Power of Mindfulness Training in War-Torn Ukraine,” Mind &amp; Life Institute. Accessed: Feb. 19, 2025. [Online]. Available: <a href="https://www.mindandlife.org/media/mindfulness-training-in-war-torn-ukraine/">https://www.mindandlife.org/media/mindfulness-training-in-war-torn-ukraine/</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org3a72607"></a>World<br />
+<ul class="org-ul">
+<li><a id="org9d071f0"></a>History<br />
+<div class="outline-text-8" id="text-org9d071f0">
+<ul class="org-ul">
+<li><b>“School of Historical Studies Page on the War in Ukraine - School of Historical Studies | Institute for Advanced Study,”</b> Mar. 22, 2022. <a href="https://www.ias.edu/hs/ukraine-resource-page">https://www.ias.edu/hs/ukraine-resource-page</a> (accessed Mar. 25, 2022).</li>
+<li>“The Uses and Abuses of History: Responding to the War in Ukraine - YouTube.” <a href="https://www.youtube.com/watch?v=ubSHUmC9IAA">https://www.youtube.com/watch?v=ubSHUmC9IAA</a> (accessed May 20, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org14b9cae"></a>Journalism<br />
+<ul class="org-ul">
+<li><a id="org95a2660"></a>Wikileaks<br />
+<div class="outline-text-9" id="text-org95a2660">
+<ul class="org-ul">
+<li><b>“Category:Ukraine - WikiLeaks.”</b> <a href="https://wikileaks.org/wiki/Category:Ukraine">https://wikileaks.org/wiki/Category:Ukraine</a> (accessed Mar. 12, 2022).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org258c73d"></a>Economics<br />
+<div class="outline-text-8" id="text-org258c73d">
+<ul class="org-ul">
+<li>“The war in Ukraine weakens Eastern Europe’s economies,” Le Monde.fr, Apr. 10, 2022. Accessed: Apr. 12, 2022. [Online]. Available: <a href="https://www.lemonde.fr/en/economy/article/2022/04/10/the-war-in-ukraine-weakens-eastern-europe-s-economies_5980175_19.html">https://www.lemonde.fr/en/economy/article/2022/04/10/the-war-in-ukraine-weakens-eastern-europe-s-economies_5980175_19.html</a></li>
+<li>R. Hausmann, “How to Eat Russia’s Oil Lunch | by Ricardo Hausmann,” Project Syndicate, Mar. 31, 2022. <a href="https://www.project-syndicate.org/commentary/how-to-reduce-russias-share-of-global-oil-market-by-ricardo-hausmann-2022-03">https://www.project-syndicate.org/commentary/how-to-reduce-russias-share-of-global-oil-market-by-ricardo-hausmann-2022-03</a> (accessed Apr. 01, 2022).</li>
+
+<li><b>“The Economic Geography of the war in Ukraine. Twelve Facts about the Relation Between the Economies of Ukraine, Russia, and the EU,”</b> The Economic Geography of the war in Ukraine. Twelve Facts about the Relation Between the Economies of Ukraine, Russia, and the EU. <a href="https://vis.csh.ac.at/12-facts-ukraine-rus-eu/">https://vis.csh.ac.at/12-facts-ukraine-rus-eu/</a> (accessed Mar. 30, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="orgf0ba0a2"></a>Politics<br />
+<ul class="org-ul">
+<li><a id="org8d30ff9"></a>Politics: Left<br />
+<ul class="org-ul">
+<li><a id="org9f67051"></a>Noam Chomsky<br />
+<div class="outline-text-10" id="text-org9f67051">
+<ul class="org-ul">
+<li>C. J. Polychroniou, <b>“Chomsky: US Military Escalation Against Russia Would Be Death Warrant for Humanity,”</b> Truthout. <a href="https://truthout.org/articles/noam-chomsky-us-military-escalation-against-russia-would-have-no-victors/">https://truthout.org/articles/noam-chomsky-us-military-escalation-against-russia-would-have-no-victors/</a> (accessed Mar. 12, 2022).</li>
+<li>C. J. Polychroniou, <b>“Noam Chomsky: A No-Fly Zone Over Ukraine Could Unleash Untold Violence,”</b> Truthout. <a href="https://truthout.org/articles/noam-chomsky-a-no-fly-zone-over-ukraine-could-unleash-untold-violence/">https://truthout.org/articles/noam-chomsky-a-no-fly-zone-over-ukraine-could-unleash-untold-violence/</a> (accessed Mar. 11, 2022).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org29bd81d"></a>Law: Human Rights<br />
+<div class="outline-text-8" id="text-org29bd81d">
+<ul class="org-ul">
+<li>“Latest news on Russia’s war on Ukraine,” Amnesty International, Mar. 30, 2022. <a href="https://www.amnesty.org/en/latest/news/2022/03/latest-news-on-russias-war-on-ukraine/">https://www.amnesty.org/en/latest/news/2022/03/latest-news-on-russias-war-on-ukraine/</a> (accessed Apr. 01, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org754e2ad"></a>Business<br />
+<div class="outline-text-8" id="text-org754e2ad">
+<ul class="org-ul">
+<li><b>“B Lab institutes a moratorium on new B Corp Certifications for entities operating in Russia and Belarus.”</b> <a href="https://www.bcorporation.net/en-us/news/blog/b-lab-suspends-new-b-corp-certifications-entities-russia-belarus/">https://www.bcorporation.net/en-us/news/blog/b-lab-suspends-new-b-corp-certifications-entities-russia-belarus/</a> (accessed Mar. 31, 2022).</li>
+<li>Q. I. D. Studio, “B Interdependent,” B Lab Europe. <a href="https://bcorporation.eu/b-interdependent/">https://bcorporation.eu/b-interdependent/</a> (accessed Mar. 31, 2022).</li>
+<li>“Ukraine Humanitarian Crisis Business Guide | UN Global Compact.” <a href="https://unglobalcompact.org/library/6047">https://unglobalcompact.org/library/6047</a> (accessed Mar. 30, 2022).</li>
+<li>“Markets Need to Lose the ‘Peace in Our Time’ Reflex,” Bloomberg.com, Mar. 30, 2022. Accessed: Apr. 01, 2022. [Online]. Available: <a href="https://www.bloomberg.com/opinion/articles/2022-03-30/russia-ukraine-talks-need-markets-to-lose-peace-in-our-time-reflex">https://www.bloomberg.com/opinion/articles/2022-03-30/russia-ukraine-talks-need-markets-to-lose-peace-in-our-time-reflex</a></li>
+<li>T. C. Peter Bloom, “While Ukraine burns, the world’s defence giants are quietly making billions from the war,” Scroll.in. <a href="https://scroll.in/article/1019202/while-ukraine-burns-the-worlds-defence-giants-are-quietly-making-billions-from-the-war">https://scroll.in/article/1019202/while-ukraine-burns-the-worlds-defence-giants-are-quietly-making-billions-from-the-war</a> (accessed Mar. 13, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org2a9953c"></a>Misc<br />
+<div class="outline-text-8" id="text-org2a9953c">
+<ul class="org-ul">
+<li>S. Alecci, “Hong Kong firms feed European tech to Russia’s war in Ukraine, report says - ICIJ.” Accessed: Feb. 19, 2026. [Online]. Available: <a href="https://www.icij.org/news/2026/02/hong-kong-firms-feed-european-tech-to-russias-war-in-ukraine-report-says/">https://www.icij.org/news/2026/02/hong-kong-firms-feed-european-tech-to-russias-war-in-ukraine-report-says/</a></li>
+
+<li>“A Church divided Russia’s war against Ukraine fuels tensions in Moldova’s main Orthodox Church,” Meduza. Accessed: Sep. 28, 2025. [Online]. Available: <a href="https://meduza.io/en/feature/2024/03/08/a-church-divided">https://meduza.io/en/feature/2024/03/08/a-church-divided</a></li>
+
+<li>“‘Everything they earn by killing, they throw away on prostitutes’ How Russian soldiers returning from Ukraine are reshaping St. Petersburg’s sex trade,” Meduza. Accessed: Sep. 13, 2025. [Online]. Available: <a href="https://meduza.io/en/feature/2025/09/12/everything-they-earn-by-killing-they-throw-away-on-prostitutes">https://meduza.io/en/feature/2025/09/12/everything-they-earn-by-killing-they-throw-away-on-prostitutes</a></li>
+
+<li>“Monthly Review | The War in Ukraine—A History: How the U.S. Exploited Fractures in the Post-Soviet Order,” Monthly Review. Accessed: Sep. 08, 2025. [Online]. Available: <a href="https://monthlyreview.org/2025/06/01/the-war-in-ukraine-a-history/">https://monthlyreview.org/2025/06/01/the-war-in-ukraine-a-history/</a></li>
+
+<li>P. Navarro, “India’s oil lobby is funding Putin’s war machine — that has to stop,” Financial Times, Aug. 18, 2025.</li>
+
+<li>A. Dombovari, “Trump Meets with Putin: Experts React,” Bulletin of the Atomic Scientists. Accessed: Aug. 19, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/08/trump-meets-with-putin-experts-react-live/">https://thebulletin.org/2025/08/trump-meets-with-putin-experts-react-live/</a></li>
+
+<li>“M. Gessen: Putin Won’t Make Peace with Ukraine Because It Risks His Own Survival,” Democracy Now! Accessed: Aug. 08, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/8/7/m_gessen_christo_grozev_putin_assassins">https://www.democracynow.org/2025/8/7/m_gessen_christo_grozev_putin_assassins</a></li>
+
+<li>“Fiona Hill: What Putin (and Trump?) might do next, after Ukraine,” Bulletin of the Atomic Scientists. Accessed: Jul. 25, 2025. [Online]. Available: <a href="https://thebulletin.org/premium/2025-07/fiona-hill-what-putin-and-trump-might-do-next-after-ukraine/">https://thebulletin.org/premium/2025-07/fiona-hill-what-putin-and-trump-might-do-next-after-ukraine/</a></li>
+
+<li>G. McNaughton, B. Fitzpatrick, and F. Obermaier, “Western Banks Sent Billions in Cash to Russia on Eve of Ukraine Invasion, Data Shows,” OCCRP. Accessed: Mar. 26, 2025. [Online]. Available: <a href="https://www.occrp.org/en/scoop/western-banks-sent-billions-in-cash-to-russia-on-eve-of-ukraine-invasion-data-shows">https://www.occrp.org/en/scoop/western-banks-sent-billions-in-cash-to-russia-on-eve-of-ukraine-invasion-data-shows</a></li>
+
+<li>“Will the United Nations Survive Trump 2.0?” Accessed: Mar. 22, 2025. [Online]. Available: <a href="https://rusi.orghttps//rusi.org">https://rusi.orghttps//rusi.org</a></li>
+
+<li>“All Wars End in Negotiations. So Will the War in Ukraine: The Third Newsletter (2025),” Tricontinental: Institute for Social Research. Accessed: Jan. 17, 2025. [Online]. Available: <a href="https://thetricontinental.org/newsletterissue/the-war-in-ukraine-must-end/">https://thetricontinental.org/newsletterissue/the-war-in-ukraine-must-end/</a></li>
+
+<li>“Ukraine,” bellingcat. Accessed: May 01, 2024. [Online]. Available: <a href="https://www.bellingcat.com/tag/ukraine/">https://www.bellingcat.com/tag/ukraine/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“‘Russia was already failing before the war’ Economist Daron Acemoglu on stopping Putin with sanctions and the difficult path to democracy,” Meduza. <a href="https://meduza.io/en/feature/2022/04/28/russia-was-already-failing-before-the-war">https://meduza.io/en/feature/2022/04/28/russia-was-already-failing-before-the-war</a> (accessed Apr. 29, 2022).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org3b977f1"></a>Arts<br />
+<ul class="org-ul">
+<li><a id="orgfca15d0"></a>Music<br />
+<div class="outline-text-8" id="text-orgfca15d0">
+<ul class="org-ul">
+<li>M. Biasioli, “How Russia’s musicians are taking a stand against the war in Ukraine,” The Conversation. <a href="http://theconversation.com/how-russias-musicians-are-taking-a-stand-against-the-war-in-ukraine-179997">http://theconversation.com/how-russias-musicians-are-taking-a-stand-against-the-war-in-ukraine-179997</a> (accessed Mar. 31, 2022).</li>
+<li>Sting, Sting - Russians (Official Music Video), (Apr. 17, 2010). Accessed: Mar. 27, 2022. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=wHylQRVN2Qs">https://www.youtube.com/watch?v=wHylQRVN2Qs</a></li>
+<li>Sting, Sting - Russians (Guitar / Cello Version), (Mar. 25, 2022). Accessed: Mar. 27, 2022. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=6w3037nq23o">https://www.youtube.com/watch?v=6w3037nq23o</a></li>
+<li>“Russians (song),” Wikipedia. Mar. 17, 2022. Accessed: Mar. 27, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Russians_(song)&amp;oldid=1077596932">https://en.wikipedia.org/w/index.php?title=Russians_(song)&amp;oldid=1077596932</a></li>
+<li>Yo-Yo Ma, #SongsOfComfort Brahms for Ukraine with Emanuel Ax, (Mar. 11, 2022). Accessed: Mar. 27, 2022. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=EgzB7sbLcgs">https://www.youtube.com/watch?v=EgzB7sbLcgs</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb0088a2"></a>Misc<br />
+<div class="outline-text-8" id="text-orgb0088a2">
+<ul class="org-ul">
+<li>T. O. Staff, “Trump Gives Russia 10-Day Deadline To End Ukraine,” The Onion. Accessed: Jul. 29, 2025. [Online]. Available: <a href="https://theonion.com/trump-gives-russia-10-day-deadline-to-end-ukraine/">https://theonion.com/trump-gives-russia-10-day-deadline-to-end-ukraine/</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgfa709fe"></a>Special Topics<br />
+<ul class="org-ul">
+<li><a id="org1869ec9"></a>Nuclear War<br />
+<div class="outline-text-8" id="text-org1869ec9">
+<ul class="org-ul">
+<li>A. N. Chúláin, “Will the war in Ukraine go nuclear? The risks of escalation explained,” euronews, Mar. 01, 2022. <a href="https://www.euronews.com/next/2022/03/01/will-the-war-in-ukraine-go-nuclear-putin-s-order-to-ready-russia-s-deterrent-forces-explai">https://www.euronews.com/next/2022/03/01/will-the-war-in-ukraine-go-nuclear-putin-s-order-to-ready-russia-s-deterrent-forces-explai</a> (accessed Mar. 12, 2022).</li>
+<li>D. Castelvecchi, <b>“Ukraine nuclear power plant attack: scientists assess the risks,”</b> Nature, Mar. 2022, doi: 10.1038/d41586-022-00660-z.</li>
+<li>“Four unanswered questions about the intersection of war and nuclear power,” Bulletin of the Atomic Scientists, Apr. 19, 2022. <a href="https://thebulletin.org/2022/04/four-unanswered-questions-about-the-intersection-of-war-and-nuclear-power/">https://thebulletin.org/2022/04/four-unanswered-questions-about-the-intersection-of-war-and-nuclear-power/</a> (accessed Apr. 20, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org07eb65b"></a>India<br />
+<div class="outline-text-8" id="text-org07eb65b">
+<ul class="org-ul">
+<li>“Indian Military Dependence on Russia,” Institut Montaigne. <a href="https://www.institutmontaigne.org/en/blog/indian-military-dependence-russia">https://www.institutmontaigne.org/en/blog/indian-military-dependence-russia</a> (accessed Jul. 12, 2022).</li>
+
+<li>“India’s shame.” <a href="https://www.telegraphindia.com/opinion/indias-shame-new-delhis-silence-on-ukraine-is-unacceptable/cid/1877237">https://www.telegraphindia.com/opinion/indias-shame-new-delhis-silence-on-ukraine-is-unacceptable/cid/1877237</a> (accessed Jul. 30, 2022).</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>R. Guha, “Ramachandra Guha: Why India’s refusal to condemn Russia’s invasion of Ukraine is hypocritical,” Scroll.in. <a href="https://scroll.in/article/1029433/ramachandra-guha-why-indias-refusal-to-condemn-russias-invasion-of-ukraine-is-morally-untenable">https://scroll.in/article/1029433/ramachandra-guha-why-indias-refusal-to-condemn-russias-invasion-of-ukraine-is-morally-untenable</a> (accessed Jul. 31, 2022).</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>A. Roy, <b>“India Is Ruled by Men Who Have Ridden to Power on Daylight Mass Murder of Muslims,”</b> The Wire. <a href="https://thewire.in/rights/india-is-ruled-by-men-who-have-ridden-to-power-on-daylight-mass-murder-of-muslims">https://thewire.in/rights/india-is-ruled-by-men-who-have-ridden-to-power-on-daylight-mass-murder-of-muslims</a> (accessed Apr. 22, 2022).</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“The US and India in a new world,” The Spectator World. <a href="https://spectatorworld.com/topic/the-us-and-india-in-a-new-world/">https://spectatorworld.com/topic/the-us-and-india-in-a-new-world/</a> (accessed Mar. 12, 2022).</li>
+
+<li><i>“Ten Theses on the War in Ukraine and the Challenge for India,”</i> The Wire. <a href="https://thewire.in/external-affairs/ten-theses-on-the-war-in-ukraine-and-the-challenge-for-india">https://thewire.in/external-affairs/ten-theses-on-the-war-in-ukraine-and-the-challenge-for-india</a> (accessed Mar. 12, 2022).</li>
+
+<li><i>“Ukraine Crisis: India’s Hour of Reckoning to Deal With External Challenges to National Security,”</i> The Geopolitics, Feb. 28, 2022. <a href="https://thegeopolitics.com/ukraine-crisis-indias-hour-of-reckoning-to-deal-with-external-challenges-to-national-security/">https://thegeopolitics.com/ukraine-crisis-indias-hour-of-reckoning-to-deal-with-external-challenges-to-national-security/</a> (accessed Mar. 12, 2022).</li>
+
+<li><i>“Filipino Scholar Walden Bello on Why the Global South Is Suspicious of U.S. Motives in Ukraine War,”</i> Democracy Now! <a href="https://www.democracynow.org/2022/3/2/philippines_walden_bello_nato_expansion">https://www.democracynow.org/2022/3/2/philippines_walden_bello_nato_expansion</a> (accessed Mar. 12, 2022).</li>
+
+<li><i>“What India Needs To Do To Deal With the Consequences of the Russia-Ukraine War,”</i> The Wire. <a href="https://thewire.in/economy/india-russia-ukraine-war-consequences-impact">https://thewire.in/economy/india-russia-ukraine-war-consequences-impact</a> (accessed Mar. 12, 2022).</li>
+
+<li>T. Barnagarwala, <i>“How will Russia’s Ukraine invasion impact India and the world? Five articles lay out some scenarios,”</i> Scroll.in. <a href="https://scroll.in/article/1018215/how-will-russias-ukraine-invasion-impact-india-and-the-world-four-articles-lay-out-some-scenarios">https://scroll.in/article/1018215/how-will-russias-ukraine-invasion-impact-india-and-the-world-four-articles-lay-out-some-scenarios</a> (accessed Mar. 12, 2022).</li>
+
+<li><i>“Ukraine crisis: Congress backs decision to abstain from voting on UN resolutions,”</i> The Times of India, Mar. 03, 2022. Accessed: Mar. 12, 2022. [Online]. Available: <a href="https://timesofindia.indiatimes.com/india/ukraine-crisis-congress-backs-decision-to-abstain-from-voting-on-un-resolutions/articleshow/89967628.cms">https://timesofindia.indiatimes.com/india/ukraine-crisis-congress-backs-decision-to-abstain-from-voting-on-un-resolutions/articleshow/89967628.cms</a></li>
+
+<li>B. Chellaney, <i>“The new global Cold War clouds India’s tightrope walk,”</i> The Japan Times, Mar. 01, 2022. <a href="https://www.japantimes.co.jp/opinion/2022/03/01/commentary/world-commentary/india-china-ukraine/">https://www.japantimes.co.jp/opinion/2022/03/01/commentary/world-commentary/india-china-ukraine/</a> (accessed Mar. 12, 2022).</li>
+
+<li><i>“Ukraine crisis: Perils of a ‘with us or against us’ approach,”</i> The New Indian Express. <a href="https://www.newindianexpress.com/opinions/2022/mar/05/ukraine-crisis-perils-of-a-with-us-or-against-us-approach-2426471.html">https://www.newindianexpress.com/opinions/2022/mar/05/ukraine-crisis-perils-of-a-with-us-or-against-us-approach-2426471.html</a> (accessed Mar. 12, 2022).</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Unilateral Sanctions, an Implicit Form of Warfare,” NewsClick. Accessed: Sep. 01, 2024. [Online]. Available: <a href="https://www.newsclick.in/unilateral-sanctions-implicit-form-warfare">https://www.newsclick.in/unilateral-sanctions-implicit-form-warfare</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orga8e5230"></a>China<br />
+<div class="outline-text-8" id="text-orga8e5230">
+<ul class="org-ul">
+<li>D. Allott, “The new US-Russia cold war will accelerate China’s rise,” TheHill, Mar. 07, 2022. <a href="https://thehill.com/opinion/national-security/597062-the-new-us-russia-cold-war-will-accelerate-chinas-rise">https://thehill.com/opinion/national-security/597062-the-new-us-russia-cold-war-will-accelerate-chinas-rise</a> (accessed Mar. 12, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org1ec66b6"></a>Europe<br /></li>
+<li><a id="orgf0f16dc"></a>Africa<br />
+<div class="outline-text-8" id="text-orgf0f16dc">
+<ul class="org-ul">
+<li>D. Walsh and J. Eligon, “Shunned by Others, Russia Finds Friends in Africa,” The New York Times, Mar. 03, 2022. Accessed: Mar. 12, 2022. [Online]. Available: <a href="https://www.nytimes.com/2022/03/03/world/africa/russia-ukraine-eritrea-africa.html">https://www.nytimes.com/2022/03/03/world/africa/russia-ukraine-eritrea-africa.html</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org62bec70"></a>Special Groups<br />
+<ul class="org-ul">
+<li><a id="org192eb00"></a>Senior Citizens<br /></li>
+<li><a id="org2f660ae"></a>Women<br /></li>
+<li><a id="org55e08a5"></a>Kids<br />
+<div class="outline-text-9" id="text-org55e08a5">
+<ul class="org-ul">
+<li><i>“How to talk to your kids about the war in Ukraine,”</i> Bulletin of the Atomic Scientists, Mar. 31, 2022. <a href="https://thebulletin.org/2022/03/how-to-talk-to-your-kids-about-the-war-in-ukraine/">https://thebulletin.org/2022/03/how-to-talk-to-your-kids-about-the-war-in-ukraine/</a> (accessed Apr. 02, 2022).</li>
+</ul>
+</div>
+</li>
+<li><a id="org1745e79"></a>Poor<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org4e15cfe"></a>Misc<br />
+<div class="outline-text-7" id="text-org4e15cfe">
+<ul class="org-ul">
+<li>“Video: Four years into Russia’s full-scale invasion, Ukrainian journalists from Sumy, Zaporizhzhia, Kharkiv and Crimea tell RSF about their fight to inform the public | RSF.” Accessed: Feb. 21, 2026. [Online]. Available: <a href="https://rsf.org/en/video-four-years-russia-s-full-scale-invasion-ukrainian-journalists-sumy-zaporizhzhia-kharkiv-and">https://rsf.org/en/video-four-years-russia-s-full-scale-invasion-ukrainian-journalists-sumy-zaporizhzhia-kharkiv-and</a></li>
+
+<li>“Another year of war in Ukraine: Energy grid attacks among Russia’s escalating crimes,” Greenpeace International. Accessed: Feb. 21, 2026. [Online]. Available: <a href="https://www.greenpeace.org/international/story/81580/russia-ukraine-war-invasion-energy-grid-attacks-russias-crimes/">https://www.greenpeace.org/international/story/81580/russia-ukraine-war-invasion-energy-grid-attacks-russias-crimes/</a></li>
+
+<li>“European powers arm Ukraine for missile strikes deep into Russia,” World Socialist Web Site. Accessed: Sep. 01, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/09/01/jhnj-s01.html">https://www.wsws.org/en/articles/2025/09/01/jhnj-s01.html</a></li>
+
+<li>“Is Peace Possible? Nation Publisher Katrina vanden Heuvel on Trump Summits with Putin, Zelensky,” Democracy Now! Accessed: Aug. 19, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/8/18/katrina_vanden_heuvel_russia_ukraine_trump">https://www.democracynow.org/2025/8/18/katrina_vanden_heuvel_russia_ukraine_trump</a></li>
+
+<li>“Will ‘Peace’ In Ukraine Also Bring a New Détente? - The Ron Paul Institute for Peace &amp; Prosperity,” <a href="https://ronpaulinstitute.org/">https://ronpaulinstitute.org/</a>. Accessed: Aug. 19, 2025. [Online]. Available: <a href="https://ronpaulinstitute.org/will-peace-in-ukraine-also-bring-a-new-detente/">https://ronpaulinstitute.org/will-peace-in-ukraine-also-bring-a-new-detente/</a></li>
+
+<li>“Ukraine war escalates, as Russia warns of nuclear war should peace talks fail,” World Socialist Web Site. Accessed: Jun. 11, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/06/11/mtgq-j11.html">https://www.wsws.org/en/articles/2025/06/11/mtgq-j11.html</a></li>
+
+<li>“NATO risks nuclear catastrophe with attack on Russian airports,” World Socialist Web Site. Accessed: Jun. 03, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/06/03/mrqg-j03.html">https://www.wsws.org/en/articles/2025/06/03/mrqg-j03.html</a></li>
+
+<li>F. Diaz-Maurin, “Has Trump flipped Ukraine … for Russia?,” Bulletin of the Atomic Scientists. Accessed: Mar. 04, 2025. [Online]. Available: <a href="https://thebulletin.org/2025/03/has-trump-flipped-ukraine-for-russia/">https://thebulletin.org/2025/03/has-trump-flipped-ukraine-for-russia/</a></li>
+
+<li>K. Krishnan, “Kavita Krishnan: One year after the Russian invasion, what should solidarity with Ukraine look like?,” Scroll.in. Accessed: Mar. 03, 2025. [Online]. Available: <a href="https://scroll.in/article/1044551/kavita-krishnan-one-year-after-the-russian-invasion-what-should-solidarity-with-ukraine-look-like">https://scroll.in/article/1044551/kavita-krishnan-one-year-after-the-russian-invasion-what-should-solidarity-with-ukraine-look-like</a></li>
+
+<li>T. Editors, “Ukraine, Russia, and the West: A Background Reading List,” JSTOR Daily. Accessed: Feb. 27, 2025. [Online]. Available: <a href="https://daily.jstor.org/ukraine-russia-and-the-west-a-background-reading-list/">https://daily.jstor.org/ukraine-russia-and-the-west-a-background-reading-list/</a></li>
+
+<li>Centre for Geopolitics, ‘Hubris: the Origins of Russia’s War Against Ukraine’. Jonathan Haslam talks about his new book, (Dec. 09, 2024). Accessed: Jan. 29, 2025. [Online Video]. Available: <a href="https://www.youtube.com/watch?v=dAfd1dOFgaA">https://www.youtube.com/watch?v=dAfd1dOFgaA</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Wall Street Journal: Ukrainian President Zelensky approved Nord Stream pipeline attack,” World Socialist Web Site. Accessed: Aug. 16, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/08/16/dibd-a16.html">https://www.wsws.org/en/articles/2024/08/16/dibd-a16.html</a></li>
+
+<li>N. N. Taleb, “A Clash of Two Systems,” INCERTO, Aug. 10, 2022. <a href="https://medium.com/incerto/a-clash-of-two-systems-47009e9715e2">https://medium.com/incerto/a-clash-of-two-systems-47009e9715e2</a> (accessed Nov. 11, 2022).</li>
+
+<li>“Putin’s psychology and nuclear weapons: the fundamentalist mindset,” Bulletin of the Atomic Scientists. <a href="https://thebulletin.org/premium/2022-11/putins-psychology-and-nuclear-weapons-the-fundamentalist-mindset/">https://thebulletin.org/premium/2022-11/putins-psychology-and-nuclear-weapons-the-fundamentalist-mindset/</a> (accessed Nov. 11, 2022).</li>
+
+<li>“Nuclear Notebook: How many nuclear weapons does Russia have in 2022?,” Bulletin of the Atomic Scientists. <a href="https://thebulletin.org/premium/2022-02/nuclear-notebook-how-many-nuclear-weapons-does-russia-have-in-2022/">https://thebulletin.org/premium/2022-02/nuclear-notebook-how-many-nuclear-weapons-does-russia-have-in-2022/</a> (accessed Oct. 02, 2022).</li>
+
+<li>E. English, “Fear and Loathing in Moscow: The Russian biological weapons program in 2022,” Bulletin of the Atomic Scientists, Oct. 05, 2022. <a href="https://thebulletin.org/2022/10/the-russian-biological-weapons-program-in-2022/">https://thebulletin.org/2022/10/the-russian-biological-weapons-program-in-2022/</a> (accessed Oct. 06, 2022).</li>
+
+<li>“Noam Chomsky &amp; Vijay Prashad on Ukraine, Why U.S. Must Negotiate with Russia &amp; What Media Gets Wrong,” Democracy Now! <a href="https://www.democracynow.org/2022/10/3/noam_chomsky_us_isolated_ukraine_war">https://www.democracynow.org/2022/10/3/noam_chomsky_us_isolated_ukraine_war</a> (accessed Oct. 10, 2022).</li>
+
+<li>J. McKenzie, “Water as weapon, and casualty, in Russia’s war on Ukraine,” Bulletin of the Atomic Scientists, Oct. 27, 2022. <a href="https://thebulletin.org/2022/10/water-as-weapon-and-casualty-in-russias-war-on-ukraine/">https://thebulletin.org/2022/10/water-as-weapon-and-casualty-in-russias-war-on-ukraine/</a> (accessed Oct. 28, 2022).</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>“Ukrainian Defiance: Snapshots of Experience - Ideas | Institute for Advanced Study,” Jul. 19, 2022. <a href="https://www.ias.edu/ideas/2022/ukrainian-defiance-snapshots-experience">https://www.ias.edu/ideas/2022/ukrainian-defiance-snapshots-experience</a> (accessed Jul. 24, 2022).</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>“Russia Bans Investigative News Outlets ‘Bellingcat’, ‘The Insider’, Labels Them a Security Threat,” The Wire. <a href="https://thewire.in/media/russia-bans-investigative-news-outlets-bellingcat-the-insider-labels-them-a-security-threat">https://thewire.in/media/russia-bans-investigative-news-outlets-bellingcat-the-insider-labels-them-a-security-threat</a> (accessed Jul. 16, 2022).</li>
+
+<li>“Copyleft Won’t Solve All Problems, Just Some of Them,” Software Freedom Conservancy. <a href="https://sfconservancy.org/blog/2022/mar/17/copyleft-ethical-source-putin-ukraine/">https://sfconservancy.org/blog/2022/mar/17/copyleft-ethical-source-putin-ukraine/</a> (accessed Jun. 08, 2022).</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>R. Guha, <b>“Ramachandra Guha: From Vietnam to Afghanistan, reminders that Great Power delusions do not end well,”</b> Scroll.in. <a href="https://scroll.in/article/1018265/ramachandra-guha-from-vietnam-to-afghanistan-a-reminder-that-great-power-delusions-do-not-end-well">https://scroll.in/article/1018265/ramachandra-guha-from-vietnam-to-afghanistan-a-reminder-that-great-power-delusions-do-not-end-well</a> (accessed Apr. 28, 2022).</li>
+
+<li>Newsroom, “The winner of the war: European identity based on values | eKathimerini.com.” <a href="https://www.ekathimerini.com/opinion/1181567/the-winner-of-the-war-european-identity-based-on-values/">https://www.ekathimerini.com/opinion/1181567/the-winner-of-the-war-european-identity-based-on-values/</a> (accessed Apr. 08, 2022).</li>
+
+<li>K. R. Eshwara, “Reading Ukraine: Six books that will help navigate the war and the reasons behind it,” Scroll.in. <a href="https://scroll.in/article/1019096/reading-ukraine-six-books-that-will-help-navigate-the-war-and-the-reasons-behind-it">https://scroll.in/article/1019096/reading-ukraine-six-books-that-will-help-navigate-the-war-and-the-reasons-behind-it</a> (accessed Mar. 13, 2022).</li>
+
+<li><b>“Our Ukraine,”</b> Dissent Magazine. <a href="https://www.dissentmagazine.org/online_articles/our-ukraine">https://www.dissentmagazine.org/online_articles/our-ukraine</a> (accessed Mar. 12, 2022).</li>
+<li>A. the S. O. H. O. H. is a journalist et al., “A strong civil society: the secret to Ukraine’s resistance,” Euromaidan Press, Mar. 01, 2022. <a href="https://euromaidanpress.com/2022/03/02/a-strong-civil-soviety-the-secret-to-ukraines-resistance/">https://euromaidanpress.com/2022/03/02/a-strong-civil-soviety-the-secret-to-ukraines-resistance/</a> (accessed Mar. 12, 2022).</li>
+<li>Y. N. Harari, “Why Vladimir Putin has already lost this war,” The Guardian, Feb. 28, 2022. Accessed: Mar. 12, 2022. [Online]. Available: <a href="https://www.theguardian.com/commentisfree/2022/feb/28/vladimir-putin-war-russia-ukraine">https://www.theguardian.com/commentisfree/2022/feb/28/vladimir-putin-war-russia-ukraine</a></li>
+<li>T. C. Frank Ledwidge, “Ukraine’s army is no match for Russia’s military might, but it can still hit Putin where it hurts,” Scroll.in. <a href="https://scroll.in/article/1018338/ukraines-army-is-no-match-for-russias-military-might-but-it-can-still-hit-putin-where-it-hurts">https://scroll.in/article/1018338/ukraines-army-is-no-match-for-russias-military-might-but-it-can-still-hit-putin-where-it-hurts</a> (accessed Mar. 12, 2022).</li>
+<li>T. C. &amp; N. V. K. Sarah Schiffling, <i>“Five essential commodities and services that will be hit by Russia’s war on Ukraine,”</i> Scroll.in. <a href="https://scroll.in/article/1018227/five-essential-commodities-and-services-that-will-be-hit-by-russias-war-on-ukraine">https://scroll.in/article/1018227/five-essential-commodities-and-services-that-will-be-hit-by-russias-war-on-ukraine</a> (accessed Mar. 12, 2022).</li>
+<li>B. Chellaney, “America Is Focusing on the Wrong Enemy | by Brahma Chellaney,” Project Syndicate, Feb. 14, 2022. <a href="https://www.project-syndicate.org/commentary/the-threat-to-us-global-leadership-is-china-not-russia-by-brahma-chellaney-2022-02">https://www.project-syndicate.org/commentary/the-threat-to-us-global-leadership-is-china-not-russia-by-brahma-chellaney-2022-02</a> (accessed Mar. 12, 2022).</li>
+<li>“FDD | Putin is not crazy and the Russian invasion is not failing. The West’s delusions about this war - and its failure to understand the enemy - will prevent it from saving Ukraine,” FDD, Mar. 02, 2022. <a href="https://www.dailymail.co.uk/news/article-10569141/Putin-NOT-crazy-Russian-invasion-NOT-failing-writes-military-analyst-BILL-ROGGIO.html?ns_mchannel=rss&amp;ns_campaign=1490&amp;ito=1490">https://www.dailymail.co.uk/news/article-10569141/Putin-NOT-crazy-Russian-invasion-NOT-failing-writes-military-analyst-BILL-ROGGIO.html?ns_mchannel=rss&amp;ns_campaign=1490&amp;ito=1490</a> (accessed Mar. 12, 2022).</li>
+<li>J. Scahill, “U.S. and NATO’s Unprecedented Weapons Transfers to Ukraine Could Prolong the War,” The Intercept, Mar. 10, 2022. <a href="https://theintercept.com/2022/03/10/ukraine-russia-nato-weapons/">https://theintercept.com/2022/03/10/ukraine-russia-nato-weapons/</a> (accessed Mar. 12, 2022).</li>
+<li>“The New Cold War Begins,” Open The Magazine, Mar. 04, 2022. <a href="https://openthemagazine.com/cover-stories/the-new-cold-war-begins/">https://openthemagazine.com/cover-stories/the-new-cold-war-begins/</a> (accessed Mar. 12, 2022).</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org10e1a8a"></a>Civil War<br />
+<div class="outline-text-6" id="text-4-3-4-1-2">
+<ul class="org-ul">
+<li>“Civil war,” Wikipedia. Oct. 21, 2022. Accessed: Nov. 10, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Civil_war&amp;oldid=1117436988">https://en.wikipedia.org/w/index.php?title=Civil_war&amp;oldid=1117436988</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>B. F. Walter, How Civil Wars Start: And How to Stop Them. Penguin UK, 2022.</li>
+
+<li>“‘These are conditions ripe for political violence’: how close is the US to civil war?,” The Observer, Nov. 06, 2022. Accessed: Nov. 10, 2022. [Online]. Available: <a href="https://www.theguardian.com/us-news/2022/nov/06/how-close-is-the-us-to-civil-war-barbara-f-walter-stephen-march-christopher-parker">https://www.theguardian.com/us-news/2022/nov/06/how-close-is-the-us-to-civil-war-barbara-f-walter-stephen-march-christopher-parker</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Civil War (song),” Wikipedia. Oct. 21, 2022. Accessed: Nov. 10, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Civil_War_(song)&amp;oldid=1117418812">https://en.wikipedia.org/w/index.php?title=Civil_War_(song)&amp;oldid=1117418812</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orga6e5aab"></a>Indochina Wars<br />
+<div class="outline-text-6" id="text-4-3-4-1-3">
+<ul class="org-ul">
+<li>“Indochina Wars,” Wikipedia. Dec. 06, 2022. Accessed: Dec. 11, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Indochina_Wars&amp;oldid=1125886537">https://en.wikipedia.org/w/index.php?title=Indochina_Wars&amp;oldid=1125886537</a></li>
+<li>“Indochina Wars – Travel guide at Wikivoyage.” <a href="https://en.wikivoyage.org/wiki/Indochina_Wars">https://en.wikivoyage.org/wiki/Indochina_Wars</a> (accessed Dec. 11, 2022).</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“Vietnam War,” Wikipedia. Dec. 09, 2022. Accessed: Dec. 11, 2022. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Vietnam_War&amp;oldid=1126391415">https://en.wikipedia.org/w/index.php?title=Vietnam_War&amp;oldid=1126391415</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orga5c5d9b"></a>World War 1<br /></li>
+<li><a id="orgbc7207b"></a>World War 2<br /></li>
+<li><a id="orgd59756b"></a>Cold War<br /></li>
+<li><a id="org00b25dd"></a>India Pak War<br />
+<ul class="org-ul">
+<li><a id="org22030d2"></a>General<br />
+<ul class="org-ul">
+<li><a id="org0b305bc"></a>Wikipedia<br />
+<div class="outline-text-8" id="text-org0b305bc">
+<ul class="org-ul">
+<li>“2025 India–Pakistan strikes,” Wikipedia. May 07, 2025. Accessed: May 07, 2025. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=2025_India%E2%80%93Pakistan_strikes&amp;oldid=1289211557">https://en.wikipedia.org/w/index.php?title=2025_India%E2%80%93Pakistan_strikes&amp;oldid=1289211557</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgfd29dcf"></a>X's AI, Google Gemini<br />
+<ul class="org-ul">
+<li><a id="org3b4651a"></a>STEMM<br />
+<ul class="org-ul">
+<li><a id="org22b5f9e"></a>Space, Earth, Life Sciences, Environment, Health, Misc<br />
+<div class="outline-text-9" id="text-org22b5f9e">
+<ul class="org-ul">
+<li>“India-Pakistan War: Environmental Impacts,” Google Docs. Accessed: May 08, 2025. [Online]. Available: <a href="https://docs.google.com/document/d/1M4qQ_b9DunKF7eqg_Z9BWFRdnKee0V0nPV4OQFW1c1g/edit?usp=drivesdk&amp;usp=embed_facebook">https://docs.google.com/document/d/1M4qQ_b9DunKF7eqg_Z9BWFRdnKee0V0nPV4OQFW1c1g/edit?usp=drivesdk&amp;usp=embed_facebook</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org74549a6"></a>Misc<br />
+<div class="outline-text-9" id="text-org74549a6">
+<ul class="org-ul">
+<li>“War Impact on India’s S&amp;T Development | Shared Grok Conversation.” Accessed: Apr. 28, 2025. [Online]. Available: <a href="https://grok.com/share/c2hhcmQtMg%3D%3D_878304cd-59f3-4cb8-b9ff-1df5634d9d50">https://grok.com/share/c2hhcmQtMg%3D%3D_878304cd-59f3-4cb8-b9ff-1df5634d9d50</a></li>
+<li>“War’s Impact on Indian Science,” Google Docs. Accessed: Apr. 28, 2025. [Online]. Available: <a href="https://docs.google.com/document/d/151gs0K2m21RzOgfow3OdXpGQe5g5Vy7BkvPKoSvbwBQ/edit?usp=drivesdk&amp;usp=embed_facebook">https://docs.google.com/document/d/151gs0K2m21RzOgfow3OdXpGQe5g5Vy7BkvPKoSvbwBQ/edit?usp=drivesdk&amp;usp=embed_facebook</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgc961196"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="org243150b"></a>Economics<br />
+<div class="outline-text-9" id="text-org243150b">
+<ul class="org-ul">
+<li>“What will be the impact of India Pakistan war on Indian, global economy. How will it impact the financial interests of the richest 1 and the richest 10 percent,” X (formerly Twitter). Accessed: Apr. 27, 2025. [Online]. Available: <a href="https://x.com/i/grok/share/wzbe1huynqvztflsm2ynl1n6q">https://x.com/i/grok/share/wzbe1huynqvztflsm2ynl1n6q</a></li>
+<li>“India-Pakistan War Economic Impact,” Google Docs. Accessed: Apr. 27, 2025. [Online]. Available: <a href="https://docs.google.com/document/d/1q647aaKiZ_G0Gn0a5gjWNHuJe7lwqRppzBQtEu_icJ0/edit?usp=drivesdk&amp;usp=embed_facebook">https://docs.google.com/document/d/1q647aaKiZ_G0Gn0a5gjWNHuJe7lwqRppzBQtEu_icJ0/edit?usp=drivesdk&amp;usp=embed_facebook</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgaca802b"></a>Security Studies, Misc<br />
+<div class="outline-text-9" id="text-orgaca802b">
+<ul class="org-ul">
+<li>“India-Pakistan War: Military Impact,” Google Docs. Accessed: May 08, 2025. [Online]. Available: <a href="https://docs.google.com/document/d/1li_U75i58oJDd7hbkorki13pnwc0_PIVHrAKIdSYxKU/edit?usp=drivesdk&amp;usp=embed_facebook">https://docs.google.com/document/d/1li_U75i58oJDd7hbkorki13pnwc0_PIVHrAKIdSYxKU/edit?usp=drivesdk&amp;usp=embed_facebook</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgea06020"></a>Misc<br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="org4ab8aa3"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="orgee49cfc"></a>World Socialist Web Site<br />
+<div class="outline-text-8" id="text-orgee49cfc">
+<ul class="org-ul">
+<li>“South Asian confrontation escalates as Indian airstrikes hit inside Pakistan,” World Socialist Web Site. Accessed: May 07, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/05/07/lwhd-m07.html">https://www.wsws.org/en/articles/2025/05/07/lwhd-m07.html</a></li>
+<li>“Pakistan warns Indian military strike ‘imminent,’ as tensions between South Asia’s rival nuclear-armed powers flare,” World Socialist Web Site. Accessed: Apr. 30, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/04/30/nlsi-a30.html">https://www.wsws.org/en/articles/2025/04/30/nlsi-a30.html</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org9d2e623"></a>Middle East Eye<br />
+<div class="outline-text-8" id="text-org9d2e623">
+<ul class="org-ul">
+<li>“India launches military strikes on Pakistan,” Middle East Eye. Accessed: May 07, 2025. [Online]. Available: <a href="https://www.middleeasteye.net/news/india-launches-military-strikes-pakistan">https://www.middleeasteye.net/news/india-launches-military-strikes-pakistan</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org61290b6"></a>The Conversation<br />
+<div class="outline-text-8" id="text-org61290b6">
+<ul class="org-ul">
+<li>A. Saikal, “India and Pakistan are on war footing. Can they be brought back from the brink?,” The Conversation. Accessed: Apr. 30, 2025. [Online]. Available: <a href="http://theconversation.com/india-and-pakistan-are-on-war-footing-can-they-be-brought-back-from-the-brink-255504">http://theconversation.com/india-and-pakistan-are-on-war-footing-can-they-be-brought-back-from-the-brink-255504</a></li>
+<li>I. Hall, “India and Pakistan have fought many wars in the past. Are we on the precipice of a new one?,” The Conversation. Accessed: May 07, 2025. [Online]. Available: <a href="http://theconversation.com/india-and-pakistan-have-fought-many-wars-in-the-past-are-we-on-the-precipice-of-a-new-one-256080">http://theconversation.com/india-and-pakistan-have-fought-many-wars-in-the-past-are-we-on-the-precipice-of-a-new-one-256080</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orge754e96"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="org7feceb7"></a>Misc<br />
+<div class="outline-text-6" id="text-4-3-4-1-8">
+<ul class="org-ul">
+<li>“Timeline of thirty years of war: The historical background to the US-NATO conflict with Russia,” World Socialist Web Site. Accessed: May 22, 2024. [Online]. Available: <a href="https://www.wsws.org/en/special/pages/background-ukraine-russia-war.html">https://www.wsws.org/en/special/pages/background-ukraine-russia-war.html</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div id="outline-container-org22009e7" class="outline-4">
+<h4 id="org22009e7"><span class="section-number-4">4.3.5.</span> Arts</h4>
+<div class="outline-text-4" id="text-4-3-5">
+</div>
+<ol class="org-ol">
+<li><a id="orga1db146"></a>Music<br />
+<div class="outline-text-5" id="text-4-3-5-1">
+<ul class="org-ul">
+<li>Wars - Music:</li>
+</ul>
+</div>
+</li>
+<li><a id="org8bc0d16"></a>Films<br />
+<ol class="org-ol">
+<li><a id="org8663573"></a>General<br />
+<div class="outline-text-6" id="text-4-3-5-2-1">
+<ul class="org-ul">
+<li>“War film,” Wikipedia. Nov. 04, 2024. Accessed: Jan. 07, 2025. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=War_film&amp;oldid=1255348178">https://en.wikipedia.org/w/index.php?title=War_film&amp;oldid=1255348178</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org11af6cb"></a>Misc<br />
+<div class="outline-text-6" id="text-4-3-5-2-2">
+<ul class="org-ul">
+<li>Schindler's List</li>
+<li>Inglourious Basterds</li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org430261f"></a>Literature<br />
+<div class="outline-text-5" id="text-4-3-5-3">
+<ul class="org-ul">
+<li>J. Stallworthy, Ed., The New Oxford Book of War Poetry, 2nd edition. New York, NY: OUP Oxford, 2015.</li>
+</ul>
+</div>
+</li>
+<li><a id="org81b41b5"></a>Misc<br />
+<div class="outline-text-5" id="text-4-3-5-4">
+<ul class="org-ul">
+<li>“Photo London 2025: The enduring significance of Lee Miller’s war photography,” World Socialist Web Site. Accessed: May 26, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/05/25/jloo-m25.html">https://www.wsws.org/en/articles/2025/05/25/jloo-m25.html</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org7976d0b" class="outline-4">
+<h4 id="org7976d0b"><span class="section-number-4">4.3.6.</span> Special Topics</h4>
+</div>
+<div id="outline-container-org25020de" class="outline-4">
+<h4 id="org25020de"><span class="section-number-4">4.3.7.</span> Misc</h4>
+<div class="outline-text-4" id="text-4-3-7">
+<ul class="org-ul">
+<li>S. F. Eisenman, “Images of Surrender,” CounterPunch.org. Accessed: Jul. 04, 2026. [Online]. Available: <a href="https://www.counterpunch.org/2026/07/03/images-of-surrender/">https://www.counterpunch.org/2026/07/03/images-of-surrender/</a></li>
+
+<li>“What Ukrainian war widows know about love and loss | Aeon Essays.” Accessed: Jul. 04, 2026. [Online]. Available: <a href="https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss">https://aeon.co/essays/what-ukrainian-war-widows-know-about-love-and-loss</a></li>
+
+<li>“Profiting From Atrocities: The Russian Civilians Running a Lucrative Market for War Snuff,” OCCRP. Accessed: Mar. 20, 2026. [Online]. Available: <a href="https://www.occrp.org/en/news/profiting-from-atrocities-the-russian-civilians-running-a-lucrative-market-for-war-snuff">https://www.occrp.org/en/news/profiting-from-atrocities-the-russian-civilians-running-a-lucrative-market-for-war-snuff</a></li>
+
+<li>“Global Newsletter #105: War and fossil fuels,” Extinction Rebellion. Accessed: Mar. 20, 2026. [Online]. Available: <a href="https://rebellion.global/blog/2026/03/16/global-newsletter-105/">https://rebellion.global/blog/2026/03/16/global-newsletter-105/</a></li>
+
+<li>“Global Newsletter #105: War and fossil fuels,” Extinction Rebellion. Accessed: Mar. 19, 2026. [Online]. Available: <a href="https://rebellion.global/blog/2026/03/16/global-newsletter-105/">https://rebellion.global/blog/2026/03/16/global-newsletter-105/</a></li>
+
+<li>paco, “We Will Flourish, Because War Cannot End Our Roots,” Regeneration International. Accessed: Feb. 17, 2026. [Online]. Available: <a href="https://regenerationinternational.org/2026/02/16/we-will-flourish-because-war-cannot-end-our-roots/">https://regenerationinternational.org/2026/02/16/we-will-flourish-because-war-cannot-end-our-roots/</a></li>
+
+<li>“How MIT’s 10th president shaped the Cold War,” MIT News | Massachusetts Institute of Technology. Accessed: Feb. 09, 2026. [Online]. Available: <a href="https://news.mit.edu/2026/how-mits-10th-president-shaped-cold-war-0209">https://news.mit.edu/2026/how-mits-10th-president-shaped-cold-war-0209</a></li>
+
+<li>S. Horton, “Brecht ‘To Those Who Follow in Our Wake,’” Harper’s Magazine, Jan. 15, 2008. Accessed: Aug. 12, 2025. [Online]. Available: <a href="https://harpers.org/2008/01/brecht-to-those-who-follow-in-our-wake/">https://harpers.org/2008/01/brecht-to-those-who-follow-in-our-wake/</a></li>
+
+<li>“Trump announces US submarine deployments in nuclear war threat against Russia,” World Socialist Web Site. Accessed: Aug. 05, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/08/04/lmvv-a04.html">https://www.wsws.org/en/articles/2025/08/04/lmvv-a04.html</a></li>
+
+<li>K. Roy, Unconventional Warfare in South Asia, 1947 to the Present, 1st edition. Farnham: Ashgate Publishing Limited, 2011.</li>
+
+<li>“No War | Reading List,” Verso. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://www.versobooks.com/en-gb/blogs/news/war">https://www.versobooks.com/en-gb/blogs/news/war</a></li>
+
+<li>“Former head of the British Army General Patrick Sanders declares ‘realistic possibility’ of war with Russia within five years,” World Socialist Web Site. Accessed: Jul. 16, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/07/15/kpiw-j15.html">https://www.wsws.org/en/articles/2025/07/15/kpiw-j15.html</a></li>
+
+<li>“Nato summit in The Hague: a milestone on the way to a third world war,” World Socialist Web Site. Accessed: Jun. 26, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/06/26/c778-j26.html">https://www.wsws.org/en/articles/2025/06/26/c778-j26.html</a></li>
+
+<li>“This Reporter Exposed the Civilian Toll of US Airstrikes. Her Warning: Be Ready for a More Hostile World.” Accessed: Jun. 20, 2025. [Online]. Available: <a href="https://gijn.org/stories/azmat-khan-investigating-airstrikes/">https://gijn.org/stories/azmat-khan-investigating-airstrikes/</a></li>
+
+<li>N. N. Bhriain, “The EU is on a War Path | Transnational Institute.” Accessed: Jun. 12, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/the-eu-is-on-a-war-path">https://www.tni.org/en/article/the-eu-is-on-a-war-path</a></li>
+
+<li>“GDAMS 2025 Appeal | Transnational Institute.” Accessed: May 30, 2025. [Online]. Available: <a href="https://www.tni.org/en/article/gdams-2025-appeal">https://www.tni.org/en/article/gdams-2025-appeal</a></li>
+
+<li>“Lisa Natividad: NATO Is Destroying My Island for Its War Games | Transnational Institute.” Accessed: May 30, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/lisa-natividad-nato-is-destroying-my-island-for-its-war-games">https://www.tni.org/en/video/lisa-natividad-nato-is-destroying-my-island-for-its-war-games</a></li>
+<li>P. Bennis, “Phyllis Bennis on The NATO Lie: The War Machine Is Out of Control | Transnational Institute.” Accessed: May 30, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/phyllis-bennis-on-the-nato-lie-the-war-machine-is-out-of-control">https://www.tni.org/en/video/phyllis-bennis-on-the-nato-lie-the-war-machine-is-out-of-control</a></li>
+<li>“Sami Ramadani: The Same Bombs, the Same Lies — Iraq, Gaza, and the Business of Death | Transnational Institute.” Accessed: May 30, 2025. [Online]. Available: <a href="https://www.tni.org/en/video/sami-ramadani-the-same-bombs-the-same-lies-iraq-gaza-and-the-business-of-death">https://www.tni.org/en/video/sami-ramadani-the-same-bombs-the-same-lies-iraq-gaza-and-the-business-of-death</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“What a history of underground parking reveals about postwar policy | Aeon Essays,” Aeon. Accessed: May 16, 2025. [Online]. Available: <a href="https://aeon.co/essays/what-a-history-of-underground-parking-reveals-about-postwar-policy">https://aeon.co/essays/what-a-history-of-underground-parking-reveals-about-postwar-policy</a></li>
+
+<li>“India, Pakistan, Nuclear UK Attack,” Google Docs. Accessed: May 14, 2025. [Online]. Available: <a href="https://docs.google.com/document/d/1eFir0XEgQPa1cBBWpOM0IGqpoyVKkB2uT6FWcBArl-Q/edit?usp=drivesdk&amp;usp=embed_facebook">https://docs.google.com/document/d/1eFir0XEgQPa1cBBWpOM0IGqpoyVKkB2uT6FWcBArl-Q/edit?usp=drivesdk&amp;usp=embed_facebook</a></li>
+
+<li>F. Diaz-Maurin, “How impossible is the risk of nuclear escalation in Ukraine?,” Bulletin of the Atomic Scientists. Accessed: Dec. 25, 2024. [Online]. Available: <a href="https://thebulletin.org/2024/12/how-impossible-is-the-risk-of-nuclear-escalation-in-ukraine/">https://thebulletin.org/2024/12/how-impossible-is-the-risk-of-nuclear-escalation-in-ukraine/</a></li>
+
+<li>A. H. Sasser Sydney, “How Universities Are Trying to Stop Another Year of Anti-War Activism,” The Intercept. Accessed: Dec. 03, 2024. [Online]. Available: <a href="https://theintercept.com/2024/12/02/universities-activism-gaza-protests/">https://theintercept.com/2024/12/02/universities-activism-gaza-protests/</a></li>
+
+<li>“How a Cold War underground university smuggled in Western ideas | Aeon Essays,” Aeon. Accessed: Nov. 30, 2024. [Online]. Available: <a href="https://aeon.co/essays/how-a-cold-war-underground-university-smuggled-in-western-ideas">https://aeon.co/essays/how-a-cold-war-underground-university-smuggled-in-western-ideas</a></li>
+
+<li>Lea, “War’s hidden toll: How scientists are confronting the environmental devastation left in conflict’s wake,” International Science Council. Accessed: Nov. 07, 2024. [Online]. Available: <a href="https://council.science/blog/wars-hidden-toll-how-scientists-are-confronting-the-environmental-devastation-left-in-conflicts-wake/">https://council.science/blog/wars-hidden-toll-how-scientists-are-confronting-the-environmental-devastation-left-in-conflicts-wake/</a></li>
+
+<li>“Israeli strikes on Iran: A dress rehearsal for a wider war,” World Socialist Web Site. Accessed: Oct. 31, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/10/31/jsor-o31.html">https://www.wsws.org/en/articles/2024/10/31/jsor-o31.html</a></li>
+
+<li>“Biden Backs Israel’s Threat to Retaliate After Iranian Missile Attack,” Democracy Now! Accessed: Oct. 03, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/10/2/iran_missile_attack_israel_middle_east">https://www.democracynow.org/2024/10/2/iran_missile_attack_israel_middle_east</a></li>
+
+<li>M. D’Eramo, “Sleepwalking Elites,” NLR/Sidecar, 14:01:30 UTC, Accessed: Sep. 17, 2024. [Online]. Available: <a href="https://newleftreview.org/sidecar/posts/sleepwalking-elites">https://newleftreview.org/sidecar/posts/sleepwalking-elites</a></li>
+
+<li>G. Navlakha, War &amp; Politics. Kolkata: Setu, 2016.</li>
+
+<li>“NATO’s Endgame Is Nuclear War,” Compact. Accessed: Jun. 25, 2024. [Online]. Available: <a href="https://www.compactmag.com/article/natos-endgame-is-nuclear-war/">https://www.compactmag.com/article/natos-endgame-is-nuclear-war/</a></li>
+
+<li>“G7 leaders plot escalation of world war and promotion of far right at Italian luxury resort,” World Socialist Web Site. Accessed: Jun. 14, 2024. [Online]. Available: <a href="https://www.wsws.org/en/articles/2024/06/14/mbbw-j14.html">https://www.wsws.org/en/articles/2024/06/14/mbbw-j14.html</a></li>
+
+<li>M. Richardson, Nonhuman Witnessing: War, Data, and Ecology after the End of the World. Duke University Press Books, 2024.</li>
+
+<li>B. Magner, “Catherine McKinnon’s panoramic new novel presents a gritty view of war’s complexities,” The Conversation. Accessed: May 29, 2024. [Online]. Available: <a href="http://theconversation.com/catherine-mckinnons-panoramic-new-novel-presents-a-gritty-view-of-wars-complexities-228895">http://theconversation.com/catherine-mckinnons-panoramic-new-novel-presents-a-gritty-view-of-wars-complexities-228895</a></li>
+
+<li>B. F. Braumoeller, <b>Only the Dead: The Persistence of War in the Modern Age.</b> Oxford University Press, 2019.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org59e3e88" class="outline-3">
+<h3 id="org59e3e88"><span class="section-number-3">4.4.</span> Murders</h3>
+<div class="outline-text-3" id="text-4-4">
+</div>
+<div id="outline-container-org0d33c05" class="outline-4">
+<h4 id="org0d33c05"><span class="section-number-4">4.4.1.</span> General</h4>
+</div>
+<div id="outline-container-orgf4cb775" class="outline-4">
+<h4 id="orgf4cb775"><span class="section-number-4">4.4.2.</span> STEMM</h4>
+<div class="outline-text-4" id="text-4-4-2">
+</div>
+<ol class="org-ol">
+<li><a id="orge5483c9"></a>Misc<br /></li>
+</ol>
+</div>
+<div id="outline-container-org09366ed" class="outline-4">
+<h4 id="org09366ed"><span class="section-number-4">4.4.3.</span> Worldly Matters</h4>
+<div class="outline-text-4" id="text-4-4-3">
+</div>
+<ol class="org-ol">
+<li><a id="org3807bf6"></a>Nation States<br />
+<ol class="org-ol">
+<li><a id="org84861d9"></a>India<br />
+<ul class="org-ul">
+<li><a id="org26f72c2"></a>General<br /></li>
+<li><a id="org96f06eb"></a>STEMM<br />
+<ul class="org-ul">
+<li><a id="orgb7e28d0"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="org97c9c36"></a>Worldly Matters<br />
+<ul class="org-ul">
+<li><a id="orga2e928a"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="org6934e7c"></a>Arts<br />
+<ul class="org-ul">
+<li><a id="org6a16429"></a>Misc<br /></li>
+</ul>
+</li>
+<li><a id="orge12a198"></a>Special Topics<br /></li>
+<li><a id="org9514c3c"></a>Misc<br />
+<div class="outline-text-7" id="text-org9514c3c">
+<ul class="org-ul">
+<li>“‘Honour Killings’ in the Land of Social Justice | Economic and Political Weekly.” Accessed: Aug. 12, 2025. [Online]. Available: <a href="https://www.epw.in/journal/2025/32/editorials/honour-killings-land-social-justice.html">https://www.epw.in/journal/2025/32/editorials/honour-killings-land-social-justice.html</a></li>
+</ul>
+
+<ul class="org-ul">
+<li>“The Deadly Dozen: India’s Most Notorious Serial Killers,” Wikipedia. Sep. 18, 2023. Accessed: Oct. 13, 2023. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=The_Deadly_Dozen:_India%27s_Most_Notorious_Serial_Killers&amp;oldid=1175946711">https://en.wikipedia.org/w/index.php?title=The_Deadly_Dozen:_India%27s_Most_Notorious_Serial_Killers&amp;oldid=1175946711</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a id="orge3a9668"></a>Misc<br />
+<div class="outline-text-5" id="text-4-4-3-2">
+<ul class="org-ul">
+<li>“&lt;em&gt;Grenfell&lt;/em&gt; &lt;em&gt;Uncovered: &lt;/em&gt;A moving cry for justice for the mass murder committed by a money-mad ruling class,” World Socialist Web Site. Accessed: Jun. 28, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/06/27/iivn-j27.html">https://www.wsws.org/en/articles/2025/06/27/iivn-j27.html</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org5c7a713" class="outline-4">
+<h4 id="org5c7a713"><span class="section-number-4">4.4.4.</span> Arts</h4>
+<div class="outline-text-4" id="text-4-4-4">
+</div>
+<ol class="org-ol">
+<li><a id="org48f3ad6"></a>Misc<br /></li>
+</ol>
+</div>
+<div id="outline-container-orgc8d8088" class="outline-4">
+<h4 id="orgc8d8088"><span class="section-number-4">4.4.5.</span> Special Topics</h4>
+<div class="outline-text-4" id="text-4-4-5">
+</div>
+<ol class="org-ol">
+<li><a id="org8391226"></a>Suicide<br />
+<div class="outline-text-5" id="text-4-4-5-1">
+<ul class="org-ul">
+<li>Suicide: <a href="https://tinyurl.com/pz26nkv9">https://tinyurl.com/pz26nkv9</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org4322b79" class="outline-4">
+<h4 id="org4322b79"><span class="section-number-4">4.4.6.</span> Misc</h4>
+<div class="outline-text-4" id="text-4-4-6">
+<ul class="org-ul">
+<li>“Filicide,” Wikipedia. Jan. 21, 2024. Accessed: Mar. 01, 2024. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Filicide&amp;oldid=1197614156">https://en.wikipedia.org/w/index.php?title=Filicide&amp;oldid=1197614156</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7c4e314" class="outline-2">
+<h2 id="org7c4e314"><span class="section-number-2">5.</span> Special Topics</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org10fa453" class="outline-3">
+<h3 id="org10fa453"><span class="section-number-3">5.1.</span> Classics</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>C. Clausewitz, <i>On War.</i> Penguin UK, 2003.</li>
+<li>S. Tzu, <i>The Art of War.</i> Race Point Publishing, 2017.</li>
+<li>A. Ghose, <i>The Human Cycle, The Ideal of Human Unity, War and Self-Determination</i>, Sri Aurobindo Ashram Press, Pondicherry.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc26951b" class="outline-3">
+<h3 id="orgc26951b"><span class="section-number-3">5.2.</span> Peace</h3>
+<div class="outline-text-3" id="text-5-2">
+</div>
+<div id="outline-container-org3db10cf" class="outline-4">
+<h4 id="org3db10cf"><span class="section-number-4">5.2.1.</span> General</h4>
+<div class="outline-text-4" id="text-5-2-1">
+<ul class="org-ul">
+<li>“Peace and conflict studies,” Wikipedia. Feb. 28, 2024. Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Peace_and_conflict_studies&amp;oldid=1210811461">https://en.wikipedia.org/w/index.php?title=Peace_and_conflict_studies&amp;oldid=1210811461</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc6e4974" class="outline-4">
+<h4 id="orgc6e4974"><span class="section-number-4">5.2.2.</span> Philosophy</h4>
+<div class="outline-text-4" id="text-5-2-2">
+</div>
+<ol class="org-ol">
+<li><a id="org2ed1092"></a>Misc<br /></li>
+</ol>
+</div>
+<div id="outline-container-org670c540" class="outline-4">
+<h4 id="org670c540"><span class="section-number-4">5.2.3.</span> STEMM</h4>
+<div class="outline-text-4" id="text-5-2-3">
+</div>
+<ol class="org-ol">
+<li><a id="orgd07df83"></a>Computer Science And Engineering<br />
+<ol class="org-ol">
+<li><a id="orgde8794d"></a>AI<br />
+<div class="outline-text-6" id="text-5-2-3-1-1">
+<ul class="org-ul">
+<li>“AI for Peace,” Routledge &amp; CRC Press. Accessed: May 24, 2024. [Online]. Available: <a href="https://www.routledge.com/AI-for-Peace/Panic-Arthur/p/book/9781032418377">https://www.routledge.com/AI-for-Peace/Panic-Arthur/p/book/9781032418377</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org62eab2d"></a>Misc<br />
+<div class="outline-text-5" id="text-5-2-3-2">
+<ul class="org-ul">
+<li>A. Meston, “International Science Council Statement on the occasion of the United Nations International Day of Living Together in Peace,” International Science Council. Accessed: May 17, 2024. [Online]. Available: <a href="https://council.science/current/press/international-science-council-statement-on-the-occasion-of-the-united-nations-international-day-of-living-together-in-peace/">https://council.science/current/press/international-science-council-statement-on-the-occasion-of-the-united-nations-international-day-of-living-together-in-peace/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org89ecf08" class="outline-4">
+<h4 id="org89ecf08"><span class="section-number-4">5.2.4.</span> Worldly Matters</h4>
+<div class="outline-text-4" id="text-5-2-4">
+</div>
+<ol class="org-ol">
+<li><a id="org1e24c5b"></a>Space and Time<br /></li>
+<li><a id="org350e5e6"></a>Space, Earth, Life Sciences, Environment, Health, Misc<br /></li>
+<li><a id="orga0e84ba"></a>Religions, Spirituality, Misc<br />
+<ol class="org-ol">
+<li><a id="orga06fe38"></a>Stereotypically Related Religions<br />
+<ul class="org-ul">
+<li><a id="orgc27a182"></a>Jainism<br />
+<div class="outline-text-7" id="text-orgc27a182">
+<ul class="org-ul">
+<li>Misc Tiny URLs - Jainism: <a href="https://tinyurl.com/463juz9h">https://tinyurl.com/463juz9h</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org361ec26"></a>Buddhism<br />
+<ul class="org-ul">
+<li><a id="org9422019"></a>General<br />
+<div class="outline-text-8" id="text-org9422019">
+<ul class="org-ul">
+<li>Misc Tiny URLs - Buddhism: <a href="https://tinyurl.com/muw5wwhc">https://tinyurl.com/muw5wwhc</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org862c375"></a>Peace, Buddhism<br />
+<ul class="org-ul">
+<li><a id="org8516a92"></a>General<br /></li>
+<li><a id="orgc0badad"></a>Texts<br />
+<div class="outline-text-9" id="text-orgc0badad">
+<ul class="org-ul">
+<li>P. Press, Ed., True Peace Work: Essential Writings on Engaged Buddhism. Erscheinungsort nicht ermittelbar: Parallax Press, 2019.</li>
+<li>T. N. Hanh and J. Goodall, Being Peace. Parallax Press, 2020.</li>
+<li>J. H. Roshi and V. Straus, Buddhist Peacework: Creating Cultures of Peace. Somerville, Mass: Wisdom Publications, 2000.</li>
+<li>K. Kraft, Ed., Inner Peace, World Peace: Essays on Buddhism and Nonviolence. Albany, NY: State Univ of New York Pr, 1992.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgf8160ef"></a>Misc<br />
+<div class="outline-text-9" id="text-orgf8160ef">
+<ul class="org-ul">
+<li>N. Swann, “Where did Buddhism get its reputation for peace?,” The Conversation. Accessed: Apr. 28, 2025. [Online]. Available: <a href="http://theconversation.com/where-did-buddhism-get-its-reputation-for-peace-157206">http://theconversation.com/where-did-buddhism-get-its-reputation-for-peace-157206</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a id="orgcea81ed"></a>Hypocritically Related Religions<br />
+<ul class="org-ul">
+<li><a id="orga8b87c4"></a>Christianity<br />
+<div class="outline-text-7" id="text-orga8b87c4">
+<ul class="org-ul">
+<li>Misc Tiny URLs - Christianity: <a href="https://tinyurl.com/37erevrj">https://tinyurl.com/37erevrj</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a id="orgbff9ac2"></a>Humanities, Misc<br />
+<ol class="org-ol">
+<li><a id="orga894b68"></a>People<br />
+<ul class="org-ul">
+<li><a id="org1eda022"></a>Johan Galtung<br />
+<ul class="org-ul">
+<li><a id="org2db5d93"></a>General<br />
+<div class="outline-text-8" id="text-org2db5d93">
+<ul class="org-ul">
+<li>“Johan Galtung,” Wikipedia. Feb. 23, 2024. Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Johan_Galtung&amp;oldid=1209760228">https://en.wikipedia.org/w/index.php?title=Johan_Galtung&amp;oldid=1209760228</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgff4d681"></a>Interviews<br />
+<div class="outline-text-8" id="text-orgff4d681">
+<ul class="org-ul">
+<li>“Shows featuring Johan Galtung,” Democracy Now! Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://www.democracynow.org/appearances/johan_galtung">https://www.democracynow.org/appearances/johan_galtung</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orge65648b"></a>Works<br />
+<div class="outline-text-8" id="text-orge65648b">
+<ul class="org-ul">
+<li>J. Galtung and D. Fischer, Johan Galtung: Pioneer of Peace Research: 5, 2013th edition. Heidelberg New York, NY Dordrecht London: Springer-Verlag Berlin and Heidelberg GmbH &amp; Co. K, 2013.</li>
+
+<li>J. Galtung and D. Ikeda, Choose Peace: A Dialogue Between Johan Galtung and Daisaku Ikeda. London: Pluto Press, 1995.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgb55dbbd"></a>Misc<br />
+<div class="outline-text-8" id="text-orgb55dbbd">
+<ul class="org-ul">
+<li>“Johan Galtung, ‘Father of Peace and Conflict Studies,’ Dies at 93,” Democracy Now! Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/2/26/headlines/johan_galtung_father_of_peace_and_conflict_studies_dies_at_93">https://www.democracynow.org/2024/2/26/headlines/johan_galtung_father_of_peace_and_conflict_studies_dies_at_93</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“New special issue on Johan Galtung’s intellectual legacy – Peace Research Institute Oslo (PRIO).” Accessed: Jul. 01, 2026. [Online]. Available: <a href="https://www.prio.org/news/3731">https://www.prio.org/news/3731</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="orgd7d10ee"></a>Gandhi Ji<br />
+<div class="outline-text-7" id="text-orgd7d10ee">
+<ul class="org-ul">
+<li><b>Gandhi Ji</b>: <a href="https://tinyurl.com/352wnnmj">https://tinyurl.com/352wnnmj</a>
+<ul class="org-ul">
+<li>Gandhi Ji - Music: <a href="https://tinyurl.com/mrkjs829">https://tinyurl.com/mrkjs829</a></li>
+</ul></li>
+</ul>
+</div>
+</li>
+<li><a id="org6f79428"></a>Misc<br /></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><a id="orgc941c99"></a>SocioPolitical Studies, Law, Misc<br />
+<ol class="org-ol">
+<li><a id="org8004b1a"></a>Orgs<br />
+<div class="outline-text-6" id="text-5-2-4-5-1">
+<ul class="org-ul">
+<li>“Peace Research Institute Oslo,” Wikipedia. Jan. 01, 2024. Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Peace_Research_Institute_Oslo&amp;oldid=1192990088">https://en.wikipedia.org/w/index.php?title=Peace_Research_Institute_Oslo&amp;oldid=1192990088</a></li>
+<li>“Home – Peace Research Institute Oslo (PRIO).” Accessed: Feb. 29, 2024. [Online]. Available: <a href="https://www.prio.org/">https://www.prio.org/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“War Resisters’ International,” War Resisters’ International. Accessed: Oct. 03, 2024. [Online]. Available: <a href="https://wri-irg.orgwww.wri-irg.org">https://wri-irg.orgwww.wri-irg.org</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgac60cec"></a>Events<br />
+<ul class="org-ul">
+<li><a id="orgdf2e2ce"></a>IPD<br />
+<div class="outline-text-7" id="text-orgdf2e2ce">
+<ul class="org-ul">
+<li><i>“International Day of Peace,”</i> Wikipedia. Oct. 04, 2021. Accessed: Oct. 06, 2021. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=International_Day_of_Peace&amp;oldid=1048233884">https://en.wikipedia.org/w/index.php?title=International_Day_of_Peace&amp;oldid=1048233884</a></li>
+<li>U. Nations, “International Day of Peace,” United Nations. Accessed: Sep. 21, 2025. [Online]. Available: <a href="https://www.un.org/en/observances/international-day-peace">https://www.un.org/en/observances/international-day-peace</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a id="org8ae22ff"></a>Feminism, Women Studies, Misc<br />
+<div class="outline-text-6" id="text-5-2-4-5-3">
+<ul class="org-ul">
+<li>“Women in Multilateral Peace Operations in 2025: What is the State of Play?,” SIPRI, Oct. 2025. Accessed: Oct. 21, 2025. [Online]. Available: <a href="https://www.sipri.org/publications/2025/other-publications/women-multilateral-peace-operations-2025-what-state-play">https://www.sipri.org/publications/2025/other-publications/women-multilateral-peace-operations-2025-what-state-play</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org4cbf861"></a>Business Studies, Misc<br />
+<ol class="org-ol">
+<li><a id="orgbb54a0f"></a>Economics, Misc<br />
+<div class="outline-text-6" id="text-5-2-4-6-1">
+<ul class="org-ul">
+<li>“The Economics of War &amp; Peace,” Institute for New Economic Thinking. Accessed: Oct. 23, 2025. [Online]. Available: <a href="https://www.ineteconomics.org/perspectives/videos/war">https://www.ineteconomics.org/perspectives/videos/war</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="orga84e530"></a>Security Studies, Misc<br /></li>
+<li><a id="org6c887f7"></a>Communication, Misc<br /></li>
+<li><a id="orge0723fa"></a>Misc<br />
+<div class="outline-text-5" id="text-5-2-4-9">
+<ul class="org-ul">
+<li>“Satellites for Peace: An Idea Whose Time Has Come – Peace Research Institute Oslo (PRIO).” Accessed: Jul. 04, 2026. [Online]. Available: <a href="https://www.prio.org/news/3732">https://www.prio.org/news/3732</a></li>
+
+<li>“Jonas Vestby awarded RCN grant for radical conflict data project – Peace Research Institute Oslo (PRIO).” Accessed: Jun. 27, 2026. [Online]. Available: <a href="https://www.prio.org/news/3729">https://www.prio.org/news/3729</a></li>
+
+<li>“Women in Multilateral Peace Operations in 2025: What is the State of Play?,” SIPRI, Oct. 2025. Accessed: Oct. 21, 2025. [Online]. Available: <a href="https://www.sipri.org/publications/2025/other-publications/women-multilateral-peace-operations-2025-what-state-play">https://www.sipri.org/publications/2025/other-publications/women-multilateral-peace-operations-2025-what-state-play</a></li>
+
+<li>“SIPRI statement on the 2025 Nobel Peace Prize | SIPRI.” Accessed: Oct. 17, 2025. [Online]. Available: <a href="https://www.sipri.org/news/press-release/2025/sipri-statement-2025-nobel-peace-prize">https://www.sipri.org/news/press-release/2025/sipri-statement-2025-nobel-peace-prize</a></li>
+
+<li>“2025 Nobel Peace Prize for Anti-Maduro Leader María Corina Machado ‘Opposite of Peace’: Greg Grandin,” Democracy Now! Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.democracynow.org/2025/10/10/nobel_peace_prize">https://www.democracynow.org/2025/10/10/nobel_peace_prize</a></li>
+
+<li>“When Maria Corina Machado Wins the Nobel Peace Prize, ‘Peace’ Has Lost Its Meaning.,” CODEPINK - Women for Peace. Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.codepink.org/nobel_peace_prize_peace_has_lost_its_meaning">https://www.codepink.org/nobel_peace_prize_peace_has_lost_its_meaning</a></li>
+<li>“2009 Yale World Fellow María Corina Machado wins Nobel Peace Prize,” Yale Jackson School of Global Affairs. Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://jackson.yale.edu/news/2009-yale-world-fellow-maria-corina-machado-wins-nobel-peace-prize/">https://jackson.yale.edu/news/2009-yale-world-fellow-maria-corina-machado-wins-nobel-peace-prize/</a></li>
+<li>“Nobel Prize for imperialist war and regime change goes to Washington’s Venezuelan puppet María Corina Machado,” World Socialist Web Site. Accessed: Oct. 11, 2025. [Online]. Available: <a href="https://www.wsws.org/en/articles/2025/10/11/sjsy-o11.html">https://www.wsws.org/en/articles/2025/10/11/sjsy-o11.html</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>R. Vaz, “Of Peace, of War, and Other Demons,” Tricontinental: Institute for Social Research. Accessed: Aug. 28, 2025. [Online]. Available: <a href="https://thetricontinental.org/newsletter-na-war-peace-other-demons/">https://thetricontinental.org/newsletter-na-war-peace-other-demons/</a></li>
+
+<li>“The Ron Paul Institute for Peace &amp; Prosperity,” <a href="https://ronpaulinstitute.org/">https://ronpaulinstitute.org/</a>. Accessed: Aug. 19, 2025. [Online]. Available: <a href="https://ronpaulinstitute.org/">https://ronpaulinstitute.org/</a></li>
+
+<li>“How can we protect peace and democracy? Greenpeace joins a united call to action,” Greenpeace International. Accessed: Jul. 31, 2025. [Online]. Available: <a href="https://www.greenpeace.org/international/story/77486/how-can-we-protect-peace-and-democracy-greenpeace-joins-a-united-call-to-action/">https://www.greenpeace.org/international/story/77486/how-can-we-protect-peace-and-democracy-greenpeace-joins-a-united-call-to-action/</a></li>
+
+<li>“New video series—The Future of Conflict Resolution and Peacebuilding | SIPRI.” Accessed: Jul. 02, 2025. [Online]. Available: <a href="https://www.sipri.org/news/2025/new-video-series-future-conflict-resolution-and-peacebuilding">https://www.sipri.org/news/2025/new-video-series-future-conflict-resolution-and-peacebuilding</a></li>
+
+<li>“Deployments fall more than 40% in a decade, as geopolitical tensions and funding cuts increase pressure on multilateral peace operations | SIPRI.” Accessed: May 30, 2025. [Online]. Available: <a href="https://www.sipri.org/media/press-release/2025/peace-operation-deployments-fall-40-per-cent">https://www.sipri.org/media/press-release/2025/peace-operation-deployments-fall-40-per-cent</a></li>
+
+<li>“Addressing Fragility through Integrated Peacebuilding,” SIPRI, Feb. 2025. Accessed: Feb. 04, 2025. [Online]. Available: <a href="https://www.sipri.org/publications/2025/sipri-insights-peace-and-security/addressing-fragility-through-integrated-peacebuilding">https://www.sipri.org/publications/2025/sipri-insights-peace-and-security/addressing-fragility-through-integrated-peacebuilding</a></li>
+
+<li>“Fredrik Heffermehl,” Wikipedia. Oct. 07, 2025. Accessed: Jan. 08, 2026. [Online]. Available: <a href="https://en.wikipedia.org/w/index.php?title=Fredrik_Heffermehl&amp;oldid=1315572685">https://en.wikipedia.org/w/index.php?title=Fredrik_Heffermehl&amp;oldid=1315572685</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org6a80427" class="outline-4">
+<h4 id="org6a80427"><span class="section-number-4">5.2.5.</span> Arts</h4>
+<div class="outline-text-4" id="text-5-2-5">
+</div>
+<ol class="org-ol">
+<li><a id="org40cbdec"></a>Music<br />
+<div class="outline-text-5" id="text-5-2-5-1">
+<ul class="org-ul">
+<li>Peace - Music: <a href="https://tinyurl.com/4xwfvwz3">https://tinyurl.com/4xwfvwz3</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgb1e439a"></a>Misc<br />
+<div class="outline-text-5" id="text-5-2-5-2">
+<ul class="org-ul">
+<li>“Homepage - Cartooning for Peace.” Accessed: Sep. 25, 2025. [Online]. Available: <a href="https://www.cartooningforpeace.org/en/">https://www.cartooningforpeace.org/en/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org5e73362" class="outline-4">
+<h4 id="org5e73362"><span class="section-number-4">5.2.6.</span> Special Topics</h4>
+</div>
+<div id="outline-container-org8855e67" class="outline-4">
+<h4 id="org8855e67"><span class="section-number-4">5.2.7.</span> Misc</h4>
+<div class="outline-text-4" id="text-5-2-7">
+<ul class="org-ul">
+<li>“New special issue on Johan Galtung’s intellectual legacy – Peace Research Institute Oslo (PRIO).” Accessed: Jul. 01, 2026. [Online]. Available: <a href="https://www.prio.org/news/3731">https://www.prio.org/news/3731</a></li>
+
+<li>“Welcome to PRIO, Summer school students 2026! – Peace Research Institute Oslo (PRIO).” Accessed: Jun. 30, 2026. [Online]. Available: <a href="https://www.prio.org/news/3730">https://www.prio.org/news/3730</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org9634103" class="outline-2">
+<h2 id="org9634103"><span class="section-number-2">6.</span> Misc</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>“I was a Leftie hippie. Could I marry a man who loved guns? | Psyche Stories of Change.” Accessed: Aug. 15, 2025. [Online]. Available: <a href="https://psyche.co/stories-of-change/i-was-a-leftie-hippie-could-i-marry-a-man-who-loved-guns">https://psyche.co/stories-of-change/i-was-a-leftie-hippie-could-i-marry-a-man-who-loved-guns</a></li>
+
+<li>M. I. Lien and J. Lorentzen, Men’s Experiences of Violence in Intimate Relationships, 1st ed. 2019 edition. Palgrave Macmillan, 2019.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>R. Chatterji, Living With Violence: An Anthropology of Events and Everyday Life, 1st edition. Routledge India, 2020.</li>
+</ul>
+
+
+
+
+
+<ul class="org-ul">
+<li>K. Kannabiran, VIOLENCE STUDIES-PD, 1st edition. New Delhi: Oxford University Press, 2016.</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>bloomsbury.com, “Essays on Violence,” Bloomsbury. Accessed: May 09, 2025. [Online]. Available: <a href="https://www.bloomsbury.com/in/essays-on-violence-9789356405639/">https://www.bloomsbury.com/in/essays-on-violence-9789356405639/</a></li>
+
+<li>“In India, buying a gun is a WhatsApp message away,” Rest of World. Accessed: Mar. 05, 2025. [Online]. Available: <a href="https://restofworld.org/2025/whatsapp-illegal-firearms-trade-india-digital-witness-lab/">https://restofworld.org/2025/whatsapp-illegal-firearms-trade-india-digital-witness-lab/</a></li>
+
+<li>“India: Increased Violence, Harassment Against Minorities | Human Rights Watch.” Accessed: Jan. 17, 2025. [Online]. Available: <a href="https://www.hrw.org/news/2025/01/16/india-increased-violence-harassment-against-minorities">https://www.hrw.org/news/2025/01/16/india-increased-violence-harassment-against-minorities</a></li>
+
+<li>N. Turse, “U.S. Military Service Is the Strongest Predictor of Carrying Out Extremist Violence,” The Intercept. Accessed: Jan. 15, 2025. [Online]. Available: <a href="https://theintercept.com/2025/01/02/military-veterans-extremism-attack-new-orleans-vegas/">https://theintercept.com/2025/01/02/military-veterans-extremism-attack-new-orleans-vegas/</a></li>
+
+<li>C. Huppertz et al., “‘Make a Molotov Cocktail’: How Europeans Are Recruited Through Telegram to Commit Sabotage, Arson, and Murder,” OCCRP. Accessed: Nov. 26, 2024. [Online]. Available: <a href="https://www.occrp.org/en/investigation/make-a-molotov-cocktail-how-europeans-are-recruited-through-telegram-to-commit-sabotage-arson-and-murder">https://www.occrp.org/en/investigation/make-a-molotov-cocktail-how-europeans-are-recruited-through-telegram-to-commit-sabotage-arson-and-murder</a></li>
+
+<li>“To reduce violent conflict, support non-violent resistance movements | SIPRI.” Accessed: Nov. 07, 2024. [Online]. Available: <a href="https://www.sipri.org/commentary/blog/2024/reduce-violent-conflict-support-non-violent-resistance-movements">https://www.sipri.org/commentary/blog/2024/reduce-violent-conflict-support-non-violent-resistance-movements</a></li>
+
+<li>T. M. P. Reader, “The Long History of Violent Extremism,” The MIT Press Reader. Accessed: Nov. 01, 2024. [Online]. Available: <a href="https://thereader.mitpress.mit.edu/the-long-history-of-violent-extremism/">https://thereader.mitpress.mit.edu/the-long-history-of-violent-extremism/</a></li>
+
+<li>B. Wittes and G. Blum, The Future of Violence - Robots and Germs, Hackers and Drones: Confronting the New Age of Threat. Amberley Publishing, 2017.</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li>“America fell for guns recently, and for reasons you will not guess | Aeon Essays,” Aeon. Accessed: Aug. 23, 2024. [Online]. Available: <a href="https://aeon.co/essays/america-fell-for-guns-recently-and-for-reasons-you-will-not-guess">https://aeon.co/essays/america-fell-for-guns-recently-and-for-reasons-you-will-not-guess</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“What Research Tells Us about Political Violence,” The Equation. Accessed: Aug. 09, 2024. [Online]. Available: <a href="https://blog.ucsusa.org/chris-williams/what-research-tells-us-about-political-violence/">https://blog.ucsusa.org/chris-williams/what-research-tells-us-about-political-violence/</a></li>
+
+<li>“Where are All the Guns in America? A Spatiotemporal Model of Firearm Ownership Rates | SIAM,” Society for Industrial and Applied Mathematics. Accessed: Aug. 09, 2024. [Online]. Available: <a href="https://www.siam.org/publications/siam-news/articles/where-are-all-the-guns-in-america-a-spatiotemporal-model-of-firearm-ownership-rates/">https://www.siam.org/publications/siam-news/articles/where-are-all-the-guns-in-america-a-spatiotemporal-model-of-firearm-ownership-rates/</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>“From 1989-2023, 60,465 people have died due to violence in India: Uppsala University.” Accessed: Jun. 05, 2024. [Online]. Available: <a href="https://www.downtoearth.org.in/news/governance/from-1989-2023-60-465-people-have-died-due-to-violence-in-india-uppsala-university-96503">https://www.downtoearth.org.in/news/governance/from-1989-2023-60-465-people-have-died-due-to-violence-in-india-uppsala-university-96503</a></li>
+
+<li>“‘America’s Monster’: How a U.S. Ally Kidnapped, Killed &amp; Tortured Hundreds in Afghanistan,” Democracy Now! Accessed: Jun. 03, 2024. [Online]. Available: <a href="https://www.democracynow.org/2024/5/29/abdul_raziq">https://www.democracynow.org/2024/5/29/abdul_raziq</a></li>
+
+<li>H. Mander, “Harsh Mander: The deep Hindutva roots of the violence that reduced a mosque to rubble in Haldwani,” Scroll.in. Accessed: Feb. 18, 2024. [Online]. Available: <a href="https://scroll.in/article/1063849/harsh-mander-the-deep-hindutva-roots-of-the-violence-that-reduced-a-mosque-to-rubble-in-haldwani">https://scroll.in/article/1063849/harsh-mander-the-deep-hindutva-roots-of-the-violence-that-reduced-a-mosque-to-rubble-in-haldwani</a></li>
+</ul>
+
+
+<ul class="org-ul">
+<li>R. Dhattiwala, “From Nuh to Manipur, why the state is wrong when it blames mass violence on ‘mob anger,’” Scroll.in, Aug. 20, 2023. <a href="https://scroll.in/article/1054483/from-nuh-to-manipur-why-the-state-is-wrong-when-it-blames-mass-violence-on-mob-anger">https://scroll.in/article/1054483/from-nuh-to-manipur-why-the-state-is-wrong-when-it-blames-mass-violence-on-mob-anger</a> (accessed Aug. 20, 2023).</li>
+</ul>
+
+
+<ul class="org-ul">
+<li>A. Toje And B. N. V. Steen, <i>The Causes Of Peace: What We Know Now.</i> Scribe Media, 2019.</li>
+
+<li>“Hurt Sentiments — Neeti Nair.” <a href="https://www.hup.harvard.edu/catalog.php?isbn=9780674238275">https://www.hup.harvard.edu/catalog.php?isbn=9780674238275</a> (accessed Oct. 02, 2022).</li>
+
+<li>K. Visweswaran, <b>“Un/Common Cultures,”</b> Navayana Publishing. <a href="https://navayana.org/products/uncommon-cultures/">https://navayana.org/products/uncommon-cultures/</a> (accessed May 09, 2022).</li>
+
+<li>R. Guha, <b>“Ramachandra Guha: From Vietnam to Afghanistan, reminders that Great Power delusions do not end well,”</b> Scroll.in. <a href="https://scroll.in/article/1018265/ramachandra-guha-from-vietnam-to-afghanistan-a-reminder-that-great-power-delusions-do-not-end-well">https://scroll.in/article/1018265/ramachandra-guha-from-vietnam-to-afghanistan-a-reminder-that-great-power-delusions-do-not-end-well</a> (accessed Apr. 28, 2022).</li>
+
+<li>R. Collins, <i>Violence: A Micro-sociological Theory.</i> Greenwood Publishing Group, 2009.</li>
+
+<li>A. Hochschild, <i>To End All Wars: A Story of Loyalty and Rebellion, 1914-1918.</i> Houghton Mifflin Harcourt, 2011.</li>
+
+<li>S. Pinker, <del>“The Darker Angels of Our Nature,”</del> Bloomsbury. <a href="https://www.bloomsbury.com/uk/darker-angels-of-our-nature-9781350140592/?utm_source=Adestra&amp;utm_medium=email&amp;utm_content=&amp;utm_campaign=NL-CT_Darker%20Angels_Sept%202021_UK">https://www.bloomsbury.com/uk/darker-angels-of-our-nature-9781350140592/?utm_source=Adestra&amp;utm_medium=email&amp;utm_content=&amp;utm_campaign=NL-CT_Darker%20Angels_Sept%202021_UK</a> (accessed Oct. 21, 2021).</li>
+</ul>
+
+<hr />
+
+<p>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-bigpic.html">Big Picture</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-media.html">Media</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-miscurls.html">Misc</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-today.html">Today</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/omo-aajkal.html">Current Affairs</a> <b>|</b>
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/contact-info.html">Contact Info</a>,
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/license.html">License</a>, 
+<a href="https://htmlpreview.github.io/?https://github.com/ourghostorg/ourghostorg.github.io/blob/main/disclaimer.html">Disclaimer</a>.
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Staff Member(s), <a href="https://ourghostorg.github.io/">OurGhostOrg</a></p>
+<p class="date">Created: 2026-07-06 Mon 18:46</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
